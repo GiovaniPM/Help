@@ -6,6 +6,8 @@
 
 #### .bashrc
 
+:arrow_forward:
+
 ``` bash
 alias cls='clear'
 alias ll='ls -l'
