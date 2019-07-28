@@ -1,0 +1,104 @@
+# Este arquivo viminfo foi gerado pelo Vim 8.1.
+# Você pode editá-lo se for cuidadoso!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' quando este arquivo foi escrito
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Histórico de linha de comando (mais recente primeiro):
+:wq!
+|2,0,1551308082,,"wq!"
+:wq
+|2,0,1550322332,,"wq"
+
+# Histórico de expressões de busca (mais recente primeiro):
+
+# Histórico de expressões (mais recente primeiro):
+
+# Histórico de linha de entrada (mais recente primeiro):
+
+# Histórico de linha de debug (mais recente primeiro):
+
+# Registradores:
+
+# Marcas nos arquivos:
+'0  1  0  ~/projetos/DBASource/README.md
+|4,48,1,0,1551308082,"~/projetos/DBASource/README.md"
+'1  1  4  ~/projetos/dbu/README.md
+|4,49,1,4,1551308053,"~/projetos/dbu/README.md"
+'2  1  4  ~/projetos/dbu/README.md
+|4,50,1,4,1551308005,"~/projetos/dbu/README.md"
+'3  2  0  ~/projetos/NRP/README.md
+|4,51,2,0,1550322332,"~/projetos/NRP/README.md"
+
+# Lista de saltos (mais recente primeiro):
+-'  1  0  ~/projetos/DBASource/README.md
+|4,39,1,0,1551308082,"~/projetos/DBASource/README.md"
+-'  1  4  ~/projetos/dbu/README.md
+|4,39,1,4,1551308053,"~/projetos/dbu/README.md"
+-'  1  4  ~/projetos/dbu/README.md
+|4,39,1,4,1551308053,"~/projetos/dbu/README.md"
+-'  1  4  ~/projetos/dbu/README.md
+|4,39,1,4,1551308005,"~/projetos/dbu/README.md"
+-'  1  4  ~/projetos/dbu/README.md
+|4,39,1,4,1551308005,"~/projetos/dbu/README.md"
+-'  2  0  ~/projetos/NRP/README.md
+|4,39,2,0,1550322332,"~/projetos/NRP/README.md"
+-'  2  0  ~/projetos/NRP/README.md
+|4,39,2,0,1550322332,"~/projetos/NRP/README.md"
+-'  2  0  ~/projetos/NRP/README.md
+|4,39,2,0,1550322332,"~/projetos/NRP/README.md"
+-'  2  0  ~/projetos/NRP/README.md
+|4,39,2,0,1550322332,"~/projetos/NRP/README.md"
+-'  2  0  ~/projetos/NRP/README.md
+|4,39,2,0,1550322332,"~/projetos/NRP/README.md"
+-'  2  0  ~/projetos/NRP/README.md
+|4,39,2,0,1550322332,"~/projetos/NRP/README.md"
+-'  2  0  ~/projetos/NRP/README.md
+|4,39,2,0,1550322332,"~/projetos/NRP/README.md"
+-'  2  0  ~/projetos/NRP/README.md
+|4,39,2,0,1550322332,"~/projetos/NRP/README.md"
+-'  1  0  ~/projetos/NRP/README.md
+|4,39,1,0,1550322297,"~/projetos/NRP/README.md"
+-'  1  0  ~/projetos/NRP/README.md
+|4,39,1,0,1550322297,"~/projetos/NRP/README.md"
+-'  1  0  ~/projetos/NRP/README.md
+|4,39,1,0,1550322297,"~/projetos/NRP/README.md"
+-'  1  0  ~/projetos/NRP/README.md
+|4,39,1,0,1550322297,"~/projetos/NRP/README.md"
+-'  1  0  ~/projetos/NRP/README.md
+|4,39,1,0,1550322297,"~/projetos/NRP/README.md"
+-'  1  0  ~/projetos/NRP/README.md
+|4,39,1,0,1550322297,"~/projetos/NRP/README.md"
+-'  1  0  ~/projetos/NRP/README.md
+|4,39,1,0,1550322297,"~/projetos/NRP/README.md"
+-'  1  0  ~/projetos/NRP/README.md
+|4,39,1,0,1550322297,"~/projetos/NRP/README.md"
+
+# Histórico de marcas nos arquivos (mais recente primeiro):
+
+> ~/projetos/DBASource/README.md
+	*	1551308080	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	2	0
+
+> ~/projetos/dbu/README.md
+	*	1551308050	0
+	"	1	4
+	^	1	5
+	.	2	0
+	+	2	0
+
+> ~/projetos/NRP/README.md
+	*	1550322309	0
+	"	2	0
+	^	2	1
+	.	2	4
+	+	2	4
