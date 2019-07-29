@@ -9,26 +9,26 @@
 >```
 
 ## Architeture
-```
-~/
-|   .bash_aliases
-|   .bash_history
-|   .bash_profile
-|   .bashrc
-|   .gitconfig
-|   .gitignore
-|   download.sh
-|   upload.sh
-|   ...
-└───projects/
-|   |   ...
-|   └───<repository>/
-|   |   |   setup.sh
-|   |   |   ...
-|   |   └───.../
-|   └───.../
-└───.../
-```
+>```
+>~/
+>|   .bash_aliases
+>|   .bash_history
+>|   .bash_profile
+>|   .bashrc
+>|   .gitconfig
+>|   .gitignore
+>|   download.sh
+>|   upload.sh
+>|   ...
+>└───<projects dir>/
+>|   |   ...
+>|   └───<repository>/
+>|   |   |   setup.sh
+>|   |   |   ...
+>|   |   └───.../
+>|   └───.../
+>└───.../
+>```
 
 ## Run download
 >To run:
