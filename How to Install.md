@@ -1,5 +1,6 @@
 # How to install help
 
+## Setup
 >Get the file setup.sh on this repository and copy to your projects dir
 >
 >``` dos
@@ -8,6 +9,31 @@
 >|
 >+---/Help
 >         <files replicated>
+>```
+> 
+>To run:
+>``` bash
+>./setup.sh
+>```
+
+## Architeture
+>Get the file setup.sh on this repository and copy to your projects dir
+>
+>``` dos
+>~
+>|   .bash_aliases
+>|   .bash_history
+>|   .bash_profile
+>|   .bashrc
+>|   .gitconfig
+>|   .gitignore
+>|   download.sh
+>|   upload.sh
+>+---projects/
+>    |
+>    +---<repository>/
+>        |   setup.sh
+>        |   <files replicated>
 >```
 > 
 >To run:
