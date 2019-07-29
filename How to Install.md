@@ -20,7 +20,7 @@
 >|   download.sh
 >|   upload.sh
 >|   <...>
->+---projects/
+>L---projects/
 >|   |   <...>
 >|   +---<repository>/
 >|   |   |   setup.sh
