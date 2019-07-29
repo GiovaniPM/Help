@@ -17,7 +17,7 @@
 >```
 
 ## Architeture
->``` bash
+>``` dos
 >~
 >|   .bash_aliases
 >|   .bash_history
