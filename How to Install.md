@@ -6,7 +6,7 @@
 >./projects
 >|   setup.sh
 >|
->+---Help
+>+---/Help
 >         <files replicated>
 >```
 > 
