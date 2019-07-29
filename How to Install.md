@@ -29,14 +29,22 @@
 >|   .gitignore
 >|   download.sh
 >|   upload.sh
+>|   <...>
 >+---projects/
->    |
+>    |   <...>
 >    +---<repository>/
 >        |   setup.sh
 >        |   <files replicated>
 >```
-> 
+
+## Run download
 >To run:
 >``` bash
->./setup.sh
+>download <repository>
+>```
+
+## Run upload
+>To run:
+>``` bash
+>upload
 >```
