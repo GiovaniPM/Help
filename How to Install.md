@@ -9,6 +9,7 @@
 >```
 
 ## Architeture
+```
 ~/
 |   .bash_aliases
 |   .bash_history
@@ -33,6 +34,7 @@ project
 │   file001.txt    
 │
 └───folder1
+```
 
 ## Run download
 >To run:
