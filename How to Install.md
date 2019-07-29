@@ -33,7 +33,7 @@
 >     +---<repository>/
 >     |   |   setup.sh
 >     |   \   <files replicated>
->     \---<...>
+>     +---<...>/
 >```
 
 ## Run download
