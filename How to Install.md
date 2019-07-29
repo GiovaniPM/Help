@@ -4,10 +4,10 @@
 >Get the file setup.sh on this repository and copy to your projects dir
 >
 >``` dos
->./projects
+>.projects/
 >|   setup.sh
 >|
->+---/Help
+>+---Help/
 >         <files replicated>
 >```
 > 
