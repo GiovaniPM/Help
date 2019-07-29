@@ -31,8 +31,9 @@
 >+---projects/
 >    |   <...>
 >    +---<repository>/
->        |   setup.sh
->        |   <files replicated>
+>    |   |   setup.sh
+>    |   \   <files replicated>
+>    \---<...>
 >```
 
 ## Run download
