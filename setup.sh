@@ -28,7 +28,7 @@ else
     git pull
     cd ..
   else
-    echo -e "$IYellow Cloning $Color_Off"
+    echo -e "->$IYellow Cloning $Color_Off"
     git clone $gitlink $gitdir
     echo -e "->$IYellow Getting code $Color_Off"
     cd $gitdir
