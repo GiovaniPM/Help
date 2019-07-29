@@ -29,11 +29,12 @@
 >|   upload.sh
 >|   <...>
 >+---projects/
->     |   <...>
->     +---<repository>/
->     |   |   setup.sh
->     |   \   <files replicated>
->     +---<...>/
+>|    |   <...>
+>|    +---<repository>/
+>|    |   |   setup.sh
+>|    |   \   <files replicated>
+>|    +---<...>/
+>+---<...>/
 >```
 
 ## Run download
