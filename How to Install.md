@@ -17,8 +17,6 @@
 >```
 
 ## Architeture
->Get the file setup.sh on this repository and copy to your projects dir
->
 >``` dos
 >~
 >|   .bash_aliases
