@@ -10,20 +10,20 @@
 
 ## Architeture
 >```
->~/
->|   .bash_aliases
->|   .bash_history
->|   .bash_profile
->|   .bashrc
->|   .gitconfig
->|   .gitignore
->|   download.sh
->|   upload.sh
+>**~**/
+>|   **.bash_aliases**
+>|   **.bash_history**
+>|   **.bash_profile**
+>|   **.bashrc**
+>|   **.gitconfig**
+>|   **.gitignore**
+>|   **download.sh**
+>|   **upload.sh**
 >|   ...
->└───<projects dir>/
+>└───**<projects dir>**/
 >|   |   ...
->|   └───<repository>/
->|   |   |   setup.sh
+>|   └───**<repository>**/
+>|   |   |   **setup.sh**
 >|   |   |   ...
 >|   |   └───.../
 >|   └───.../
