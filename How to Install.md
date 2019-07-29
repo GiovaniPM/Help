@@ -20,7 +20,7 @@
 >|   download.sh
 >|   upload.sh
 >|   <...>
->L---projects/
+>+---projects/
 >|   |   <...>
 >|   +---<repository>/
 >|   |   |   setup.sh
@@ -28,6 +28,12 @@
 >|   |   +---<...>/
 >|   +---<...>/
 >+---<...>/
+  
+project
+│   README.md
+│   file001.txt    
+│
+└───folder1
 >```
 
 ## Run download
