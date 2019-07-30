@@ -19,3 +19,5 @@
 >## [ANSI escape code (Wikipedia)](https://en.wikipedia.org/wiki/ANSI_escape_code)
 >
 >## [Advanced Bash-Scripting Guide](https://www.tldp.org/LDP/abs/html/index.html)
+>
+>## [ComEmu help](https://conemu.github.io/en/AnsiEscapeCodes.html)
