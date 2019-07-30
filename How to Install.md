@@ -1,13 +1,5 @@
 # How to install help
 
-## Setup
->Get the file setup.sh on this repository and copy to your projects dir
->
->To run:
->``` bash
->./setup.sh
->```
-
 ## Architeture
 >```
 >~/
@@ -40,4 +32,12 @@
 >To run:
 >``` bash
 >upload
+>```
+
+## Setup
+>Get the file setup.sh on this repository and copy to your projects dir
+>
+>To run:
+>``` bash
+>./setup.sh
 >```
