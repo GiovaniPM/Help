@@ -12,9 +12,9 @@
 >|   download.sh
 >|   upload.sh
 >|   ...
->└───<projects dir>/
+>├───<projects dir>/
 >|   |   ...
->|   └───<repository>/
+>|   ├───<repository>/
 >|   |   |   setup.sh
 >|   |   |   ...
 >|   |   └───.../
