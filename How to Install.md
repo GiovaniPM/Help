@@ -34,7 +34,7 @@
 >                           (_/
 >```
 
-## Architeture
+## Dir structure
 >```
 >~/
 >|   .bash_aliases
