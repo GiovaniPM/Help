@@ -1,6 +1,6 @@
 # How to install help
 
->``` dos
+<center>>``` dos
 >                        \\\///
 >                       / _  _ \
 >                     (| (.)(.) |)
@@ -32,7 +32,7 @@
 >                    \ (    (   )
 >                     \_)    ) /
 >                           (_/
->```
+>```</center>
 
 ## Dir structure
 >```
