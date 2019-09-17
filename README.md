@@ -25,7 +25,7 @@
 >
 >## [Configurações](https://gist.github.com/GiovaniPM/7f5457fb99ca42b8e490e438132a7048)
 > 
->## [console_codes(4) - Linux man page](https://linux.die.net/man/4/console_codes)
+>## [Console Codes - Linux man page](https://linux.die.net/man/4/console_codes)
 >
 >## [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 >
