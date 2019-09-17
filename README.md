@@ -32,3 +32,5 @@
 >## [How to install](./How%20to%20Install.md)
 >
 >## [XTerm Control Sequences](https://invisible-island.net/xterm/ctlseqs/ctlseqs.html)
+>
+>## [Boxes](https://boxes.thomasjensen.com)
