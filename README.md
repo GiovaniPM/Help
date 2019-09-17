@@ -17,6 +17,8 @@
 >
 >## [Bash tips: Colors and formatting (ANSI/VT100 Control sequences)](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 >
+>## [Boxes](https://boxes.thomasjensen.com)
+>
 >## [ComEmu help](https://conemu.github.io/en/AnsiEscapeCodes.html)
 >
 >## [Compilation of all escape sequences](http://bjh21.me.uk/all-escapes/all-escapes.txt)
@@ -32,5 +34,3 @@
 >## [How to install](./How%20to%20Install.md)
 >
 >## [XTerm Control Sequences](https://invisible-island.net/xterm/ctlseqs/ctlseqs.html)
->
->## [Boxes](https://boxes.thomasjensen.com)
