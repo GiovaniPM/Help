@@ -31,6 +31,8 @@
 >
 >## [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 >
+>## [Help CURL](https://curl.haxx.se/docs/manual.html)
+>
 >## [Help Git](./git%20help.md)
 >
 >## [How to install](./How%20to%20Install.md)
