@@ -17,6 +17,8 @@
 >
 >## [Bash tips: Colors and formatting (ANSI/VT100 Control sequences)](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 >
+>## [Bookmark](./bookmarks%2020190919.html)
+>
 >## [Boxes](https://boxes.thomasjensen.com)
 >
 >## [ComEmu help](https://conemu.github.io/en/AnsiEscapeCodes.html)
