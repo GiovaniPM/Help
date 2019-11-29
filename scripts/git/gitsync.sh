@@ -14,12 +14,12 @@ do
       echo "--------------------------------------------------------------------------------------"
       if [ "X$1" == "XD" ]; then
         cd $directory
-        ~/download.sh $directory
+        ~/download.sh
         cd $backdir
       fi
       if [ "X$1" == "XU" ]; then
         cd $directory
-        ~/upload.sh $directory
+        ~/upload.sh
         cd $backdir
       fi
     fi

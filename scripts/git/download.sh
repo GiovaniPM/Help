@@ -32,7 +32,7 @@ else
   
   export gitlink="https://github.com/GiovaniPM/$gitdir.git"
   
-  echo -e "->\033[0;106;97m $gitlink \033[m"
+  #echo -e "->\033[0;106;97m $gitlink \033[m"
   
   if [ -d "../$gitdir" ]; then
     echo -e "->\033[0;103;30m Getting code actual directory \033[m"
