@@ -100,8 +100,8 @@ con = cx_Oracle.connect(user=db_user, password=db_pass, dsn=conn_string, encodin
 sql_string = "SELECT\
                   T3SDB,\
                   T3TYDT,\
-                  T3EFT,\
-                  T3EFTE,\
+                  to_char(to_date(T3EFT+1900000,'YYYYDDD'),'DD/MM/YY'),\
+                  to_char(to_date(T3EFTE+1900000,'YYYYDDD'),'DD/MM/YY'),\
                   T3RMK3,\
                   T3RMK,\
                   T3KY,\
@@ -139,15 +139,15 @@ while (linhas > 0):
             else:
                 sys.stdout.write(IGreen)
                 par = 1
-            print('  %s     %s   %s   %s   %s   %s   %s   %s   %s   ' % (linha[0],\
-                                                                         linha[1],\
-                                                                         linha[2],\
-                                                                         linha[3],\
-                                                                         linha[4],\
-                                                                         linha[5],\
-                                                                         linha[6],\
-                                                                         linha[7],\
-                                                                         linha[8]))
+            print('  %s   %s    %s %s  %s   %s   %s   %s   %s   ' % (linha[0],\
+                                                                     linha[1],\
+                                                                     linha[2],\
+                                                                     linha[3],\
+                                                                     linha[4],\
+                                                                     linha[5],\
+                                                                     linha[6],\
+                                                                     linha[7],\
+                                                                     linha[8]))
     cur.close()
 
     posicao = posicao + 1
