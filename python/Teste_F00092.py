@@ -97,12 +97,15 @@ conn_string = "\
 
 con = cx_Oracle.connect(user=db_user, password=db_pass, dsn=conn_string, encoding='UTF-8')
 
+posicao = 0
+par = 1
+
 sql_string = "SELECT\
                   T3SDB,\
                   T3TYDT,\
                   to_char(to_date(T3EFT+1900000,'YYYYDDD'),'DD/MM/YY'),\
                   to_char(to_date(T3EFTE+1900000,'YYYYDDD'),'DD/MM/YY'),\
-                  T3RMK3,\
+                  to_char(T3RMK3,'9999'),\
                   T3RMK,\
                   T3KY,\
                   T3RMK2,\
@@ -112,19 +115,15 @@ sql_string = "SELECT\
               WHERE\
                   T3SDB = 'REQ '\
                   AND T3TYDT = 'OM'"
-
-posicao = 0
-par = 1
-
 sql_cond = sql_string + ' AND T3RMK3 >= ''%s''' % (str(posicao))
 cur = con.cursor()
 cur.execute(sql_cond)
 data_set = cur.fetchall()
 linhas = cur.rowcount
 cur.close()
-print('+------+------+--------+--------+----------------------------------------------------+--------------------------------+------------+--------------------------------+------+')
-print('| SDB  | TYDT | EFT    | EFTE   | RMK3                                               | RMK                            | KY         | RMK2                           | UKID |')
-print('+------+------+--------+--------+----------------------------------------------------+--------------------------------+------------+--------------------------------+------+')
+print('+------+------+--------+--------+------+--------------------------------+------------+--------------------------------+------+')
+print('| SDB  | TYDT | EFT    | EFTE   | RMK3 | RMK                            | KY         | RMK2                           | UKID |')
+print('+------+------+--------+--------+------+--------------------------------+------------+--------------------------------+------+')
 
 while (linhas > 0):
     sql_cond = sql_string + ' AND T3RMK3 = ''%s''' % (str(posicao))
@@ -139,15 +138,15 @@ while (linhas > 0):
             else:
                 sys.stdout.write(IGreen)
                 par = 1
-            print('  %s   %s    %s %s  %s   %s   %s   %s   %s   ' % (linha[0],\
-                                                                     linha[1],\
-                                                                     linha[2],\
-                                                                     linha[3],\
-                                                                     linha[4],\
-                                                                     linha[5],\
-                                                                     linha[6],\
-                                                                     linha[7],\
-                                                                     linha[8]))
+            print('  %s   %s    %s %s %s   %s   %s   %s   %s   ' % (linha[0],\
+                                                                    linha[1],\
+                                                                    linha[2],\
+                                                                    linha[3],\
+                                                                    linha[4],\
+                                                                    linha[5],\
+                                                                    linha[6],\
+                                                                    linha[7],\
+                                                                    linha[8]))
     cur.close()
 
     posicao = posicao + 1
@@ -160,5 +159,5 @@ while (linhas > 0):
 
 sys.stdout.write(Color_Off)
 
-print('+------+------+--------+--------+----------------------------------------------------+--------------------------------+------------+--------------------------------+------+')
+print('+------+------+--------+--------+------+--------------------------------+------------+--------------------------------+------+')
 con.close()
