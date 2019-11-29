@@ -19,7 +19,7 @@ do
       fi
       if [ "X$1" == "XU" ]; then
         cd $directory
-        ~/upload.sh 
+        ~/upload.sh
         cd $backdir
       fi
     fi
