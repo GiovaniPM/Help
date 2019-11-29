@@ -12,9 +12,9 @@ for directory in $(ls -lias | cut -c75-)
 do
   if [ "$directory" != "." ]; then
     if [ "$directory" != ".." ]; then
-      echo -e "$IGreen--------------------------------------------------------------------------------------"
-      echo -e "  Directory: $directory"
-      echo -e "--------------------------------------------------------------------------------------$Color_Off"
+      echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
+      echo -e $IGreen"  Directory: $directory"$Color_Off
+      echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
       if [ "X$1" == "XD" ]; then
         cd $directory
         ~/download.sh
