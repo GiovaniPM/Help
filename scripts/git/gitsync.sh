@@ -3,9 +3,6 @@
 #= Created by Giovani Perotto Mesquita                                                               =
 #=====================================================================================================
 
-export Color_Off="\033[0m"
-export IGreen="\033[0;92m"
-export On_Green="\033[42m"
 export backdir=$(pwd)
 
 for directory in $(ls -lias | cut -c75-)
