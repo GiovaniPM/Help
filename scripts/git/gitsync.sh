@@ -8,7 +8,7 @@ export IGreen="\033[0;92m"
 export On_Green="\033[42m"
 export backdir=$(pwd)
 
-for directory in $(ls -lias | cut -c75-)
+for directory in $(ls -a)
 do
   if [ "$directory" != "." ]; then
     if [ "$directory" != ".." ]; then
