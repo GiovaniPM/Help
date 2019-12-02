@@ -19,21 +19,19 @@ fi
 
 for directory in $(ls -a)
 do
-  if [ "$directory" != "." ]; then
-    if [ "$directory" != ".." ]; then
-      echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
-      echo -e $IGreen"  Directory: $directory"$Color_Off
-      echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
-      if [ "X$1" == "XD" ] ||  [ "X$1" == "Xd" ]; then
-        cd $directory
-        ~/download.sh
-        cd $backdir
-      fi
-      if [ "X$1" == "XU" ] ||  [ "X$1" == "Xu" ]; then
-        cd $directory
-        ~/upload.sh
-        cd $backdir
-      fi
+  if [ "$directory" != "." ] &&  [ "$directory" != ".." ]; then
+    echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
+    echo -e $IGreen"  Directory: $directory"$Color_Off
+    echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
+    if [ "X$1" == "XD" ] ||  [ "X$1" == "Xd" ]; then
+      cd $directory
+      ~/download.sh
+      cd $backdir
+    fi
+    if [ "X$1" == "XU" ] ||  [ "X$1" == "Xu" ]; then
+      cd $directory
+      ~/upload.sh
+      cd $backdir
     fi
   fi
 done
