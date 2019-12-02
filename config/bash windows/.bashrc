@@ -3,6 +3,7 @@
 alias cls='clear'
 alias download='~/download.sh'
 alias dir='ls -lias'
+alias gitbkp='~/gitbkp.sh'
 alias gitsync='~/gitsync.sh'
 alias ll='ls -l'
 alias ls='ls -F --color=auto --show-control-chars'
