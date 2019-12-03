@@ -26,6 +26,6 @@ do
     echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off >> ./$DIR/$bkpnm.log
     echo -e "  "$IGreen$directory$Color_Off"\c"
     tar --exclude=".git" -czvf ./$DIR/$bkpnm-$directory.gz ./$directory/** >> ./$DIR/$bkpnm.log
-    echo -e " ... ok"
+    echo -e "\a ... ok"
   fi
 done
