@@ -21,10 +21,11 @@ echo -e $IGreen"----------------------------------------------------------------
 for directory in $(ls -a)
 do
   if [ "$directory" != "." ] &&  [ "$directory" != ".." ] &&  [ "$directory" != "BKP" ]; then
-    echo -e "  "$IGreen$directory$Color_Off
     echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off >> ./$DIR/$bkpnm.log
     echo -e $IGreen"  Directory: $directory"$Color_Off >> ./$DIR/$bkpnm.log
     echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off >> ./$DIR/$bkpnm.log
+    echo -e "  "$IGreen$directory$Color_Off"\c"
     tar --exclude=".git" -czvf ./$DIR/$bkpnm-$directory.gz ./$directory/** >> ./$DIR/$bkpnm.log
+    echo -e " ... ok"
   fi
 done
