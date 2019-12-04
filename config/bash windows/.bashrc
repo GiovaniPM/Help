@@ -13,6 +13,7 @@ alias glastweek='git log --pretty=format: --name-only --since=@{last.week} | sor
 alias ll='ls -l'
 alias ls='ls -F --color=auto --show-control-chars'
 alias upload='~/upload.sh'
+alias waiting='~/waiting.sh'
 
 #  SETUP CONSTANTS
 #  Bunch-o-predefined colors.  Makes reading code easier than escape sequences.
