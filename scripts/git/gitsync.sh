@@ -23,7 +23,7 @@ do
     echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
     echo -e $IGreen"  Directory: $directory"$Color_Off
     echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
-  if [ "X$1" == "XD" ] ||  [ "X$1" == "Xd" ]; then
+    if [ "X$1" == "XD" ] ||  [ "X$1" == "Xd" ]; then
       cd $directory
       ~/download.sh
       cd $backdir
