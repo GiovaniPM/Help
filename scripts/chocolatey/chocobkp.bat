@@ -16,6 +16,10 @@ xcopy .\%filename% .\bkp\ /y
 ren .\bkp\%filename% %filenamebkp%
 choco list -l > temp.txt
 echo @echo off > %filename%
+echo REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= >> %filename%
+echo REM %COMPUTERNAME% >> %filename%
+echo REM Capturado em: %_dd%/%_mm%/%_yyyy% %_hh%:%_nn% >> %filename%
+echo REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= >> %filename%
 
 for /F "tokens=1,2,3 delims= " %%G in (temp.txt) DO if [%%I] NEQ [installed.] echo choco install %%G -y >> %filename%
 

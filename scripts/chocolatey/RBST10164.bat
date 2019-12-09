@@ -1,4 +1,8 @@
 @echo off 
+REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+REM RBST10164 
+REM Capturado em: 09/12/2019 09:21 
+REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install autohotkey.portable -y 
 choco install boxes.portable -y 
@@ -26,3 +30,6 @@ choco install shman -y
 choco install Wget -y 
 choco install winmerge -y 
 choco install xmind -y 
+choco install Did -y 
+choco install Features? -y 
+choco install https://chocolatey.org/compare -y 
