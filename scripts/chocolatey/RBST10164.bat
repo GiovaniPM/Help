@@ -30,6 +30,3 @@ choco install shman -y
 choco install Wget -y 
 choco install winmerge -y 
 choco install xmind -y 
-choco install Did -y 
-choco install Features? -y 
-choco install https://chocolatey.org/compare -y 
