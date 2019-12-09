@@ -26,7 +26,6 @@ choco install KB2919442 -y
 choco install KB2999226 -y 
 choco install KB3033929 -y 
 choco install KB3035131 -y 
-choco install mingw -y 
 choco install mpc-hc -y 
 choco install mRemoteNG -y 
 choco install mumble -y 
