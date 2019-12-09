@@ -13,6 +13,7 @@ choco install chocolatey -y
 choco install chocolatey-core.extension -y 
 choco install chocolatey-windowsupdate.extension -y 
 choco install ConEmu -y 
+choco install Cygwin -y 
 choco install gimp -y 
 choco install git.install -y 
 choco install gitkraken -y 
@@ -25,6 +26,7 @@ choco install KB2919442 -y
 choco install KB2999226 -y 
 choco install KB3033929 -y 
 choco install KB3035131 -y 
+choco install mingw -y 
 choco install mpc-hc -y 
 choco install mRemoteNG -y 
 choco install mumble -y 

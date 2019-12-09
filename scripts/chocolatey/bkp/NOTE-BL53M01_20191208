@@ -37,6 +37,7 @@ choco install pycharm-edu -y
 choco install python3 -y 
 choco install rufus -y 
 choco install SQLite -y 
+choco install swiftforwindows -y 
 choco install sysinternals -y 
 choco install tartool -y 
 choco install tcpipmanager -y 
