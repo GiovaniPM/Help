@@ -9,19 +9,22 @@ def download(url, file_name):
 		file.write(response.content)
 
 #Input the url
-#urlname = "https://docs.oracle.com/cd/B28728_01/jded/html/doclist.html"
-#downpath = "https://docs.oracle.com/cd/B28728_01/jded"
 #urlname = "http://italianoperstranieri.loescher.it/archivio-di-grammatica.n445"
 #downpath = "http://italianoperstranieri.loescher.it/archivio-di-grammatica.n445"
+#urlname = "https://support.microsoft.com/pt-br/help/13768/desktop-themes-featured"
+#downpath = "https://support.microsoft.com/pt-br/help/13768/desktop-themes-featured"
+#urlname = "https://docs.oracle.com/cd/B28728_01/jded/html/doclist.html"
+#downpath = "https://docs.oracle.com/cd/B28728_01/jded"
 #urlname = "https://docs.oracle.com/cd/E16582_01/index.htm"
 #downpath = "https://docs.oracle.com/cd/"
 #urlname = "https://docs.oracle.com/cd/B28730_01/jded/html/doclist.html"
 #downpath = "https://docs.oracle.com/cd/B28730_01/jded"
 urlname = "https://docs.oracle.com/cd/E12293_01/jded/html/doclist.html"
 downpath = "https://docs.oracle.com/cd/E12293_01/jded"
-#urlname = "https://support.microsoft.com/pt-br/help/13768/desktop-themes-featured"
-#downpath = "https://support.microsoft.com/pt-br/help/13768/desktop-themes-featured"
+
+#Input the extesion
 extension = ".pdf"
+
 html = urlopen(urlname)
 bsObj = BeautifulSoup(html.read(), 'html.parser')
 #In case of multiple panels
