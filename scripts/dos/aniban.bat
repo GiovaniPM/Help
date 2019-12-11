@@ -7,7 +7,7 @@ rem Antonio Perez Ayala aka Aacini
 
 set "delay=25"
 set "myself=%~F0"
-call :ShowBanner 60 "The Process Completed Correctly. . ."
+call :ShowBanner 60 "Giovani"
 goto :EOF
 
 
