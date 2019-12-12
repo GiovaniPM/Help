@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM RBST10164 
-REM Capturado em: 12/12/2019 11:35 
+REM Capturado em: 10/12/2019 13:29 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install autohotkey.portable -y 
@@ -10,7 +10,6 @@ choco install chocolatey -y
 choco install chocolatey-core.extension -y 
 choco install chocolatey-dotnetfx.extension -y 
 choco install curl -y 
-choco install dia -y 
 choco install docker-desktop -y 
 choco install dotnet4.7.1 -y 
 choco install dotnetfx -y 
