@@ -11,13 +11,13 @@ set timetoday=%_yyyy%%_mm%%_dd%
 set filename=%COMPUTERNAME%.txt
 set filenamebkp=%COMPUTERNAME%_%timetoday%
 
-IF [%1] == [u] GOTO backup
-IF [%1] == [U] GOTO backup
-IF [%1] == [d] GOTO restore
-IF [%1] == [D] GOTO restore
+IF [%1] == [b] GOTO backup
+IF [%1] == [B] GOTO backup
+IF [%1] == [r] GOTO restore
+IF [%1] == [R] GOTO restore
 echo Invalid parameters, try:
-echo   codiumbkp u -- to backup
-echo   codiumbkp d -- to restore
+echo   codiumbkp b -- to backup
+echo   codiumbkp r -- to restore
 goto end
 
 :backup
