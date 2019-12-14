@@ -6,6 +6,7 @@ austin.code-gnu-global
 batisteo.vscode-django
 bibhasdn.django-html
 bibhasdn.django-snippets
+bibhasdn.random-string-password-generator
 brenosolutions.sqlformatter
 buianhthang.xml2json
 ChakrounAnas.turbo-console-log
@@ -45,6 +46,7 @@ msjsdiag.debugger-for-chrome
 nickdemayo.vscode-json-editor
 oderwat.indent-rainbow
 Okteto.remote-kubernetes
+osam023.pwgenerator
 pnp.polacode
 pranaygp.vscode-css-peek
 ptweir.python-string-sql
