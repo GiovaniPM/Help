@@ -29,7 +29,9 @@ goto end
 
 :restore
 ::cat extensions.txt | xargs -L 1 code --install-extension
-for /F "tokens=1,2,3 delims= " %%G in (%filename%) DO codium --install-extension %%G
+@echo Installed extensions:
+@echo --------------------
+for /F "tokens=1,2,3 delims= " %%G in (%filename%) DO @codium --install-extension --force %%G | @echo %%G
 goto end
 
 :end
