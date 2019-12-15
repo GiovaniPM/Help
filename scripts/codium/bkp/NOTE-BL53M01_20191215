@@ -22,7 +22,6 @@ ecmel.vscode-html-css
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
-formulahendry.docker-explorer
 gep13.chocolatey-vscode
 GrapeCity.gc-excelviewer
 Gruntfuggly.todo-tree
@@ -56,7 +55,6 @@ quicktype.quicktype
 red-auto.red
 redhat.java
 ritwickdey.LiveServer
-rrivera.vscode-gitlab-explorer
 Shan.code-settings-sync
 shd101wyy.markdown-preview-enhanced
 slevesque.vscode-zipexplorer
