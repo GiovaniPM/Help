@@ -1,4 +1,5 @@
 aaron-bond.better-comments
+alefragnani.Bookmarks
 aperricone.harbour
 batisteo.vscode-django
 be5invis.vscode-icontheme-nomo-dark
@@ -7,6 +8,7 @@ bibhasdn.django-snippets
 brenosolutions.sqlformatter
 buianhthang.xml2json
 Coders.workspace-archive
+CoenraadS.bracket-pair-colorizer
 dakara.theme-dakara
 danielpinto8zz6.c-cpp-compile-run
 donjayamanne.githistory
@@ -17,15 +19,19 @@ geeklearningio.graphviz-markdown-preview
 gep13.chocolatey-vscode
 Gruntfuggly.todo-tree
 hfac.msdos-theme
+jchannon.csharpextensions
 julialang.language-julia
 lihram.vscode-tcc-compiler
 MaxChamps.django-commands
+mkoeppen.generate-data
 ms-python.python
 ms-vscode.cpptools
 ms-vscode.Go
 ms-vscode.powershell
 ptweir.python-string-sql
 quicktype.quicktype
+ritwickdey.LiveServer
+rogalmic.bash-debug
 shd101wyy.markdown-preview-enhanced
 slevesque.vscode-zipexplorer
 Stephanvs.dot
