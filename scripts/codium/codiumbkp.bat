@@ -8,9 +8,10 @@ SET _hh=%_dtm:~8,2%
 SET _nn=%_dtm:~10,2%
 
 SET timetoday=%_yyyy%%_mm%%_dd%
-SET filename=%COMPUTERNAME%.txt
 SET filenamebkp=%COMPUTERNAME%_%timetoday%
+SET filename=%COMPUTERNAME%.txt
 
+IF [%2] NEQ [] SET filename=%2
 IF [%1] == [b] GOTO backup
 IF [%1] == [B] GOTO backup
 IF [%1] == [r] GOTO restore
@@ -31,7 +32,7 @@ GOTO end
 ::cat extensions.txt | xargs -L 1 code --install-extension
 @ECHO Installed extensions:
 @ECHO --------------------
-FOR /F "tokens=1,2,3 DELims= " %%G IN (%filename%) DO @codium --install-extension --force %%G | @ECHO %%G
+FOR /F "tokens=1,2,3 DELims= " %%G IN (%filename%) DO @codium --install-extension %%G | @ECHO %%G
 GOTO end
 
 :end
