@@ -41,6 +41,7 @@ lihram.vscode-tcc-compiler
 lihui.vs-color-picker
 MaxChamps.django-commands
 mkoeppen.generate-data
+moshfeu.diff-merge
 ms-python.python
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
