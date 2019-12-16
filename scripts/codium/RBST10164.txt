@@ -31,6 +31,7 @@ gep13.chocolatey-vscode
 GrapeCity.gc-excelviewer
 Gruntfuggly.todo-tree
 hfac.msdos-theme
+Ho-Wan.vscode-trello-viewer
 humao.rest-client
 jaycetyle.vscode-gnu-global
 jchannon.csharpextensions
