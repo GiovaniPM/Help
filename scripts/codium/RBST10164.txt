@@ -39,4 +39,3 @@ TabNine.tabnine-vscode
 TuyMove.tcc-compiler
 vscode-icons-team.vscode-icons
 whizkydee.material-palenight-theme
-alefragnani.project-manager
