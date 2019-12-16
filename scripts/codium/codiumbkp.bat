@@ -1,37 +1,37 @@
-@echo off
+@ECHO OFF
 
-For /f %%G in ('cscript /nologo getdate.vbs') do set _dtm=%%G
-set _yyyy=%_dtm:~0,4%
-set _mm=%_dtm:~4,2%
-set _dd=%_dtm:~6,2%
-set _hh=%_dtm:~8,2%
-set _nn=%_dtm:~10,2%
+FOR /f %%G in ('cscript /nologo getdate.vbs') DO SET _dtm=%%G
+SET _yyyy=%_dtm:~0,4%
+SET _mm=%_dtm:~4,2%
+SET _dd=%_dtm:~6,2%
+SET _hh=%_dtm:~8,2%
+SET _nn=%_dtm:~10,2%
 
-set timetoday=%_yyyy%%_mm%%_dd%
-set filename=%COMPUTERNAME%.txt
-set filenamebkp=%COMPUTERNAME%_%timetoday%
+SET timetoday=%_yyyy%%_mm%%_dd%
+SET filename=%COMPUTERNAME%.txt
+SET filenamebkp=%COMPUTERNAME%_%timetoday%
 
 IF [%1] == [b] GOTO backup
 IF [%1] == [B] GOTO backup
 IF [%1] == [r] GOTO restore
 IF [%1] == [R] GOTO restore
-echo Invalid parameters, try:
-echo   codiumbkp b -- to backup
-echo   codiumbkp r -- to restore
-goto end
+ECHO Invalid parameters, try:
+ECHO   codiumbkp b -- to backup
+ECHO   codiumbkp r -- to restore
+GOTO end
 
 :backup
-del .\bkp\%filenamebkp% /q
-xcopy .\%filename% .\bkp\ /y
-ren .\bkp\%filename% %filenamebkp%
+DEL .\bkp\%filenamebkp% /q
+XCOPY .\%filename% .\bkp\ /y
+REN .\bkp\%filename% %filenamebkp%
 codium --list-extensions > %filename%
-goto end
+GOTO end
 
 :restore
 ::cat extensions.txt | xargs -L 1 code --install-extension
-@echo Installed extensions:
-@echo --------------------
-for /F "tokens=1,2,3 delims= " %%G in (%filename%) DO @codium --install-extension --force %%G | @echo %%G
-goto end
+@ECHO Installed extensions:
+@ECHO --------------------
+FOR /F "tokens=1,2,3 DELims= " %%G IN (%filename%) DO @codium --install-extension --force %%G | @ECHO %%G
+GOTO end
 
 :end
