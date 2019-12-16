@@ -32,6 +32,7 @@ gep13.chocolatey-vscode
 GrapeCity.gc-excelviewer
 Gruntfuggly.todo-tree
 helixquar.randomeverything
+heyimfuzz.banner-comments
 hfac.msdos-theme
 Ho-Wan.vscode-trello-viewer
 huangbaoshan.comment-aligner
