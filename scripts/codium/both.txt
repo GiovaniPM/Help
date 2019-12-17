@@ -24,6 +24,7 @@ ecmel.vscode-html-css
 EditorConfig.EditorConfig
 EFanZh.graphviz-preview
 esbenp.prettier-vscode
+ExodiusStudios.comment-anchors
 formulahendry.auto-rename-tag
 formulahendry.docker-explorer
 geeklearningio.graphviz-markdown-preview
@@ -31,16 +32,20 @@ gep13.chocolatey-vscode
 GrapeCity.gc-excelviewer
 Gruntfuggly.todo-tree
 helixquar.randomeverything
+heyimfuzz.banner-comments
 hfac.msdos-theme
 Ho-Wan.vscode-trello-viewer
+huangbaoshan.comment-aligner
 humao.rest-client
 jaycetyle.vscode-gnu-global
 jchannon.csharpextensions
 julialang.language-julia
 lihram.vscode-tcc-compiler
 lihui.vs-color-picker
+lunarlimbo.banner-comments-plus
 MaxChamps.django-commands
 mkoeppen.generate-data
+moshfeu.diff-merge
 ms-python.python
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
@@ -61,6 +66,7 @@ pranaygp.vscode-css-peek
 ptweir.python-string-sql
 qezhu.gitlink
 quicktype.quicktype
+quicky84.commentimg
 red-auto.red
 redhat.java
 ritwickdey.LiveServer
