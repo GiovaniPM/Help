@@ -28,7 +28,6 @@ EFanZh.graphviz-preview
 esbenp.prettier-vscode
 ExodiusStudios.comment-anchors
 formulahendry.auto-rename-tag
-formulahendry.docker-explorer
 geeklearningio.graphviz-markdown-preview
 gep13.chocolatey-vscode
 GrapeCity.gc-excelviewer
@@ -50,6 +49,7 @@ lunarlimbo.banner-comments-plus
 MaxChamps.django-commands
 mkoeppen.generate-data
 moshfeu.diff-merge
+ms-azuretools.vscode-docker
 ms-python.python
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
