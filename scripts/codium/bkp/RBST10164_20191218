@@ -41,7 +41,9 @@ huangbaoshan.comment-aligner
 humao.rest-client
 jaycetyle.vscode-gnu-global
 jchannon.csharpextensions
+johnpapa.vscode-peacock
 julialang.language-julia
+karigari.chat
 lihram.vscode-tcc-compiler
 lihui.vs-color-picker
 lunarlimbo.banner-comments-plus
@@ -58,6 +60,9 @@ ms-vscode.cpptools
 ms-vscode.csharp
 ms-vscode.Go
 ms-vscode.powershell
+ms-vsliveshare.vsliveshare
+ms-vsliveshare.vsliveshare-audio
+ms-vsliveshare.vsliveshare-pack
 msjsdiag.debugger-for-chrome
 nickdemayo.vscode-json-editor
 oderwat.indent-rainbow
@@ -74,6 +79,7 @@ redhat.java
 ritwickdey.LiveServer
 rogalmic.bash-debug
 rrivera.vscode-gitlab-explorer
+saurabh.terminal-manager
 Shan.code-settings-sync
 shd101wyy.markdown-preview-enhanced
 slevesque.vscode-zipexplorer
