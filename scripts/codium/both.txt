@@ -1,5 +1,11 @@
 aaron-bond.better-comments
 alefragnani.Bookmarks
+alefragnani.delphi-keybindings
+alefragnani.delphi-pack
+alefragnani.delphi-themes
+alefragnani.numbered-bookmarks
+alefragnani.pascal
+alefragnani.pascal-formatter
 alefragnani.project-manager
 aperricone.harbour
 aprilandjan.ascii-tree-generator
@@ -99,3 +105,4 @@ wix.vscode-import-cost
 wwm.better-align
 xabikos.JavaScriptSnippets
 Zignd.html-css-class-completion
+Wosi.omnipascal
