@@ -57,6 +57,7 @@ lihram.vscode-tcc-compiler
 lihui.vs-color-picker
 lunarlimbo.banner-comments-plus
 MaxChamps.django-commands
+mkloubert.vscode-kanban
 mkoeppen.generate-data
 moshfeu.diff-merge
 ms-azuretools.vscode-docker
