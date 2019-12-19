@@ -33,14 +33,14 @@ EditorConfig.EditorConfig
 EFanZh.graphviz-preview
 esbenp.prettier-vscode
 ExodiusStudios.comment-anchors
-file-icons.file-icons
+
 formulahendry.auto-rename-tag
 formulahendry.docker-explorer
 geeklearningio.graphviz-markdown-preview
 gep13.chocolatey-vscode
 GrapeCity.gc-excelviewer
 Gruntfuggly.todo-tree
-helgardrichard.helium-icon-theme
+
 helixquar.randomeverything
 heyimfuzz.banner-comments
 hfac.msdos-theme
@@ -51,7 +51,7 @@ jaycetyle.vscode-gnu-global
 jchannon.csharpextensions
 johnpapa.vscode-peacock
 julialang.language-julia
-jvalecillos.gpg
+
 karigari.chat
 lihram.vscode-tcc-compiler
 lihui.vs-color-picker
@@ -89,7 +89,7 @@ redhat.java
 ritwickdey.LiveServer
 rogalmic.bash-debug
 rrivera.vscode-gitlab-explorer
-RushFrisby.Encryptor
+
 saurabh.terminal-manager
 Shan.code-settings-sync
 shd101wyy.markdown-preview-enhanced
@@ -106,7 +106,7 @@ WakaTime.vscode-wakatime
 WallabyJs.quokka-vscode
 whizkydee.material-palenight-theme
 wix.vscode-import-cost
-Wosi.omnipascal
+
 wwm.better-align
 xabikos.JavaScriptSnippets
 Zignd.html-css-class-completion
