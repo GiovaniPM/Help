@@ -79,6 +79,7 @@ nickdemayo.vscode-json-editor
 oderwat.indent-rainbow
 Okteto.remote-kubernetes
 osam023.pwgenerator
+pdconsec.vscode-print
 pnp.polacode
 pranaygp.vscode-css-peek
 ptweir.python-string-sql
@@ -91,6 +92,7 @@ ritwickdey.LiveServer
 rogalmic.bash-debug
 rrivera.vscode-gitlab-explorer
 RushFrisby.Encryptor
+salaboy.vs-code-bpmn-io
 saurabh.terminal-manager
 Shan.code-settings-sync
 shd101wyy.markdown-preview-enhanced
