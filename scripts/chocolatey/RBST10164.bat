@@ -1,11 +1,12 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM RBST10164 
-REM Capturado em: 27/12/2019 09:51 
+REM Capturado em: 27/12/2019 09:54 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install autohotkey.portable -y 
 choco install boxes.portable -y 
+choco install busybox -y 
 choco install chocolatey -y 
 choco install chocolatey-core.extension -y 
 choco install chocolatey-dotnetfx.extension -y 
