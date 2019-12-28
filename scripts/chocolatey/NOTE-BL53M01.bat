@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM NOTE-BL53M01 
-REM Capturado em: 28/12/2019 09:01 
+REM Capturado em: 28/12/2019 11:16 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install 7zip -y 
@@ -9,6 +9,7 @@ choco install 7zip.commandline -y
 choco install 7zip.install -y 
 choco install 7zip.portable -y 
 choco install acestream -y 
+choco install adoptopenjdkjre -y 
 choco install autohotkey.install -y 
 choco install autohotkey.portable -y 
 choco install boxes.portable -y 
@@ -62,3 +63,4 @@ choco install Wget -y
 choco install wincdemu -y 
 choco install winmerge -y 
 choco install xmind -y 
+choco install yed -y 
