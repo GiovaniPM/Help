@@ -9,18 +9,18 @@ import sys
 #python extract-url.py "http://italianoperstranieri.loescher.it/archivio-di-grammatica.n445" ".pdf"
 
 def extracurl(urlname):
-	urldest = urlname[::-1]
-	pos = urldest.find("/")
-	urldest = urldest[pos+1::]
-	urldest = urldest[::-1]
-	return(urldest)
+	strinv = urlname[::-1]
+	pos = strinv.find("/")
+	strinv = strinv[pos+1::]
+	urlout = strinv[::-1]
+	return(urlout)
 
 def extracfile(urlname):
-	urlfilename = urlname[::-1]
-	pos = urlfilename.find("/")
-	urlfilename = urlfilename[:pos:1]
-	urlfilename = urlfilename[::-1]
-	return(urlfilename)
+	strinv = urlname[::-1]
+	pos = strinv.find("/")
+	strinv = strinv[:pos:1]
+	fileout = strinv[::-1]
+	return(fileout)
 
 urlname = str(sys.argv[1])
 extension = str(sys.argv[2])
