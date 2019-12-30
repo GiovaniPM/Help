@@ -12,15 +12,13 @@ def extracurl(urlname):
 	strinv = urlname[::-1]
 	pos = strinv.find("/")
 	strinv = strinv[pos+1::]
-	urlout = strinv[::-1]
-	return(urlout)
+	return(strinv[::-1])
 
 def extracfile(urlname):
 	strinv = urlname[::-1]
 	pos = strinv.find("/")
 	strinv = strinv[:pos:1]
-	fileout = strinv[::-1]
-	return(fileout)
+	return(strinv[::-1])
 
 urlname = str(sys.argv[1])
 extension = str(sys.argv[2])
