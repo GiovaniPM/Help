@@ -22,10 +22,10 @@ def extracfile(urlname):
 
 urlname = str(sys.argv[1])
 extension = str(sys.argv[2])
-urldest = extracurl(urlname)
-urlfilename = extracfile(urlname)
-os.system('md %s' % (urlfilename))
-os.system('cd %s' % (urlfilename))
+urlsite = extracurl(urlname)
+filsite = extracfile(urlname)
+os.system('md %s' % (filsite))
+os.system('cd %s' % (filsite))
 
 html = urlopen(urlname)
 bsObj = BeautifulSoup(html.read(), 'html.parser')
@@ -34,8 +34,8 @@ for bsLine in bsObj.find_all('a'):
 	if link is not None:
 		if link.find(extension) > 0:
 			urldown = extracurl(link)
-			filename = extracfile(link)
-			if urldest != urldown and link.find("http:") < 0 and link.find("ftp:") < 0 and link.find("https:") < 0 and link.find("sftp:") < 0:
-				os.system('wget --quiet --show-progress --directory-prefix=%s %s/%s/%s' % (urlfilename,urldest,urldown,filename))
+			fildown = extracfile(link)
+			if urlsite != urldown and link.find("http:") < 0 and link.find("ftp:") < 0 and link.find("https:") < 0 and link.find("sftp:") < 0:
+				os.system('wget --quiet --show-progress --directory-prefix=%s %s/%s/%s' % (filsite,urlsite,urldown,fildown))
 			else:
-				os.system('wget --quiet --show-progress --directory-prefix=%s %s' % (urlfilename,link))
+				os.system('wget --quiet --show-progress --directory-prefix=%s %s' % (filsite,link))
