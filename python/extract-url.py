@@ -5,6 +5,9 @@ import os
 import re
 import sys
 
+#Example:
+#python extract-url.py "http://italianoperstranieri.loescher.it/archivio-di-grammatica.n445" ".pdf"
+
 urlname = str(sys.argv[1])
 urlfilename = urlname[::-1]
 pos = urlfilename.find("/")
