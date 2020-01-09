@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM RBST10164 
-REM Capturado em: 09/01/2020 16:16 
+REM Capturado em: 09/01/2020 16:45 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install adoptopenjdkjre -y 
@@ -22,6 +22,8 @@ choco install dotnetfx -y
 choco install Firefox -y 
 choco install gimp -y 
 choco install gitkraken -y 
+choco install graph -y 
+choco install graphviz -y 
 choco install grep -y 
 choco install grepwin -y 
 choco install javaruntime -y 
