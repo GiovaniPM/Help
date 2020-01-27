@@ -8,6 +8,7 @@ EFanZh.graphviz-preview
 file-icons.file-icons
 firefox-devtools.vscode-firefox-debug
 Gruntfuggly.todo-tree
+HookyQR.beautify
 huangbaoshan.comment-aligner
 johnpapa.vscode-peacock
 karigari.chat
