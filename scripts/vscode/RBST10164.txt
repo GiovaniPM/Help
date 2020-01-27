@@ -7,8 +7,10 @@ EFanZh.graphviz-preview
 file-icons.file-icons
 firefox-devtools.vscode-firefox-debug
 Gruntfuggly.todo-tree
+huangbaoshan.comment-aligner
 johnpapa.vscode-peacock
 karigari.chat
+lmcarreiro.vscode-smart-column-indenter
 lunarlimbo.banner-comments-plus
 mkloubert.vscode-kanban
 ms-azuretools.vscode-docker
