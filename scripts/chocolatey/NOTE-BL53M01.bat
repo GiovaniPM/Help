@@ -59,6 +59,7 @@ choco install treesizefree -y
 choco install vcredist140 -y 
 choco install vcredist2015 -y 
 choco install virtualbox -y 
+choco install vscode -y 
 choco install vscodium -y 
 choco install Wget -y 
 choco install wincdemu -y 

@@ -73,6 +73,7 @@ choco install tcpipmanager.install -y
 choco install tinycc -y 
 choco install vcredist2015 -y 
 choco install virtualbox -y 
+choco install vscode -y 
 choco install vscodium -y 
 choco install Wget -y 
 choco install winmerge -y 
