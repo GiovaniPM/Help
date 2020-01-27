@@ -12,6 +12,7 @@ huangbaoshan.comment-aligner
 johnpapa.vscode-peacock
 karigari.chat
 lmcarreiro.vscode-smart-column-indenter
+lostintangent.vsls-whiteboard
 lunarlimbo.banner-comments-plus
 mkloubert.vscode-kanban
 ms-azuretools.vscode-docker
