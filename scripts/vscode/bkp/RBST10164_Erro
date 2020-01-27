@@ -1,5 +1,6 @@
 2gua.rainbow-brackets
 aprilandjan.ascii-tree-generator
+CoenraadS.bracket-pair-colorizer
 CoenraadS.bracket-pair-colorizer-2
 d-koppenhagen.file-tree-to-text-generator
 EFanZh.graphviz-preview
@@ -9,10 +10,19 @@ johnpapa.vscode-peacock
 karigari.chat
 mkloubert.vscode-kanban
 ms-azuretools.vscode-docker
+ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
 ms-vscode-remote.remote-wsl
+ms-vscode.cpptools
+ms-vscode.csharp
+ms-vscode.powershell
 ms-vsliveshare.vsliveshare
 ms-vsliveshare.vsliveshare-audio
 ms-vsliveshare.vsliveshare-pack
+msjsdiag.debugger-for-chrome
+msjsdiag.debugger-for-edge
 oderwat.indent-rainbow
+pnp.polacode
+redhat.vscode-yaml
 ritwickdey.LiveServer
+royaction.color-manager
