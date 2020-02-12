@@ -8,4 +8,4 @@ say '*'copies(' ',98)'*'
 say copies('*',100)
 say
 say 'Opcao:'
-pull um
+pull opcao
