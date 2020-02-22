@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM DESKTOP-PG18CKU 
-REM Capturado em: 21/02/2020 22:29 
+REM Capturado em: 21/02/2020 22:21 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install boxes.portable -y 
@@ -27,7 +27,6 @@ choco install KB3035131 -y
 choco install mRemoteNG -y 
 choco install python2 -y 
 choco install python3 -y 
-choco install sysinternals -y 
 choco install vcredist140 -y 
 choco install vcredist2015 -y 
 choco install vscode -y 
