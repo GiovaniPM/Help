@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM RBST10164 
-REM Capturado em: 06/03/2020 10:00 
+REM Capturado em: 06/03/2020 11:01 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install ActiveMQ -y 
@@ -21,6 +21,7 @@ choco install DotNet3.5 -y
 choco install DotNet4.5.2 -y 
 choco install dotnet4.7.1 -y 
 choco install dotnetfx -y 
+choco install Everything -y 
 choco install Firefox -y 
 choco install gimp -y 
 choco install gitkraken -y 
