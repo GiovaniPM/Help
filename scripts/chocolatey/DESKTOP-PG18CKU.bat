@@ -35,3 +35,4 @@ choco install vscode.install -y
 choco install Wget -y 
 choco install yasm -y 
 choco install hfs -y
+choco install Everything -y 

@@ -78,3 +78,5 @@ choco install vscodium -y
 choco install Wget -y 
 choco install winmerge -y 
 choco install xmind -y 
+choco install hfs -y
+choco install Everything -y 
