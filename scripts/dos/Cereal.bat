@@ -6,5 +6,4 @@ echo WScript.Echo result >> %TEMP%\~input.vbs
 
 cscript //nologo %TEMP%\~input.vbs
 
-::del %TEMP%\~input.vbs
-type %TEMP%\~input.vbs
+del %TEMP%\~input.vbs
