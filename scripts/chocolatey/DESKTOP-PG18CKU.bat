@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM DESKTOP-PG18CKU 
-REM Capturado em: 28/04/2020 17:48 
+REM Capturado em: 28/04/2020 18:10 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install 7zip -y 
@@ -47,6 +47,7 @@ choco install microsoftmathematics -y
 choco install mobaxterm -y 
 choco install mpc-hc -y 
 choco install mRemoteNG -y 
+choco install no-ip-duc -y 
 choco install notepadplusplus -y 
 choco install notepadplusplus.install -y 
 choco install PDFCreator -y 
