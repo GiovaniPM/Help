@@ -1,0 +1,1 @@
+docker run --interactive --tty --rm --publish 80:5000 --name container-aplicacao-flask imagem-aplicacao-flask
