@@ -83,6 +83,3 @@ choco install wincdemu -y
 choco install WinImage -y 
 choco install winmerge -y 
 choco install yasm -y 
-choco install Did -y 
-choco install Features? -y 
-choco install https://chocolatey.org/compare -y 
