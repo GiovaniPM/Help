@@ -1,12 +1,13 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM DESKTOP-PG18CKU 
-REM Capturado em: 30/04/2020 14:05 
+REM Capturado em: 30/04/2020 20:17 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install 7zip -y 
 choco install 7zip.install -y 
 choco install ActiveMQ -y 
+choco install autohotkey.install -y 
 choco install autohotkey.portable -y 
 choco install boxes.portable -y 
 choco install busybox -y 
@@ -57,6 +58,8 @@ choco install mRemoteNG -y
 choco install no-ip-duc -y 
 choco install notepadplusplus -y 
 choco install notepadplusplus.install -y 
+choco install octave -y 
+choco install octave.install -y 
 choco install PDFCreator -y 
 choco install poweriso -y 
 choco install projectlibre -y 
@@ -83,6 +86,3 @@ choco install wincdemu -y
 choco install WinImage -y 
 choco install winmerge -y 
 choco install yasm -y 
-choco install Did -y 
-choco install Features? -y 
-choco install https://chocolatey.org/compare -y 
