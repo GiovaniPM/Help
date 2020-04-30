@@ -1,0 +1,4 @@
+flask
+json5
+flask_cors
+requests

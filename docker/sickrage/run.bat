@@ -1,0 +1,1 @@
+docker run -d --name="sickrage" -v /path/to/sickrage/data:/config -v /path/to/downloads:/downloads -v /path/to/tv:/tv -v /path/to/anime:/anime -e TZ=Canada/Pacific -p 8081:8081 sickrage/sickrage:latest
