@@ -12,6 +12,10 @@ docker pull mariadb
 docker run --name some-mariadb -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mariadb
 docker stop some-mariadb
 
+docker pull nginx
+docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx
+docker stop some-nginx
+
 cd ..
 cd ..
 cd docker
