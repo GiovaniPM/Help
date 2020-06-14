@@ -1,0 +1,15 @@
+[
+    {
+        "label":"Windows Powershell",
+        "shellPath":"C://Windows//System32//WindowsPowerShell//v1.0//powershell.exe"
+    },
+    {
+        "label":"CMD",
+        "shellPath":"C://Windows//System32//cmd.exe",
+        "shellArgs":["/K", "echo Heya!"]
+    },
+    {
+        "label":"Bash",
+        "shellPath":"C://Users//giova//projetos//Help//scripts//vscode//bash.bat"
+    }
+]
