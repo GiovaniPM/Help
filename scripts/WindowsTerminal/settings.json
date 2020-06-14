@@ -55,7 +55,7 @@
                 "acrylicOpacity" : 0.20,
                 "closeOnExit" : true,
                 "colorScheme" : "Tango Dark",
-                "commandline": "cmd.exe /k %USERPROFILE%\\projetos\\Help\\scripts\\WindowsTerminal\\dockerexec.cmd",
+                "commandline": "cmd.exe /c %USERPROFILE%\\projetos\\Help\\scripts\\WindowsTerminal\\dockerexec.cmd",
                 "cursorColor" : "#FFFFFF",
                 "cursorShape" : "bar",
                 "fontFace" : "Consolas",
