@@ -5,11 +5,14 @@
     },
     {
         "label":"CMD",
-        "shellPath":"C://Windows//System32//cmd.exe",
-        "shellArgs":["/K", "echo Heya!"]
+        "shellPath":"C://Windows//System32//cmd.exe"
     },
     {
         "label":"Bash",
         "shellPath":"C://Users//giova//projetos//Help//scripts//vscode//bash.bat"
+    },
+    {
+        "label":"Docker",
+        "shellPath":"C://Users//giova//projetos//Help//scripts//WindowsTerminal//dockerexec.cmd"
     }
 ]
