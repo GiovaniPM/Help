@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM DESKTOP-PG18CKU 
-REM Capturado em: 15/06/2020 19:54 
+REM Capturado em: 15/06/2020 20:08 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install 7zip -y 
@@ -55,6 +55,7 @@ choco install KB2999226 -y
 choco install KB3033929 -y 
 choco install KB3035131 -y 
 choco install kdevelop.portable -y 
+choco install MarkdownMonster -y 
 choco install maxima -y 
 choco install microsoftmathematics -y 
 choco install mobaxterm -y 
