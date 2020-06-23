@@ -1,1 +1,1 @@
-docker build --tag=home .
+docker build --tag=homeimg .
