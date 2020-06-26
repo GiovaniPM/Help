@@ -1,1 +1,1 @@
-docker build --tag=dv .
+docker build --tag=dvimg .
