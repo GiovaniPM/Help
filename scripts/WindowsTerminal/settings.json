@@ -32,7 +32,6 @@
         "list":
         [
             {
-                "acrylicOpacity" : 0.75,
                 "background" : "#000000",
                 "closeOnExit" : true,
                 "colorScheme" : "Tango Dark",
@@ -47,11 +46,9 @@
                 "name" : "Chocolatey",
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
-                "startingDirectory" : "%USERPROFILE%\\Projetos",
-                "useAcrylic" : true
+                "startingDirectory" : "%USERPROFILE%\\Projetos"
             },
             {
-                "acrylicOpacity" : 0.75,
                 "background" : "#000000",
                 "closeOnExit" : true,
                 "colorScheme" : "Tango Dark",
@@ -66,12 +63,10 @@
                 "name" : "Git Bash",
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
-                "startingDirectory" : "%USERPROFILE%\\Projetos",
-                "useAcrylic" : true
+                "startingDirectory" : "%USERPROFILE%\\Projetos"
             },
             {
                 "guid": "{00000000-0000-0000-ba54-000000000003}",
-                "acrylicOpacity" : 0.20,
                 "closeOnExit" : true,
                 "colorScheme" : "Tango Dark",
                 "commandline": "cmd.exe /c %USERPROFILE%\\projetos\\Help\\scripts\\WindowsTerminal\\dockerexec.cmd",
@@ -84,13 +79,11 @@
                 "name" : "Docker",
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
-                "startingDirectory" : "%USERPROFILE%",
-                "useAcrylic" : true
+                "startingDirectory" : "%USERPROFILE%"
             },     
             {
                 // Make changes here to the powershell.exe profile.
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "acrylicOpacity" : 0.20,
                 "closeOnExit" : true,
                 "colorScheme" : "Tango Dark",
                 "name": "Windows PowerShell",
@@ -100,13 +93,11 @@
                 "hidden": false,
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
-                "startingDirectory" : "%USERPROFILE%",
-                "useAcrylic" : true
+                "startingDirectory" : "%USERPROFILE%"
             },
             {
                 // Make changes here to the cmd.exe profile.
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "acrylicOpacity" : 0.20,
                 "closeOnExit" : true,
                 "colorScheme" : "Tango Dark",
                 "name": "Prompt de comando",
@@ -116,12 +107,10 @@
                 "hidden": false,
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
-                "startingDirectory" : "%USERPROFILE%",
-                "useAcrylic" : true
+                "startingDirectory" : "%USERPROFILE%"
             },
             {
                 "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-                "acrylicOpacity" : 0.20,
                 "closeOnExit" : true,
                 "colorScheme" : "Tango Dark",
                 "hidden": false,
@@ -131,12 +120,10 @@
                 "source": "Windows.Terminal.Wsl",
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
-                "startingDirectory" : "%USERPROFILE%",
-                "useAcrylic" : true
+                "startingDirectory" : "%USERPROFILE%"
             },
             {
                 "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
-                "acrylicOpacity" : 0.20,
                 "closeOnExit" : true,
                 "colorScheme" : "Tango Dark",
                 "hidden": false,
@@ -146,12 +133,10 @@
                 "source": "Windows.Terminal.Wsl",
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
-                "startingDirectory" : "%USERPROFILE%",
-                "useAcrylic" : true
+                "startingDirectory" : "%USERPROFILE%"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "acrylicOpacity" : 0.20,
                 "closeOnExit" : true,
                 "colorScheme" : "Tango Dark",
                 "hidden": false,
@@ -161,8 +146,7 @@
                 "source": "Windows.Terminal.Azure",
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
-                "startingDirectory" : "%USERPROFILE%",
-                "useAcrylic" : true
+                "startingDirectory" : "%USERPROFILE%"
             }
         ]
     },
