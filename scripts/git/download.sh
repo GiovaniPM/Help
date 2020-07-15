@@ -44,15 +44,15 @@ else
     if [ -d "./$gitdir" ]; then
       echo -e "->\033[0;103;30m Getting code \033[m"
       cd $gitdir
-  	echo -e "\033[0;49;92m"
+      echo -e "\033[0;49;92m"
       git pull
-  	echo -e "\033[m"
+      echo -e "\033[m"
       cd ..
     else
       echo -e "->\033[0;103;30m Cloning \033[m"
-  	echo -e "\033[0;49;92m"
+      echo -e "\033[0;49;92m"
       git clone $gitlink $gitdir
-  	echo -e "\033[m"
+      echo -e "\033[m"
     fi
   fi
   

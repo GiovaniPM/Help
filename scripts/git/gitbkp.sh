@@ -18,7 +18,7 @@ fi
 echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
 echo -e $IGreen"Directories:"$Color_Off
 echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
-for directory in $(ls -a)
+for directory in $(ls -d */)
 do
   if [ "$directory" != "." ] &&  [ "$directory" != ".." ] &&  [ "$directory" != "BKP" ]; then
     echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off >> ./$DIR/$bkpnm.log
