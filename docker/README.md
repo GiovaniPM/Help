@@ -142,11 +142,11 @@ docker pull mariadb
 docker run -d --name "MariaTest" -p 3306:3306 -e MYSQL_ROOT_PASSWORD=pm11092j mariadb
 ```
 
-### DBeaver
-![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/MariaDBConnection.png)
-
 ### Exemplos
 [Montagem DB](https://github.com/GiovaniPM/Help/blob/master/docker/MARIADB/mariadb.md)
+
+### DBeaver
+![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/MariaDBConnection.png)
 
 ## Oracle XE 18.4.0
 
@@ -199,6 +199,9 @@ docker build --tag=oracle18.4.0 .
 ```dockerfile
 docker run --name="oraclexe" -d -p 1541:1541 -p 1521:1521 -p 5500:5500 oracle18.4.0
 ```
+
+### Exemplos
+[Montagem DB](https://github.com/GiovaniPM/Help/blob/master/docker/MARIADB/mariadb.md)
 
 ### DBeaver
 ![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/OracleConnection.png)
