@@ -227,11 +227,11 @@ docker run --name="oraclexe" -d -p 1541:1541 -p 1521:1521 -p 5500:5500 oracle18.
 ## 7 SQL Server
 
 ### 7.1 Link
-https://hub.docker.com/_/microsoft-mssql-server:2017-latest-ubuntu
+https://hub.docker.com/_/microsoft-mssql-server
 
 ### 7.2 Pull Command
 ```dockerfile
-docker pull mcr.microsoft.com/mssql/server
+docker pull mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 ```
 
 ### 7.3 Run
