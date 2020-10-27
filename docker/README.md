@@ -1,16 +1,16 @@
 # Minhas images
 
-## Home
+## 1 Home
 
-### Link
+### 1.1 Link
 https://hub.docker.com/_/nginx
 
-### Pull Command
+### 1.2 Pull Command
 ```dockerfile
 docker pull nginx
 ```
 
-### Pacote
+### 1.3 Pacote
 ```DOS
 @echo off
 
@@ -50,7 +50,7 @@ del home.000
 cd %ant%
 ```
 
-### Dockerfile
+### 1.4 Dockerfile
 ```dockerfile
 FROM nginx
 RUN apt-get update && apt-get install -y curl
@@ -59,27 +59,27 @@ RUN cd /usr/share/nginx/html && tar xzvf home.000
 EXPOSE 80
 ```
 
-### Build
+### 1.5 Build
 ```dockerfile
 docker build --tag=homeimg .
 ```
 
-### Run
+### 1.6 Run
 ```dockerfile
 docker run -d --name="homeimg" -p 8081:80 home
 ```
 
-## Service DV
+## 2 Service DV
 
-### Link
+### 2.1 Link
 https://hub.docker.com/_/debian
 
-### Pull Command
+### 2.2 Pull Command
 ```dockerfile
 docker pull debian:8
 ```
 
-### Dockerfile
+### 2.3 Dockerfile
 ```dockerfile
 FROM debian:8
 RUN mkdir /dv
@@ -91,7 +91,7 @@ EXPOSE 8080
 CMD ["/usr/bin/python3", "dv/dv.py"]
 ```
 
-### requirements.txt
+### 2.4 Requirements.txt
 ```dos
 flask
 json5
@@ -99,87 +99,84 @@ flask_cors
 requests
 ```
 
-### Build
+### 2.5 Build
 ```dockerfile
 docker build --tag=dvimg .
 ```
 
-### Run
+### 2.6 Run
 ```dockerfile
 docker run -d --name="dv" -p 8080:8080 dvimg
 ```
 
-## DB2
+## 3 DB2
 
-### Link
+### 3.1 Link
 https://hub.docker.com/r/ibmcom/db2
 
-### Pull Command
+### 3.2 Pull Command
 ```dockerfile
 docker pull ibmcom/db2
 ```
 
-### Run
+### 3.3 Run
 ```dockerfile
 docker run -itd --name mydb2 --privileged=true -p 50000:50000 -e LICENSE=accept -e DB2INST1_PASSWORD=pm11092j -e DBNAME=testdb ibmcom/db2
 ```
 
-### Exemplos
-[Montagem DB](https://github.com/GiovaniPM/Help/blob/master/docker/Firebird/firebird.md)
-
-### DBeaver
+### 3.4 DBeaver
 ![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/DB2Connection.png)
 
-## Firebird
+## 4 Firebird
 
-### Link
+### 4.1 Link
 https://hub.docker.com/r/controlsoft/firebird
 
-### Pull Command
+### 4.2 Pull Command
 ```dockerfile
 docker pull controlsoft/firebird
 ```
 
-### Run
+### 4.3 Run
 ```dockerfile
 docker run -d --name "firebird" -p 3050:3050 controlsoft/firebird
 ```
 
-### Exemplos
+### 4.4 Exemplos
 [Montagem DB](https://github.com/GiovaniPM/Help/blob/master/docker/Firebird/firebird.md)
 
-### DBeaver
+### 4.5 DBeaver
 ![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/FirebirdConnection.png)
 
-## MariaDB
+## 5 MariaDB
 
-### Pull Command
+### 5.1 Pull Command
 ```dockerfile
 docker pull mariadb
 ```
 
-### Run
+### 5.2 Run
 ```dockerfile
 docker run -d --name "MariaTest" -p 3306:3306 -e MYSQL_ROOT_PASSWORD=pm11092j mariadb
 ```
 
-### Exemplos
+### 5.3 Exemplos
 [Montagem DB](https://github.com/GiovaniPM/Help/blob/master/docker/MARIADB/mariadb.md)
 
-### DBeaver
+### 5.4 DBeaver
 ![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/MariaDBConnection.png)
 
-## Oracle XE 18.4.0
+## 6 Oracle XE 18.4.0
 
-### Link
+### 6.1 Link
 https://hub.docker.com/r/pvargacl/oracle-xe-18.4.0
 
-### Pull Command
+### 6.2 Pull Command
 ```dockerfile
 docker pull pvargacl/oracle-xe-18.4.0
 ```
 
-### Dockerfile
+### 6.3 Dockerfile
 ```dockerfile
 # Autor: Giovani Perotto Mesquita
 FROM pvargacl/oracle-xe-18.4.0
@@ -192,7 +189,7 @@ EXPOSE 1541
 EXPOSE 5500
 ```
 
-### popula.sh
+### 6.4 popula.sh
 ```bash
 #!/bin/bash
 sqlplus SYS/oracle@XE AS SYSDBA @/scripts/setupXE.sql
@@ -211,18 +208,36 @@ sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f76412.sql
 #sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/IndicesEstoque.sql
 ```
 
-### Build
+### 6.5 Build
 ```dockerfile
 docker build --tag=oracle18.4.0 .
 ```
 
-### Run
+### 6.6 Run
 ```dockerfile
 docker run --name="oraclexe" -d -p 1541:1541 -p 1521:1521 -p 5500:5500 oracle18.4.0
 ```
 
-### Exemplos
+### 6.7 Exemplos
 [Montagem DB](https://github.com/GiovaniPM/Help/blob/master/docker/Oracle/setupXE.md)
 
-### DBeaver
+### 6.8 DBeaver
 ![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/OracleConnection.png)
+
+## 7 SQL Server
+
+### 7.1 Link
+https://hub.docker.com/_/microsoft-mssql-server:2017-latest-ubuntu
+
+### 7.2 Pull Command
+```dockerfile
+docker pull mcr.microsoft.com/mssql/server
+```
+
+### 7.3 Run
+```dockerfile
+docker run --name="SQLServer" -e ACCEPT_EULA=Y -e SA_PASSWORD=pm11092j -e MSSQL_PID=Express -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+```
+
+### 7.4 DBeaver
+![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/SQLServerConnection.png)
