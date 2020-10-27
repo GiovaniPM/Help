@@ -128,7 +128,7 @@ docker run -itd --name mydb2 --privileged=true -p 50000:50000 -e LICENSE=accept 
 [Montagem DB](https://github.com/GiovaniPM/Help/blob/master/docker/Firebird/firebird.md)
 
 ### DBeaver
-![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/FirebirdConnection.png)
+![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/DB2Connection.png)
 
 ## Firebird
 
