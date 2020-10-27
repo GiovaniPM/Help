@@ -1,6 +1,7 @@
 # arquivo .bashrc
 
 alias cls='clear'
+alias dockerbkp='~/dockerbkp.sh'
 alias download='~/download.sh'
 alias dir='ls -lias'
 alias gitbkp='~/gitbkp.sh'
