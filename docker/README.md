@@ -52,6 +52,7 @@ docker build --tag=oracle18.4.0 .
 docker run --name="oraclexe" -d -p 1541:1541 -p 1521:1521 -p 5500:5500 oracle18.4.0
 ```
 
+### DBeaver
 ![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/OracleConnection.png)
 
 ## Home
@@ -178,6 +179,9 @@ docker pull controlsoft/firebird
 docker run -d --name "firebird" -p 3050:3050 controlsoft/firebird
 ```
 
+### DBeaver
+![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/FirebirdConnection.png)
+
 ## MariaDB
 
 ### Pull Command
@@ -189,3 +193,6 @@ docker pull mariadb
 ```dockerfile
 docker run -d --name "MariaTest" -p 3306:3306 -e MYSQL_ROOT_PASSWORD=pm11092j mariadb
 ```
+
+### DBeaver
+![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/MariaDBConnection.png)
