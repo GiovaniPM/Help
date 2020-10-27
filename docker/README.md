@@ -1,60 +1,5 @@
 # Minhas images
 
-## Oracle XE 18.4.0
-
-### Link
-https://hub.docker.com/r/pvargacl/oracle-xe-18.4.0
-
-### Pull Command
-```dockerfile
-docker pull pvargacl/oracle-xe-18.4.0
-```
-
-### Dockerfile
-```dockerfile
-# Autor: Giovani Perotto Mesquita
-FROM pvargacl/oracle-xe-18.4.0
-RUN mkdir /scripts
-COPY *.sql /scripts/
-COPY *.sh /scripts/
-RUN chmod 777 /scripts/popula.sh
-EXPOSE 1521
-EXPOSE 1541
-EXPOSE 5500
-```
-
-### popula.sh
-```bash
-#!/bin/bash
-sqlplus SYS/oracle@XE AS SYSDBA @/scripts/setupXE.sql
-sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f0006.sql
-sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f4101.sql
-sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f4102.sql
-sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f4105.sql
-sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f4111.sql
-sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f41002.sql
-sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f41003.sql
-sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f41021.sql
-sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f41112.sql
-sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f76411.sql
-sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f76412.sql
-#sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/jde_converte_um.sql
-#sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/IndicesEstoque.sql
-```
-
-### Build
-```dockerfile
-docker build --tag=oracle18.4.0 .
-```
-
-### Run
-```dockerfile
-docker run --name="oraclexe" -d -p 1541:1541 -p 1521:1521 -p 5500:5500 oracle18.4.0
-```
-
-### DBeaver
-![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/OracleConnection.png)
-
 ## Home
 
 ### Link
@@ -164,7 +109,7 @@ docker build --tag=dvimg .
 docker run -d --name="dv" -p 8080:8080 dvimg
 ```
 
-## Firebase
+## Firebird
 
 ### Link
 https://hub.docker.com/r/controlsoft/firebird
@@ -196,3 +141,58 @@ docker run -d --name "MariaTest" -p 3306:3306 -e MYSQL_ROOT_PASSWORD=pm11092j ma
 
 ### DBeaver
 ![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/MariaDBConnection.png)
+
+## Oracle XE 18.4.0
+
+### Link
+https://hub.docker.com/r/pvargacl/oracle-xe-18.4.0
+
+### Pull Command
+```dockerfile
+docker pull pvargacl/oracle-xe-18.4.0
+```
+
+### Dockerfile
+```dockerfile
+# Autor: Giovani Perotto Mesquita
+FROM pvargacl/oracle-xe-18.4.0
+RUN mkdir /scripts
+COPY *.sql /scripts/
+COPY *.sh /scripts/
+RUN chmod 777 /scripts/popula.sh
+EXPOSE 1521
+EXPOSE 1541
+EXPOSE 5500
+```
+
+### popula.sh
+```bash
+#!/bin/bash
+sqlplus SYS/oracle@XE AS SYSDBA @/scripts/setupXE.sql
+sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f0006.sql
+sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f4101.sql
+sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f4102.sql
+sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f4105.sql
+sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f4111.sql
+sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f41002.sql
+sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f41003.sql
+sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f41021.sql
+sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f41112.sql
+sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f76411.sql
+sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/f76412.sql
+#sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/jde_converte_um.sql
+#sqlplus C##GIOVANIPM/Pm11092j@XE @/scripts/IndicesEstoque.sql
+```
+
+### Build
+```dockerfile
+docker build --tag=oracle18.4.0 .
+```
+
+### Run
+```dockerfile
+docker run --name="oraclexe" -d -p 1541:1541 -p 1521:1521 -p 5500:5500 oracle18.4.0
+```
+
+### DBeaver
+![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/OracleConnection.png)
