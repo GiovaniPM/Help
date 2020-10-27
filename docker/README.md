@@ -201,7 +201,7 @@ docker run --name="oraclexe" -d -p 1541:1541 -p 1521:1521 -p 5500:5500 oracle18.
 ```
 
 ### Exemplos
-[Montagem DB](https://github.com/GiovaniPM/Help/blob/master/docker/MARIADB/mariadb.md)
+[Montagem DB](https://github.com/GiovaniPM/Help/blob/master/docker/Oracle/setupXE.md)
 
 ### DBeaver
 ![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/OracleConnection.png)
