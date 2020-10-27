@@ -109,6 +109,27 @@ docker build --tag=dvimg .
 docker run -d --name="dv" -p 8080:8080 dvimg
 ```
 
+## DB2
+
+### Link
+https://hub.docker.com/r/ibmcom/db2
+
+### Pull Command
+```dockerfile
+docker pull ibmcom/db2
+```
+
+### Run
+```dockerfile
+docker run -itd --name mydb2 --privileged=true -p 50000:50000 -e LICENSE=accept -e DB2INST1_PASSWORD=pm11092j -e DBNAME=testdb ibmcom/db2
+```
+
+### Exemplos
+[Montagem DB](https://github.com/GiovaniPM/Help/blob/master/docker/Firebird/firebird.md)
+
+### DBeaver
+![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/FirebirdConnection.png)
+
 ## Firebird
 
 ### Link
