@@ -121,7 +121,7 @@ docker pull ibmcom/db2
 
 ### 3.3 Run
 ```dockerfile
-docker run -itd --name mydb2 --privileged=true -p 50000:50000 -e LICENSE=accept -e DB2INST1_PASSWORD=pm11092j -e DBNAME=testdb ibmcom/db2
+docker run -itd --name "myDB2" --privileged=true -p 50000:50000 -e LICENSE=accept -e DB2INST1_PASSWORD=pm11092j -e DBNAME=testdb ibmcom/db2
 ```
 
 ### 3.4 DBeaver
@@ -139,7 +139,7 @@ docker pull controlsoft/firebird
 
 ### 4.3 Run
 ```dockerfile
-docker run -d --name "myfirebird" -p 3050:3050 controlsoft/firebird
+docker run -d --name "myFirebird" -p 3050:3050 controlsoft/firebird
 ```
 
 ### 4.4 Exemplos
@@ -215,7 +215,7 @@ docker build --tag=oracle18.4.0 .
 
 ### 6.6 Run
 ```dockerfile
-docker run --name="myoraclexe" -d -p 1541:1541 -p 1521:1521 -p 5500:5500 oracle18.4.0
+docker run --name="myOracleXE" -d -p 1541:1541 -p 1521:1521 -p 5500:5500 oracle18.4.0
 ```
 
 ### 6.7 Exemplos
