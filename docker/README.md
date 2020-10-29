@@ -139,7 +139,7 @@ docker pull controlsoft/firebird
 
 ### 4.3 Run
 ```dockerfile
-docker run -d --name "firebird" -p 3050:3050 controlsoft/firebird
+docker run -d --name "myfirebird" -p 3050:3050 controlsoft/firebird
 ```
 
 ### 4.4 Exemplos
@@ -157,7 +157,7 @@ docker pull mariadb
 
 ### 5.2 Run
 ```dockerfile
-docker run -d --name "MariaTest" -p 3306:3306 -e MYSQL_ROOT_PASSWORD=pm11092j mariadb
+docker run -d --name "myMariaDB" -p 3306:3306 -e MYSQL_ROOT_PASSWORD=pm11092j mariadb
 ```
 
 ### 5.3 Exemplos
@@ -215,7 +215,7 @@ docker build --tag=oracle18.4.0 .
 
 ### 6.6 Run
 ```dockerfile
-docker run --name="oraclexe" -d -p 1541:1541 -p 1521:1521 -p 5500:5500 oracle18.4.0
+docker run --name="myoraclexe" -d -p 1541:1541 -p 1521:1521 -p 5500:5500 oracle18.4.0
 ```
 
 ### 6.7 Exemplos
@@ -236,7 +236,7 @@ docker pull mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 
 ### 7.3 Run
 ```dockerfile
-docker run --name="SQLServer" -e ACCEPT_EULA=Y -e SA_PASSWORD=pm11092j -e MSSQL_PID=Express -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+docker run --name="mySQLServer" -e ACCEPT_EULA=Y -e SA_PASSWORD=pm11092j -e MSSQL_PID=Express -p 1433:1433 -d mcr.microsoft.com/mssql/server:2017-latest-ubuntu
 ```
 
 ### 7.4 DBeaver
