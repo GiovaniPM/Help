@@ -241,3 +241,18 @@ docker run --name="SQLServer" -e ACCEPT_EULA=Y -e SA_PASSWORD=pm11092j -e MSSQL_
 
 ### 7.4 DBeaver
 ![OracleConnection](https://raw.githubusercontent.com/GiovaniPM/Help/master/docker/SQLServerConnection.png)
+
+## 8 Teamspeak
+
+### 8.1 Link
+https://hub.docker.com/_/teamspeak
+
+### 8.2 Pull Command
+```dockerfile
+docker pull teamspeak
+```
+
+### 8.3 Run
+```dockerfile
+docker run --name="GameSvrOne" -p 9987:9987/udp -p 10011:10011 -p 30033:30033 -e TS3SERVER_LICENSE=accept -d teamspeak
+```

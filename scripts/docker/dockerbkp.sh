@@ -1,24 +1,33 @@
 #!/bin/bash
 
+declare -a OPT_ARRAY
+
 export IYellow="\033[0;93m"
 export Color_Off="\033[0m"
 export IGreen="\033[0;92m"
 export On_Green="\033[42m"
+export Black="\033[0;30m"
 re='^[0-9]+$'
-i=1
 
 #docker ps -a --format "table{{.ID}} {{.Image}}" > ./temp.txt
 #docker images --format "table{{.Repository}}" > ./temp.txt
-docker images --format "{{.Repository}}" > ./temp.txt
+#docker images --format "{{.Repository}}" > ./temp.txt
+
+i=0
+for t in $(docker images --format "{{.Repository}}"); do
+    MEU_ARRAY[$i]=$t
+    let i=i+1
+done
 
 clear
 echo -e '============================================================================='
 echo -e 'Option Image                          | Option Image                         '
-echo -e '====== ============================== | ====== =============================='
+echo -e '====== ============================== + ====== =============================='
 
 linstr=''
 srtpar=0
-for t in $(cat ./temp.txt); do
+i=1
+for t in ${MEU_ARRAY[*]}; do
     spaces=$(printf '%0.1s' '.'{1..10})
     numstr=$i$spaces
     numstr=${numstr:0:6}
@@ -46,9 +55,9 @@ echo -e 'Select the option to backup ('0' backup all images): \c'
 read option
 
 clear
-i=1
 
-for t in $(cat ./temp.txt); do
+i=1
+for t in ${MEU_ARRAY[*]}; do
     if [[ $option =~ $re ]] ; then
         if [ $i -eq $option -o $option -eq 0 ]; then
             filename=$t
@@ -66,5 +75,3 @@ for t in $(cat ./temp.txt); do
     fi
     let i=i+1
 done
-
-rm ./temp.txt
