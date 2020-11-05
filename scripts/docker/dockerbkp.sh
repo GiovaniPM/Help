@@ -14,7 +14,7 @@ re='^[0-9]+$'
 #docker images --format "{{.Repository}}" > ./temp.txt
 
 i=0
-for t in $(docker images --format "{{.Repository}}"); do
+for t in $(docker images --format "{{.Repository}}" | sort); do
     MEU_ARRAY[$i]=$t
     let i=i+1
 done
