@@ -36,6 +36,8 @@ for bsLine in bsObj.find_all('a'):
 			urldown = extracurl(link)
 			fildown = extracfile(link)
 			if urlsite != urldown and link.find("http:") < 0 and link.find("ftp:") < 0 and link.find("https:") < 0 and link.find("sftp:") < 0:
+				print('wget --quiet --show-progress --directory-prefix=%s %s/%s/%s' % (filsite,urlsite,urldown,fildown))
 				os.system('wget --quiet --show-progress --directory-prefix=%s %s/%s/%s' % (filsite,urlsite,urldown,fildown))
 			else:
+				print('wget --quiet --show-progress --directory-prefix=%s %s' % (filsite,link))
 				os.system('wget --quiet --show-progress --directory-prefix=%s %s' % (filsite,link))
