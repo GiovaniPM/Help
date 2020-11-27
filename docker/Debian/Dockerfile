@@ -26,10 +26,10 @@ LABEL version="1.0.0" \
 # -------------------------------------------------------------
 ENV DOWNLOAD_TEMP=/downloads \
     LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/oracle/instantclient_19_8" \
-    ORA_SITE_CLIENT="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-basic-linux.x64-19.8.0.0.0dbru.zip?xd_co_f=fae07a5a-ae5f-4c1a-8ce0-f41ed4a394c5'" \
-    ORA_SITE_BASIC="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-sqlplus-linux.x64-19.8.0.0.0dbru.zip" \
     ORACLE_BASE=/opt/oracle \
     ORACLE_HOME=/opt/oracle/product/19c/dbhome_1 \ 
+    ORACLE_SITE_BASIC="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-sqlplus-linux.x64-19.8.0.0.0dbru.zip" \
+    ORACLE_SITE_CLIENT="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-basic-linux.x64-19.8.0.0.0dbru.zip?xd_co_f=fae07a5a-ae5f-4c1a-8ce0-f41ed4a394c5'" \
     PATH="$PATH:/opt/oracle/instantclient_19_8" \
     RDP_INI_FILE=/etc/xrdp/xrdp.ini \
     RDP_START_SCRIPT=/root/startdgfx.sh \
@@ -83,8 +83,8 @@ RUN apt-get install -y gdebi && \
 # Oracle Client 19.8.0.0
 # ----------------------
 RUN mkdir $DOWNLOAD_TEMP && \
-    curl --progress-bar $ORA_SITE_CLIENT -o $DOWNLOAD_TEMP/instantclient-basic-linux.zip && \
-    curl --progress-bar $ORA_SITE_BASIC -o $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip && \
+    curl --progress-bar $ORACLE_SITE_CLIENT -o $DOWNLOAD_TEMP/instantclient-basic-linux.zip && \
+    curl --progress-bar $ORACLE_SITE_BASIC -o $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip && \
     mkdir $ORACLE_BASE && \
     cd $DOWNLOAD_TEMP && \
     unzip $DOWNLOAD_TEMP/instantclient-basic-linux.zip -d $ORACLE_BASE && \
