@@ -58,12 +58,12 @@ RUN apt-get install -y synaptic && \
 # Oracle Client 19.8.0.0
 # ----------------------
 RUN mkdir $DOWNLOAD_TEMP && \
-    curl --progress-bar $ORA_SITE_CLIENT -o $DOWNLOAD_TEMP/instantclient-basic-linux.x64-19.8.0.0.0dbru.zip && \
-    curl --progress-bar $ORA_SITE_BASIC -o $DOWNLOAD_TEMP/instantclient-sqlplus-linux.x64-19.8.0.0.0dbru.zip && \
+    curl --progress-bar $ORA_SITE_CLIENT -o $DOWNLOAD_TEMP/instantclient-basic-linux.zip && \
+    curl --progress-bar $ORA_SITE_BASIC -o $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip && \
     mkdir $ORACLE_BASE && \
     cd $DOWNLOAD_TEMP && \
-    unzip $DOWNLOAD_TEMP/instantclient-basic-linux.x64-19.8.0.0.0dbru.zip -d $ORACLE_BASE && \
-    unzip $DOWNLOAD_TEMP/instantclient-sqlplus-linux.x64-19.8.0.0.0dbru.zip -d $ORACLE_BASE
+    unzip $DOWNLOAD_TEMP/instantclient-basic-linux.zip -d $ORACLE_BASE && \
+    unzip $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip -d $ORACLE_BASE
 
 # Prepare CodeTyphon 7.2
 # ----------------------

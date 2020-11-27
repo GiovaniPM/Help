@@ -1,3 +1,17 @@
+####################################################################################################
+# Dockerfile to create a environment to developent
+# -------------------------------------------------------------------------------------------------
+# Author: Giovani Perotto Mesquuita<giovanipm@gmail.com>
+# Date: 27/11/2020
+# -------------------------------------------------------------------------------------------------
+# Know Issues:
+# - Synaptic does not work, show message no such file (to be evaluate)
+# Next steps:
+# - Automate user creation (to be evaluate);
+# - Add VSCode;
+# - Add Eclipse
+####################################################################################################
+
 FROM debian
 
 # Labels
@@ -47,8 +61,8 @@ RUN apt-get purge   -y xrdp && \
 
 # Install Packages
 # ----------------
-RUN apt-get install -y synaptic && \
-    apt-get install -y gdebi && \
+#RUN apt-get install -y synaptic # FIXME: Synpatic does not work, why???
+RUN apt-get install -y gdebi && \
     apt-get install -y git && \
     apt-get install -y fpc && \
     apt-get install -y wget && \
@@ -58,17 +72,17 @@ RUN apt-get install -y synaptic && \
 # Oracle Client 19.8.0.0
 # ----------------------
 RUN mkdir $DOWNLOAD_TEMP && \
-    curl --progress-bar $ORA_SITE_CLIENT -o $DOWNLOAD_TEMP/instantclient-basic-linux.x64-19.8.0.0.0dbru.zip && \
-    curl --progress-bar $ORA_SITE_BASIC -o $DOWNLOAD_TEMP/instantclient-sqlplus-linux.x64-19.8.0.0.0dbru.zip && \
+    curl --progress-bar $ORA_SITE_CLIENT -o $DOWNLOAD_TEMP/instantclient-basic-linux.zip && \
+    curl --progress-bar $ORA_SITE_BASIC -o $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip && \
     mkdir $ORACLE_BASE && \
     cd $DOWNLOAD_TEMP && \
-    unzip $DOWNLOAD_TEMP/instantclient-basic-linux.x64-19.8.0.0.0dbru.zip -d $ORACLE_BASE && \
-    unzip $DOWNLOAD_TEMP/instantclient-sqlplus-linux.x64-19.8.0.0.0dbru.zip -d $ORACLE_BASE
+    unzip $DOWNLOAD_TEMP/instantclient-basic-linux.zip -d $ORACLE_BASE && \
+    unzip $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip -d $ORACLE_BASE
 
 # Prepare CodeTyphon 7.2
 # ----------------------
 COPY CodeTyphonIns.zip $DOWNLOAD_TEMP
-RUN unzip /downloads/CodeTyphonIns.zip -d $DOWNLOAD_TEMP
+RUN chmod 777 $DOWNLOAD_TEMP/CodeTyphonIns.zip
 
 # Ports
 # -----
