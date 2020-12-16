@@ -1,0 +1,97 @@
+####################################################################################################
+# Dockerfile to create Compiere ERP Server
+# -------------------------------------------------------------------------------------------------
+# Author: Giovani Perotto Mesquuita<giovanipm@gmail.com>
+# Date: 15/12/2020
+# -------------------------------------------------------------------------------------------------
+# Know Issues:
+# - 
+# Next steps:
+# - 
+####################################################################################################
+
+#FROM store/oracle/jdk:11
+FROM debian
+
+# ------
+# Labels
+# ------
+LABEL version="1.0.0" \
+      description="Compiere Community Edition 3.5" \
+      maintainer="Giovani Mesquita<giovanipm@gmail.com>"                 
+
+# -------------------------------------------------------------
+# Environment variables required for this build (do NOT change)
+# -------------------------------------------------------------
+ENV COMPIERE_BASE=/opt/Compiere2 \
+    COMPIERE_HOME=/opt/Compiere2 \
+    COMPIERE_DOWNLOAD="http://www.compiere.com/products/download/Compiere_350_STD.zip" \
+    DOWNLOAD_TEMP=/downloads \
+    LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/oracle/instantclient_19_8" \
+    ORACLE_BASE=/opt/oracle \
+    ORACLE_HOME=/opt/oracle/product/19c/dbhome_1 \ 
+    ORACLE_SITE_BASIC="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-sqlplus-linux.x64-19.8.0.0.0dbru.zip" \
+    ORACLE_SITE_CLIENT="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-basic-linux.x64-19.8.0.0.0dbru.zip?xd_co_f=fae07a5a-ae5f-4c1a-8ce0-f41ed4a394c5'" \
+    PATH="$PATH:/opt/oracle/instantclient_19_8" 
+
+# -------
+# Aliases
+# -------
+RUN echo "alias dir='ls -lias --color'" >> /root/.bashrc && \
+    echo "alias cls='clear'" >> /root/.bashrc
+
+# ------
+# Update
+# ------
+RUN apt-get update && \
+    apt-get -y upgrade
+
+# -----------------
+# Auxiliar software
+# -----------------
+RUN apt-get install -y apt-utils && \
+    apt-get install -y sudo && \
+    apt-get install -y git && \
+    apt-get install -y wget && \
+    apt-get install -y vim && \
+    apt-get install -y aptitude && \
+    apt-get install -y curl && \
+    apt-get install -y unzip && \
+    apt-get install -y zip && \
+    apt-get install -y cpio && \
+    apt-get install -y libaio1 libaio-dev
+
+# ----------------------
+# Oracle Client 19.8.0.0
+# ----------------------
+RUN mkdir $DOWNLOAD_TEMP && \
+    curl --progress-bar $ORACLE_SITE_CLIENT -o $DOWNLOAD_TEMP/instantclient-basic-linux.zip && \
+    curl --progress-bar $ORACLE_SITE_BASIC -o $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip && \
+    mkdir $ORACLE_BASE && \
+    cd $DOWNLOAD_TEMP && \
+    unzip $DOWNLOAD_TEMP/instantclient-basic-linux.zip -d $ORACLE_BASE && \
+    unzip $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip -d $ORACLE_BASE
+
+# ----------
+# Openjdk 11
+# ----------
+RUN apt-get install -y openjdk-11-dbg && \
+    export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:/bin/java::") && \
+    echo export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:/bin/java::") >> /root/.bashrc
+
+# ----------------
+# Compiere Install
+# ----------------
+RUN curl --progress-bar $COMPIERE_DOWNLOAD -o $DOWNLOAD_TEMP/Compiere.zip && \
+    mkdir $COMPIERE_BASE && \
+    unzip $DOWNLOAD_TEMP/Compiere.zip -d /opt && \
+    cd $COMPIERE_BASE && \
+    chmod -R 777 *
+
+#RUN $COMPIERE_BASE/RUN_setup.sh
+
+# --------------
+# Startup Script
+# --------------
+CMD ["su"]
+#CMD ["/opt/Compiere2/RUN_Compiere2.sh"]
