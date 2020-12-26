@@ -14,6 +14,8 @@ import (
 	"log"
 	"net/http"
 	"regexp"
+	"strings"
+	"time"
 )
 
 type Page struct {
@@ -39,6 +41,16 @@ func viewHandler(w http.ResponseWriter, r *http.Request, title string) {
 	p, err := loadPage(title)
 	if err != nil {
 		http.Redirect(w, r, "/edit/"+title, http.StatusFound)
+		return
+	}
+	renderTemplate(w, "view", p)
+}
+
+func dateHandler(w http.ResponseWriter, r *http.Request, title string) {
+	datetitle := strings.ToUpper(time.Now().Format("2006Jan01"))
+	p, err := loadPage(datetitle)
+	if err != nil {
+		http.Redirect(w, r, "/edit/"+datetitle, http.StatusFound)
 		return
 	}
 	renderTemplate(w, "view", p)
@@ -72,20 +84,28 @@ func renderTemplate(w http.ResponseWriter, tmpl string, p *Page) {
 	}
 }
 
-var validPath = regexp.MustCompile("^/(edit|save|view)/([a-zA-Z0-9]+)$")
+var validPath = regexp.MustCompile("^/(edit|save|view|date)/([a-zA-Z0-9]+)$")
+var validDate = regexp.MustCompile("^/(date)/$")
 
 func makeHandler(fn func(http.ResponseWriter, *http.Request, string)) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		m := validPath.FindStringSubmatch(r.URL.Path)
 		if m == nil {
-			http.NotFound(w, r)
-			return
+			m := validDate.FindStringSubmatch(r.URL.Path)
+			if m == nil {
+				http.NotFound(w, r)
+				return
+			} else {
+				datetitle := strings.ToUpper(time.Now().Format("2006Jan01"))
+				http.Redirect(w, r, "/edit/"+datetitle, http.StatusFound)
+			}
 		}
 		fn(w, r, m[2])
 	}
 }
 
 func main() {
+	http.HandleFunc("/date/", makeHandler(dateHandler))
 	http.HandleFunc("/view/", makeHandler(viewHandler))
 	http.HandleFunc("/edit/", makeHandler(editHandler))
 	http.HandleFunc("/save/", makeHandler(saveHandler))
