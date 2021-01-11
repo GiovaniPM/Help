@@ -7,7 +7,6 @@ batisteo.vscode-django
 bbenoist.vagrant
 bierner.emojisense
 bierner.markdown-checkbox
-bierner.markdown-mermaid
 bierner.markdown-preview-github-styles
 bpmn-io.vs-code-bpmn-io
 codespaces-contrib.codeswing
@@ -21,7 +20,6 @@ Fraser.live-coder
 golang.go
 Gruntfuggly.todo-tree
 iliazeus.vscode-hexdump
-jock.svg
 johnpapa.vscode-peacock
 kanitw.vega-vscode
 karigari.chat
@@ -64,7 +62,6 @@ rogalmic.bash-debug
 royaction.color-manager
 saurabh.terminal-manager
 Shinotatwu-DS.file-tree-generator
-SimonSiefke.svg-preview
 TabNine.tabnine-vscode
 tht13.html-preview-vscode
 Tino.simple-rest-client
