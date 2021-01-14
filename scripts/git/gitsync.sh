@@ -7,6 +7,7 @@ export Color_Off="\033[0m"
 export IGreen="\033[0;92m"
 export On_Green="\033[42m"
 export backdir=$(pwd)
+export file=./upload.per
 
 if [ "X$1" != "XD" ] && [ "X$1" != "Xd" ] && [ "X$1" != "XU" ] && [ "X$1" != "Xu" ]; then 
   echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
@@ -30,7 +31,9 @@ do
     fi
     if [ "X$1" == "XU" ] ||  [ "X$1" == "Xu" ]; then
       cd $directory
-      ~/upload.sh
+      if test -f "$file"; then
+        ~/upload.sh
+      fi
       cd $backdir
     fi
   fi
