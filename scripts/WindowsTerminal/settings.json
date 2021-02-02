@@ -35,7 +35,7 @@
                 "background" : "#000000",
                 "closeOnExit" : true,
                 "colorScheme" : "Tango Dark",
-                "commandline" : "\"C:\\ProgramData\\chocolatey\\lib\\dosbox-x\\tools\\bin\\x64\\Release\\dosbox-x.exe\" -noconsole",
+                "commandline" : "cmd.exe /c \"C:\\ProgramData\\chocolatey\\lib\\dosbox-x\\tools\\bin\\x64\\Release\\dosbox-x.exe\" -noconsole",
                 "cursorColor" : "#FFFFFF",
                 "cursorShape" : "bar",
                 "fontFace" : "Consolas",
@@ -164,6 +164,22 @@
                 "padding" : "0, 0, 0, 0",
                 "snapOnInput" : true,
                 "startingDirectory" : "%USERPROFILE%"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "fontFace" : "Consolas",
+                "fontSize" : 10,
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+                "hidden": false,
+                "name": "Arch",
+                "fontFace" : "Consolas",
+                "fontSize" : 10,
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
