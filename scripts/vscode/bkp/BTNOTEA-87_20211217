@@ -7,7 +7,6 @@ arturbelico.code-sum-up
 batisteo.vscode-django
 CoenraadS.bracket-pair-colorizer
 CoenraadS.bracket-pair-colorizer-2
-CTC.vscode-tree-extension
 cymonk.sql-formatter
 DavidAnson.vscode-markdownlint
 docsmsft.docs-markdown
@@ -64,7 +63,6 @@ Oracle.oracledevtools
 redhat.vscode-commons
 redhat.vscode-yaml
 Shan.code-settings-sync
-Shinotatwu-DS.file-tree-generator
 spywhere.guides
 streetsidesoftware.code-spell-checker
 TabNine.tabnine-vscode
