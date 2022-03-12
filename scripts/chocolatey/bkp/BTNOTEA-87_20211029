@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM BTNOTEA-87 
-REM Capturado em: 04/01/2022 16:38 
+REM Capturado em: 29/10/2021 13:14 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install 7zip -y 
@@ -17,6 +17,7 @@ choco install docker-cli -y
 choco install dotnetfx -y 
 choco install gimp -y 
 choco install git -y 
+choco install git.install -y 
 choco install graphviz -y 
 choco install grepwin -y 
 choco install KB2919355 -y 
