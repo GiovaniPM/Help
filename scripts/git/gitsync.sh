@@ -13,8 +13,12 @@ export fileD=./download.per
 if [ "X$1" != "XD" ] && [ "X$1" != "Xd" ] && [ "X$1" != "XU" ] && [ "X$1" != "Xu" ]; then 
   echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
   echo -e $IGreen"  Usage: $directory"$Color_Off
-  echo -e $IGreen"    D - Download directories $directory"$Color_Off
-  echo -e $IGreen"    U - Upload directories $directory"$Color_Off
+  echo -e $IGreen"    gitsync D - $On_Green Download directories $directory"$Color_Off
+  echo -e $IGreen"    gitsync U - $On_Green Upload directories   $directory"$Color_Off
+  echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
+  echo -e $IGreen"  Tokens:"$Color_Off
+  echo -e $IGreen"    $fileU   $On_Green(Put this file inside the directory to denie upload)"$Color_Off
+  echo -e $IGreen"    $fileD $On_Green(Put this file inside the directory to denie download)"$Color_Off
   echo -e $IGreen"--------------------------------------------------------------------------------------"$Color_Off
   exit
 fi
