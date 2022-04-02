@@ -30,9 +30,9 @@ RUN mkdir $DOWNLOAD_TEMP && \
     unzip $DOWNLOAD_TEMP/instantclient-basic-linux.zip -d $ORACLE_BASE && \
     unzip $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip -d $ORACLE_BASE
 
-# ---------
-# Libraries
-# ---------
+# --------------------
+# Additional libraries
+# --------------------
 RUN apt-get install libaio1
 
 # ---------------
@@ -50,8 +50,14 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy code
 # ---------
 COPY . .
+COPY ./lib/*.py /usr/local/lib/python3.10
+
+# ----
+# Port
+# ----
+EXPOSE 8080
 
 # -----------
 # Server load
 # -----------
-CMD [ "python", "./dv.py" ]
+CMD [ "python", "./main.py", "0.0.0.0:8080" ]

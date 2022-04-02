@@ -3,14 +3,15 @@
 :Menu
 cls
 ::docker image ls
-docker ps --format "table{{.Names}}\t{{.ID}}\t{{.Image}}\t{{.RunningFor}}\t{{.Status}}"
+docker ps -a --format "table{{.Names}}\t{{.ID}}\t{{.Image}}\t{{.RunningFor}}\t{{.Status}}"
 echo Entre com a IMAGE (deixe branco para sair)
 set /p Nome=
 
 if [%Nome%]==[] goto Sair
 
-title Docker - Shell %Nome%
-docker exec -it %Nome% bash
+title Docker - Logs %Nome%
+docker logs %Nome%
+pause
 set Nome=
 goto Menu
 
