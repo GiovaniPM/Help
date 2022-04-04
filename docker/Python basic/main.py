@@ -17,6 +17,7 @@ import fineasylib
 import oraclelib
 
 app = Flask(__name__)
+app.debug = True
 CORS(app)
 cors = CORS(app, resources={r"/api/*": {"origins": "*","methods":"POST,DELETE,PUT,GET,OPTIONS"}})
 
@@ -42,33 +43,26 @@ def view_config():
     ]
 
     labels = [
-        {'label': 'Test', 'key': 'message'       , 'default': 'None'        },
-        {'label': 'PRD' , 'key': 'db_host'       , 'default': 'localhost'   },
-        {'label': 'PRD' , 'key': 'db_port'       , 'default': '1521'        },
-        {'label': 'PRD' , 'key': 'db_servicename', 'default': 'xe'          },
-        {'label': 'PRD' , 'key': 'db_user'       , 'default': 'C##GIOVANIPM'},
-        {'label': 'PRD' , 'key': 'db_pass'       , 'default': 'Pm11092j'    }
+        {'label': 'Test', 'key': 'message', 'default': 'None'}
     ]
 
     config = fineasylib.INIValues(files,labels)
 
     param1 = 'PRD'
-    param2 = [ 'Descricao' ]
-    param3 = "SELECT imlitm Descricao\
+    param2 = [ 'Codigo', 'Descricao' ]
+    param3 = "SELECT imlitm Codigo, \
+                     imdsc1 Descricao \
                 FROM C##GIOVANIPM.f4101"
     param4 = ''
     
-    print(config)
+    print(param3)
 
     cursor = oraclelib.loadOracleResult(param1,
                                         param2,
                                         param3,
                                         param4)
 
-    print(cursor)
-
-    return jsonify( { 'message': config['message'] } )
-    #return jsonify( { 'message': 'None' } )
+    return jsonify( cursor )
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=os.environ.get('PORT', '8080'))

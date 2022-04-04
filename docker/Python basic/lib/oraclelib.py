@@ -92,8 +92,6 @@ def createConnection(environment):
                             (SERVICE_NAME = %s)\
                         )\
                     )" % (db_host, str(db_port), db_servicename)
-    
-    print(conn_string)
 
     return cx_Oracle.connect(user=db_user, password=db_pass, dsn=conn_string, encoding='UTF-8')
 
