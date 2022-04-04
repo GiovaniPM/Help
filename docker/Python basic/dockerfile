@@ -4,12 +4,12 @@ FROM python:3
 # Setting environment
 # -------------------
 ENV DOWNLOAD_TEMP=/downloads \
+    PATH="$PATH:/opt/oracle/instantclient_19_8" \
     LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/oracle/instantclient_19_8" \
     ORACLE_BASE=/opt/oracle \
-    ORACLE_HOME=/opt/oracle/product/19c/dbhome_1 \ 
+    ORACLE_HOME=/opt/oracle/instantclient_19_8 \ 
     ORACLE_SITE_BASIC="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-sqlplus-linux.x64-19.8.0.0.0dbru.zip" \
     ORACLE_SITE_CLIENT="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-basic-linux.x64-19.8.0.0.0dbru.zip?xd_co_f=fae07a5a-ae5f-4c1a-8ce0-f41ed4a394c5'" \
-    PATH="$PATH:/opt/oracle/instantclient_19_8" \
     ORACLE_DB_HOST="localhost" \
     ORACLE_DB_PORT=1521 \
     ORACLE_SERVICE_NAME="xe" \
@@ -39,7 +39,7 @@ RUN mkdir $DOWNLOAD_TEMP && \
 # --------------------
 # Additional libraries
 # --------------------
-RUN apt-get install libaio1
+RUN apt-get install -y libaio1
 
 # ---------------
 # Setting workdir

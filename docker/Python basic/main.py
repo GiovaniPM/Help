@@ -57,6 +57,8 @@ def view_config():
     param3 = "SELECT imlitm Descricao\
                 FROM C##GIOVANIPM.f4101"
     param4 = ''
+    
+    print(config)
 
     cursor = oraclelib.loadOracleResult(param1,
                                         param2,
