@@ -18,11 +18,11 @@ def createConnection(environment):
     '''
 
     try:
-        db_host = os.environ.get('ORACLE_DB_HOST')
-        db_port = os.environ.get('ORACLE_DB_PORT')
+        db_host        = os.environ.get('ORACLE_DB_HOST'     )
+        db_port        = os.environ.get('ORACLE_DB_PORT'     )
         db_servicename = os.environ.get('ORACLE_SERVICE_NAME')
-        db_user = os.environ.get('ORACLE_DB_USER')
-        db_pass = os.environ.get('ORACLE_DB_PASS')
+        db_user        = os.environ.get('ORACLE_DB_USER'     )
+        db_pass        = os.environ.get('ORACLE_DB_PASS'     )
         if db_host == None:
             raise Exception('The variable ORACLE_DB_HOST does not return anything!')
     except:
@@ -92,6 +92,8 @@ def createConnection(environment):
                             (SERVICE_NAME = %s)\
                         )\
                     )" % (db_host, str(db_port), db_servicename)
+    
+    print(conn_string)
 
     return cx_Oracle.connect(user=db_user, password=db_pass, dsn=conn_string, encoding='UTF-8')
 

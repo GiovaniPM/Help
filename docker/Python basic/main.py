@@ -4,7 +4,7 @@ from flask import Flask, jsonify, abort, request
 from flask_cors import CORS, cross_origin
 from json import dumps
 from requests import post
-from lib.fineasylib import INIValues
+#from lib.fineasylib import INIValues
 
 import datetime
 import time
@@ -13,6 +13,8 @@ import logging
 import math
 import os
 import re
+import fineasylib
+import oraclelib
 
 app = Flask(__name__)
 CORS(app)
@@ -34,17 +36,35 @@ def view_config():
 
     Example:
     """
-    
+
     files = [
         'settings.ini',
     ]
-    
+
     labels = [
-        {'label': 'Test', 'key': 'message', 'default': 'None'}
+        {'label': 'Test', 'key': 'message'       , 'default': 'None'        },
+        {'label': 'PRD' , 'key': 'db_host'       , 'default': 'localhost'   },
+        {'label': 'PRD' , 'key': 'db_port'       , 'default': '1521'        },
+        {'label': 'PRD' , 'key': 'db_servicename', 'default': 'xe'          },
+        {'label': 'PRD' , 'key': 'db_user'       , 'default': 'C##GIOVANIPM'},
+        {'label': 'PRD' , 'key': 'db_pass'       , 'default': 'Pm11092j'    }
     ]
-    
-    config = INIValues(files,labels)
-    
+
+    config = fineasylib.INIValues(files,labels)
+
+    param1 = 'PRD'
+    param2 = [ 'Descricao' ]
+    param3 = "SELECT imlitm Descricao\
+                FROM C##GIOVANIPM.f4101"
+    param4 = ''
+
+    cursor = oraclelib.loadOracleResult(param1,
+                                        param2,
+                                        param3,
+                                        param4)
+
+    print(cursor)
+
     return jsonify( { 'message': config['message'] } )
     #return jsonify( { 'message': 'None' } )
 

@@ -9,7 +9,12 @@ ENV DOWNLOAD_TEMP=/downloads \
     ORACLE_HOME=/opt/oracle/product/19c/dbhome_1 \ 
     ORACLE_SITE_BASIC="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-sqlplus-linux.x64-19.8.0.0.0dbru.zip" \
     ORACLE_SITE_CLIENT="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-basic-linux.x64-19.8.0.0.0dbru.zip?xd_co_f=fae07a5a-ae5f-4c1a-8ce0-f41ed4a394c5'" \
-    PATH="$PATH:/opt/oracle/instantclient_19_8"
+    PATH="$PATH:/opt/oracle/instantclient_19_8" \
+    ORACLE_DB_HOST="localhost" \
+    ORACLE_DB_PORT=1521 \
+    ORACLE_SERVICE_NAME="xe" \
+    ORACLE_DB_USER="C##GIOVANIPM" \
+    ORACLE_DB_PASS="Pm11092j"
 
 # ---------
 # Update OS
@@ -17,7 +22,8 @@ ENV DOWNLOAD_TEMP=/downloads \
 RUN apt-get update && \
     apt-get -y upgrade && \
     apt-get install -y apt-utils && \
-    apt-get install -y sudo
+    apt-get install -y sudo && \
+    apt-get install -y iputils-ping
 
 # ----------------------
 # Oracle Client 19.8.0.0
