@@ -49,13 +49,12 @@ def view_config():
     config = fineasylib.INIValues(files,labels)
 
     param1 = 'PRD'
-    param2 = [ 'Codigo', 'Descricao' ]
+    param2 = [ 'Codigo',
+               'Descricao' ]
     param3 = "SELECT imlitm Codigo, \
                      imdsc1 Descricao \
                 FROM C##GIOVANIPM.f4101"
     param4 = ''
-    
-    print(param3)
 
     cursor = oraclelib.loadOracleResult(param1,
                                         param2,

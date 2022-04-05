@@ -18,68 +18,43 @@ def createConnection(environment):
     '''
 
     try:
-        db_host        = os.environ.get('ORACLE_DB_HOST'     )
-        db_port        = os.environ.get('ORACLE_DB_PORT'     )
-        db_servicename = os.environ.get('ORACLE_SERVICE_NAME')
-        db_user        = os.environ.get('ORACLE_DB_USER'     )
-        db_pass        = os.environ.get('ORACLE_DB_PASS'     )
-        if db_host == None:
-            raise Exception('The variable ORACLE_DB_HOST does not return anything!')
+        ora_host        = os.environ.get('ORACLE_DB_HOST'     )
+        ora_port        = os.environ.get('ORACLE_DB_PORT'     )
+        ora_servicename = os.environ.get('ORACLE_SERVICE_NAME')
+        ora_user        = os.environ.get('ORACLE_DB_USER'     )
+        ora_pass        = os.environ.get('ORACLE_DB_PASS'     )
     except:
-        config = configparser.ConfigParser()
-        config.read('connection.ini')
-        if environment == 'PRD':
-            try:
-                db_host = config['Oracle_PRD']['db_host']
-                db_port = config['Oracle_PRD']['db_port']
-                db_servicename = config['Oracle_PRD']['db_servicename']
-                db_user = config['Oracle_PRD']['db_user']
-                db_pass = config['Oracle_PRD']['db_pass']
-            except:
-                db_host = '10.100.97.196'
-                db_port = 1521
-                db_servicename = 'CRITICO'
-                db_user = 'mariomatos'
-                db_pass = 'Topazio21'
-        elif environment == 'HLG':
-            try:
-                db_host = config['Oracle_HLG']['db_host']
-                db_port = config['Oracle_HLG']['db_port']
-                db_servicename = config['Oracle_HLG']['db_servicename']
-                db_user = config['Oracle_HLG']['db_user']
-                db_pass = config['Oracle_HLG']['db_pass']
-            except:
-                db_host = '10.100.98.74'
-                db_port = 1521
-                db_servicename = 'CCRITICO'
-                db_user = 'baas'
-                db_pass = 'baas'
-        elif environment == 'HLG_79':
-            try:
-                db_host = config['Oracle_HLG_79']['db_host']
-                db_port = config['Oracle_HLG_79']['db_port']
-                db_servicename = config['Oracle_HLG_79']['db_servicename']
-                db_user = config['Oracle_HLG_79']['db_user']
-                db_pass = config['Oracle_HLG_79']['db_pass']
-            except:
-                db_host = '10.100.98.74'
-                db_port = 1521
-                db_servicename = 'CCRITICO'
-                db_user = 'baas'
-                db_pass = 'baas'
-        else:
-            try:
-                db_host = config['Oracle_HLG_53']['db_host']
-                db_port = config['Oracle_HLG_53']['db_port']
-                db_servicename = config['Oracle_HLG_53']['db_servicename']
-                db_user = config['Oracle_HLG_53']['db_user']
-                db_pass = config['Oracle_HLG_53']['db_pass']
-            except:
-                db_host = '10.100.98.90'
-                db_port = 1521
-                db_servicename = 'LBANKING'
-                db_user = 'TOPAZIO'
-                db_pass = '3UR0P435'
+        ora_host        = None
+        ora_port        = None
+        ora_servicename = None
+        ora_user        = None
+        ora_pass        = None
+
+    try:
+        files = [
+            'oracle.ini'
+        ]
+        labels = [
+            {'label': environment, 'key': 'db_host'        , 'default': ora_host       },
+            {'label': environment, 'key': 'db_port'        , 'default': ora_port       },
+            {'label': environment, 'key': 'db_servicename' , 'default': ora_servicename},
+            {'label': environment, 'key': 'db_user'        , 'default': ora_user       },
+            {'label': environment, 'key': 'db_pass'        , 'default': ora_pass       }
+        ]
+
+        config = fineasylib.INIValues(files,labels)
+
+        db_host        = config['db_host'        ]
+        db_port        = config['db_port'        ]
+        db_servicename = config['db_servicename' ]
+        db_user        = config['db_user'        ]
+        db_pass        = config['db_pass'        ]
+    except:
+        db_host        = ora_host       
+        db_port        = ora_port       
+        db_servicename = ora_servicename
+        db_user        = ora_user       
+        db_pass        = ora_pass       
 
     conn_string = "\
                     (DESCRIPTION =\
