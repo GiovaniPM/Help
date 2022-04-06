@@ -1,3 +1,5 @@
+docker rm --force pythonserver
+docker rmi pythonbasic
 docker build -t pythonbasic .
 docker run -d --name pythonserver -p 5000:8080 pythonbasic
 docker network connect myNetwork pythonserver

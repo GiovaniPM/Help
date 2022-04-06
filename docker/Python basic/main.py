@@ -14,6 +14,7 @@ import os
 import re
 import fineasylib
 import oraclelib
+import mongolib
 
 app = Flask(__name__)
 app.debug = True
@@ -144,5 +145,47 @@ def view_f0006():
 
     return jsonify( { 'tabela': 'f0006', 'dados': cursor } )
 
+@app.route('/pessoa', methods=['GET'])
+def view_pessoa():
+    """
+    Description:
+
+    Parameter:
+
+    Return:
+
+    Usage:
+
+    Example:
+    """
+
+    files = [
+        'settings.ini',
+    ]
+
+    labels = [
+        {'label': 'Test', 'key': 'message', 'default': 'None'}
+    ]
+
+    config = fineasylib.INIValues(files,labels)
+
+    param1 = 'PRD'
+    param2 = 'Teste'
+    param3 = 'Pessoa'
+    param4 = {}
+    param5 = []
+    param6 = {}
+
+    cursor = mongolib.loadMongoResult(param1,
+                                      param2,
+                                      param3,
+                                      param4,
+                                      param5,
+                                      param6)
+    
+    dados = list(cursor)
+    
+    return jsonify( { 'dados': json.dumps(dados, default=fineasylib.convertJSON, sort_keys=True), 'collection': param3 } )
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=os.environ.get('PORT', '8080'))
+    app.run(host='0.0.0.0', debug=True, port=os.environ.get('PORT', '8080'))
+    #app.run_server(host='0.0.0.0', debug=True, port=8080)

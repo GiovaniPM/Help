@@ -157,13 +157,16 @@ def loadMongoResult(env, database, collection, match, projection, addfield={}):
     """
     client = db_connection(env)
     album  = get_collection(client, database, collection)
-
+    
     pipeline = []
 
     if addfield != {}:
         pipeline.append({'$addFields': addfield})
 
-    pipeline.append({'$match': match})
+    if match != {}:
+        pipeline.append({'$match': match})
+    else:
+        pipeline.append({'$match': {'_id': {'$exists': 'true'}}})
 
     if projection != []:
         project = {}

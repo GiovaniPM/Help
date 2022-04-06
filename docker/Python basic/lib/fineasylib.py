@@ -122,6 +122,10 @@ class txtColors:
     BLK    = '\033[5m'
     REV    = '\033[7m'
 
+class DefaultEncoder(json.JSONEncoder):
+        def default(self, o):
+            return o.__dict__
+
 def converteDeltaMinutos(timeDelta):
     '''
        Convert a timeDelta in minutes.
