@@ -14,7 +14,8 @@ ENV DOWNLOAD_TEMP=/downloads \
     ORACLE_DB_PORT=1521 \
     ORACLE_SERVICE_NAME="xe" \
     ORACLE_DB_USER="C##GIOVANIPM" \
-    ORACLE_DB_PASS="Pm11092j"
+    ORACLE_DB_PASS="Pm11092j" \
+    MONGO_DB_HOST="db_host=mongodb://root:example@MongoDB:27017"
 
 # ---------
 # Update OS

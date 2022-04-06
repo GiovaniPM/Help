@@ -53,28 +53,29 @@ def db_connection(environment):
            environment = Kind of environment ('PRD', 'HLG')
 
        Ex.: client = db_connection('PRD')
-    '''
+    ''' 
+    try:
+        mon_string = eval(os.environ.get('MONGO_DB_HOST'))
+    except:
+        mon_string = None
 
     try:
-        string = eval(os.environ.get('DB_MONGO_HOST'))
+        files = [
+            'mongo.ini'
+        ]
+        labels = [
+            {'label': environment, 'key': 'db_host', 'default': mon_string}
+        ]
+
+        config = fineasylib.INIValues(files,labels)
+
+        string = config['db_host']
+        string = string.replace("%20", "%20")
     except:
-        config = configparser.ConfigParser()
-        config.read('connection.ini')
-        if environment == 'PRD':
-            try:
-                string = config['MongoDB_PRD']['str_conn']
-                string = string.replace("%20", "%20")
-            except:
-                string = 'mongodb://db_app_view:LkG72iB2W0@10.100.97.81:27017/baas?authSource=admin&replicaSet=rs0&readPreference=primary&appname=MongoDB%20Compass&ssl=false'
-        else:
-            try:
-                string = config['MongoDB_HLG']['str_conn']
-                string = string.replace("%20", "%20")
-            except:
-                string = 'mongodb://db_app_admin:XTZqTjv1rF@10.100.98.130:27017/admin?authSource=admin&replicaSet=rs0&readPreference=primaryPreferred&appname=MongoDB%20Compass&ssl=false'
+        string = mon_string
 
     client = pymongo.MongoClient(string)
-    
+
     return client
 
 def get_collection(client, db_name, collection_name, debug=False):
