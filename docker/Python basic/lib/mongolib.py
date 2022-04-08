@@ -175,10 +175,7 @@ def loadMongoResult(env, database, collection, match, projection, addfield={}):
 
         pipeline.append({'$project': project})
 
-    if pipeline != []:
-        cursor = album.aggregate(pipeline, collation={ "locale": "en", "strength": 1 })
-    else:
-        cursor = album.find_all()
+    cursor = album.aggregate(pipeline, collation={ "locale": "en", "strength": 1 })
 
     client.close()
 
