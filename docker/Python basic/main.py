@@ -184,8 +184,10 @@ def view_pessoa():
                                       param6)
     
     dados = list(cursor)
+    dados = json.dumps(dados, default=fineasylib.convertJSON, sort_keys=True)
+    dados = json.loads(dados)
     
-    return jsonify( { 'dados': json.dumps(dados, default=fineasylib.convertJSON, sort_keys=True), 'collection': param3 } )
+    return jsonify( { 'dados': dados, 'collection': param3 } )
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=os.environ.get('PORT', '8080'))
     #app.run_server(host='0.0.0.0', debug=True, port=8080)

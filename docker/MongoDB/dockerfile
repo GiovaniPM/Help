@@ -1,0 +1,6 @@
+FROM mongo
+
+# ----
+# Port
+# ----
+EXPOSE 27017

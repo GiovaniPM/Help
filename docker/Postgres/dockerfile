@@ -1,0 +1,6 @@
+FROM postgres
+
+# ----
+# Port
+# ----
+EXPOSE 5432

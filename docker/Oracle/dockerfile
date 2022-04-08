@@ -1,0 +1,8 @@
+FROM oracle18.4.0
+
+# ----
+# Port
+# ----
+EXPOSE 5500
+EXPOSE 1541
+EXPOSE 1521
