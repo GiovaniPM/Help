@@ -1,0 +1,6 @@
+FROM mariadb
+
+# ----
+# Port
+# ----
+EXPOSE 3306

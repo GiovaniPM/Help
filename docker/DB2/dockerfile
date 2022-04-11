@@ -1,0 +1,10 @@
+FROM ibmcom/db2
+
+# ----
+# Port
+# ----
+EXPOSE 22
+EXPOSE 50000
+EXPOSE 55000
+EXPOSE 60006
+EXPOSE 60007
