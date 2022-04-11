@@ -11,3 +11,5 @@ CONNECT "/databases/teste.FDB" user 'SYSDBA' password 'masterkey';
 
 CREATE TABLE NOMES (ID INTEGER NOT NULL PRIMARY KEY, DESCRICAO VARCHAR(100));
 ```
+
+setting 'SYSDBA' password to '3b728c882d9f53722011'

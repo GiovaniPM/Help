@@ -1,0 +1,6 @@
+FROM camunda/camunda-bpm-platform:latest
+
+# ----
+# Port
+# ----
+EXPOSE 8080
