@@ -1,0 +1,6 @@
+FROM redis
+
+# ----
+# Port
+# ----
+EXPOSE 6379
