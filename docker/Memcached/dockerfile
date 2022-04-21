@@ -1,0 +1,6 @@
+FROM memcached
+
+# ----
+# Port
+# ----
+EXPOSE 11211
