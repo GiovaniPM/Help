@@ -1,0 +1,6 @@
+FROM mcr.microsoft.com/mssql/server:2019-latest
+
+# ----
+# Port
+# ----
+EXPOSE 1433
