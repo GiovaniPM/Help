@@ -1,0 +1,7 @@
+FROM docker.elastic.co/elasticsearch/elasticsearch:8.1.0
+
+# ----
+# Port
+# ----
+EXPOSE 9200 \
+       9300
