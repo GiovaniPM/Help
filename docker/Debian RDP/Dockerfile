@@ -34,7 +34,8 @@ ENV DOWNLOAD_TEMP=/downloads \
     RDP_INI_FILE=/etc/xrdp/xrdp.ini \
     RDP_START_SCRIPT=/root/startdgfx.sh \
     RDP_START_WINDOW=/etc/xrdp/startwm.sh \
-    XFCE4_SESSION=~/.xsession
+    #XFCE4_SESSION=~/.xsession
+    XFCE4_SESSION=/root/.xsession
 
 # ------
 # Update
@@ -90,11 +91,21 @@ RUN mkdir $DOWNLOAD_TEMP && \
     unzip $DOWNLOAD_TEMP/instantclient-basic-linux.zip -d $ORACLE_BASE && \
     unzip $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip -d $ORACLE_BASE
 
+# --------------------
+# Additional libraries
+# --------------------
+RUN apt-get install -y libaio1
+
 # ----------------------
 # Prepare CodeTyphon 7.2
 # ----------------------
 COPY CodeTyphonIns.zip $DOWNLOAD_TEMP
 RUN chmod 777 $DOWNLOAD_TEMP/CodeTyphonIns.zip
+
+# ----------------
+# Put some aliases
+# ----------------
+RUN echo 'alias ls="ls -lias --color"' >> /root/.bashrc
 
 # -----
 # Ports
