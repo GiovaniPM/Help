@@ -46,11 +46,21 @@ WORKDIR /usr/src/app
 # -----------------------
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
+RUN rm -f requirements.txt
 
 # ---------
 # Copy code
 # ---------
-COPY . .
+COPY *.py .
+
+# ------------
+# Copy setting
+# ------------
+COPY *.ini .
+
+# --------
+# Copy lib
+# --------
 COPY ./lib/*.py /usr/local/lib/python3.10
 
 # ----
