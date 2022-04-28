@@ -24,12 +24,14 @@ RUN apt-get update && \
 # Oracle Client 19.8.0.0
 # ----------------------
 RUN mkdir $DOWNLOAD_TEMP && \
+    mkdir $ORACLE_BASE && \
     curl --progress-bar $ORACLE_SITE_CLIENT -o $DOWNLOAD_TEMP/instantclient-basic-linux.zip && \
     curl --progress-bar $ORACLE_SITE_BASIC -o $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip && \
-    mkdir $ORACLE_BASE && \
     cd $DOWNLOAD_TEMP && \
     unzip $DOWNLOAD_TEMP/instantclient-basic-linux.zip -d $ORACLE_BASE && \
-    unzip $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip -d $ORACLE_BASE
+    unzip $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip -d $ORACLE_BASE && \
+    rm -f $DOWNLOAD_TEMP/instantclient-basic-linux.zip && \
+    rm -f $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip
 
 # --------------------
 # Additional libraries
