@@ -47,8 +47,8 @@ WORKDIR /usr/src/app
 # Install python packages
 # -----------------------
 COPY requirements.txt ./
-RUN pip install --no-cache-dir -r requirements.txt
-RUN rm -f requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt && \
+    rm -f requirements.txt
 
 # ---------
 # Copy code
