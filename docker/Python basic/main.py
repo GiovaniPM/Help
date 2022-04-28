@@ -182,5 +182,49 @@ def view_pessoa():
     
     return jsonify( { 'dados': dados, 'collection': param3 } )
 
+@app.route('/dados', methods=['GET'])
+def view_dados():
+    """
+    Description:
+
+    Parameter:
+
+    Return:
+
+    Usage:
+
+    Example:
+    """
+
+    files = [
+        'settings.ini',
+    ]
+
+    labels = [
+        {'label': 'Test', 'key': 'message', 'default': 'None'}
+    ]
+
+    config = fineasylib.INIValues(files,labels)
+
+    param1 = 'PRD'
+    param2 = 'Teste'
+    param3 = 'dados'
+    param4 = {}
+    param5 = []
+    param6 = {}
+
+    cursor = mongolib.loadMongoResult(param1,
+                                      param2,
+                                      param3,
+                                      param4,
+                                      param5,
+                                      param6)
+    
+    dados = list(cursor)
+    dados = json.dumps(dados, default=fineasylib.convertJSON, sort_keys=True)
+    dados = json.loads(dados)
+    
+    return jsonify( { 'dados': dados, 'collection': param3 } )
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=os.environ.get('PORT', '8080'))
