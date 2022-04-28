@@ -138,7 +138,7 @@ def view_f0006():
 
     return jsonify( { 'tabela': 'f0006', 'dados': cursor } )
 
-@app.route('/pessoa', methods=['GET'])
+@app.route('/pessoas', methods=['GET'])
 def view_pessoa():
     """
     Description:
