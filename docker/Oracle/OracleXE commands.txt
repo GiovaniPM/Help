@@ -1,0 +1,12 @@
+Username: SYS
+Password: oracle
+
+https://localhost:5500/em
+
+Quando exportar dados pelo SQLDeveloper setar:
+- Nome da Tabela, substituir EXPORT_TABLE pelo nome da tabela;
+- Marcar incluir commit a cada 1000 Linhas;
+- Codificação, usar Default;
+- Depois de exportar substituir a sequencia "PRODDTAXE." por "";
+
+Linhas com insert maiores que 3000 caracteres somente via SQLDeveloper, pois o sqlplus não suporta (Erro SP2-0341)
