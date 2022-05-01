@@ -1,5 +1,12 @@
 FROM python:3
 
+# ------
+# Labels
+# ------
+LABEL version="1.0.0" \
+      description="Container with python Django-Flask-Dash" \
+      maintainer="Giovani Perotto Mesquita <giovanipm@gmail.com>"          
+
 # -------------------
 # Setting environment
 # -------------------
