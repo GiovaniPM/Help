@@ -5,7 +5,7 @@ FROM python:3
 # ------
 LABEL version="1.0.0" \
       description="Container with python Django-Flask-Dash" \
-      maintainer="Giovani Perotto Mesquita <giovanipm@gmail.com>"          
+      maintainer="Giovani Perotto Mesquita <giovanipm@gmail.com>"
 
 # -------------------
 # Setting environment
@@ -32,9 +32,9 @@ RUN apt-get update && \
 # ----------------------
 RUN mkdir $DOWNLOAD_TEMP && \
     mkdir $ORACLE_BASE && \
+    cd $DOWNLOAD_TEMP && \
     curl --progress-bar $ORACLE_SITE_CLIENT -o $DOWNLOAD_TEMP/instantclient-basic-linux.zip && \
     curl --progress-bar $ORACLE_SITE_BASIC -o $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip && \
-    cd $DOWNLOAD_TEMP && \
     unzip $DOWNLOAD_TEMP/instantclient-basic-linux.zip -d $ORACLE_BASE && \
     unzip $DOWNLOAD_TEMP/instantclient-sqlplus-linux.zip -d $ORACLE_BASE && \
     rm -f $DOWNLOAD_TEMP/instantclient-basic-linux.zip && \
