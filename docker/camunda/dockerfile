@@ -4,3 +4,5 @@ FROM camunda/camunda-bpm-platform:latest
 # Port
 # ----
 EXPOSE 8080
+EXPOSE 8000
+EXPOSE 9404

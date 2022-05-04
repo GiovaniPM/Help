@@ -8,7 +8,7 @@ set /p Nome=
 
 if [%Nome%]==[] goto Sair
 
-title Docker - Logs %Nome%
+title Docker - History %Nome%
 cls
 docker history %Nome% --format "{{.CreatedBy}}" --no-trunc
 pause

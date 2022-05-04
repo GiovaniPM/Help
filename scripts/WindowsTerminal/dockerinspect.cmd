@@ -8,7 +8,7 @@ set /p Nome=
 
 if [%Nome%]==[] goto Sair
 
-title Docker - Shell %Nome%
+title Docker - Inspect %Nome%
 cls
 docker image inspect %Nome%
 pause
