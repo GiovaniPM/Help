@@ -2,7 +2,6 @@
 
 :Menu
 cls
-::docker image ls
 docker ps -a --format "table{{.Names}}\t{{.ID}}\t{{.Image}}\t{{.RunningFor}}\t{{.Status}}"
 echo Entre com a IMAGE NAME (deixe branco para sair)
 set /p Nome=
@@ -10,6 +9,7 @@ set /p Nome=
 if [%Nome%]==[] goto Sair
 
 title Docker - Logs %Nome%
+cls
 docker logs %Nome%
 pause
 set Nome=
