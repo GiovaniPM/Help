@@ -10,9 +10,11 @@ done
 
 i=1
 for t in ${MEU_ARRAY[*]}; do
-    echo $i' '$t
+    echo $i' - '$t
     let i=i+1
 done
+
+echo ${MEU_ARRAY[1]}
 
 spaces='1'$(printf '%0.1s' '.'{1..10})
 echo $spaces
