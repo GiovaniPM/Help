@@ -1,3 +1,15 @@
+collection Pessoa
+```
+[
+    <<gd.loop|100|,>>
+    {
+        "name": "<<gd.name.findName>>"
+    }
+    <</gd.loop>>
+]
+```
+
+collection dados
 ```
 [
     <<gd.loop|100|,>>
