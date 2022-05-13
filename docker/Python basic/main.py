@@ -169,18 +169,21 @@ def view_pessoa():
     param5 = []
     param6 = {}
 
-    cursor = mongolib.loadMongoResult(param1,
-                                      param2,
-                                      param3,
-                                      param4,
-                                      param5,
-                                      param6)
-    
-    dados = list(cursor)
-    dados = json.dumps(dados, default=fineasylib.convertJSON, sort_keys=True)
-    dados = json.loads(dados)
-    
-    return jsonify( { 'dados': dados, 'collection': param3 } )
+    try:
+        cursor = mongolib.loadMongoResult(param1,
+                                          param2,
+                                          param3,
+                                          param4,
+                                          param5,
+                                          param6)
+        
+        dados = list(cursor)
+        dados = json.dumps(dados, default=fineasylib.convertJSON, sort_keys=True)
+        dados = json.loads(dados)
+        
+        return jsonify( { 'dados': dados, 'collection': param3 } )
+    except:
+        return jsonify( { 'param1': param1, 'param2': param2, 'param3': param3 } )
 
 @app.route('/dados', methods=['GET'])
 def view_dados():
@@ -213,18 +216,21 @@ def view_dados():
     param5 = []
     param6 = {}
 
-    cursor = mongolib.loadMongoResult(param1,
-                                      param2,
-                                      param3,
-                                      param4,
-                                      param5,
-                                      param6)
-    
-    dados = list(cursor)
-    dados = json.dumps(dados, default=fineasylib.convertJSON, sort_keys=True)
-    dados = json.loads(dados)
-    
-    return jsonify( { 'dados': dados, 'collection': param3 } )
+    try:
+        cursor = mongolib.loadMongoResult(param1,
+                                          param2,
+                                          param3,
+                                          param4,
+                                          param5,
+                                          param6)
+        
+        dados = list(cursor)
+        dados = json.dumps(dados, default=fineasylib.convertJSON, sort_keys=True)
+        dados = json.loads(dados)
+        
+        return jsonify( { 'dados': dados, 'collection': param3 } )
+    except:
+        return jsonify( { 'param1': param1, 'param2': param2, 'param3': param3 } )
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=os.environ.get('PORT', '8080'))
