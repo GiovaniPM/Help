@@ -7,12 +7,10 @@ LABEL version="1.0.0" \
       description="Container with python Django-Flask-Dash" \
       maintainer="Giovani Perotto Mesquita <giovanipm@gmail.com>"
 
-# -------------------
-# Setting environment
-# -------------------
-ENV DOWNLOAD_TEMP="/downloads" \
-    PATH="$PATH:/opt/oracle/instantclient_19_8" \
-    LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/oracle/instantclient_19_8" \
+# -----------------
+# Setting variables
+# -----------------
+ARG DOWNLOAD_TEMP="/downloads" \
     ORACLE_BASE="/opt/oracle" \
     ORACLE_HOME="/opt/oracle/instantclient_19_8" \ 
     ORACLE_SITE_BASIC="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-sqlplus-linux.x64-19.8.0.0.0dbru.zip" \
@@ -55,7 +53,8 @@ WORKDIR /usr/src/app
 # -----------------------
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt && \
-    rm -f requirements.txt
+    rm -f requirements.txt && \
+    /usr/local/bin/python -m pip install --upgrade pip
 
 # ---------
 # Copy code
@@ -78,9 +77,11 @@ COPY ./lib/*.py /usr/local/lib/python3.10
 EXPOSE 8080
 
 # -------------------
-# Setting connections
+# Setting environment
 # -------------------
-ENV ORACLE_DB_HOST="oraclexe" \
+ENV PATH="$PATH:/opt/oracle/instantclient_19_8" \
+    LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/oracle/instantclient_19_8" \
+    ORACLE_DB_HOST="oraclexe" \
     ORACLE_DB_PORT=1521 \
     ORACLE_SERVICE_NAME="xe" \
     ORACLE_DB_USER="C##GIOVANIPM" \
