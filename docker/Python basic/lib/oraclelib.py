@@ -35,11 +35,11 @@ def createConnection(environment):
             'oracle.ini'
         ]
         labels = [
-            {'label': environment, 'key': 'db_host'        , 'default': ora_host       },
-            {'label': environment, 'key': 'db_port'        , 'default': ora_port       },
-            {'label': environment, 'key': 'db_servicename' , 'default': ora_servicename},
-            {'label': environment, 'key': 'db_user'        , 'default': ora_user       },
-            {'label': environment, 'key': 'db_pass'        , 'default': ora_pass       }
+            {'label': environment, 'key': 'db_host'       , 'default': ora_host       },
+            {'label': environment, 'key': 'db_port'       , 'default': ora_port       },
+            {'label': environment, 'key': 'db_servicename', 'default': ora_servicename},
+            {'label': environment, 'key': 'db_user'       , 'default': ora_user       },
+            {'label': environment, 'key': 'db_pass'       , 'default': ora_pass       }
         ]
 
         config = fineasylib.INIValues(files,labels)
