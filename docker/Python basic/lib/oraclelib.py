@@ -18,11 +18,11 @@ def createConnection(environment):
     '''
 
     try:
-        ora_host        = os.environ.get('ORACLE_DB_HOST'     )
-        ora_port        = os.environ.get('ORACLE_DB_PORT'     )
-        ora_servicename = os.environ.get('ORACLE_SERVICE_NAME')
-        ora_user        = os.environ.get('ORACLE_DB_USER'     )
-        ora_pass        = os.environ.get('ORACLE_DB_PASS'     )
+        ora_host        = os.environ.get('ORACLE_DB_HOST'        )
+        ora_port        = os.environ.get('ORACLE_DB_PORT'        )
+        ora_servicename = os.environ.get('ORACLE_DB_SERVICE_NAME')
+        ora_user        = os.environ.get('ORACLE_DB_USER'        )
+        ora_pass        = os.environ.get('ORACLE_DB_PASS'        )
     except:
         ora_host        = None
         ora_port        = None

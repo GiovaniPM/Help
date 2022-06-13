@@ -12,7 +12,6 @@ LABEL version="1.0.0" \
 # -----------------
 ARG DOWNLOAD_TEMP="/downloads" \
     ORACLE_BASE="/opt/oracle" \
-    ORACLE_HOME="/opt/oracle/instantclient_19_8" \ 
     ORACLE_SITE_BASIC="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-sqlplus-linux.x64-19.8.0.0.0dbru.zip" \
     ORACLE_SITE_CLIENT="https://download.oracle.com/otn_software/linux/instantclient/19800/instantclient-basic-linux.x64-19.8.0.0.0dbru.zip?xd_co_f=fae07a5a-ae5f-4c1a-8ce0-f41ed4a394c5'"
 
@@ -81,12 +80,13 @@ EXPOSE 8080
 # -------------------
 ENV PATH="$PATH:/opt/oracle/instantclient_19_8" \
     LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/oracle/instantclient_19_8" \
+    MONGO_DB_HOST="mongodb://MongoDB:27017/Teste" \
     ORACLE_DB_HOST="oraclexe" \
     ORACLE_DB_PORT=1521 \
-    ORACLE_SERVICE_NAME="xe" \
+    ORACLE_DB_SERVICE_NAME="xe" \
     ORACLE_DB_USER="C##GIOVANIPM" \
     ORACLE_DB_PASS="Pm11092j" \
-    MONGO_DB_HOST="mongodb://MongoDB:27017/Teste"
+    ORACLE_HOME="/opt/oracle/instantclient_19_8"
 
 # -----------
 # Server load
