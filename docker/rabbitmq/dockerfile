@@ -1,0 +1,6 @@
+FROM rabbitmq:latest
+
+# ----
+# Port
+# ----
+EXPOSE 15671
