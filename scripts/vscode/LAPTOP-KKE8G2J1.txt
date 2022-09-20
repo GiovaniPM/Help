@@ -1,0 +1,16 @@
+2gua.rainbow-brackets
+batisteo.vscode-django
+bierner.markdown-preview-github-styles
+donjayamanne.python-environment-manager
+donjayamanne.python-extension-pack
+KevinRose.vsc-python-indent
+ms-azuretools.vscode-docker
+MS-CEINTL.vscode-language-pack-pt-BR
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+njpwerner.autodocstring
+VisualStudioExptTeam.vscodeintellicode
+wholroyd.jinja
