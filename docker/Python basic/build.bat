@@ -7,6 +7,7 @@ set NetworkName="myNetwork"
 set ContainerName="pythonserver"
 set ImageName="pythonbasic"
 set PortList=-p 5000:8080
+set Volumes=
 
 docker network inspect %NetworkName%> nul
 IF "%ERRORLEVEL%" == "0" (goto CreatedNET)
@@ -22,5 +23,6 @@ goto CreateIMG
 docker rm --force %ContainerName%
 docker rmi %ImageName%
 docker build -t %ImageName% .
-docker run -d --name %ContainerName% %PortList% -e BUILDED=%DateRun%%TimeRun% %ImageName%
+docker run -d --name %ContainerName% %PortList% -e BUILDED=%DateRun%%TimeRun% %Volumes% %ImageName%
 docker network connect %NetworkName% %ContainerName%
+docker network inspect %NetworkName%
