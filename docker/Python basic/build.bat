@@ -5,5 +5,6 @@ set ContainerName="pythonserver"
 set ImageName="pythonbasic"
 set PortList=-p 5000:8080
 set Volumes=
+set Variaveis=
 
 ..\runbuild
