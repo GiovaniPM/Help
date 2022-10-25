@@ -1,0 +1,12 @@
+version: "1.0"
+services:
+  homebasic:
+    build: .
+    container_name: "home"
+    ports:
+      - "8081:80"
+    networks:
+      - myNetwork
+networks:
+  myNetwork:
+    driver: bridge
