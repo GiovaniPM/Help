@@ -63,6 +63,7 @@ ms-kubernetes-tools.vscode-kubernetes-tools
 ms-mssql.data-workspace-vscode
 ms-mssql.mssql
 ms-mssql.sql-database-projects-vscode
+ms-python.isort
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode-remote.remote-containers
@@ -89,6 +90,7 @@ pnp.polacode
 RandomFractalsInc.vscode-vega-viewer
 rangav.vscode-thunder-client
 redhat.vscode-extension-bpmn-editor
+redhat.vscode-extension-dashbuilder-editor
 redhat.vscode-extension-dmn-editor
 redhat.vscode-extension-serverless-workflow-editor
 redhat.vscode-xml
