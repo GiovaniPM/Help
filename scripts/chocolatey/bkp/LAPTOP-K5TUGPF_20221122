@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM LAPTOP-K5TUGPF 
-REM Capturado em: 06/12/2022 15:45 
+REM Capturado em: 22/11/2022 22:24 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install 7zip -y 
@@ -73,6 +73,7 @@ choco install SQLite -y
 choco install stellarium -y 
 choco install sumatrapdf -y 
 choco install sumatrapdf.install -y 
+choco install swiftforwindows -y 
 choco install sysinternals -y 
 choco install tartool -y 
 choco install tcpipmanager -y 
