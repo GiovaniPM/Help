@@ -1,0 +1,3 @@
+FROM linuxserver/bookstack
+
+EXPOSE 80
