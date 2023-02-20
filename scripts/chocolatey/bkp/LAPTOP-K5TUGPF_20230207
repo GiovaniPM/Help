@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM LAPTOP-K5TUGPF 
-REM Capturado em: 10/02/2023 11:26 
+REM Capturado em: 07/02/2023 08:52 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install 2 -y 
@@ -91,6 +91,7 @@ choco install tcpipmanager -y
 choco install tcpipmanager.install -y 
 choco install tinycc -y 
 choco install treesizefree -y 
+choco install vagrant -y 
 choco install vcredist140 -y 
 choco install vcredist2010 -y 
 choco install vcredist2013 -y 
@@ -106,3 +107,6 @@ choco install wincdemu -y
 choco install winmerge -y 
 choco install winscp.portable -y 
 choco install xmind -y 
+choco install Did -y 
+choco install Features? -y 
+choco install https://chocolatey.org/compare -y 
