@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM LAPTOP-K5TUGPF 
-REM Capturado em: 11/04/2023 19:36 
+REM Capturado em: 11/04/2023 19:35 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install Chocolatey -y 
 choco install 7zip -y 
@@ -115,6 +115,3 @@ choco install wincdemu -y
 choco install winmerge -y 
 choco install winscp.portable -y 
 choco install xmind -y 
-choco install Did -y 
-choco install Features? -y 
-choco install https://chocolatey.org/compare -y 
