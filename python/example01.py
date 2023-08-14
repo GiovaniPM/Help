@@ -22,7 +22,7 @@ if __name__ == "__main__":
 	s2 = Student(124, "Akash", "IMT")
 
 	# create two new car objects
-	c1 = Car()
+	c1 = Car("Mazda","","2006")
 	c2 = Car("Honda", "Amaze", "2011")
 
 	# convert to JSON format
