@@ -37,18 +37,20 @@ def geraPrimos(number: int):
     
     x = 8
     while x <= number:
-        i = len(vector)
+        met = x /2
         y = 1
         primo = True
-        while y < (i / 2):
+        val = vector[y]
+        while val < met:
             if x % vector[y] == 0:
                 primo = False
                 break
             y += 1
+            val = vector[y]
         if primo:
             vector.append(x)
         x += 1
-    return vector
+    return vector, len(vector)
 
 def geraPrimosT(number: int):
     def task(valor):
@@ -80,25 +82,25 @@ def geraPrimosT(number: int):
 
     return vector
 
-start_1 = time.time()
-primos = []
+#start_1 = time.time()
+#primos = []
+#for x in range(1,100000):
+#    Eh, iteracoes, valor = ehPrimo(x)
+#    if Eh:
+#        primos.append(x)
+#print(primos)
+#end_1 = time.time()
 
-for x in range(1,100000):
-    Eh, iteracoes, valor = ehPrimo(x)
-    if Eh:
-        primos.append(x)
+for n in range(1,10000):
+    start_2 = time.time()
+    v, qtd = geraPrimos(n)
+    end_2 = time.time()
+    print(n, qtd, (end_2 - start_2))
 
-print(primos)
-end_1 = time.time()
+#start_3 = time.time()
+#print(geraPrimosT(100000))
+#end_3 = time.time()
 
-start_2 = time.time()
-print(geraPrimos(100000))
-end_2 = time.time()
-
-start_3 = time.time()
-print(geraPrimosT(100000))
-end_3 = time.time()
-
-print("um", end_1 - start_1)
-print("dois", end_2 - start_2)
-print("tres", end_3 - start_3)
+#print("um", end_1 - start_1)
+#print("dois", end_2 - start_2)
+#print("tres", end_3 - start_3)
