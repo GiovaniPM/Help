@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM DESKTOP-PG18CKU 
-REM Capturado em: 20/09/2023 14:28 
+REM Capturado em: 20/09/2023 14:38 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install 7zip -y 
 choco install 7zip.install -y 
