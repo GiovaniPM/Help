@@ -14,7 +14,8 @@ set filenamebkp=%COMPUTERNAME%_%timetoday%
 del .\bkp\%filenamebkp% /q
 xcopy .\%filename% .\bkp\ /y
 ren .\bkp\%filename% %filenamebkp%
-choco list -l > temp.txt
+REM choco list -l > temp.txt
+choco list | busybox tail -n +9 | busybox head -n -1 > temp.txt
 echo @echo off > %filename%
 echo REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= >> %filename%
 echo REM %COMPUTERNAME% >> %filename%
