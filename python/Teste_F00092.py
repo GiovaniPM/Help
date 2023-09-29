@@ -77,11 +77,11 @@ On_IPurple="\033[10;95m"  # Purple
 On_ICyan="\033[0;106m"    # Cyan
 On_IWhite="\033[0;107m"   # White
 
-db_host = 'ora12cdev-scan.rbs.com.br'
+db_host = 'prd-jdepnsc.nsccorp.net'
 db_port = 1544
-db_servicename = 'jdehlg.rbs.com.br'
-db_user = 'USER_JDE_QUERY'
-db_pass = 'djangov1v3'
+db_servicename = 'jdepnsc'
+db_user = 'giovani_mesquita'
+db_pass = 'wJBP475N'
 
 conn_string = "\
                (DESCRIPTION =\
