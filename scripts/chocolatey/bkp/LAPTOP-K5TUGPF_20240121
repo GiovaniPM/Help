@@ -1,7 +1,7 @@
 @echo off 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 REM LAPTOP-K5TUGPF 
-REM Capturado em: 21/01/2024 20:43 
+REM Capturado em: 21/01/2024 20:42 
 REM =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
 choco install audacity -y 
 choco install autohotkey.install -y 
