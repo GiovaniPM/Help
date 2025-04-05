@@ -123,3 +123,5 @@ choco install winscp.portable -y
 choco install wireshark -y 
 choco install xmind -y 
 choco install zoom -y 
+choco install Did -y 
+choco install Features? -y 
