@@ -32,22 +32,26 @@
     ],
     "profiles": 
     {
-        "defaults": {},
+        "defaults": 
+        {
+            "elevate": true
+        },
         "list": 
         [
             {
+                "colorScheme": "GPM 02",
                 "font": 
                 {
                     "face": "Consolas",
-                    "size": 10
+                    "size": 11
                 },
                 "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
                 "hidden": false,
                 "name": "Arch",
+                "opacity": 60,
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "closeOnExit": "graceful",
                 "colorScheme": "Tango Dark",
                 "font": 
                 {
@@ -57,39 +61,26 @@
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
                 "source": "Windows.Terminal.Azure",
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "adjustIndistinguishableColors": "always",
-                "background": "#000000",
-                "closeOnExit": "graceful",
-                "colorScheme": "Color Scheme 15",
+                "colorScheme": "GPM 03",
                 "commandline": "cmd /k choco upgrade all -y",
-                "cursorColor": "#FFFFFF",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "Consolas",
                     "size": 11
                 },
-                "guid": "{00000000-0000-0000-0000-000000012347}",
+                "guid": "{00000000-0000-0000-0000-000000012325}",
                 "historySize": 9001,
                 "icon": "%USERPROFILE%\\projetos\\Help\\scripts\\WindowsTerminal\\chocolatey.ico",
                 "name": "Chocolatey",
                 "opacity": 60,
-                "padding": "0, 0, 0, 0",
-                "scrollbarState": "always",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%\\Projetos",
-                "useAcrylic": true
+                "startingDirectory": "%USERPROFILE%\\Projetos"
             },
             {
-                "closeOnExit": "graceful",
-                "colorScheme": "Campbell Powershell",
-                "experimental.retroTerminalEffect": false,
+                "colorScheme": "GPM 01",
                 "font": 
                 {
                     "face": "Consolas",
@@ -99,8 +90,6 @@
                 "hidden": false,
                 "name": "Debian",
                 "opacity": 60,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
                 "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "%USERPROFILE%"
             },
@@ -125,11 +114,8 @@
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "closeOnExit": "graceful",
                 "colorScheme": "Tango Dark",
                 "commandline": "cmd.exe /c %USERPROFILE%\\projetos\\Help\\scripts\\WindowsTerminal\\dockerlog.cmd",
-                "cursorColor": "#FFFFFF",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "Consolas",
@@ -139,16 +125,11 @@
                 "historySize": 9001,
                 "icon": "%USERPROFILE%\\projetos\\Help\\scripts\\WindowsTerminal\\ddvp.ico",
                 "name": "Docker - Logs",
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "closeOnExit": "graceful",
                 "colorScheme": "Tango Dark",
                 "commandline": "cmd.exe /c %USERPROFILE%\\projetos\\Help\\scripts\\WindowsTerminal\\dockerexec.cmd",
-                "cursorColor": "#FFFFFF",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "Consolas",
@@ -158,17 +139,11 @@
                 "historySize": 9001,
                 "icon": "%USERPROFILE%\\projetos\\Help\\scripts\\WindowsTerminal\\ddvp.ico",
                 "name": "Docker - Shell",
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "background": "#000000",
-                "closeOnExit": "graceful",
                 "colorScheme": "Tango Dark",
                 "commandline": "cmd.exe /c \"C:\\DOSBox-X\\dosbox-x.exe\" -noconsole",
-                "cursorColor": "#FFFFFF",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "Consolas",
@@ -178,17 +153,11 @@
                 "historySize": 9001,
                 "icon": "%USERPROFILE%\\projetos\\Help\\scripts\\WindowsTerminal\\dosbox.ico",
                 "name": "DosBox",
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
                 "startingDirectory": "C:\\DOSBox-X"
             },
             {
-                "background": "#000000",
-                "closeOnExit": "graceful",
                 "colorScheme": "Tango Dark",
                 "commandline": "\"%PROGRAMFILES%\\git\\bin\\bash.exe\" --login -i -l",
-                "cursorColor": "#FFFFFF",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "Consolas",
@@ -198,12 +167,9 @@
                 "historySize": 9001,
                 "icon": "%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Git Bash",
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%\\Projetos"
             },
             {
-                "closeOnExit": "graceful",
                 "colorScheme": "Tango Light",
                 "font": 
                 {
@@ -214,8 +180,6 @@
                 "hidden": false,
                 "name": "Prompt de comando",
                 "opacity": 60,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%"
             },
             {
@@ -236,6 +200,7 @@
                 "source": "Git"
             },
             {
+                "colorScheme": "GPM 04",
                 "font": 
                 {
                     "size": 11
@@ -247,7 +212,6 @@
                 "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
             },
             {
-                "closeOnExit": "graceful",
                 "colorScheme": "Tango Dark",
                 "font": 
                 {
@@ -257,8 +221,6 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%"
             }
         ]
@@ -267,7 +229,30 @@
     "schemes": 
     [
         {
-            "background": "#0A2E02",
+            "background": "#01347D",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "GPM 01",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#1B7D05",
             "black": "#0C0C0C",
             "blue": "#0037DA",
             "brightBlack": "#767676",
@@ -282,13 +267,60 @@
             "cyan": "#3A96DD",
             "foreground": "#FFFFFF",
             "green": "#13A10E",
-            "name": "Color Scheme 15",
+            "name": "GPM 02",
             "purple": "#881798",
             "red": "#C50F1F",
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#918C05",
+            "black": "#000000",
+            "blue": "#204DBE",
+            "brightBlack": "#808080",
+            "brightBlue": "#2F6AFF",
+            "brightCyan": "#00E1F0",
+            "brightGreen": "#58EA51",
+            "brightPurple": "#FC74FF",
+            "brightRed": "#FF3E30",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFC944",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#00A7B2",
+            "foreground": "#BEBEBE",
+            "green": "#3FAE3A",
+            "name": "GPM 03",
+            "purple": "#BB54BE",
+            "red": "#BE2C21",
+            "selectionBackground": "#92A4FD",
+            "white": "#BEBEBE",
+            "yellow": "#BE9A4A"
+        },
+        {
+            "background": "#7A1A5C",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "GPM 04",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
         }
     ],
+    "theme": "dark",
     "themes": []
 }
