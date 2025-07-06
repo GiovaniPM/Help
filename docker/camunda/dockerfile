@@ -1,4 +1,5 @@
-FROM camunda/camunda-bpm-platform:latest
+#FROM camunda/camunda-bpm-platform:latest
+FROM camunda/camunda:latest
 
 # ----
 # Port
