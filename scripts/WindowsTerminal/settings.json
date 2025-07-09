@@ -12,12 +12,12 @@
             "keys": "ctrl+c"
         },
         {
-            "id": "Terminal.FindText",
-            "keys": "ctrl+shift+f"
-        },
-        {
             "id": "Terminal.PasteFromClipboard",
             "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.FindText",
+            "keys": "ctrl+shift+f"
         },
         {
             "id": "Terminal.DuplicatePaneAuto",
@@ -171,6 +171,19 @@
                 "startingDirectory": "%USERPROFILE%\\Projetos"
             },
             {
+                "colorScheme": "GPM 06",
+                "font": 
+                {
+                    "face": "Consolas",
+                    "size": 11
+                },
+                "guid": "{07975c00-d74c-5278-ba14-6aaf273abf6f}",
+                "hidden": false,
+                "name": "OracleLinux_9_5",
+                "opacity": 60,
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
                 "colorScheme": "Tango Light",
                 "font": 
                 {
@@ -182,23 +195,6 @@
                 "name": "Prompt de comando",
                 "opacity": 60,
                 "startingDirectory": "%USERPROFILE%"
-            },
-            {
-                "font": 
-                {
-                    "face": "Consolas",
-                    "size": 10
-                },
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": false,
-                "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": false,
-                "name": "Git Bash",
-                "source": "Git"
             },
             {
                 "colorScheme": "GPM 04",
@@ -343,6 +339,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#A2734C"
+        },
+        {
+            "background": "#B06822",
+            "black": "#000000",
+            "blue": "#0000AA",
+            "brightBlack": "#555555",
+            "brightBlue": "#5555FF",
+            "brightCyan": "#55FFFF",
+            "brightGreen": "#55FF55",
+            "brightPurple": "#FF55FF",
+            "brightRed": "#FF5555",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF55",
+            "cursorColor": "#00AA00",
+            "cyan": "#00AAAA",
+            "foreground": "#AAAAAA",
+            "green": "#00AA00",
+            "name": "GPM 06",
+            "purple": "#AA00AA",
+            "red": "#AA0000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#AAAAAA",
+            "yellow": "#C47E00"
         }
     ],
     "theme": "dark",
