@@ -1,0 +1,19 @@
+version: "2.2"
+services:
+  iris:
+    container_name: my-iris
+    init: true
+    image: intersystems/iris-community:latest-cd
+     # If your CPU has >20 cores, limit InterSystems IRIS CE to 20 with
+     # cpuset: "0-19"
+     # cpus: "20"
+    volumes:
+      - /home/user1:/durable
+     # Change /home/user1 to your directory
+    environment:
+     - ISC_DATA_DIRECTORY=/durable
+    ports:
+     - 9092:52773
+     - 9091:1972
+    command: --password-file /durable/password/password.txt
+       
