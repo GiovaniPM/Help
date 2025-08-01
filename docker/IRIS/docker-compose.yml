@@ -15,5 +15,5 @@ services:
     ports:
      - 9092:52773
      - 9091:1972
-    command: --password-file /durable/password/password.txt
+    #command: --password-file /durable/password/password.txt
        
