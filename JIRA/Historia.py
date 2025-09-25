@@ -1,6 +1,8 @@
 import requests
 import json
+import jiralib
 
+'''
 url = "https://tkebrasil.atlassian.net/rest/api/3/issue"
 
 payload = json.dumps({
@@ -49,5 +51,22 @@ headers = {
 }
 
 response = requests.request("POST", url, headers=headers, data=payload)
+'''
 
-print(response.text)
+response = jiralib.create_story("TRE",
+                                "História",
+                                "Estrutura de armazenamento no SAP",
+                                "Estrutura de armazenamento no SAP",
+                                "557058:004709f9-0a88-4979-a875-f58ca3985cf7",
+                                "712020:8364b9cf-88a2-4399-9f86-fff7bed77ce2",
+                                "TRE-867",
+                                "0.5")  
+
+dados = response.json()
+
+valor_da_key = dados.get("key")
+
+if valor_da_key == None:
+  print(response.text)
+
+print(valor_da_key)

@@ -1,6 +1,8 @@
 import requests
 import json
+import jiralib 
 
+'''
 url = "https://tkebrasil.atlassian.net/rest/api/3/issue"
 
 payload = json.dumps({
@@ -49,5 +51,22 @@ headers = {
 }
 
 response = requests.request("POST", url, headers=headers, data=payload)
+'''
 
-print(response.text)
+response = jiralib.create_task("TRE",
+                               "Implementação",
+                               "Teste de API",
+                               "Descrição da sub-tarefa de implementação.",
+                               "557058:004709f9-0a88-4979-a875-f58ca3985cf7",
+                               "557058:004709f9-0a88-4979-a875-f58ca3985cf7",
+                               "TRE-850",
+                               "3h")
+
+dados = response.json()
+
+valor_da_key = dados.get("key")
+
+if valor_da_key == None:
+  print(response.text)
+
+print(valor_da_key)

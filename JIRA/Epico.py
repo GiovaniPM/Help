@@ -1,6 +1,8 @@
 import requests
 import json
+import jiralib
 
+'''
 url = "https://tkebrasil.atlassian.net/rest/api/3/issue"
 
 payload = json.dumps({
@@ -48,5 +50,24 @@ headers = {
 }
 
 response = requests.request("POST", url, headers=headers, data=payload)
+'''
 
-print(response.text)
+response = jiralib.create_epic("TRE",
+                               "Teste Giovani 002",
+                               "Teste Giovani 002",
+                               "2025-09-23",
+                               "Teste Giovani 002",
+                               "ensemble@thyssenkruppelevadores.com.br",
+                               "0",
+                               "INTERFACE",
+                               "ALTERAÇÃO"
+                               )
+
+dados = response.json()
+
+valor_da_key = dados.get("key")
+
+if valor_da_key == None:
+  print(response.text)
+
+print(valor_da_key)
