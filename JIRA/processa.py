@@ -1,12 +1,18 @@
-import pandas as pd
-import numpy as np
+import argparse
 import jiralib
 import json
+import numpy as np
+import pandas as pd
+
 from openpyxl import load_workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 
 # --- CONFIGURAÇÕES ---
-ARQUIVO = "Planilha Sprint 236.xlsx"  # Nome do arquivo Excel
+parser = argparse.ArgumentParser(description="Nome da Planilha")
+parser.add_argument('--nome', type=str, required=True, help='Nome da Planilha')
+args = parser.parse_args()
+
+ARQUIVO = args.nome  # Nome do arquivo Excel
 ABA_PLANILHA = "Planilha"
 ABA_PARAMETROS = "Parâmetros"
 
