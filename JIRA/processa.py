@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import jiralib
+import json
 from openpyxl import load_workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 
@@ -8,6 +9,10 @@ from openpyxl.utils.dataframe import dataframe_to_rows
 ARQUIVO = "Planilha Sprint 236.xlsx"  # Nome do arquivo Excel
 ABA_PLANILHA = "Planilha"
 ABA_PARAMETROS = "Parâmetros"
+
+with open('setup.json', 'r', encoding='utf-8') as f:
+    json_str = json.load(f)
+    objeto = json.loads(json_str)
 
 # --- 1. LEITURA DAS ABAS ---
 df_planilha = pd.read_excel(ARQUIVO, sheet_name=ABA_PLANILHA, engine="openpyxl")
