@@ -13,6 +13,8 @@ ABA_PARAMETROS = "Parâmetros"
 with open('setup.json', 'r', encoding='utf-8') as f:
     json_str = json.load(f)
     objeto = json.loads(json_str)
+    url = objeto['url']
+    headers = objeto['headers']
 
 # --- 1. LEITURA DAS ABAS ---
 df_planilha = pd.read_excel(ARQUIVO, sheet_name=ABA_PLANILHA, engine="openpyxl")
