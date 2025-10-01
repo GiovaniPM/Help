@@ -88,7 +88,7 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
       "customfield_10022": original_estimate
     }
   }
-'''
+  '''
 
   payloadObj = {
     "fields": {
@@ -173,7 +173,7 @@ def create_task(project, name, summary, description, assignee_id, reporter_id, p
       }
     }
   }
-'''
+  '''
 
   payloadObj = {
     "fields": {
