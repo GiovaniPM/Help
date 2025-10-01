@@ -8,6 +8,7 @@ from openpyxl import load_workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 
 # --- CONFIGURAÇÕES ---
+# Parametros do script
 parser = argparse.ArgumentParser(description="Nome da Planilha")
 parser.add_argument('--nome', type=str, required=True, help='Nome da Planilha')
 args = parser.parse_args()
@@ -16,6 +17,7 @@ ARQUIVO = args.nome  # Nome do arquivo Excel
 ABA_PLANILHA = "Planilha"
 ABA_PARAMETROS = "Parâmetros"
 
+# Carrega setup para conexão
 with open('setup.json', 'r', encoding='utf-8') as f:
     json_str = json.load(f)
     objeto = json.loads(json_str)
