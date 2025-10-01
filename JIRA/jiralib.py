@@ -1,6 +1,7 @@
 import requests
 import json
 
+'''
 url = "https://tkebrasil.atlassian.net/rest/api/3/issue"
 
 headers = {
@@ -9,6 +10,7 @@ headers = {
   'Authorization': 'Basic Z2lvdmFuaS5tZXNxdWl0YUB0a2VsZXZhdG9yLmNvbTpBVEFUVDN4RmZHRjB4eldURlhnSUdYWjdFZjJyY2JCR3RKc0kyQzFMT1RRWERWRGhtcWlobE1mMjducFJ3WU5Za1dtY0x6dTM4T3lOU2Ixd1ZHVW1MQnBKRTB1cjhiTkx5UllZNDlJaXQxSmIzdFhqYmVqQWExVzZlbXNWdnhjaW5XOWVXOEQwTVE2eWx5eDJhbUtYQW5xaExUSzBUTDg2UEUzX0tCMFdpU1FLcl9WOXZmYUQ2VHM9MDk4QUIzQkE=',
   'Cookie': 'atlassian.xsrf.token=d161a0b3b93d7f39534e69925933f115d7c07a09_lin'
 }
+'''
 
 def create_epic(project, summary, description, due_date, epic_name, reporter_email, ticket, system, module):
 
