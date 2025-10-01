@@ -48,9 +48,11 @@ colunas_desejadas = ["Projeto",
                      "Estória",
                      "Tarefa",
                      "Etapa",
-                     "Horas"]
+                     "Horas",
+                     "Pontos"]
 df = df_planilha[colunas_desejadas].copy()
 
+'''
 # Garante que 'Horas' é numérico
 df["Horas"] = pd.to_numeric(df["Horas"], errors="coerce")
 
@@ -74,6 +76,7 @@ def calcular_pontos(horas):
         return 13
 
 df["Pontos"] = df["Horas"].apply(calcular_pontos)
+'''
 
 # Cria a coluna 'Nome' no formato solicitado
 df["Request"] = df["Request"].fillna("")
@@ -144,7 +147,7 @@ for row in df.to_dict(orient='records'):
                                        row["UUID Recurso"],
                                        row["UUID Recurso"],
                                        last_story_key,
-                                       str(row["Horas"]) + "h"
+                                       row["Horas"] + "h"
                                        )
         # Extrai a chave da Tarefa criada
         valor_da_key = response.json().get("key")
