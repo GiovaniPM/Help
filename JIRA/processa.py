@@ -55,14 +55,14 @@ colunas_desejadas = ["Projeto",
 df = df_planilha[colunas_desejadas].copy()
 
 # Cria as colunas customizadas no formato solicitado
-df["Request"]      = df["Request"].fillna("")
-df["Tipo"]         = df["Tipo"].fillna("")
-df["Épico"]        = df["Épico"].fillna("")
-df["Estória"]      = df["Estória"].fillna("")
-df["TicketE"]      = df["TicketE"].fillna("0")
-df["TicketS"]      = df["TicketS"].fillna("0")
-df["TicketT"]      = df["TicketT"].fillna("0")
-df["Nome Épico"]   = "[" + df["Request"].astype(str) + "] - " + df["Épico"].astype(str)
+df["Request"] = df["Request"].fillna("")
+df["Tipo"] = df["Tipo"].fillna("")
+df["Épico"] = df["Épico"].fillna("")
+df["Estória"] = df["Estória"].fillna("")
+df["TicketE"] = df["TicketE"].fillna("0")
+df["TicketS"] = df["TicketS"].fillna("0")
+df["TicketT"] = df["TicketT"].fillna("0")
+df["Nome Épico"] = "[" + df["Request"].astype(str) + "] - " + df["Épico"].astype(str)
 df["Nome Estória"] = "[" + df["Tipo"].astype(str) + "] - " + df["Estória"].astype(str)
 
 # --- 4. INTEGRAÇÃO COM JIRA ---
@@ -94,6 +94,7 @@ for row in df.to_dict(orient='records'):
             print(row["Nome Épico"])
             print(response.json())
         else:
+            print(row["Nome Épico"])
             valor_da_key = row["TicketE"]
         
         last_epic_key = valor_da_key
@@ -119,6 +120,7 @@ for row in df.to_dict(orient='records'):
             print("    ", row["Nome Estória"])
             print("    ", response.json())
         else:
+            print("    ", row["Nome Estória"])
             valor_da_key = row["TicketS"]
         
         last_story_key = valor_da_key
