@@ -1,8 +1,8 @@
 # TODO List
 
 - [x] Criar estrutura básica
-- [ ] Conversão de hora esta multiplicando por 10. Ex.: 0,5 h -> 5h
-- [ ] Na criação da estória tem que ter o total de pontos das tarefas
+- [x] Conversão de hora esta multiplicando por 10. Ex.: 0,5 h -> 5h
+- [x] Na criação da estória tem que ter o total de pontos das tarefas
 - [x] Passar o nome da planilha como parâmetro do script
 - [x] Criar arquivo de configuração
 - [ ] Se a coluna correspondente a ticket já estiver preenchida, considerar que o mesmo já existe e usar o mesmo como link para o filho
