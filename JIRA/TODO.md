@@ -4,3 +4,5 @@
 - [ ] Conversão de hora esta multiplicando por 10. Ex.: 0,5 h -> 5h
 - [ ] Na criação da estória tem que ter o total de pontos das tarefas
 - [ ] Passar o nome da planilha como parâmetro do script
+- [ ] Criar arquivo de configuração
+- [ ] Se a coluna correspondente a ticket já estiver preenchida, considerar que o mesmo já existe e usar o mesmo como link para o filho
