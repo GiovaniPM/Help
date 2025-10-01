@@ -79,7 +79,7 @@ Ticket_Estoria = []
 Ticket_Task = []
 
 for row in df.to_dict(orient='records'):
-
+    
     if row["Épico"] not in Epicos_criados:
         response = jiralib.create_epic(row["Projeto"],
                                        row["Nome Épico"],
@@ -138,7 +138,7 @@ for row in df.to_dict(orient='records'):
         print("        ", response.json())
         
         Tarefas_criadas.append(row["Tarefa"])
-        
+    
     Ticket_Epico.append(last_epic_key)
     Ticket_Estoria.append(last_story_key)
     Ticket_Task.append(valor_da_key)
@@ -152,7 +152,7 @@ try:
     # Seleciona a aba 'Planilha'
     ws = wb[ABA_PLANILHA]
     
-    # Adiciona a nova coluna 'Pontos' ao DataFrame original, preservando as outras colunas
+    # Adiciona as novas colunas ao DataFrame original, preservando as outras colunas
     df_planilha["Pontos"] = df["Pontos"]
     df_planilha["TicketE"] = Ticket_Epico
     df_planilha["TicketS"] = Ticket_Estoria
