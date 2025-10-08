@@ -127,20 +127,24 @@ for row in df.to_dict(orient='records'):
         
         Estorias_criadas.append(StoryKey)
     
-    response = jiralib.create_task(row["Projeto"],
-                                   row["Etapa"],
-                                   row["Tarefa"],
-                                   row["Tarefa"],
-                                   row["UUID Recurso"],
-                                   row["UUID Recurso"],
-                                   last_story_key,
-                                   str(row["Horas"]) + "h"
-                                   )
-    # Extrai a chave da Tarefa criada
-    valor_da_key = response.json().get("key")
-    
-    print("        ", row["Tarefa"])
-    print("        ", response.json())
+    if row["TicketT"] == "0":
+        response = jiralib.create_task(row["Projeto"],
+                                       row["Etapa"],
+                                       row["Tarefa"],
+                                       row["Tarefa"],
+                                       row["UUID Recurso"],
+                                       row["UUID Recurso"],
+                                       last_story_key,
+                                       str(row["Horas"]) + "h"
+                                       )
+        # Extrai a chave da Tarefa criada
+        valor_da_key = response.json().get("key")
+        
+        print("        ", row["Tarefa"])
+        print("        ", response.json())
+    else:
+        print("        ", row["Tarefa"])
+        valor_da_key = row["TicketT"]
     
     Ticket_Epico.append(last_epic_key)
     Ticket_Estoria.append(last_story_key)
