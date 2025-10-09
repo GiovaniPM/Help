@@ -58,6 +58,7 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
       "issuetype": {
         "name": name
       },
+      "customfield_10022": original_estimate,
       "description": {
         "type": "doc",
         "version": 1,
@@ -83,9 +84,6 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
       "parent": {
         "key": parent_key
       }
-    },
-    "customfields": {
-      "customfield_10022": original_estimate
     }
   }
   '''
@@ -98,6 +96,7 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
       "issuetype": {
         "name": name
       },
+      "customfield_10022": original_estimate,
       "description": {
         "type": "doc",
         "version": 1,
@@ -121,9 +120,6 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
         "key": parent_key
       }
     },
-    "customfields": {
-      "customfield_10022": original_estimate
-    }
   }
 
   payload = json.dumps(payloadObj)
