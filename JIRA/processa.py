@@ -158,7 +158,6 @@ try:
     ws = wb[ABA_PLANILHA]
     
     # Adiciona as novas colunas ao DataFrame original, preservando as outras colunas
-    df_planilha["Pontos"] = df["Pontos"]
     df_planilha["TicketE"] = Ticket_Epico
     df_planilha["TicketS"] = Ticket_Estoria
     df_planilha["TicketT"] = Ticket_Task
