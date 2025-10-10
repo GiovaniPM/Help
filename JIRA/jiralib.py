@@ -3,6 +3,7 @@ import json
 
 def create_epic(project, summary, description, due_date, epic_name, reporter_email, ticket, system, module):
 
+  '''
   payloadObj = {
     "fields": {
       "project": {
@@ -40,7 +41,24 @@ def create_epic(project, summary, description, due_date, epic_name, reporter_ema
       "customfield_10101": reporter_email
     }
   }
+  '''
 
+  payloadObj = {
+    "fields": {}
+  }
+
+  payloadObj["fields"]["customfield_10101"] = reporter_email
+  payloadObj["fields"]["customfield_10102"] = {"value": system}
+  payloadObj["fields"]["customfield_10103"] = {"value": module}
+  payloadObj["fields"]["customfield_10104"] = due_date
+  payloadObj["fields"]["customfield_10105"] = 0
+  payloadObj["fields"]["customfield_10107"] = {"type": "doc","version": 1,"content": [{"type": "paragraph","content": [{"type": "text","text": description}]}]}
+  payloadObj["fields"]["customfield_10018"] = epic_name
+  payloadObj["fields"]["customfield_10300"] = ticket
+  payloadObj["fields"]["issuetype"] = {"name": "Epic"}
+  payloadObj["fields"]["project"] = {"key": project}
+  payloadObj["fields"]["summary"] = summary
+  
   payload = json.dumps(payloadObj)
 
   response = requests.request("POST", url, headers=headers, data=payload)
