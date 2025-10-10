@@ -152,7 +152,8 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
   payloadObj["fields"]["issuetype"] = {"name": name}
   payloadObj["fields"]["parent"] = {"key": parent_key}
   payloadObj["fields"]["project"] = {"key": project}
-  payloadObj["fields"]["reporter"] = {"id": reporter_id}
+  if project not in ['TRE']:
+    payloadObj["fields"]["reporter"] = {"id": reporter_id}
   payloadObj["fields"]["summary"] = summary  
   
   payload = json.dumps(payloadObj)
@@ -251,7 +252,8 @@ def create_task(project, name, summary, description, assignee_id, reporter_id, p
   payloadObj["fields"]["issuetype"] = {"name": name}
   payloadObj["fields"]["parent"] = {"key": parent_key}
   payloadObj["fields"]["project"] = {"key": project}
-  payloadObj["fields"]["reporter"] = {"id": reporter_id}
+  if project not in ['TRE']:
+    payloadObj["fields"]["reporter"] = {"id": reporter_id}
   payloadObj["fields"]["summary"] = summary
   payloadObj["fields"]["timetracking"] = {"originalEstimate": original_estimate}
   
