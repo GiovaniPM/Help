@@ -71,8 +71,10 @@ last_epic_key = None
 last_story_key = None
 
 for row in df.to_dict(orient='records'):
+
+    EpicKey = "[" + row["Request"] + "] - " + row["Épico"]
     
-    if row["Épico"] not in Epicos_criados:
+    if EpicKey not in Epicos_criados:
         if row["TicketE"] == "0":
             response = jiralib.create_epic(row["Projeto"],
                                            row["Nome Épico"],
@@ -95,7 +97,7 @@ for row in df.to_dict(orient='records'):
         
         last_epic_key = valor_da_key
         
-        Epicos_criados.append(row["Épico"])
+        Epicos_criados.append(EpicKey)
     
     StoryKey = "[" + row["Task"] + "] - " + row["Estória"]
     
