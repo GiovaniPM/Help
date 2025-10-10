@@ -8,3 +8,4 @@
 - [x] Se a coluna correspondente a ticket já estiver preenchida, considerar que o mesmo já existe e usar o mesmo como link para o filho
 - [x] Por que o campo "Story Points" esta ficando com 0?
 - [x] Criar diferenciação de campos por projeto
+- [ ] Só escrever sobre colunas dos tickets
