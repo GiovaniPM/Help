@@ -17,20 +17,16 @@ ARQUIVO = args.nome  # Nome do arquivo Excel
 ABA_PLANILHA = "Planilha"
 ABA_PARAMETROS = "Parâmetros"
 
-# Carrega setup para conexão
-with open('setup.json', 'r', encoding='utf-8') as f:
-    objeto = json.load(f)
-    jiralib.url = objeto['url']
-    jiralib.headers = objeto['headers']
-
 # --- 1. LEITURA DAS ABAS ---
 df_planilha = pd.read_excel(ARQUIVO, sheet_name=ABA_PLANILHA, engine="openpyxl")
 df_parametros = pd.read_excel(ARQUIVO, sheet_name=ABA_PARAMETROS, engine="openpyxl")
 
 # --- 2. EXTRAÇÃO DA COLUNA 'API Token' ---
-api_tokens = []
-if "API Token" in df_parametros.columns:
-    api_tokens = df_parametros["API Token"].dropna().astype(str).tolist()
+# Carrega setup para conexão
+with open('setup.json', 'r', encoding='utf-8') as f:
+    objeto = json.load(f)
+    jiralib.url = objeto['url']
+    jiralib.headers = objeto['headers']
 
 # --- 3. EXTRAÇÃO E CRIAÇÃO DAS COLUNAS SOLICITADAS ---
 # Seleciona as colunas necessárias
