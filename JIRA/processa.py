@@ -55,11 +55,12 @@ df["Request"] = df["Request"].fillna("")
 df["Tipo"] = df["Tipo"].fillna("")
 df["Épico"] = df["Épico"].fillna("")
 df["Estória"] = df["Estória"].fillna("")
+df["Task"] = df["Task"].fillna("")
 df["TicketE"] = df["TicketE"].fillna("0")
 df["TicketS"] = df["TicketS"].fillna("0")
 df["TicketT"] = df["TicketT"].fillna("0")
 df["Nome Épico"] = "[" + df["Request"].astype(str) + "] - " + df["Épico"].astype(str)
-df["Nome Estória"] = "[" + df["Tipo"].astype(str) + "] - " + df["Estória"].astype(str)
+df["Nome Estória"] = "[" + df["Tipo"].astype(str) + "] - " + "[" + df["Task"].astype(str) + "] - " + df["Estória"].astype(str)
 
 # --- 4. INTEGRAÇÃO COM JIRA ---
 Epicos_criados = []
@@ -82,7 +83,7 @@ for row in df.to_dict(orient='records'):
                                            row["Data"],
                                            row["Nome Épico"],
                                            row["Usuário Projeto"],
-                                           row["Task"],
+                                           row["Request"],
                                            row["Módulo"],
                                            row["Tipo"]
                                            )
@@ -163,12 +164,15 @@ try:
     df_planilha["TicketT"] = Ticket_Task
     
     # Limpa o conteúdo existente na aba
-    ws.delete_rows(1, ws.max_row)
+    #ws.delete_rows(1, ws.max_row)
     
     # Reescreve o DataFrame atualizado na aba
     for r_idx, row in enumerate(dataframe_to_rows(df_planilha, index=False, header=True), 1):
+        if r_idx == 1:
+            Labels = row
         for c_idx, value in enumerate(row, 1):
-            ws.cell(row=r_idx, column=c_idx, value=value)
+            if Labels[c_idx-1] in ["TicketE", "TicketS", "TicketT"]:
+                ws.cell(row=r_idx, column=c_idx, value=value)
 
     # Salva o arquivo Excel
     wb.save(ARQUIVO)
