@@ -1,0 +1,161 @@
+C:\Users\giova\Projetos\Help\JIRA>python processa.py --nome "Planilha Sprint 236.xlsx"
+C:\Python314\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+[REQ0349359] - Alternativas para ZINTERFACELOTE2
+{'id': '151376', 'key': 'ENS-8139', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151376'}
+     [ALTERAÇÃO] - Estrutura de armazenamento no SAP
+     {'errorMessages': ['There was an error parsing JSON. Check that your request body is valid.']}
+         Análise
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Desenvolvimento
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Testes
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Deploy
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+C:\Python314\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+
+Erro ao salvar a planilha: [Errno 13] Permission denied: 'Planilha Sprint 236.xlsx'
+
+C:\Users\giova\Projetos\Help\JIRA>python processa.py --nome "Planilha Sprint 236.xlsx"
+C:\Python314\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+[REQ0349359] - Alternativas para ZINTERFACELOTE2
+{'id': '151381', 'key': 'ENS-8140', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151381'}
+     [ALTERAÇÃO] - Estrutura de armazenamento no SAP
+     {'errorMessages': ['There was an error parsing JSON. Check that your request body is valid.']}
+         Análise
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Desenvolvimento
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Testes
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Deploy
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+C:\Python314\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+
+Colunas salvas com sucesso na planilha.
+
+C:\Users\giova\Projetos\Help\JIRA>python processa.py --nome "Planilha Sprint 236.xlsx"
+[REQ0349359] - Alternativas para ZINTERFACELOTE2
+     [ALTERAÇÃO] - Estrutura de armazenamento no SAP
+     {'errorMessages': ['There was an error parsing JSON. Check that your request body is valid.']}
+         Análise
+         {'errorMessages': ['There was an error parsing JSON. Check that your request body is valid.']}
+         Desenvolvimento
+         {'errorMessages': ['There was an error parsing JSON. Check that your request body is valid.']}
+         Testes
+         {'errorMessages': ['There was an error parsing JSON. Check that your request body is valid.']}
+         Deploy
+         {'errorMessages': ['There was an error parsing JSON. Check that your request body is valid.']}
+
+Erro ao salvar a planilha: [Errno 13] Permission denied: 'Planilha Sprint 236.xlsx'
+
+C:\Users\giova\Projetos\Help\JIRA>python processa.py --nome "Planilha Sprint 236.xlsx"
+[REQ0349359] - Alternativas para ZINTERFACELOTE2
+{'id': '151386', 'key': 'TRE-1292', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151386'}
+     [ALTERAÇÃO] - Estrutura de armazenamento no SAP
+     {'errorMessages': ['There was an error parsing JSON. Check that your request body is valid.']}
+         Análise
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Desenvolvimento
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Testes
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Deploy
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+
+Colunas salvas com sucesso na planilha.
+
+C:\Users\giova\Projetos\Help\JIRA>python processa.py --nome "Planilha Sprint 236.xlsx"
+[REQ0349359] - Alternativas para ZINTERFACELOTE2
+{"fields": {"assignee": {"id": "712020:8364b9cf-88a2-4399-9f86-fff7bed77ce2"}, "customfield_10022": NaN, "description": {"type": "doc", "version": 1, "content": [{"type": "paragraph", "content": [{"type": "text", "text": "[ALTERA\u00c7\u00c3O] - Estrutura de armazenamento no SAP"}]}]}, "issuetype": {"name": "Hist\u00f3ria"}, "parent": {"key": "TRE-1292"}, "project": {"key": "TRE"}, "summary": "[ALTERA\u00c7\u00c3O] - Estrutura de armazenamento no SAP"}}
+     [ALTERAÇÃO] - Estrutura de armazenamento no SAP
+     {'errorMessages': ['There was an error parsing JSON. Check that your request body is valid.']}
+         Análise
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Desenvolvimento
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Testes
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+         Deploy
+         {'errorMessages': [], 'errors': {'issuetype': 'Tipo de item é uma subtarefa mas chave do item pai ou id não especificadas.'}}
+
+Colunas salvas com sucesso na planilha.
+
+C:\Users\giova\Projetos\Help\JIRA>python processa.py --nome "Planilha Sprint 236.xlsx"
+[REQ0349359] - Alternativas para ZINTERFACELOTE2
+{"fields": {"assignee": {"id": "712020:8364b9cf-88a2-4399-9f86-fff7bed77ce2"}, "customfield_10022": 0.5, "description": {"type": "doc", "version": 1, "content": [{"type": "paragraph", "content": [{"type": "text", "text": "[ALTERA\u00c7\u00c3O] - Estrutura de armazenamento no SAP"}]}]}, "issuetype": {"name": "Hist\u00f3ria"}, "parent": {"key": "TRE-1292"}, "project": {"key": "TRE"}, "summary": "[ALTERA\u00c7\u00c3O] - Estrutura de armazenamento no SAP"}}
+     [ALTERAÇÃO] - Estrutura de armazenamento no SAP
+     {'id': '151395', 'key': 'TRE-1293', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151395'}
+         Análise
+         {'id': '151396', 'key': 'TRE-1294', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151396'}
+         Desenvolvimento
+         {'id': '151397', 'key': 'TRE-1295', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151397'}
+         Testes
+         {'id': '151401', 'key': 'TRE-1299', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151401'}
+         Deploy
+         {'id': '151402', 'key': 'TRE-1300', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151402'}
+
+Colunas salvas com sucesso na planilha.
+
+C:\Users\giova\Projetos\Help\JIRA>python processa.py --nome "Planilha Sprint 236.xlsx"
+C:\Python314\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+[REQ0349359] - Alternativas para ZINTERFACELOTE2
+{'id': '151403', 'key': 'ENS-8141', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151403'}
+{"fields": {"assignee": {"id": "712020:8364b9cf-88a2-4399-9f86-fff7bed77ce2"}, "customfield_10022": 0.5, "description": {"type": "doc", "version": 1, "content": [{"type": "paragraph", "content": [{"type": "text", "text": "[ALTERA\u00c7\u00c3O] - Estrutura de armazenamento no SAP"}]}]}, "issuetype": {"name": "Hist\u00f3ria"}, "parent": {"key": "ENS-8141"}, "project": {"key": "ENS"}, "reporter": {"id": "712020:8364b9cf-88a2-4399-9f86-fff7bed77ce2"}, "summary": "[ALTERA\u00c7\u00c3O] - Estrutura de armazenamento no SAP"}}
+     [ALTERAÇÃO] - Estrutura de armazenamento no SAP
+     {'id': '151404', 'key': 'ENS-8142', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151404'}
+         Análise
+         {'id': '151405', 'key': 'ENS-8143', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151405'}
+         Desenvolvimento
+         {'id': '151406', 'key': 'ENS-8144', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151406'}
+         Testes
+         {'id': '151407', 'key': 'ENS-8145', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151407'}
+         Deploy
+         {'id': '151408', 'key': 'ENS-8146', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151408'}
+C:\Python314\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+
+Colunas salvas com sucesso na planilha.
+
+C:\Users\giova\Projetos\Help\JIRA>python processa.py --nome "Planilha Sprint 236.xlsx"
+[REQ0349359] - Alternativas para ZINTERFACELOTE2
+     [ALTERAÇÃO] - Estrutura de armazenamento no SAP
+         Análise
+         Desenvolvimento
+         Testes
+         Deploy
+
+Colunas salvas com sucesso na planilha.
+
+C:\Users\giova\Projetos\Help\JIRA>python processa.py --nome "Planilha Sprint 236.xlsx"
+[REQ0349359] - Alternativas para ZINTERFACELOTE2
+     [ALTERAÇÃO] - Estrutura de armazenamento no SAP
+         Análise
+         Desenvolvimento
+         Testes
+         Deploy
+
+Colunas salvas com sucesso na planilha.
+
+C:\Users\giova\Projetos\Help\JIRA>python processa.py --nome "Planilha Sprint 236.xlsx"
+[REQ0349359] - Alternativas para ZINTERFACELOTE2
+{'id': '151409', 'key': 'ENS-8147', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151409'}
+     [ALTERAÇÃO] - [SCTASK0501210] - Estrutura de armazenamento no SAP
+     {'id': '151410', 'key': 'ENS-8148', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151410'}
+         Análise
+         {'id': '151411', 'key': 'ENS-8149', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151411'}
+         Desenvolvimento
+         {'id': '151412', 'key': 'ENS-8150', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151412'}
+         Testes
+         {'id': '151413', 'key': 'ENS-8151', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151413'}
+         Deploy
+         {'id': '151414', 'key': 'ENS-8152', 'self': 'https://tkebrasil.atlassian.net/rest/api/3/issue/151414'}
+
+Colunas salvas com sucesso na planilha.
+
+C:\Users\giova\Projetos\Help\JIRA>
