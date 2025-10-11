@@ -1,0 +1,98 @@
+Extraia da aba "Parâmetros" a coluna "API Token"
+
+Extraia da aba "Planilha" do arquivo Excel as colunas:
+
+"Etapa"
+"Horas"
+"Task"
+
+Em seguida, crie as seguintes colunas calculadas:
+
+"Pontos":
+  Se "Horas" < 8, então "Pontos" = 0.5
+  Se "Horas" < 24, então "Pontos" = 1
+  Se "Horas" < 40, então "Pontos" = 2
+  Se "Horas" < 60, então "Pontos" = 3
+  Se "Horas" < 80, então "Pontos" = 5
+  Se "Horas" < 100, então "Pontos" = 8
+  Se "Horas" >= 100, então "Pontos" = 13
+
+"Nome":
+  Formato: "[" + valor da coluna "Request" + "] - " + valor da coluna "Épico"
+
+Exiba o resultado em formato de tabela.
+
+Salve a coluna "Pontos" na planilha
+
+
+
+
+
+import pandas as pd
+import numpy as np
+from openpyxl import load_workbook
+
+# --- CONFIGURAÇÕES ---
+ARQUIVO = "Planilha Sprint 236.xlsx"  # Nome do arquivo Excel
+ABA_PLANILHA = "Planilha"
+ABA_PARAMETROS = "Parâmetros"
+
+# --- 1. LEITURA DAS ABAS ---
+df_planilha = pd.read_excel(ARQUIVO, sheet_name=ABA_PLANILHA, engine="openpyxl")
+df_parametros = pd.read_excel(ARQUIVO, sheet_name=ABA_PARAMETROS, engine="openpyxl")
+
+# --- 2. EXTRAÇÃO DA COLUNA 'API Token' ---
+api_tokens = []
+if "API Token" in df_parametros.columns:
+    api_tokens = df_parametros["API Token"].dropna().astype(str).tolist()
+
+print("API Token(s) encontrados:")
+for i, token in enumerate(api_tokens, 1):
+    print(f"{i}. {token}")
+
+# --- 3. EXTRAÇÃO E CRIAÇÃO DAS COLUNAS SOLICITADAS ---
+# Seleciona as colunas necessárias
+colunas_desejadas = ["Etapa", "Horas", "Task", "Request", "Épico"]
+df = df_planilha[colunas_desejadas].copy()
+
+# Garante que 'Horas' é numérico
+df["Horas"] = pd.to_numeric(df["Horas"], errors="coerce")
+
+# Cria a coluna 'Pontos' conforme as faixas de 'Horas'
+def calcular_pontos(horas):
+    if pd.isna(horas):
+        return np.nan
+    if horas < 8:
+        return 0.5
+    elif horas < 24:
+        return 1
+    elif horas < 40:
+        return 2
+    elif horas < 60:
+        return 3
+    elif horas < 80:
+        return 5
+    elif horas < 100:
+        return 8
+    else:
+        return 13
+
+df["Pontos"] = df["Horas"].apply(calcular_pontos)
+
+# Cria a coluna 'Nome' no formato solicitado
+df["Request"] = df["Request"].fillna("")
+df["Épico"] = df["Épico"].fillna("")
+df["Nome"] = "[" + df["Request"].astype(str) + "] - " + df["Épico"].astype(str)
+
+# --- 4. EXIBE O RESULTADO EM FORMATO DE TABELA ---
+colunas_exibir = ["Etapa", "Horas", "Task", "Pontos", "Nome"]
+print("\nTabela resultante:")
+print(df[colunas_exibir].to_string(index=False))
+
+# --- 5. SALVA A COLUNA 'PONTOS' NA PLANILHA ---
+# Atualiza a aba "Planilha" com a nova coluna "Pontos"
+wb = load_workbook(ARQUIVO)
+with pd.ExcelWriter(ARQUIVO, engine="openpyxl", mode="a", if_sheet_exists="replace") as writer:
+    writer.book = wb
+    df_planilha["Pontos"] = df["Pontos"]  # Atualiza apenas a coluna Pontos
+    df_planilha.to_excel(writer, sheet_name=ABA_PLANILHA, index=False)
