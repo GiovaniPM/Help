@@ -51,14 +51,15 @@ colunas_desejadas = ["Projeto",
 df = df_planilha[colunas_desejadas].copy()
 
 # Cria as colunas customizadas no formato solicitado
-df["Request"] = df["Request"].fillna("")
-df["Tipo"] = df["Tipo"].fillna("")
 df["Épico"] = df["Épico"].fillna("")
 df["Estória"] = df["Estória"].fillna("")
+df["Request"] = df["Request"].fillna("")
 df["Task"] = df["Task"].fillna("")
 df["TicketE"] = df["TicketE"].fillna("0")
 df["TicketS"] = df["TicketS"].fillna("0")
 df["TicketT"] = df["TicketT"].fillna("0")
+df["Tipo"] = df["Tipo"].fillna("")
+
 df["Nome Épico"] = "[" + df["Request"].astype(str) + "] - " + df["Épico"].astype(str)
 df["Nome Estória"] = "[" + df["Tipo"].astype(str) + "] - " + "[" + df["Task"].astype(str) + "] - " + df["Estória"].astype(str)
 
