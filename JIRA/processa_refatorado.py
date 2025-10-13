@@ -127,7 +127,6 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
     Itera sobre o DataFrame e cria Épicos, Estórias e Tarefas no Jira.
     Esta é a função principal que interage com a API do Jira!
     """
-    import jiralib # Importando aqui para garantir que as configurações já foram carregadas.
 
     # Listas para armazenar os tickets criados.
     epicos_criados = set()
