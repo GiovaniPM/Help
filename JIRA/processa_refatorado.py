@@ -269,7 +269,6 @@ if __name__ == "__main__":
     # 2. Carregar as configurações do Jira.
     # (Adicione a biblioteca jiralib ao seu ambiente)
     carregar_configuracoes_jira()
-    #print("AVISO: A função de carregar configurações do Jira está comentada. Certifique-se de que `jiralib` está configurado.")
 
     # 3. Ler e preparar os dados da planilha.
     df_processamento = preparar_dataframe(nome_arquivo)
@@ -279,7 +278,6 @@ if __name__ == "__main__":
 
     # 4. Processar e criar as issues no Jira.
     resultados_jira = processar_issues_jira(df_processamento)
-    #print("AVISO: A integração com o Jira está comentada. O script não criará tickets.")
 
     # 5. Atualizar a planilha com os resultados.
     atualizar_planilha(nome_arquivo, df_original, resultados_jira)
