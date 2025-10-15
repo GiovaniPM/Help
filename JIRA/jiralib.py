@@ -20,8 +20,6 @@ def create_epic(project, summary, description, due_date, epic_name, reporter_ema
   payloadObj["fields"]["summary"] = summary[:255]
   
   payload = json.dumps(payloadObj)
-  
-  print(payload)
 
   response = requests.request("POST", url, headers=headers, data=payload)
 
