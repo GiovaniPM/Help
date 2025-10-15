@@ -17,9 +17,11 @@ def create_epic(project, summary, description, due_date, epic_name, reporter_ema
   payloadObj["fields"]["customfield_10300"] = ticket
   payloadObj["fields"]["issuetype"] = {"name": "Epic"}
   payloadObj["fields"]["project"] = {"key": project}
-  payloadObj["fields"]["summary"] = summary
+  payloadObj["fields"]["summary"] = summary[:255]
   
   payload = json.dumps(payloadObj)
+  
+  print(payload)
 
   response = requests.request("POST", url, headers=headers, data=payload)
 
@@ -39,9 +41,11 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
   payloadObj["fields"]["project"] = {"key": project}
   if project not in ['TRE']:
     payloadObj["fields"]["reporter"] = {"id": reporter_id}
-  payloadObj["fields"]["summary"] = summary  
+  payloadObj["fields"]["summary"] = summary[:255]  
   
   payload = json.dumps(payloadObj)
+  
+  print(payload)
 
   response = requests.request("POST", url, headers=headers, data=payload)
 
@@ -60,7 +64,7 @@ def create_task(project, name, summary, description, assignee_id, reporter_id, p
   payloadObj["fields"]["project"] = {"key": project}
   if project not in ['TRE']:
     payloadObj["fields"]["reporter"] = {"id": reporter_id}
-  payloadObj["fields"]["summary"] = summary
+  payloadObj["fields"]["summary"] = summary[:255]
   payloadObj["fields"]["timetracking"] = {"originalEstimate": original_estimate}
   
   payload = json.dumps(payloadObj)
