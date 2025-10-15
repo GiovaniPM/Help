@@ -1,4 +1,0 @@
--e .
-openpyxl
-pandas
-requests
