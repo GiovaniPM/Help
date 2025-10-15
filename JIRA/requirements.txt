@@ -1,4 +1,4 @@
--e .
+numpy
 openpyxl
 pandas
 requests
