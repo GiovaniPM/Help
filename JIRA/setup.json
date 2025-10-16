@@ -1,5 +1,5 @@
 {
-   "url":"https://tkebrasil.atlassian.net/rest/api/3/issue",
+   "url":"https://tkebrasil.atlassian.net",
    "headers":{
       "Accept":"application/json",
       "Content-Type":"application/json",
