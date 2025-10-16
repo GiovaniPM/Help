@@ -179,8 +179,8 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
                 print(f"  ✨ Criando Estória: {row._20}") # _20 é o índice de "Nome Estória"
                 try:
                     response = jiralib.create_story(
-                        row.Projeto, "História", row._20, row._20, row.UUID_PO,
-                        row.UUID_Recurso, last_epic_key, row.Pontos
+                        row.Projeto, "História", row._20, row._20, row.UUID_Recurso,
+                        row.UUID_PO, row.UUID_Recurso, last_epic_key, row.Pontos
                     )
                     response.raise_for_status()
                     last_story_key = response.json().get("key")
