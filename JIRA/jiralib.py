@@ -88,12 +88,15 @@ def advance_status(parent_key, status_id):
 
   return response
 
-def add_output(text):
-  
-  formated_date = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-  
-  only_text = unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII')
-  clear = re.sub(r'[^a-zA-Z0-9 ]', '', only_text)
-  
-  logging.info(f"{formated_date} - {clear}")
-  print(text)
+def add_output(text: str) -> None:
+
+    def normalize_text(input_text: str) -> str:
+        normalized = unicodedata.normalize('NFKD', input_text)
+        ascii_text = normalized.encode('ASCII', 'ignore').decode('ASCII')
+        return re.sub(r'[^a-zA-Z0-9 ]', '', ascii_text)
+
+    timestamp = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+    cleaned_text = normalize_text(text)
+
+    logging.info(f"{timestamp} - {cleaned_text}")
+    print(text)
