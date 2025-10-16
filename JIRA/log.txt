@@ -1,0 +1,25 @@
+INFO:root:16/10/2025 20:37:12 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:16/10/2025 20:37:12 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:16/10/2025 20:37:12 -  DataFrame preparado com sucesso
+INFO:root:16/10/2025 20:37:12 -  Comecando a integracao com o Jira Criando issues
+INFO:root:16/10/2025 20:37:12 -  Criando Epico REQ0314387  Numeracao de equipamento Andrey Paschoal
+INFO:root:16/10/2025 20:37:14 -      Sucesso Chave do Epico TRE1521
+INFO:root:16/10/2025 20:37:16 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0531985  Sizing para solucao
+INFO:root:16/10/2025 20:37:18 -        Sucesso Chave da Estoria TRE1522
+INFO:root:16/10/2025 20:37:19 -      Criando Tarefa Analise
+INFO:root:16/10/2025 20:37:21 -          Sucesso Chave da Tarefa TRE1523
+INFO:root:16/10/2025 20:37:21 -   Pulando Epico ja criado nesta execucao REQ0314387  Numeracao de equipamento Andrey Paschoal
+INFO:root:16/10/2025 20:37:21 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0531985  bbbbb
+INFO:root:16/10/2025 20:37:23 -        Sucesso Chave da Estoria TRE1527
+INFO:root:16/10/2025 20:37:24 -      Criando Tarefa Analise
+INFO:root:16/10/2025 20:37:27 -          Sucesso Chave da Tarefa TRE1528
+INFO:root:16/10/2025 20:37:27 -  Criando Epico REQ0349359  BR carga complementar do lado do BI e IRIS Robson Portella
+INFO:root:16/10/2025 20:37:28 -      Sucesso Chave do Epico TRE1532
+INFO:root:16/10/2025 20:37:30 -    Criando Estoria ALTERACAO  SCTASK0501210  Conforme orientacao em anexo precisamos de uma carga complementar do lado do BI e IRIS referente a transacao ZK53 do SAP onde conste o orcado referente ao FY atual completo meses executados e futuros Esse relatorio e extremamente importante para acompanhamentos dos custos de TI
+INFO:root:16/10/2025 20:37:32 -        Sucesso Chave da Estoria TRE1533
+INFO:root:16/10/2025 20:37:33 -      Criando Tarefa Desenvolvimento
+INFO:root:16/10/2025 20:37:35 -          Sucesso Chave da Tarefa TRE1534
+INFO:root:16/10/2025 20:37:35 -  Integracao com o Jira concluida
+INFO:root:16/10/2025 20:37:35 -  Atualizando a planilha com os novos tickets
+INFO:root:16/10/2025 20:37:35 -  Planilha salva com sucesso
+INFO:root:16/10/2025 20:37:35 -  Processo finalizado com sucesso Seu trabalho foi feito 

@@ -19,6 +19,7 @@ python processa_refatorado.py --nome "SuaPlanilha.xlsx"
 import argparse
 import jiralib
 import json
+import logging
 import sys
 from typing import Dict, Any, List
 
@@ -68,12 +69,12 @@ def carregar_configuracoes_jira() -> None:
             # Se não for, você precisará importar ou definir 'jiralib'.
             jiralib.url = config['url']
             jiralib.headers = config['headers']
-            print("✓ Configurações do Jira carregadas com sucesso!")
+            jiralib.add_output("✓ Configurações do Jira carregadas com sucesso!")
     except FileNotFoundError:
-        print(f"❌ Erro: Arquivo de configuração '{SETUP_FILE}' não encontrado.")
+        jiralib.add_output(f"❌ Erro: Arquivo de configuração '{SETUP_FILE}' não encontrado.")
         sys.exit(1) # Encerra o script se o arquivo de configuração não existir.
     except KeyError:
-        print(f"❌ Erro: O arquivo '{SETUP_FILE}' está mal formatado. 'url' ou 'headers' não encontrados.")
+        jiralib.add_output(f"❌ Erro: O arquivo '{SETUP_FILE}' está mal formatado. 'url' ou 'headers' não encontrados.")
         sys.exit(1)
 
 def preparar_dataframe(arquivo_excel: str) -> pd.DataFrame:
@@ -81,16 +82,16 @@ def preparar_dataframe(arquivo_excel: str) -> pd.DataFrame:
     Lê a planilha e prepara o DataFrame para o processamento.
     Limpa os dados, preenche valores nulos e cria colunas customizadas.
     """
-    print("🚀 Iniciando a leitura e preparação dos dados da planilha...")
+    jiralib.add_output("🚀 Iniciando a leitura e preparação dos dados da planilha...")
     
     # Usar um bloco try-except para ler o arquivo é uma boa prática para capturar erros.
     try:
         df = pd.read_excel(arquivo_excel, sheet_name=ABA_PLANILHA, engine="openpyxl")
     except FileNotFoundError:
-        print(f"❌ Erro: A planilha '{arquivo_excel}' não foi encontrada.")
+        jiralib.add_output(f"❌ Erro: A planilha '{arquivo_excel}' não foi encontrada.")
         sys.exit(1)
     except ValueError as e:
-        print(f"❌ Erro ao ler a aba '{ABA_PLANILHA}': {e}")
+        jiralib.add_output(f"❌ Erro ao ler a aba '{ABA_PLANILHA}': {e}")
         sys.exit(1)
         
     # Seleciona apenas as colunas que vamos usar para manter o DataFrame limpo.
@@ -119,7 +120,7 @@ def preparar_dataframe(arquivo_excel: str) -> pd.DataFrame:
         lambda row: f"{row['UUID Recurso']}", axis=1
     )    
 
-    print("✓ DataFrame preparado com sucesso!")
+    jiralib.add_output("✓ DataFrame preparado com sucesso!")
     return df
 
 def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
@@ -142,7 +143,7 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
     last_epic_key = None
     last_story_key = None
     
-    print("\n🔥 Começando a integração com o Jira! Criando issues...")
+    jiralib.add_output("\n🔥 Começando a integração com o Jira! Criando issues...")
 
     # Iterar com df.itertuples() é mais performático que to_dict.
     for row in df.itertuples():
@@ -151,9 +152,9 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
         # A chave única para identificar se um épico já foi criado nesta execução.
         epic_key_identificador = f"[{row.Request}] - {row.Épico}"
         
-        if epic_key_identificador not in epicos_criados:
-            if row.TicketE == "0":
-                print(f"✨ Criando Épico: {row._19}") # _19 é o índice de "Nome Épico"
+        if row.TicketE == "0":
+            if epic_key_identificador not in epicos_criados:
+                jiralib.add_output(f"✨ Criando Épico: {row._19}") # _19 é o índice de "Nome Épico"
                 try:
                     response = jiralib.create_epic(
                         row.Projeto, row._19, row._19, row.Data, row._19,
@@ -161,46 +162,52 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
                     )
                     response.raise_for_status() # Lança um erro para respostas HTTP 4xx/5xx
                     last_epic_key = response.json().get("key")
-                    print(f"    ✅ Sucesso! Chave do Épico: {last_epic_key}")
+                    jiralib.add_output(f"    ✅ Sucesso! Chave do Épico: {last_epic_key}")
                 except Exception as e:
-                    print(f"    ❌ Falha ao criar Épico. Erro: {e}")
+                    jiralib.add_output(f"    ❌ Falha ao criar Épico. Erro: {e}")
                     last_epic_key = "ERRO"
-                if last_epic_key != "ERRO"
-                    response = advance_epic(last_epic_key)
+                if last_epic_key != "ERRO":
+                    #to: Ready for Development
+                    response = jiralib.advance_status(last_epic_key, "11")
+                    #to: To Do
+                    response = jiralib.advance_status(last_epic_key, "21")
+                    epicos_criados.add(epic_key_identificador)
             else:
-                last_epic_key = row.TicketE
-                print(f"⏭️  Pulando Épico já existente: {row._19} ({last_epic_key})")
-            
-            epicos_criados.add(epic_key_identificador)
+                jiralib.add_output(f"⏭️  Pulando Épico já criado nesta execução: {row._19}")
+        else:
+            last_epic_key = row.TicketE
+            jiralib.add_output(f"⏭️  Pulando Épico já existente: {row._19} ({last_epic_key})")
 
         # --- CRIAÇÃO DA ESTÓRIA ---
         story_key_identificador = f"[{row.Task}] - {row.Estória}"
 
-        if story_key_identificador not in estorias_criadas:
-            if row.TicketS == "0":
-                print(f"  ✨ Criando Estória: {row._20}") # _20 é o índice de "Nome Estória"
+        if row.TicketS == "0":
+            if story_key_identificador not in estorias_criadas:
+                jiralib.add_output(f"  ✨ Criando Estória: {row._20}") # _20 é o índice de "Nome Estória"
                 try:
                     response = jiralib.create_story(
                         row.Projeto, "História", row._20, row._20, row.UUID_Recurso,
-                        row.UUID_PO, row.UUID_Recurso, last_epic_key, row.Pontos
+                        row.UUID_PO, last_epic_key, row.Pontos
                     )
                     response.raise_for_status()
                     last_story_key = response.json().get("key")
-                    print(f"      ✅ Sucesso! Chave da Estória: {last_story_key}")
+                    jiralib.add_output(f"      ✅ Sucesso! Chave da Estória: {last_story_key}")
                 except Exception as e:
-                    print(f"      ❌ Falha ao criar Estória. Erro: {e}")
+                    jiralib.add_output(f"      ❌ Falha ao criar Estória. Erro: {e}")
                     last_story_key = "ERRO"
-                if last_epic_key != "ERRO"
-                    response = advance_story(last_story_key)
+                if last_epic_key != "ERRO":
+                    #to: Defined
+                    response = jiralib.advance_status(last_epic_key, "21")
+                    estorias_criadas.add(story_key_identificador)
             else:
-                last_story_key = row.TicketS
-                print(f"  ⏭️  Pulando Estória já existente: {row._20} ({last_story_key})")
-                
-            estorias_criadas.add(story_key_identificador)
+                jiralib.add_output(f"  ⏭️  Pulando Estória já criado nesta execução: {row._19}")
+        else:
+            last_story_key = row.TicketS
+            jiralib.add_output(f"  ⏭️  Pulando Estória já existente: {row._20} ({last_story_key})")
 
         # --- CRIAÇÃO DA TAREFA ---
         if row.TicketT == "0":
-            print(f"    ✨ Criando Tarefa: {row.Tarefa}")
+            jiralib.add_output(f"    ✨ Criando Tarefa: {row.Tarefa}")
             try:
                 response = jiralib.create_task(
                     row.Projeto, row.Etapa, row.Tarefa, row.Tarefa, row.UUID_Recurso,
@@ -208,27 +215,27 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
                 )
                 response.raise_for_status()
                 task_key = response.json().get("key")
-                print(f"        ✅ Sucesso! Chave da Tarefa: {task_key}")
+                jiralib.add_output(f"        ✅ Sucesso! Chave da Tarefa: {task_key}")
             except Exception as e:
-                print(f"        ❌ Falha ao criar Tarefa. Erro: {e}")
+                jiralib.add_output(f"        ❌ Falha ao criar Tarefa. Erro: {e}")
                 task_key = "ERRO"
         else:
             task_key = row.TicketT
-            print(f"    ⏭️  Pulando Tarefa já existente: {row.Tarefa} ({task_key})")
+            jiralib.add_output(f"    ⏭️  Pulando Tarefa já existente: {row.Tarefa} ({task_key})")
         
         # Adiciona as chaves (novas ou existentes) às listas de resultados.
         resultados["Ticket_Epico"].append(last_epic_key)
         resultados["Ticket_Estoria"].append(last_story_key)
         resultados["Ticket_Task"].append(task_key)
         
-    print("\n🎉 Integração com o Jira concluída!")
+    jiralib.add_output("\n🎉 Integração com o Jira concluída!")
     return resultados
 
 def atualizar_planilha(arquivo_excel: str, df_original: pd.DataFrame, resultados: Dict[str, List[Any]]):
     """
     Atualiza a planilha original com as chaves dos tickets criados no Jira.
     """
-    print("💾 Atualizando a planilha com os novos tickets...")
+    jiralib.add_output("💾 Atualizando a planilha com os novos tickets...")
     try:
         wb = load_workbook(arquivo_excel)
         ws = wb[ABA_PLANILHA]
@@ -257,15 +264,18 @@ def atualizar_planilha(arquivo_excel: str, df_original: pd.DataFrame, resultados
             ws.cell(row=r_idx, column=col_indices["TicketT"], value=row[col_indices["TicketT"]-1])
 
         wb.save(arquivo_excel)
-        print("✔️ Planilha salva com sucesso!")
+        jiralib.add_output("✔️ Planilha salva com sucesso!")
 
     except Exception as e:
-        print(f"❌ Erro Crítico ao salvar a planilha: {e}")
+        jiralib.add_output(f"❌ Erro Crítico ao salvar a planilha: {e}")
 
 # --- PONTO DE ENTRADA PRINCIPAL ---
 # Usar `if __name__ == "__main__":` é uma convenção padrão em Python
 # que permite que o script seja importável sem executar o código principal.
 if __name__ == "__main__":
+    
+    logging.basicConfig(filename='log.txt', level=logging.INFO)
+    
     # 1. Obter o nome do arquivo da linha de comando.
     nome_arquivo = parse_argumentos()
     
@@ -285,4 +295,4 @@ if __name__ == "__main__":
     # 5. Atualizar a planilha com os resultados.
     atualizar_planilha(nome_arquivo, df_original, resultados_jira)
 
-    print("\n🎊 Processo finalizado com sucesso! Seu trabalho foi feito! 🎊")
+    jiralib.add_output("\n🎊 Processo finalizado com sucesso! Seu trabalho foi feito! 🎊")

@@ -1,5 +1,10 @@
 import requests
 import json
+import logging
+import re
+import unicodedata
+
+from datetime import datetime
 
 def create_epic(project, summary, description, due_date, epic_name, reporter_email, ticket, system, module):
 
@@ -42,8 +47,6 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
   payloadObj["fields"]["summary"] = summary[:255]  
   
   payload = json.dumps(payloadObj)
-  
-  print(payload)
 
   response = requests.request("POST", f"{url}/rest/api/3/issue", headers=headers, data=payload)
 
@@ -71,43 +74,26 @@ def create_task(project, name, summary, description, assignee_id, reporter_id, p
 
   return response
 
-def advance_epic(parent_key):
+def advance_status(parent_key, status_id):
 
-  #to: Ready for Development
   payloadObj = {
     "transition": {}
   }
 
-  payloadObj["transition"]["id"] = "11"
-  
-  payload = json.dumps(payloadObj)
-
-  response = requests.request("POST", f"{url}/rest/api/2/issue/{parent_key}/transitions", headers=headers, data=payload)
-
-  #to: To Do
-  payloadObj = {
-    "transition": {}
-  }
-
-  payloadObj["transition"]["id"] = "21"
+  payloadObj["transition"]["id"] = status_id
   
   payload = json.dumps(payloadObj)
 
   response = requests.request("POST", f"{url}/rest/api/2/issue/{parent_key}/transitions", headers=headers, data=payload)
 
   return response
-  
-def advance_story(parent_key):
 
-  #to: Defined
-  payloadObj = {
-    "transition": {}
-  }
+def add_output(text):
   
-  payloadObj["transition"]["id"] = "21"
+  formated_date = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
   
-  payload = json.dumps(payloadObj)
-
-  response = requests.request("POST", f"{url}/rest/api/2/issue/{parent_key}/transitions", headers=headers, data=payload)
-
-  return response
+  only_text = unicodedata.normalize('NFKD', text).encode('ASCII', 'ignore').decode('ASCII')
+  clear = re.sub(r'[^a-zA-Z0-9 ]', '', only_text)
+  
+  logging.info(f"{formated_date} - {clear}")
+  print(text)
