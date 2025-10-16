@@ -70,3 +70,29 @@ def create_task(project, name, summary, description, assignee_id, reporter_id, p
   response = requests.request("POST", url, headers=headers, data=payload)
 
   return response
+
+def advance_epic(parent_key):
+
+  #to: Ready for Development
+  payloadObj = {
+    "transition": {}
+  }
+
+  payloadObj["transition"]["id"] = "11"
+  
+  payload = json.dumps(payloadObj)
+
+  response = requests.request("POST", url, headers=headers, data=payload)
+
+  #to: To Do
+  payloadObj = {
+    "transition": {}
+  }
+
+  payloadObj["transition"]["id"] = "21"
+  
+  payload = json.dumps(payloadObj)
+
+  response = requests.request("POST", url, headers=headers, data=payload)
+
+  return response
