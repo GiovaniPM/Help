@@ -21,7 +21,7 @@ def create_epic(project, summary, description, due_date, epic_name, reporter_ema
   
   payload = json.dumps(payloadObj)
 
-  response = requests.request("POST", url, headers=headers, data=payload)
+  response = requests.request("POST", f"{url}/rest/api/3/issue", headers=headers, data=payload)
 
   return response
 
@@ -45,7 +45,7 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
   
   print(payload)
 
-  response = requests.request("POST", url, headers=headers, data=payload)
+  response = requests.request("POST", f"{url}/rest/api/3/issue", headers=headers, data=payload)
 
   return response
 
@@ -67,7 +67,7 @@ def create_task(project, name, summary, description, assignee_id, reporter_id, p
   
   payload = json.dumps(payloadObj)
 
-  response = requests.request("POST", url, headers=headers, data=payload)
+  response = requests.request("POST", f"{url}/rest/api/3/issue", headers=headers, data=payload)
 
   return response
 
@@ -82,7 +82,7 @@ def advance_epic(parent_key):
   
   payload = json.dumps(payloadObj)
 
-  response = requests.request("POST", url, headers=headers, data=payload)
+  response = requests.request("POST", f"{url}/rest/api/2/issue/{parent_key}/transitions", headers=headers, data=payload)
 
   #to: To Do
   payloadObj = {
@@ -93,6 +93,21 @@ def advance_epic(parent_key):
   
   payload = json.dumps(payloadObj)
 
-  response = requests.request("POST", url, headers=headers, data=payload)
+  response = requests.request("POST", f"{url}/rest/api/2/issue/{parent_key}/transitions", headers=headers, data=payload)
+
+  return response
+  
+def advance_story(parent_key):
+
+  #to: Defined
+  payloadObj = {
+    "transition": {}
+  }
+  
+  payloadObj["transition"]["id"] = "21"
+  
+  payload = json.dumps(payloadObj)
+
+  response = requests.request("POST", f"{url}/rest/api/2/issue/{parent_key}/transitions", headers=headers, data=payload)
 
   return response
