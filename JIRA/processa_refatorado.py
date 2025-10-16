@@ -165,6 +165,8 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
                 except Exception as e:
                     print(f"    ❌ Falha ao criar Épico. Erro: {e}")
                     last_epic_key = "ERRO"
+                if last_epic_key != "ERRO"
+                    response = advance_epic(last_epic_key)
             else:
                 last_epic_key = row.TicketE
                 print(f"⏭️  Pulando Épico já existente: {row._19} ({last_epic_key})")
@@ -188,6 +190,8 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
                 except Exception as e:
                     print(f"      ❌ Falha ao criar Estória. Erro: {e}")
                     last_story_key = "ERRO"
+                if last_epic_key != "ERRO"
+                    response = advance_story(last_story_key)
             else:
                 last_story_key = row.TicketS
                 print(f"  ⏭️  Pulando Estória já existente: {row._20} ({last_story_key})")
