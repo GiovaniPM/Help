@@ -96,11 +96,15 @@ def advance_status(parent_key, status_id):
   return response
 
 def extract_requisito(text: str) -> str:
-    # Expressão regular para capturar o conteúdo entre os dois marcadores
-    match = re.search(r'^(.*?)🧑‍💼 PO:', text, re.DOTALL)
+  # Expressão regular para capturar o conteúdo entre os dois marcadores
+  match = re.search(r'^(.*?)🧑‍💼 PO:', text, re.DOTALL)
+  if match:
+    return match.group(1).strip()
+  else:
+    match = re.search(r'^(.*?)🧑‍💼', text, re.DOTALL)
     if match:
-        return match.group(1).strip()
-    return text
+      return match.group(1).strip()
+  return text
 
 def remove_break_lines(text: str) -> str:
     return text.replace('\n', ' ').replace('\r', ' ')
