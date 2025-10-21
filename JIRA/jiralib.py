@@ -12,7 +12,10 @@ def create_epic(project, summary, description, due_date, epic_name, reporter_ema
     "fields": {}
   }
 
-  payloadObj["fields"]["customfield_10018"] = normalize_text(epic_name)[:255]  
+  epic_name = remove_break_lines(epic_name)[:255]
+  summary = remove_break_lines(summary)[:255]
+
+  payloadObj["fields"]["customfield_10018"] = epic_name
   payloadObj["fields"]["customfield_10101"] = reporter_email
   payloadObj["fields"]["customfield_10102"] = {"value": system}
   payloadObj["fields"]["customfield_10103"] = {"value": module}
@@ -22,8 +25,8 @@ def create_epic(project, summary, description, due_date, epic_name, reporter_ema
   payloadObj["fields"]["customfield_10300"] = ticket
   payloadObj["fields"]["issuetype"] = {"name": "Epic"}
   payloadObj["fields"]["project"] = {"key": project}
-  payloadObj["fields"]["summary"] = normalize_text(summary)[:255]
-  
+  payloadObj["fields"]["summary"] = summary
+
   payload = json.dumps(payloadObj)
 
   response = requests.request("POST", f"{url}/rest/api/3/issue", headers=headers, data=payload)
@@ -36,6 +39,8 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
     "fields": {}
   }
 
+  summary = remove_break_lines(extract_requisito(summary))[:255]
+
   payloadObj["fields"]["assignee"] = {"id": assignee_id}
   payloadObj["fields"]["customfield_10022"] = original_estimate
   payloadObj["fields"]["description"] = {"type": "doc","version": 1,"content": [{"type": "paragraph","content": [{"type": "text","text": description}]}]}
@@ -44,8 +49,8 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
   payloadObj["fields"]["project"] = {"key": project}
   if project not in ['TRE']:
     payloadObj["fields"]["reporter"] = {"id": reporter_id}
-  payloadObj["fields"]["summary"] = normalize_text(summary)[:255]  
-  
+  payloadObj["fields"]["summary"] = summary
+
   payload = json.dumps(payloadObj)
 
   response = requests.request("POST", f"{url}/rest/api/3/issue", headers=headers, data=payload)
@@ -58,6 +63,8 @@ def create_task(project, name, summary, description, assignee_id, reporter_id, p
     "fields": {}
   }
 
+  summary = remove_break_lines(summary)[:255]
+
   payloadObj["fields"]["assignee"] = {"id": assignee_id}
   payloadObj["fields"]["description"] = {"type": "doc","version": 1,"content": [{"type": "paragraph","content": [{"type": "text","text": description}]}]}
   payloadObj["fields"]["issuetype"] = {"name": name}
@@ -65,9 +72,9 @@ def create_task(project, name, summary, description, assignee_id, reporter_id, p
   payloadObj["fields"]["project"] = {"key": project}
   if project not in ['TRE']:
     payloadObj["fields"]["reporter"] = {"id": reporter_id}
-  payloadObj["fields"]["summary"] = normalize_text(summary)[:255]
+  payloadObj["fields"]["summary"] = summary
   payloadObj["fields"]["timetracking"] = {"originalEstimate": original_estimate}
-  
+
   payload = json.dumps(payloadObj)
 
   response = requests.request("POST", f"{url}/rest/api/3/issue", headers=headers, data=payload)
@@ -81,22 +88,31 @@ def advance_status(parent_key, status_id):
   }
 
   payloadObj["transition"]["id"] = status_id
-  
+
   payload = json.dumps(payloadObj)
 
   response = requests.request("POST", f"{url}/rest/api/2/issue/{parent_key}/transitions", headers=headers, data=payload)
 
   return response
 
+def extract_requisito(text: str) -> str:
+    # Expressão regular para capturar o conteúdo entre os dois marcadores
+    match = re.search(r'^(.*?)🧑‍💼 PO:', text, re.DOTALL)
+    if match:
+        return match.group(1).strip()
+    return text
+
+def remove_break_lines(text: str) -> str:
+    return text.replace('\n', ' ').replace('\r', ' ')
 
 def normalize_text(input_text: str) -> str:
     # Remove quebras de linha
-    input_text = input_text.replace('\n', ' ').replace('\r', ' ')
-    
+    input_text = remove_break_lines(input_text)
+
     # Normaliza para ASCII
     normalized = unicodedata.normalize('NFKD', input_text)
     ascii_text = normalized.encode('ASCII', 'ignore').decode('ASCII')
-    
+
     # Remove caracteres especiais, mantendo letras, números e espaços
     return re.sub(r'[^a-zA-Z0-9 ]', '', ascii_text)
 
