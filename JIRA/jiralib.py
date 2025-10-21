@@ -12,7 +12,7 @@ def create_epic(project, summary, description, due_date, epic_name, reporter_ema
     "fields": {}
   }
 
-  payloadObj["fields"]["customfield_10018"] = epic_name
+  payloadObj["fields"]["customfield_10018"] = normalize_text(epic_name)[:255]  
   payloadObj["fields"]["customfield_10101"] = reporter_email
   payloadObj["fields"]["customfield_10102"] = {"value": system}
   payloadObj["fields"]["customfield_10103"] = {"value": module}
@@ -22,7 +22,7 @@ def create_epic(project, summary, description, due_date, epic_name, reporter_ema
   payloadObj["fields"]["customfield_10300"] = ticket
   payloadObj["fields"]["issuetype"] = {"name": "Epic"}
   payloadObj["fields"]["project"] = {"key": project}
-  payloadObj["fields"]["summary"] = summary[:255]
+  payloadObj["fields"]["summary"] = normalize_text(summary)[:255]
   
   payload = json.dumps(payloadObj)
 
@@ -44,7 +44,7 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
   payloadObj["fields"]["project"] = {"key": project}
   if project not in ['TRE']:
     payloadObj["fields"]["reporter"] = {"id": reporter_id}
-  payloadObj["fields"]["summary"] = summary[:255]  
+  payloadObj["fields"]["summary"] = normalize_text(summary)[:255]  
   
   payload = json.dumps(payloadObj)
 
@@ -65,7 +65,7 @@ def create_task(project, name, summary, description, assignee_id, reporter_id, p
   payloadObj["fields"]["project"] = {"key": project}
   if project not in ['TRE']:
     payloadObj["fields"]["reporter"] = {"id": reporter_id}
-  payloadObj["fields"]["summary"] = summary[:255]
+  payloadObj["fields"]["summary"] = normalize_text(summary)[:255]
   payloadObj["fields"]["timetracking"] = {"originalEstimate": original_estimate}
   
   payload = json.dumps(payloadObj)
@@ -88,12 +88,19 @@ def advance_status(parent_key, status_id):
 
   return response
 
-def add_output(text: str) -> None:
 
-    def normalize_text(input_text: str) -> str:
-        normalized = unicodedata.normalize('NFKD', input_text)
-        ascii_text = normalized.encode('ASCII', 'ignore').decode('ASCII')
-        return re.sub(r'[^a-zA-Z0-9 ]', '', ascii_text)
+def normalize_text(input_text: str) -> str:
+    # Remove quebras de linha
+    input_text = input_text.replace('\n', ' ').replace('\r', ' ')
+    
+    # Normaliza para ASCII
+    normalized = unicodedata.normalize('NFKD', input_text)
+    ascii_text = normalized.encode('ASCII', 'ignore').decode('ASCII')
+    
+    # Remove caracteres especiais, mantendo letras, números e espaços
+    return re.sub(r'[^a-zA-Z0-9 ]', '', ascii_text)
+
+def add_output(text: str) -> None:
 
     timestamp = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     cleaned_text = normalize_text(text)

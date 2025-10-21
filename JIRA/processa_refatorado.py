@@ -154,7 +154,7 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
         
         if row.TicketE == "0":
             if epic_key_identificador not in epicos_criados:
-                jiralib.add_output(f"✨ Criando Épico: {row._19}") # _19 é o índice de "Nome Épico"
+                jiralib.add_output(f"✨ Criando Épico: {row._19}"[:80]) # _19 é o índice de "Nome Épico"
                 try:
                     response = jiralib.create_epic(
                         row.Projeto, row._19, row._19, row.Data, row._19,
@@ -183,7 +183,7 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
 
         if row.TicketS == "0":
             if story_key_identificador not in estorias_criadas:
-                jiralib.add_output(f"  ✨ Criando Estória: {row._20}") # _20 é o índice de "Nome Estória"
+                jiralib.add_output(f"  ✨ Criando Estória: {row._20}"[:80]) # _20 é o índice de "Nome Estória"
                 try:
                     response = jiralib.create_story(
                         row.Projeto, "História", row._20, row._20, row.UUID_Recurso,
@@ -207,7 +207,7 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
 
         # --- CRIAÇÃO DA TAREFA ---
         if row.TicketT == "0":
-            jiralib.add_output(f"    ✨ Criando Tarefa: {row.Tarefa}")
+            jiralib.add_output(f"    ✨ Criando Tarefa: {row.Tarefa}"[:80])
             try:
                 response = jiralib.create_task(
                     row.Projeto, row.Etapa, row.Tarefa, row.Tarefa, row.UUID_Recurso,
