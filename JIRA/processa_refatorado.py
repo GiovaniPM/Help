@@ -173,10 +173,10 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
                     response = jiralib.advance_status(last_epic_key, "21")
                     epicos_criados.add(epic_key_identificador)
             else:
-                jiralib.add_output(f"⏭️  Pulando Épico já criado nesta execução: {row._19}")
+                jiralib.add_output(f"⏭️  Pulando Épico já criado nesta execução: ({last_epic_key})")
         else:
             last_epic_key = row.TicketE
-            jiralib.add_output(f"⏭️  Pulando Épico já existente: {row._19} ({last_epic_key})")
+            jiralib.add_output(f"⏭️  Pulando Épico já existente: ({last_epic_key})")
 
         # --- CRIAÇÃO DA ESTÓRIA ---
         story_key_identificador = f"[{row.Task}] - {row.Estória}"
@@ -200,10 +200,10 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
                     response = jiralib.advance_status(last_epic_key, "21")
                     estorias_criadas.add(story_key_identificador)
             else:
-                jiralib.add_output(f"  ⏭️  Pulando Estória já criado nesta execução: {row._19}")
+                jiralib.add_output(f"  ⏭️  Pulando Estória já criado nesta execução: ({last_story_key})")
         else:
             last_story_key = row.TicketS
-            jiralib.add_output(f"  ⏭️  Pulando Estória já existente: {row._20} ({last_story_key})")
+            jiralib.add_output(f"  ⏭️  Pulando Estória já existente: ({last_story_key})")
 
         # --- CRIAÇÃO DA TAREFA ---
         if row.TicketT == "0":
@@ -221,7 +221,7 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
                 task_key = "ERRO"
         else:
             task_key = row.TicketT
-            jiralib.add_output(f"    ⏭️  Pulando Tarefa já existente: {row.Tarefa} ({task_key})")
+            jiralib.add_output(f"    ⏭️  Pulando Tarefa já existente: ({task_key})")
         
         # Adiciona as chaves (novas ou existentes) às listas de resultados.
         resultados["Ticket_Epico"].append(last_epic_key)
