@@ -12,8 +12,8 @@ def create_epic(project, summary, description, due_date, epic_name, reporter_ema
     "fields": {}
   }
 
-  epic_name = remove_break_lines(epic_name)[:255]
-  summary = remove_break_lines(summary)[:255]
+  epic_name = remove_break_lines(epic_name)[:250]
+  summary = remove_break_lines(summary)[:250]
 
   payloadObj["fields"]["customfield_10018"] = epic_name
   payloadObj["fields"]["customfield_10101"] = reporter_email
@@ -39,7 +39,7 @@ def create_story(project, name, summary, description, assignee_id, reporter_id, 
     "fields": {}
   }
 
-  summary = remove_break_lines(extract_requisito(summary))[:255]
+  summary = remove_break_lines(extract_requisito(summary))[:250]
 
   payloadObj["fields"]["assignee"] = {"id": assignee_id}
   payloadObj["fields"]["customfield_10022"] = original_estimate
@@ -63,7 +63,7 @@ def create_task(project, name, summary, description, assignee_id, reporter_id, p
     "fields": {}
   }
 
-  summary = remove_break_lines(summary)[:255]
+  summary = remove_break_lines(summary)[:250]
 
   payloadObj["fields"]["assignee"] = {"id": assignee_id}
   payloadObj["fields"]["description"] = {"type": "doc","version": 1,"content": [{"type": "paragraph","content": [{"type": "text","text": description}]}]}
@@ -107,7 +107,7 @@ def extract_requisito(text: str) -> str:
   return text
 
 def remove_break_lines(text: str) -> str:
-    return text.replace('\n', ' ').replace('\r', ' ')
+    return text.replace('\n', ' ').replace('\r', ' ').replace('\t', ' ')
 
 def normalize_text(input_text: str) -> str:
     # Remove quebras de linha
