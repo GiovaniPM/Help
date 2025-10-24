@@ -37,7 +37,8 @@ SETUP_FILE = "setup.json"
 COLUNAS_DESEJADAS = [
     "Projeto", "Data", "Request", "Task", "Módulo", "Tipo", "Usuário Projeto",
     "UUID PO", "UUID Recurso", "Épico", "Estória", "Tarefa", "Etapa",
-    "Horas", "Pontos", "TicketE", "TicketS", "TicketT"
+    "Horas", "Pontos", "TicketE", "TicketS", "TicketT", "Prioridade", "Retorno",
+    "US"
 ]
 
 def parse_argumentos() -> str:
@@ -100,18 +101,22 @@ def preparar_dataframe(arquivo_excel: str) -> pd.DataFrame:
     # Preenche valores NaN (nulos) para evitar erros na concatenação de strings.
     # Usar um dicionário torna o código mais limpo e organizado!
     valores_padrao = {
-        "Épico": "", "Estória": "", "Request": "", "Task": "",
-        "Tipo": "", "TicketE": "0", "TicketS": "0", "TicketT": "0"
+        "Épico": "", "Estória": "", "Request": "", "Task": "", "Prioridade": "0",
+        "Tipo": "", "TicketE": "0", "TicketS": "0", "TicketT": "0", "Retorno": 0,
+        "US": ""
     }
     df.fillna(valores_padrao, inplace=True)
 
     # Criação das colunas com nomes formatados para o Jira usando f-strings.
     # f-strings são mais rápidas e legíveis que a concatenação tradicional!
-    df["Nome Épico"] = df.apply(
+    df["Nome_Epico"] = df.apply(
         lambda row: f"[{row['Request']}] - {row['Épico']}", axis=1
     )
-    df["Nome Estória"] = df.apply(
+    df["Nome_Estoria"] = df.apply(
         lambda row: f"[{row['Tipo']}] - [{row['Task']}] - {row['Estória']}", axis=1
+    )
+    df["Usuario_Projeto"] = df.apply(
+        lambda row: f"{row['Usuário Projeto']}", axis=1
     )
     df["UUID_PO"] = df.apply(
         lambda row: f"{row['UUID PO']}", axis=1
@@ -154,11 +159,11 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
         
         if row.TicketE == "0":
             if epic_key_identificador not in epicos_criados:
-                jiralib.add_output(f"✨ Criando Épico: {row._19}"[:80]) # _19 é o índice de "Nome Épico"
+                jiralib.add_output(f"✨ Criando Épico: {row.Nome_Epico}"[:80]) # _19 é o índice de "Nome Épico"
                 try:
                     response = jiralib.create_epic(
-                        row.Projeto, row._19, row._19, row.Data, row._19,
-                        row._7, row.Task, row.Módulo, row.Tipo #_7 é "Usuário Projeto"
+                        row.Projeto, row.Nome_Epico, row.Nome_Epico, row.Data, row.Nome_Epico,
+                        row.Usuario_Projeto, row.Task, row.Módulo, row.Tipo, row.Prioridade, row.Retorno
                     )
                     response.raise_for_status() # Lança um erro para respostas HTTP 4xx/5xx
                     last_epic_key = response.json().get("key")
@@ -183,10 +188,10 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
 
         if row.TicketS == "0":
             if story_key_identificador not in estorias_criadas:
-                jiralib.add_output(f"  ✨ Criando Estória: {row._20}"[:80]) # _20 é o índice de "Nome Estória"
+                jiralib.add_output(f"  ✨ Criando Estória: {row.Nome_Estoria}"[:80]) # _20 é o índice de "Nome Estória"
                 try:
                     response = jiralib.create_story(
-                        row.Projeto, "História", row._20, row._20, row.UUID_Recurso,
+                        row.Projeto, "História", row.Nome_Estoria, row.US, row.UUID_Recurso,
                         row.UUID_PO, last_epic_key, row.Pontos
                     )
                     response.raise_for_status()

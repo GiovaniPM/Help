@@ -1,0 +1,140 @@
+INFO:root:23/10/2025 15:47:16 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:23/10/2025 15:47:16 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:23/10/2025 15:47:16 -  DataFrame preparado com sucesso
+INFO:root:23/10/2025 15:47:17 -   Comecando a integracao com o Jira Criando issues
+INFO:root:23/10/2025 15:47:17 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:23/10/2025 15:47:18 -      Falha ao criar Epico Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 15:47:18 -    Criando Estoria ALTERACAO  SCTASK0426427   Requisito Definido O sist
+INFO:root:23/10/2025 15:47:19 -        Falha ao criar Estoria Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 15:47:19 -      Criando Tarefa Abrindo apoio para equipe Ires ajustar layout da interfac
+INFO:root:23/10/2025 15:47:21 -          Falha ao criar Tarefa Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 15:47:21 -   Integracao com o Jira concluida
+INFO:root:23/10/2025 15:47:21 -  Atualizando a planilha com os novos tickets
+INFO:root:23/10/2025 15:47:21 -  Planilha salva com sucesso
+INFO:root:23/10/2025 15:47:21 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:23/10/2025 15:51:54 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:23/10/2025 15:51:54 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:23/10/2025 15:51:54 -  DataFrame preparado com sucesso
+INFO:root:23/10/2025 15:51:54 -   Comecando a integracao com o Jira Criando issues
+INFO:root:23/10/2025 15:51:54 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:23/10/2025 15:51:54 -      Falha ao criar Epico Erro name payload is not defined
+INFO:root:23/10/2025 15:51:54 -    Criando Estoria ALTERACAO  SCTASK0426427   Requisito Definido O sist
+INFO:root:23/10/2025 15:51:55 -        Falha ao criar Estoria Erro HTTPSConnectionPoolhosttkebrasilatlassiannet port443 Max retries exceeded with url restapi3issue Caused by SSLErrorSSLCertVerificationError1 SSL CERTIFICATEVERIFYFAILED certificate verify failed unable to get local issuer certificate sslc1077
+INFO:root:23/10/2025 15:51:55 -      Criando Tarefa Abrindo apoio para equipe Ires ajustar layout da interfac
+INFO:root:23/10/2025 15:51:57 -          Falha ao criar Tarefa Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 15:51:57 -   Integracao com o Jira concluida
+INFO:root:23/10/2025 15:51:57 -  Atualizando a planilha com os novos tickets
+INFO:root:23/10/2025 15:51:57 -  Planilha salva com sucesso
+INFO:root:23/10/2025 15:51:57 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:23/10/2025 15:52:41 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:23/10/2025 15:52:41 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:23/10/2025 15:52:41 -  DataFrame preparado com sucesso
+INFO:root:23/10/2025 15:52:41 -   Comecando a integracao com o Jira Criando issues
+INFO:root:23/10/2025 15:52:41 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:23/10/2025 15:52:43 -      Falha ao criar Epico Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 15:52:43 -    Criando Estoria ALTERACAO  SCTASK0426427   Requisito Definido O sist
+INFO:root:23/10/2025 15:52:44 -        Falha ao criar Estoria Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 15:52:44 -      Criando Tarefa Abrindo apoio para equipe Ires ajustar layout da interfac
+INFO:root:23/10/2025 15:52:46 -          Falha ao criar Tarefa Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 15:52:46 -   Integracao com o Jira concluida
+INFO:root:23/10/2025 15:52:46 -  Atualizando a planilha com os novos tickets
+INFO:root:23/10/2025 15:52:46 -  Planilha salva com sucesso
+INFO:root:23/10/2025 15:52:46 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:23/10/2025 15:53:55 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:23/10/2025 15:53:55 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:23/10/2025 15:53:55 -  DataFrame preparado com sucesso
+INFO:root:23/10/2025 15:53:55 -   Comecando a integracao com o Jira Criando issues
+INFO:root:23/10/2025 15:53:55 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:23/10/2025 15:53:56 -      Falha ao criar Epico Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 15:53:56 -    Criando Estoria ALTERACAO  SCTASK0426427   Requisito Definido O sist
+INFO:root:23/10/2025 15:53:58 -        Falha ao criar Estoria Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 15:53:58 -      Criando Tarefa Abrindo apoio para equipe Ires ajustar layout da interfac
+INFO:root:23/10/2025 15:53:59 -          Falha ao criar Tarefa Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 15:53:59 -   Integracao com o Jira concluida
+INFO:root:23/10/2025 15:53:59 -  Atualizando a planilha com os novos tickets
+INFO:root:23/10/2025 15:53:59 -  Planilha salva com sucesso
+INFO:root:23/10/2025 15:53:59 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:23/10/2025 15:58:14 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:23/10/2025 15:58:14 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:23/10/2025 15:58:14 -  DataFrame preparado com sucesso
+INFO:root:23/10/2025 15:58:14 -   Comecando a integracao com o Jira Criando issues
+INFO:root:23/10/2025 15:58:14 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:23/10/2025 15:58:17 -      Sucesso Chave do Epico TRE1645
+INFO:root:23/10/2025 15:58:19 -    Criando Estoria ALTERACAO  SCTASK0426427   Requisito Definido O sist
+INFO:root:23/10/2025 15:58:22 -        Sucesso Chave da Estoria TRE1646
+INFO:root:23/10/2025 15:58:23 -      Criando Tarefa Abrindo apoio para equipe Ires ajustar layout da interfac
+INFO:root:23/10/2025 15:58:26 -          Sucesso Chave da Tarefa TRE1647
+INFO:root:23/10/2025 15:58:26 -   Integracao com o Jira concluida
+INFO:root:23/10/2025 15:58:26 -  Atualizando a planilha com os novos tickets
+INFO:root:23/10/2025 15:58:26 -  Planilha salva com sucesso
+INFO:root:23/10/2025 15:58:26 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:23/10/2025 17:00:53 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:23/10/2025 17:00:53 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:23/10/2025 17:00:53 -  DataFrame preparado com sucesso
+INFO:root:23/10/2025 17:00:53 -   Comecando a integracao com o Jira Criando issues
+INFO:root:23/10/2025 17:00:53 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:23/10/2025 17:00:55 -      Falha ao criar Epico Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 17:00:55 -    Criando Estoria ALTERACAO  SCTASK0426427   Requisito Definido O sist
+INFO:root:23/10/2025 17:00:56 -        Falha ao criar Estoria Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 17:00:56 -      Criando Tarefa Abrindo apoio para equipe Ires ajustar layout da interfac
+INFO:root:23/10/2025 17:00:57 -          Falha ao criar Tarefa Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 17:00:57 -   Integracao com o Jira concluida
+INFO:root:23/10/2025 17:00:57 -  Atualizando a planilha com os novos tickets
+INFO:root:23/10/2025 17:00:58 -  Planilha salva com sucesso
+INFO:root:23/10/2025 17:00:58 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:23/10/2025 17:02:03 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:23/10/2025 17:02:03 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:23/10/2025 17:02:03 -  DataFrame preparado com sucesso
+INFO:root:23/10/2025 17:02:03 -   Comecando a integracao com o Jira Criando issues
+INFO:root:23/10/2025 17:02:03 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:23/10/2025 17:02:05 -      Falha ao criar Epico Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 17:02:05 -    Criando Estoria ALTERACAO  SCTASK0426427   Requisito Definido O sist
+INFO:root:23/10/2025 17:02:06 -        Falha ao criar Estoria Erro 400 Client Error Bad Request for url httpstkebrasilatlassiannetrestapi3issue
+INFO:root:23/10/2025 17:02:06 -      Criando Tarefa Abrindo apoio para equipe Ires ajustar layout da interfac
+INFO:root:23/10/2025 17:02:07 -          Falha ao criar Tarefa Erro HTTPSConnectionPoolhosttkebrasilatlassiannet port443 Max retries exceeded with url restapi3issue Caused by SSLErrorSSLCertVerificationError1 SSL CERTIFICATEVERIFYFAILED certificate verify failed unable to get local issuer certificate sslc1077
+INFO:root:23/10/2025 17:02:07 -   Integracao com o Jira concluida
+INFO:root:23/10/2025 17:02:07 -  Atualizando a planilha com os novos tickets
+INFO:root:23/10/2025 17:02:07 -  Planilha salva com sucesso
+INFO:root:23/10/2025 17:02:07 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:23/10/2025 17:03:58 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:23/10/2025 17:03:58 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:23/10/2025 17:03:58 -  DataFrame preparado com sucesso
+INFO:root:23/10/2025 17:03:58 -   Comecando a integracao com o Jira Criando issues
+INFO:root:23/10/2025 17:03:58 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:23/10/2025 17:04:00 -      Sucesso Chave do Epico TRE1655
+INFO:root:23/10/2025 17:04:02 -    Criando Estoria ALTERACAO  SCTASK0426427   Requisito Definido O sist
+INFO:root:23/10/2025 17:04:05 -        Sucesso Chave da Estoria TRE1656
+INFO:root:23/10/2025 17:04:06 -      Criando Tarefa Abrindo apoio para equipe Ires ajustar layout da interfac
+INFO:root:23/10/2025 17:04:09 -          Sucesso Chave da Tarefa TRE1657
+INFO:root:23/10/2025 17:04:09 -   Integracao com o Jira concluida
+INFO:root:23/10/2025 17:04:09 -  Atualizando a planilha com os novos tickets
+INFO:root:23/10/2025 17:04:09 -  Planilha salva com sucesso
+INFO:root:23/10/2025 17:04:09 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:23/10/2025 17:08:21 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:23/10/2025 17:08:21 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:23/10/2025 17:08:21 -  DataFrame preparado com sucesso
+INFO:root:23/10/2025 17:08:21 -   Comecando a integracao com o Jira Criando issues
+INFO:root:23/10/2025 17:08:21 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:23/10/2025 17:08:23 -      Sucesso Chave do Epico TRE1661
+INFO:root:23/10/2025 17:08:26 -    Criando Estoria ALTERACAO  SCTASK0426427   Requisito Definido O sist
+INFO:root:23/10/2025 17:08:29 -        Sucesso Chave da Estoria TRE1662
+INFO:root:23/10/2025 17:08:30 -      Criando Tarefa Abrindo apoio para equipe Ires ajustar layout da interfac
+INFO:root:23/10/2025 17:08:33 -          Sucesso Chave da Tarefa TRE1663
+INFO:root:23/10/2025 17:08:33 -   Integracao com o Jira concluida
+INFO:root:23/10/2025 17:08:33 -  Atualizando a planilha com os novos tickets
+INFO:root:23/10/2025 17:08:33 -  Planilha salva com sucesso
+INFO:root:23/10/2025 17:08:33 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:24/10/2025 09:55:43 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:24/10/2025 09:55:43 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:24/10/2025 09:55:43 -  DataFrame preparado com sucesso
+INFO:root:24/10/2025 09:55:43 -   Comecando a integracao com o Jira Criando issues
+INFO:root:24/10/2025 09:55:43 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:24/10/2025 09:55:46 -      Sucesso Chave do Epico TRE1667
+INFO:root:24/10/2025 09:55:50 -    Criando Estoria ALTERACAO  SCTASK0426427  Otimizar o codigo responsav
+INFO:root:24/10/2025 09:55:53 -        Sucesso Chave da Estoria TRE1668
+INFO:root:24/10/2025 09:55:54 -      Criando Tarefa Otimizar o codigo responsavel pela confirmacao de leitura 
+INFO:root:24/10/2025 09:55:56 -          Sucesso Chave da Tarefa TRE1669
+INFO:root:24/10/2025 09:55:56 -   Integracao com o Jira concluida
+INFO:root:24/10/2025 09:55:56 -  Atualizando a planilha com os novos tickets
+INFO:root:24/10/2025 09:55:56 -  Planilha salva com sucesso
+INFO:root:24/10/2025 09:55:56 -   Processo finalizado com sucesso Seu trabalho foi feito 

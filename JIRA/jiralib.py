@@ -6,7 +6,7 @@ import unicodedata
 
 from datetime import datetime
 
-def create_epic(project, summary, description, due_date, epic_name, reporter_email, ticket, system, module):
+def create_epic(project, summary, description, due_date, epic_name, reporter_email, ticket, system, module, priority, saving):
 
   payloadObj = {
     "fields": {}
@@ -14,15 +14,17 @@ def create_epic(project, summary, description, due_date, epic_name, reporter_ema
 
   epic_name = remove_break_lines(epic_name)[:250]
   summary = remove_break_lines(summary)[:250]
+  priority = str(priority)
 
   payloadObj["fields"]["customfield_10018"] = epic_name
   payloadObj["fields"]["customfield_10101"] = reporter_email
   payloadObj["fields"]["customfield_10102"] = {"value": system}
   payloadObj["fields"]["customfield_10103"] = {"value": module}
   payloadObj["fields"]["customfield_10104"] = due_date
-  payloadObj["fields"]["customfield_10105"] = 0
+  payloadObj["fields"]["customfield_10105"] = saving
   payloadObj["fields"]["customfield_10107"] = {"type": "doc","version": 1,"content": [{"type": "paragraph","content": [{"type": "text","text": description}]}]}
   payloadObj["fields"]["customfield_10300"] = ticket
+  payloadObj["fields"]["customfield_11400"] = {"type": "doc","version": 1,"content": [{"type": "paragraph","content": [{"type": "text","text": priority}]}]}
   payloadObj["fields"]["issuetype"] = {"name": "Epic"}
   payloadObj["fields"]["project"] = {"key": project}
   payloadObj["fields"]["summary"] = summary
