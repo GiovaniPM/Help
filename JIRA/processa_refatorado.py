@@ -172,10 +172,11 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
                     jiralib.add_output(f"    ❌ Falha ao criar Épico. Erro: {e}")
                     last_epic_key = "ERRO"
                 if last_epic_key != "ERRO":
-                    #to: Ready for Development
-                    response = jiralib.advance_status(last_epic_key, "11")
-                    #to: To Do
-                    response = jiralib.advance_status(last_epic_key, "21")
+                    if row.Projeto in ['ENS']:
+                        #to: Ready for Development
+                        response = jiralib.advance_status(last_epic_key, "11")
+                        #to: To Do
+                        response = jiralib.advance_status(last_epic_key, "21")
                     epicos_criados.add(epic_key_identificador)
             else:
                 jiralib.add_output(f"⏭️  Pulando Épico já criado nesta execução: ({last_epic_key})")
@@ -201,8 +202,9 @@ def processar_issues_jira(df: pd.DataFrame) -> Dict[str, List[Any]]:
                     jiralib.add_output(f"      ❌ Falha ao criar Estória. Erro: {e}")
                     last_story_key = "ERRO"
                 if last_epic_key != "ERRO":
-                    #to: Defined
-                    response = jiralib.advance_status(last_epic_key, "21")
+                    if row.Projeto in ['ENS']:
+                        #to: Defined
+                        response = jiralib.advance_status(last_epic_key, "21")
                     estorias_criadas.add(story_key_identificador)
             else:
                 jiralib.add_output(f"  ⏭️  Pulando Estória já criado nesta execução: ({last_story_key})")

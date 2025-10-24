@@ -138,3 +138,25 @@ INFO:root:24/10/2025 09:55:56 -   Integracao com o Jira concluida
 INFO:root:24/10/2025 09:55:56 -  Atualizando a planilha com os novos tickets
 INFO:root:24/10/2025 09:55:56 -  Planilha salva com sucesso
 INFO:root:24/10/2025 09:55:56 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:24/10/2025 11:06:59 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:24/10/2025 11:06:59 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:24/10/2025 11:06:59 -  DataFrame preparado com sucesso
+INFO:root:24/10/2025 11:06:59 -   Comecando a integracao com o Jira Criando issues
+INFO:root:24/10/2025 11:06:59 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:24/10/2025 11:07:02 -      Sucesso Chave do Epico TRE1673
+INFO:root:24/10/2025 11:07:05 -    Criando Estoria ALTERACAO  SCTASK0426427  Otimizar o codigo responsav
+INFO:root:24/10/2025 11:07:09 -        Sucesso Chave da Estoria TRE1674
+INFO:root:24/10/2025 11:07:11 -      Criando Tarefa Otimizar o codigo responsavel pela confirmacao de leitura 
+INFO:root:24/10/2025 11:07:13 -          Sucesso Chave da Tarefa TRE1675
+INFO:root:24/10/2025 11:07:13 -   Integracao com o Jira concluida
+INFO:root:24/10/2025 11:07:13 -  Atualizando a planilha com os novos tickets
+INFO:root:24/10/2025 11:07:14 -  Planilha salva com sucesso
+INFO:root:24/10/2025 11:07:14 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:24/10/2025 11:12:15 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:24/10/2025 11:12:15 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:24/10/2025 11:12:15 -  DataFrame preparado com sucesso
+INFO:root:24/10/2025 11:12:15 -   Comecando a integracao com o Jira Criando issues
+INFO:root:24/10/2025 11:12:15 -  Criando Epico REQ0271654  Abrindo apoio para equipe Ires ajustar layout d
+INFO:root:24/10/2025 11:12:18 -      Sucesso Chave do Epico RPA7568
+INFO:root:24/10/2025 11:12:21 -    Criando Estoria ALTERACAO  SCTASK0426427  Otimizar o codigo responsav
+INFO:root:24/10/2025 11:12:23 -        Sucesso Chave da Estoria RPA7569

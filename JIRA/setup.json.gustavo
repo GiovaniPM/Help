@@ -1,0 +1,9 @@
+{
+   "url":"https://tkebrasil.atlassian.net",
+   "headers":{
+      "Accept":"application/json",
+      "Content-Type":"application/json",
+      "Authorization":"Basic Z3VzdGF2by5zdGFtbUB0a2VsZXZhdG9yLmNvbTpBVEFUVDN4RmZHRjBBWW4wVWhOclZER1RxdWkxbEZCRzRVbExlUDJuZHlacFlyNUVmT0RWdGY4RmZ3SUJ4emhRdEtGb1lFZmhYQTQ4WGo1TUphM2lGMC1oNDMwV2ZORE5XUlNVdXlhWVNMc29mUTVpNjd2ZDBLVGZjeTVTWkF2eHY3OTE3VzBYYlZYZEpHNU5jcXdJNU8xbEZvRExoVkpBcm5OTVBMRVowMG1LWjZ0bk5WQXhhNGM9NTk4OTQ1ODk=",
+      "Cookie":"atlassian.xsrf.token=d161a0b3b93d7f39534e69925933f115d7c07a09_lin"
+   }
+}
