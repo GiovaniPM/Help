@@ -1,0 +1,1 @@
+javac  -encoding UTF-8 --module-path "C:\javafx-sdk-21.0.9\lib" --add-modules javafx.controls -cp "sqlite-jdbc-3.50.3.0.jar" GtdAppJavaFX.java
