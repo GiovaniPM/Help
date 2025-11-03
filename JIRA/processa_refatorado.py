@@ -101,7 +101,7 @@ def preparar_dataframe(arquivo_excel: str) -> pd.DataFrame:
     # Preenche valores NaN (nulos) para evitar erros na concatenação de strings.
     # Usar um dicionário torna o código mais limpo e organizado!
     valores_padrao = {
-        "Épico": "", "Estória": "", "Request": "", "Task": "", "Prioridade": "0",
+        "Épico": "", "Estória": "", "Request": "0", "Task": "0", "Prioridade": "0",
         "Tipo": "", "TicketE": "0", "TicketS": "0", "TicketT": "0", "Retorno": 0,
         "US": ""
     }
@@ -124,7 +124,13 @@ def preparar_dataframe(arquivo_excel: str) -> pd.DataFrame:
     df["UUID_Recurso"] = df.apply(
         lambda row: f"{row['UUID Recurso']}", axis=1
     )    
-
+    df["Request"] = df.apply(
+        lambda row: f"{row['Request']}", axis=1
+    )    
+    df["Task"] = df.apply(
+        lambda row: f"{row['Task']}", axis=1
+    )   
+    
     jiralib.add_output("✓ DataFrame preparado com sucesso!")
     return df
 
