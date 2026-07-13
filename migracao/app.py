@@ -5,39 +5,6 @@ from datetime import datetime, timedelta
 from io import BytesIO
 from pathlib import Path
 
-# -----------------------------------------------------------------------------
-# Dependencia opcional para Pandas Styler.background_gradient
-# -----------------------------------------------------------------------------
-# A tela de Dashboard usa heat.style.background_gradient(cmap="Reds").
-# Esse recurso do Pandas depende do matplotlib. Para facilitar a execucao em
-# ambientes onde a biblioteca nao esteja previamente instalada, a aplicacao
-# tenta instalar automaticamente o pacote na inicializacao.
-#
-# Observacao: a instalacao automatica depende de acesso a internet e permissao
-# para executar pip no ambiente onde o Streamlit esta rodando. Em ambientes
-# corporativos bloqueados, mantenha tambem matplotlib no requirements.txt.
-def ensure_package(package_name: str, import_name: str | None = None) -> bool:
-    import importlib
-    import subprocess
-    import sys
-
-    module_name = import_name or package_name
-    try:
-        importlib.import_module(module_name)
-        return True
-    except ImportError:
-        try:
-            subprocess.check_call([sys.executable, "-m", "pip", "install", package_name])
-            importlib.import_module(module_name)
-            return True
-        except Exception as exc:
-            # Nao interrompe a aplicacao: se a instalacao falhar, o heatmap sera
-            # exibido sem gradiente visual mais abaixo.
-            print(f"Nao foi possivel instalar/importar {package_name}: {exc}")
-            return False
-
-MATPLOTLIB_AVAILABLE = ensure_package("matplotlib")
-
 APP_TITLE = "Registro e Acompanhamento de Incidentes de Migracao"
 DB_PATH = Path("incidentes_migracao.db")
 
@@ -293,11 +260,8 @@ if page == "Dashboard":
 
         st.write("**Heatmap Ambiente x Severidade**")
         heat = pd.crosstab(df["Ambiente"], df["Severidade"]).reindex(index=AMBIENTES, columns=SEVERIDADES, fill_value=0)
-        if MATPLOTLIB_AVAILABLE:
-            st.dataframe(heat.style.background_gradient(cmap="Reds"), use_container_width=True)
-        else:
-            st.warning("matplotlib nao esta disponivel. O heatmap sera exibido sem gradiente de cores.")
-            st.dataframe(heat, use_container_width=True)
+        st.dataframe(heat, use_container_width=True)
+        st.bar_chart(heat)
 
 elif page == "Novo/Editar Incidente":
     st.subheader("Novo/Editar Incidente")
