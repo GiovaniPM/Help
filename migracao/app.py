@@ -74,7 +74,8 @@ def parse_dt(value):
     if value in [None, "", pd.NaT]:
         return None
     try:
-        return pd.to_datetime(value, dayfirst=True, errors="coerce")
+        parsed = pd.to_datetime(value, dayfirst=True, errors="coerce")
+        return None if pd.isna(parsed) else parsed
     except Exception:
         return None
 
@@ -131,8 +132,7 @@ def load_data(conn):
 
     abertura = out["Data/Hora Abertura"]
     resolucao = out["Data/Hora Resolucao"]
-    status = out["Status"].fillna("")
-    is_open = status.isin(OPEN_STATUS)
+    is_open = out["Status"].fillna("").isin(OPEN_STATUS)
     end_for_duration = resolucao.where(resolucao.notna(), now)
     out["Duracao (h)"] = ((end_for_duration - abertura).dt.total_seconds() / 3600).round(2)
     out["Aging Aberto (h)"] = (((now - abertura).dt.total_seconds() / 3600).round(2)).where(is_open, 0)
@@ -157,6 +157,11 @@ def save_record(conn, record):
             ultima_atualizacao, observacoes
         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """, record)
+    conn.commit()
+
+
+def delete_record(conn, incident_id):
+    conn.execute("DELETE FROM incidentes WHERE id = ?", (incident_id,))
     conn.commit()
 
 
@@ -266,7 +271,7 @@ if page == "Dashboard":
 elif page == "Novo/Editar Incidente":
     st.subheader("Novo/Editar Incidente")
     ids = ["Novo"] + df["ID"].dropna().tolist()
-    selected = st.selectbox("Selecione um incidente para editar ou crie um novo", ids)
+    selected = st.selectbox("Selecione um incidente para editar, excluir ou crie um novo", ids)
     current = {}
     if selected != "Novo" and not df.empty:
         current = df[df["ID"] == selected].iloc[0].to_dict()
@@ -309,7 +314,8 @@ elif page == "Novo/Editar Incidente":
         licoes = st.text_area("Licoes Aprendidas", value=current.get("Licoes Aprendidas", ""))
         observacoes = st.text_area("Observacoes", value=current.get("Observacoes", ""))
 
-        if st.form_submit_button("Salvar Incidente"):
+        salvar = st.form_submit_button("Salvar Incidente")
+        if salvar:
             rec = (
                 incident_id, data_abertura.strftime("%Y-%m-%d %H:%M:%S"), ambiente, sistema, componente, fase, tipo,
                 severidade, prioridade, status, impacto, descricao, causa, responsavel, time_responsavel, fornecedor,
@@ -320,6 +326,19 @@ elif page == "Novo/Editar Incidente":
             )
             save_record(conn, rec)
             st.success(f"Incidente {incident_id} salvo com sucesso.")
+            st.rerun()
+
+    if selected != "Novo":
+        st.divider()
+        st.subheader("Excluir Incidente")
+        st.warning(
+            f"Voce esta prestes a excluir definitivamente o incidente {selected}. "
+            "Esta operacao remove o registro do banco SQLite local e nao pode ser desfeita."
+        )
+        confirmar_exclusao = st.checkbox(f"Confirmo que desejo excluir o incidente {selected}")
+        if st.button("Excluir Incidente", type="primary", disabled=not confirmar_exclusao):
+            delete_record(conn, selected)
+            st.success(f"Incidente {selected} excluido com sucesso.")
             st.rerun()
 
 elif page == "Consulta":
