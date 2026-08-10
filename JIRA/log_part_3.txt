@@ -1,0 +1,1000 @@
+INFO:root:23/01/2026 15:59:31 -    Criando Estoria ALTERACAO  SCTASK0594737  Criar uma nova opcao de car
+INFO:root:23/01/2026 15:59:33 -        Sucesso Chave da Estoria ENS9169
+INFO:root:23/01/2026 15:59:34 -      Criando Tarefa Criar uma nova opcao de carregamento que permita mover par
+INFO:root:23/01/2026 15:59:36 -          Sucesso Chave da Tarefa ENS9170
+INFO:root:23/01/2026 15:59:36 -  Criando Epico REQ0288460  Apoiar testes Relatorio para atualizacao de SLA 
+INFO:root:23/01/2026 15:59:38 -      Sucesso Chave do Epico ENS9171
+INFO:root:23/01/2026 15:59:40 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0504397  Apoiar testes Re
+INFO:root:23/01/2026 15:59:42 -        Sucesso Chave da Estoria ENS9172
+INFO:root:23/01/2026 15:59:43 -      Criando Tarefa Apoiar testes Relatorio para atualizacao de SLA Faltante a
+INFO:root:23/01/2026 15:59:45 -          Sucesso Chave da Tarefa ENS9173
+INFO:root:23/01/2026 15:59:45 -  Criando Epico REQ0420965  Apoiar teste Piloto TENDA  Venda so de Material
+INFO:root:23/01/2026 15:59:48 -      Sucesso Chave do Epico ENS9174
+INFO:root:23/01/2026 15:59:50 -    Criando Estoria ALTERACAO  SCTASK0600180  Apoiar teste Piloto TENDA 
+INFO:root:23/01/2026 15:59:52 -        Sucesso Chave da Estoria ENS9175
+INFO:root:23/01/2026 15:59:53 -      Criando Tarefa Apoiar teste Piloto TENDA  Venda so de Material
+INFO:root:23/01/2026 15:59:55 -          Sucesso Chave da Tarefa ENS9176
+INFO:root:23/01/2026 15:59:55 -  Criando Epico 0  Incidente20260123EPIC 1
+INFO:root:23/01/2026 15:59:56 -      Sucesso Chave do Epico ENS9177
+INFO:root:23/01/2026 15:59:58 -    Criando Estoria ALTERACAO  0  Atividade 1
+INFO:root:23/01/2026 16:00:01 -        Sucesso Chave da Estoria ENS9178
+INFO:root:23/01/2026 16:00:02 -      Criando Tarefa Tarefa 1
+INFO:root:23/01/2026 16:00:04 -          Sucesso Chave da Tarefa ENS9179
+INFO:root:23/01/2026 16:00:04 -  Criando Epico 0  Incidente20260123EPIC 2
+INFO:root:23/01/2026 16:00:06 -      Sucesso Chave do Epico ENS9180
+INFO:root:23/01/2026 16:00:08 -    Criando Estoria ALTERACAO  0  Atividade 2
+INFO:root:23/01/2026 16:00:11 -        Sucesso Chave da Estoria ENS9181
+INFO:root:23/01/2026 16:00:12 -      Criando Tarefa Tarefa 2
+INFO:root:23/01/2026 16:00:14 -          Sucesso Chave da Tarefa ENS9182
+INFO:root:23/01/2026 16:00:14 -  Criando Epico 0  Incidente20260123EPIC 3
+INFO:root:23/01/2026 16:00:16 -      Sucesso Chave do Epico ENS9183
+INFO:root:23/01/2026 16:00:18 -    Criando Estoria ALTERACAO  0  Atividade 3
+INFO:root:23/01/2026 16:00:20 -        Sucesso Chave da Estoria ENS9184
+INFO:root:23/01/2026 16:00:21 -      Criando Tarefa Tarefa 3
+INFO:root:23/01/2026 16:00:23 -          Sucesso Chave da Tarefa ENS9185
+INFO:root:23/01/2026 16:00:23 -  Criando Epico 0  Incidente20260123EPIC 4
+INFO:root:23/01/2026 16:00:25 -      Sucesso Chave do Epico ENS9186
+INFO:root:23/01/2026 16:00:27 -    Criando Estoria ALTERACAO  0  Atividade 4
+INFO:root:23/01/2026 16:00:28 -        Sucesso Chave da Estoria ENS9187
+INFO:root:23/01/2026 16:00:29 -      Criando Tarefa Tarefa 4
+INFO:root:23/01/2026 16:00:30 -          Sucesso Chave da Tarefa ENS9188
+INFO:root:23/01/2026 16:00:30 -  Criando Epico 0  Incidente20260123EPIC 5
+INFO:root:23/01/2026 16:00:32 -      Sucesso Chave do Epico ENS9189
+INFO:root:23/01/2026 16:00:34 -    Criando Estoria ALTERACAO  0  Atividade 5
+INFO:root:23/01/2026 16:00:36 -        Sucesso Chave da Estoria ENS9190
+INFO:root:23/01/2026 16:00:37 -      Criando Tarefa Tarefa 5
+INFO:root:23/01/2026 16:00:39 -          Sucesso Chave da Tarefa ENS9191
+INFO:root:23/01/2026 16:00:39 -  Criando Epico 0  Incidente20260123EPIC 6
+INFO:root:23/01/2026 16:00:41 -      Sucesso Chave do Epico ENS9192
+INFO:root:23/01/2026 16:00:43 -    Criando Estoria ALTERACAO  0  Atividade 6
+INFO:root:23/01/2026 16:00:44 -        Sucesso Chave da Estoria ENS9193
+INFO:root:23/01/2026 16:00:45 -      Criando Tarefa Tarefa 6
+INFO:root:23/01/2026 16:00:46 -          Sucesso Chave da Tarefa ENS9194
+INFO:root:23/01/2026 16:00:46 -  Criando Epico 0  Incidente20260123EPIC 7
+INFO:root:23/01/2026 16:00:48 -      Sucesso Chave do Epico ENS9195
+INFO:root:23/01/2026 16:00:51 -    Criando Estoria ALTERACAO  0  Atividade 7
+INFO:root:23/01/2026 16:00:53 -        Sucesso Chave da Estoria ENS9196
+INFO:root:23/01/2026 16:00:54 -      Criando Tarefa Tarefa 7
+INFO:root:23/01/2026 16:00:56 -          Sucesso Chave da Tarefa ENS9197
+INFO:root:23/01/2026 16:00:56 -  Criando Epico 0  Incidente20260123EPIC 8
+INFO:root:23/01/2026 16:00:57 -      Sucesso Chave do Epico ENS9198
+INFO:root:23/01/2026 16:01:00 -    Criando Estoria ALTERACAO  0  Atividade 8
+INFO:root:23/01/2026 16:01:02 -        Sucesso Chave da Estoria ENS9199
+INFO:root:23/01/2026 16:01:02 -      Criando Tarefa Tarefa 8
+INFO:root:23/01/2026 16:01:05 -          Sucesso Chave da Tarefa ENS9200
+INFO:root:23/01/2026 16:01:05 -  Criando Epico 0  Incidente20260123EPIC 9
+INFO:root:23/01/2026 16:01:08 -      Sucesso Chave do Epico ENS9201
+INFO:root:23/01/2026 16:01:10 -    Criando Estoria ALTERACAO  0  Atividade 9
+INFO:root:23/01/2026 16:01:11 -        Sucesso Chave da Estoria ENS9202
+INFO:root:23/01/2026 16:01:12 -      Criando Tarefa Tarefa 9
+INFO:root:23/01/2026 16:01:14 -          Sucesso Chave da Tarefa ENS9203
+INFO:root:23/01/2026 16:01:14 -  Criando Epico 0  Incidente20260123EPIC 10
+INFO:root:23/01/2026 16:01:15 -      Sucesso Chave do Epico ENS9204
+INFO:root:23/01/2026 16:01:18 -    Criando Estoria ALTERACAO  0  Atividade 10
+INFO:root:23/01/2026 16:01:20 -        Sucesso Chave da Estoria ENS9205
+INFO:root:23/01/2026 16:01:21 -      Criando Tarefa Tarefa 10
+INFO:root:23/01/2026 16:01:23 -          Sucesso Chave da Tarefa ENS9206
+INFO:root:23/01/2026 16:01:23 -  Criando Epico 0  Incidente20260123EPIC 11
+INFO:root:23/01/2026 16:01:24 -      Sucesso Chave do Epico ENS9207
+INFO:root:23/01/2026 16:01:26 -    Criando Estoria ALTERACAO  0  Atividade 11
+INFO:root:23/01/2026 16:01:28 -        Sucesso Chave da Estoria ENS9208
+INFO:root:23/01/2026 16:01:29 -      Criando Tarefa Tarefa 11
+INFO:root:23/01/2026 16:01:31 -          Sucesso Chave da Tarefa ENS9209
+INFO:root:23/01/2026 16:01:31 -  Criando Epico 0  Incidente20260123EPIC 12
+INFO:root:23/01/2026 16:01:33 -      Sucesso Chave do Epico ENS9210
+INFO:root:23/01/2026 16:01:35 -    Criando Estoria ALTERACAO  0  Atividade 12
+INFO:root:23/01/2026 16:01:37 -        Sucesso Chave da Estoria ENS9211
+INFO:root:23/01/2026 16:01:37 -      Criando Tarefa Tarefa 12
+INFO:root:23/01/2026 16:01:40 -          Sucesso Chave da Tarefa ENS9212
+INFO:root:23/01/2026 16:01:40 -  Criando Epico 0  Incidente20260123EPIC 13
+INFO:root:23/01/2026 16:01:41 -      Sucesso Chave do Epico ENS9213
+INFO:root:23/01/2026 16:01:43 -    Criando Estoria ALTERACAO  0  Atividade 13
+INFO:root:23/01/2026 16:01:44 -        Sucesso Chave da Estoria ENS9214
+INFO:root:23/01/2026 16:01:45 -      Criando Tarefa Tarefa 13
+INFO:root:23/01/2026 16:01:47 -          Sucesso Chave da Tarefa ENS9215
+INFO:root:23/01/2026 16:01:47 -  Criando Epico 0  Incidente20260123EPIC 14
+INFO:root:23/01/2026 16:01:49 -      Sucesso Chave do Epico ENS9216
+INFO:root:23/01/2026 16:01:51 -    Criando Estoria ALTERACAO  0  Atividade 14
+INFO:root:23/01/2026 16:01:52 -        Sucesso Chave da Estoria ENS9217
+INFO:root:23/01/2026 16:01:53 -      Criando Tarefa Tarefa 14
+INFO:root:23/01/2026 16:01:55 -          Sucesso Chave da Tarefa ENS9218
+INFO:root:23/01/2026 16:01:55 -  Criando Epico 0  Incidente20260123EPIC 15
+INFO:root:23/01/2026 16:01:56 -      Sucesso Chave do Epico ENS9219
+INFO:root:23/01/2026 16:01:59 -    Criando Estoria ALTERACAO  0  Atividade 15
+INFO:root:23/01/2026 16:02:01 -        Sucesso Chave da Estoria ENS9220
+INFO:root:23/01/2026 16:02:01 -      Criando Tarefa Tarefa 15
+INFO:root:23/01/2026 16:02:03 -          Sucesso Chave da Tarefa ENS9221
+INFO:root:23/01/2026 16:02:03 -  Criando Epico 0  Incidente20260123EPIC 16
+INFO:root:23/01/2026 16:02:05 -      Sucesso Chave do Epico ENS9222
+INFO:root:23/01/2026 16:02:07 -    Criando Estoria ALTERACAO  0  Atividade 16
+INFO:root:23/01/2026 16:02:09 -        Sucesso Chave da Estoria ENS9223
+INFO:root:23/01/2026 16:02:10 -      Criando Tarefa Tarefa 16
+INFO:root:23/01/2026 16:02:11 -          Sucesso Chave da Tarefa ENS9224
+INFO:root:23/01/2026 16:02:11 -  Criando Epico 0  Incidente20260123EPIC 17
+INFO:root:23/01/2026 16:02:12 -      Sucesso Chave do Epico ENS9225
+INFO:root:23/01/2026 16:02:14 -    Criando Estoria ALTERACAO  0  Atividade 17
+INFO:root:23/01/2026 16:02:16 -        Sucesso Chave da Estoria ENS9226
+INFO:root:23/01/2026 16:02:17 -      Criando Tarefa Tarefa 17
+INFO:root:23/01/2026 16:02:19 -          Sucesso Chave da Tarefa ENS9227
+INFO:root:23/01/2026 16:02:19 -  Criando Epico 0  Incidente20260123EPIC 18
+INFO:root:23/01/2026 16:02:20 -      Sucesso Chave do Epico ENS9228
+INFO:root:23/01/2026 16:02:22 -    Criando Estoria ALTERACAO  0  Atividade 18
+INFO:root:23/01/2026 16:02:24 -        Sucesso Chave da Estoria ENS9229
+INFO:root:23/01/2026 16:02:25 -      Criando Tarefa Tarefa 18
+INFO:root:23/01/2026 16:02:27 -          Sucesso Chave da Tarefa ENS9230
+INFO:root:23/01/2026 16:02:27 -  Criando Epico 0  Incidente20260123EPIC 19
+INFO:root:23/01/2026 16:02:28 -      Sucesso Chave do Epico ENS9231
+INFO:root:23/01/2026 16:02:31 -    Criando Estoria ALTERACAO  0  Atividade 19
+INFO:root:23/01/2026 16:02:32 -        Sucesso Chave da Estoria ENS9232
+INFO:root:23/01/2026 16:02:33 -      Criando Tarefa Tarefa 19
+INFO:root:23/01/2026 16:02:35 -          Sucesso Chave da Tarefa ENS9233
+INFO:root:23/01/2026 16:02:35 -  Criando Epico 0  Incidente20260123EPIC 20
+INFO:root:23/01/2026 16:02:36 -      Sucesso Chave do Epico ENS9234
+INFO:root:23/01/2026 16:02:39 -    Criando Estoria ALTERACAO  0  Atividade 20
+INFO:root:23/01/2026 16:02:40 -        Sucesso Chave da Estoria ENS9235
+INFO:root:23/01/2026 16:02:41 -      Criando Tarefa Tarefa 20
+INFO:root:23/01/2026 16:02:43 -          Sucesso Chave da Tarefa ENS9236
+INFO:root:23/01/2026 16:02:43 -   Integracao com o Jira concluida
+INFO:root:23/01/2026 16:02:43 -  Atualizando a planilha com os novos tickets
+INFO:root:23/01/2026 16:02:43 -  Planilha salva com sucesso
+INFO:root:23/01/2026 16:02:43 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:09/02/2026 08:53:12 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:09/02/2026 08:53:12 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:09/02/2026 08:53:12 -  DataFrame preparado com sucesso
+INFO:root:09/02/2026 08:53:12 -   Comecando a integracao com o Jira Criando issues
+INFO:root:09/02/2026 08:53:12 -   Pulando Epico ja existente ENS7615
+INFO:root:09/02/2026 08:53:12 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0435445  Implementar uma 
+INFO:root:09/02/2026 08:53:15 -        Sucesso Chave da Estoria ENS9238
+INFO:root:09/02/2026 08:53:16 -      Criando Tarefa Implementar uma comunicacao no IRIS para suportar a integr
+INFO:root:09/02/2026 08:53:18 -          Sucesso Chave da Tarefa ENS9239
+INFO:root:09/02/2026 08:53:18 -   Pulando Epico ja existente ENS7890
+INFO:root:09/02/2026 08:53:18 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0435426  Implementar uma 
+INFO:root:09/02/2026 08:53:19 -        Sucesso Chave da Estoria ENS9240
+INFO:root:09/02/2026 08:53:21 -      Criando Tarefa Implementar uma integracao entre o sistema SAP e o sistema
+INFO:root:09/02/2026 08:53:22 -          Sucesso Chave da Tarefa ENS9241
+INFO:root:09/02/2026 08:53:22 -   Pulando Epico ja existente ENS8159
+INFO:root:09/02/2026 08:53:22 -    Criando Estoria ALTERACAO  0  Atividades Administrativas
+INFO:root:09/02/2026 08:53:24 -        Sucesso Chave da Estoria ENS9242
+INFO:root:09/02/2026 08:53:25 -      Criando Tarefa Atividades Administrativas
+INFO:root:09/02/2026 08:53:26 -          Sucesso Chave da Tarefa ENS9243
+INFO:root:09/02/2026 08:53:26 -   Pulando Epico ja existente ENS8650
+INFO:root:09/02/2026 08:53:26 -    Criando Estoria ALTERACAO  SCTASK0557644  Analisar versao nova v3
+INFO:root:09/02/2026 08:53:28 -        Sucesso Chave da Estoria ENS9244
+INFO:root:09/02/2026 08:53:29 -      Criando Tarefa Analisar versao nova v3
+INFO:root:09/02/2026 08:53:31 -          Sucesso Chave da Tarefa ENS9245
+INFO:root:09/02/2026 08:53:31 -   Pulando Epico ja existente ENS8650
+INFO:root:09/02/2026 08:53:31 -    Criando Estoria ALTERACAO  SCTASK0557644  Alterar documentacao
+INFO:root:09/02/2026 08:53:32 -        Sucesso Chave da Estoria ENS9246
+INFO:root:09/02/2026 08:53:33 -      Criando Tarefa Alterar documentacao
+INFO:root:09/02/2026 08:53:35 -          Sucesso Chave da Tarefa ENS9247
+INFO:root:09/02/2026 08:53:35 -   Pulando Epico ja existente ENS9017
+INFO:root:09/02/2026 08:53:35 -    Criando Estoria ALTERACAO  0  Automatizar script de limpeza de Logs V
+INFO:root:09/02/2026 08:53:37 -        Sucesso Chave da Estoria ENS9248
+INFO:root:09/02/2026 08:53:38 -      Criando Tarefa Automatizar script de limpeza de Logs V
+INFO:root:09/02/2026 08:53:39 -          Sucesso Chave da Tarefa ENS9249
+INFO:root:09/02/2026 08:53:39 -   Pulando Epico ja existente ENS7736
+INFO:root:09/02/2026 08:53:39 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0489546  Criar um portal 
+INFO:root:09/02/2026 08:53:41 -        Sucesso Chave da Estoria ENS9250
+INFO:root:09/02/2026 08:53:42 -      Criando Tarefa Criar um portal de log para erros retornados ao IRIS aces
+INFO:root:09/02/2026 08:53:43 -          Sucesso Chave da Tarefa ENS9251
+INFO:root:09/02/2026 08:53:43 -   Pulando Epico ja existente ENS9165
+INFO:root:09/02/2026 08:53:43 -    Criando Estoria ALTERACAO  SCTASK0599872  Sincronizar Novos Campos da
+INFO:root:09/02/2026 08:53:45 -        Sucesso Chave da Estoria ENS9252
+INFO:root:09/02/2026 08:53:46 -      Criando Tarefa Sincronizar Novos Campos da Proposta do IRIS para o GUS
+INFO:root:09/02/2026 08:53:47 -          Sucesso Chave da Tarefa ENS9253
+INFO:root:09/02/2026 08:53:47 -   Pulando Epico ja existente ENS9168
+INFO:root:09/02/2026 08:53:47 -    Criando Estoria ALTERACAO  SCTASK0594737  Criar uma nova opcao de car
+INFO:root:09/02/2026 08:53:49 -        Sucesso Chave da Estoria ENS9254
+INFO:root:09/02/2026 08:53:50 -      Criando Tarefa Criar uma nova opcao de carregamento que permita mover par
+INFO:root:09/02/2026 08:53:53 -          Sucesso Chave da Tarefa ENS9255
+INFO:root:09/02/2026 08:53:53 -   Pulando Epico ja existente ENS9171
+INFO:root:09/02/2026 08:53:53 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0504397  Apoiar testes Re
+INFO:root:09/02/2026 08:53:54 -        Sucesso Chave da Estoria ENS9256
+INFO:root:09/02/2026 08:53:55 -      Criando Tarefa Apoiar testes Relatorio para atualizacao de SLA Faltante a
+INFO:root:09/02/2026 08:53:57 -          Sucesso Chave da Tarefa ENS9257
+INFO:root:09/02/2026 08:53:57 -   Pulando Epico ja existente ENS9174
+INFO:root:09/02/2026 08:53:57 -    Criando Estoria ALTERACAO  SCTASK0600180  Apoiar teste Piloto TENDA 
+INFO:root:09/02/2026 08:53:58 -        Sucesso Chave da Estoria ENS9258
+INFO:root:09/02/2026 08:53:59 -      Criando Tarefa Apoiar teste Piloto TENDA  Venda so de Material
+INFO:root:09/02/2026 08:54:01 -          Sucesso Chave da Tarefa ENS9259
+INFO:root:09/02/2026 08:54:01 -   Pulando Epico ja existente ENS8911
+INFO:root:09/02/2026 08:54:01 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0580842  Conversao da Int
+INFO:root:09/02/2026 08:54:03 -        Sucesso Chave da Estoria ENS9260
+INFO:root:09/02/2026 08:54:03 -      Criando Tarefa Conversao da Integracao para WebserviceWebAPI CliESP
+INFO:root:09/02/2026 08:54:05 -          Sucesso Chave da Tarefa ENS9261
+INFO:root:09/02/2026 08:54:05 -  Criando Epico 0  Incidente2026029EPIC 1
+INFO:root:09/02/2026 08:54:06 -      Sucesso Chave do Epico ENS9262
+INFO:root:09/02/2026 08:54:09 -    Criando Estoria ALTERACAO  0  Atividade 1
+INFO:root:09/02/2026 08:54:11 -        Sucesso Chave da Estoria ENS9263
+INFO:root:09/02/2026 08:54:12 -      Criando Tarefa Tarefa 1
+INFO:root:09/02/2026 08:54:13 -          Sucesso Chave da Tarefa ENS9264
+INFO:root:09/02/2026 08:54:13 -  Criando Epico 0  Incidente2026029EPIC 2
+INFO:root:09/02/2026 08:54:16 -      Sucesso Chave do Epico ENS9265
+INFO:root:09/02/2026 08:54:18 -    Criando Estoria ALTERACAO  0  Atividade 2
+INFO:root:09/02/2026 08:54:19 -        Sucesso Chave da Estoria ENS9266
+INFO:root:09/02/2026 08:54:20 -      Criando Tarefa Tarefa 2
+INFO:root:09/02/2026 08:54:22 -          Sucesso Chave da Tarefa ENS9267
+INFO:root:09/02/2026 08:54:22 -  Criando Epico 0  Incidente2026029EPIC 3
+INFO:root:09/02/2026 08:54:24 -      Sucesso Chave do Epico ENS9268
+INFO:root:09/02/2026 08:54:26 -    Criando Estoria ALTERACAO  0  Atividade 3
+INFO:root:09/02/2026 08:54:27 -        Sucesso Chave da Estoria ENS9269
+INFO:root:09/02/2026 08:54:28 -      Criando Tarefa Tarefa 3
+INFO:root:09/02/2026 08:54:30 -          Sucesso Chave da Tarefa ENS9270
+INFO:root:09/02/2026 08:54:30 -  Criando Epico 0  Incidente2026029EPIC 4
+INFO:root:09/02/2026 08:54:31 -      Sucesso Chave do Epico ENS9271
+INFO:root:09/02/2026 08:54:33 -    Criando Estoria ALTERACAO  0  Atividade 4
+INFO:root:09/02/2026 08:54:35 -        Sucesso Chave da Estoria ENS9272
+INFO:root:09/02/2026 08:54:36 -      Criando Tarefa Tarefa 4
+INFO:root:09/02/2026 08:54:37 -          Sucesso Chave da Tarefa ENS9273
+INFO:root:09/02/2026 08:54:37 -  Criando Epico 0  Incidente2026029EPIC 5
+INFO:root:09/02/2026 08:54:39 -      Sucesso Chave do Epico ENS9274
+INFO:root:09/02/2026 08:54:41 -    Criando Estoria ALTERACAO  0  Atividade 5
+INFO:root:09/02/2026 08:54:42 -        Sucesso Chave da Estoria ENS9275
+INFO:root:09/02/2026 08:54:43 -      Criando Tarefa Tarefa 5
+INFO:root:09/02/2026 08:54:44 -          Sucesso Chave da Tarefa ENS9276
+INFO:root:09/02/2026 08:54:44 -  Criando Epico 0  Incidente2026029EPIC 6
+INFO:root:09/02/2026 08:54:46 -      Sucesso Chave do Epico ENS9277
+INFO:root:09/02/2026 08:54:49 -    Criando Estoria ALTERACAO  0  Atividade 6
+INFO:root:09/02/2026 08:54:50 -        Sucesso Chave da Estoria ENS9278
+INFO:root:09/02/2026 08:54:51 -      Criando Tarefa Tarefa 6
+INFO:root:09/02/2026 08:54:53 -          Sucesso Chave da Tarefa ENS9279
+INFO:root:09/02/2026 08:54:53 -  Criando Epico 0  Incidente2026029EPIC 7
+INFO:root:09/02/2026 08:54:54 -      Sucesso Chave do Epico ENS9280
+INFO:root:09/02/2026 08:54:56 -    Criando Estoria ALTERACAO  0  Atividade 7
+INFO:root:09/02/2026 08:54:58 -        Sucesso Chave da Estoria ENS9281
+INFO:root:09/02/2026 08:54:59 -      Criando Tarefa Tarefa 7
+INFO:root:09/02/2026 08:55:01 -          Sucesso Chave da Tarefa ENS9282
+INFO:root:09/02/2026 08:55:01 -  Criando Epico 0  Incidente2026029EPIC 8
+INFO:root:09/02/2026 08:55:02 -      Sucesso Chave do Epico ENS9283
+INFO:root:09/02/2026 08:55:05 -    Criando Estoria ALTERACAO  0  Atividade 8
+INFO:root:09/02/2026 08:55:06 -        Sucesso Chave da Estoria ENS9284
+INFO:root:09/02/2026 08:55:07 -      Criando Tarefa Tarefa 8
+INFO:root:09/02/2026 08:55:08 -          Sucesso Chave da Tarefa ENS9285
+INFO:root:09/02/2026 08:55:08 -  Criando Epico 0  Incidente2026029EPIC 9
+INFO:root:09/02/2026 08:55:10 -      Sucesso Chave do Epico ENS9286
+INFO:root:09/02/2026 08:55:12 -    Criando Estoria ALTERACAO  0  Atividade 9
+INFO:root:09/02/2026 08:55:14 -        Sucesso Chave da Estoria ENS9287
+INFO:root:09/02/2026 08:55:15 -      Criando Tarefa Tarefa 9
+INFO:root:09/02/2026 08:55:16 -          Sucesso Chave da Tarefa ENS9288
+INFO:root:09/02/2026 08:55:16 -  Criando Epico 0  Incidente2026029EPIC 10
+INFO:root:09/02/2026 08:55:18 -      Sucesso Chave do Epico ENS9289
+INFO:root:09/02/2026 08:55:20 -    Criando Estoria ALTERACAO  0  Atividade 10
+INFO:root:09/02/2026 08:55:22 -        Sucesso Chave da Estoria ENS9290
+INFO:root:09/02/2026 08:55:22 -      Criando Tarefa Tarefa 10
+INFO:root:09/02/2026 08:55:24 -          Sucesso Chave da Tarefa ENS9291
+INFO:root:09/02/2026 08:55:24 -  Criando Epico 0  Incidente2026029EPIC 11
+INFO:root:09/02/2026 08:55:26 -      Sucesso Chave do Epico ENS9292
+INFO:root:09/02/2026 08:55:28 -    Criando Estoria ALTERACAO  0  Atividade 11
+INFO:root:09/02/2026 08:55:29 -        Sucesso Chave da Estoria ENS9293
+INFO:root:09/02/2026 08:55:30 -      Criando Tarefa Tarefa 11
+INFO:root:09/02/2026 08:55:32 -          Sucesso Chave da Tarefa ENS9294
+INFO:root:09/02/2026 08:55:32 -  Criando Epico 0  Incidente2026029EPIC 12
+INFO:root:09/02/2026 08:55:33 -      Sucesso Chave do Epico ENS9295
+INFO:root:09/02/2026 08:55:35 -    Criando Estoria ALTERACAO  0  Atividade 12
+INFO:root:09/02/2026 08:55:37 -        Sucesso Chave da Estoria ENS9296
+INFO:root:09/02/2026 08:55:38 -      Criando Tarefa Tarefa 12
+INFO:root:09/02/2026 08:55:39 -          Sucesso Chave da Tarefa ENS9297
+INFO:root:09/02/2026 08:55:39 -  Criando Epico 0  Incidente2026029EPIC 13
+INFO:root:09/02/2026 08:55:41 -      Sucesso Chave do Epico ENS9298
+INFO:root:09/02/2026 08:55:44 -    Criando Estoria ALTERACAO  0  Atividade 13
+INFO:root:09/02/2026 08:55:45 -        Sucesso Chave da Estoria ENS9299
+INFO:root:09/02/2026 08:55:46 -      Criando Tarefa Tarefa 13
+INFO:root:09/02/2026 08:55:47 -          Sucesso Chave da Tarefa ENS9300
+INFO:root:09/02/2026 08:55:47 -  Criando Epico 0  Incidente2026029EPIC 14
+INFO:root:09/02/2026 08:55:49 -      Sucesso Chave do Epico ENS9301
+INFO:root:09/02/2026 08:55:51 -    Criando Estoria ALTERACAO  0  Atividade 14
+INFO:root:09/02/2026 08:55:53 -        Sucesso Chave da Estoria ENS9302
+INFO:root:09/02/2026 08:55:53 -      Criando Tarefa Tarefa 14
+INFO:root:09/02/2026 08:55:55 -          Sucesso Chave da Tarefa ENS9303
+INFO:root:09/02/2026 08:55:55 -  Criando Epico 0  Incidente2026029EPIC 15
+INFO:root:09/02/2026 08:55:56 -      Sucesso Chave do Epico ENS9304
+INFO:root:09/02/2026 08:55:58 -    Criando Estoria ALTERACAO  0  Atividade 15
+INFO:root:09/02/2026 08:56:00 -        Sucesso Chave da Estoria ENS9305
+INFO:root:09/02/2026 08:56:01 -      Criando Tarefa Tarefa 15
+INFO:root:09/02/2026 08:56:03 -          Sucesso Chave da Tarefa ENS9306
+INFO:root:09/02/2026 08:56:03 -  Criando Epico 0  Incidente2026029EPIC 16
+INFO:root:09/02/2026 08:56:04 -      Sucesso Chave do Epico ENS9307
+INFO:root:09/02/2026 08:56:06 -    Criando Estoria ALTERACAO  0  Atividade 16
+INFO:root:09/02/2026 08:56:08 -        Sucesso Chave da Estoria ENS9308
+INFO:root:09/02/2026 08:56:08 -      Criando Tarefa Tarefa 16
+INFO:root:09/02/2026 08:56:10 -          Sucesso Chave da Tarefa ENS9309
+INFO:root:09/02/2026 08:56:10 -  Criando Epico 0  Incidente2026029EPIC 17
+INFO:root:09/02/2026 08:56:11 -      Sucesso Chave do Epico ENS9310
+INFO:root:09/02/2026 08:56:14 -    Criando Estoria ALTERACAO  0  Atividade 17
+INFO:root:09/02/2026 08:56:15 -        Sucesso Chave da Estoria ENS9311
+INFO:root:09/02/2026 08:56:16 -      Criando Tarefa Tarefa 17
+INFO:root:09/02/2026 08:56:18 -          Sucesso Chave da Tarefa ENS9312
+INFO:root:09/02/2026 08:56:18 -   Integracao com o Jira concluida
+INFO:root:09/02/2026 08:56:18 -  Atualizando a planilha com os novos tickets
+INFO:root:09/02/2026 08:56:18 -  Planilha salva com sucesso
+INFO:root:09/02/2026 08:56:18 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:23/02/2026 15:07:40 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:23/02/2026 15:07:40 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:23/02/2026 15:07:40 -  DataFrame preparado com sucesso
+INFO:root:23/02/2026 15:07:40 -   Comecando a integracao com o Jira Criando issues
+INFO:root:23/02/2026 15:07:40 -   Pulando Epico ja existente ENS7615
+INFO:root:23/02/2026 15:07:40 -     Pulando Estoria ja existente ENS9238
+INFO:root:23/02/2026 15:07:40 -       Pulando Tarefa ja existente ENS9239
+INFO:root:23/02/2026 15:07:40 -   Pulando Epico ja existente ENS7890
+INFO:root:23/02/2026 15:07:40 -     Pulando Estoria ja existente ENS9240
+INFO:root:23/02/2026 15:07:40 -       Pulando Tarefa ja existente ENS9241
+INFO:root:23/02/2026 15:07:40 -   Pulando Epico ja existente ENS8159
+INFO:root:23/02/2026 15:07:40 -     Pulando Estoria ja existente ENS9242
+INFO:root:23/02/2026 15:07:40 -       Pulando Tarefa ja existente ENS9243
+INFO:root:23/02/2026 15:07:40 -   Pulando Epico ja existente ENS8650
+INFO:root:23/02/2026 15:07:40 -     Pulando Estoria ja existente ENS9246
+INFO:root:23/02/2026 15:07:40 -       Pulando Tarefa ja existente ENS9247
+INFO:root:23/02/2026 15:07:40 -   Pulando Epico ja existente ENS9017
+INFO:root:23/02/2026 15:07:40 -     Pulando Estoria ja existente ENS9248
+INFO:root:23/02/2026 15:07:40 -       Pulando Tarefa ja existente ENS9249
+INFO:root:23/02/2026 15:07:40 -   Pulando Epico ja existente ENS7736
+INFO:root:23/02/2026 15:07:40 -     Pulando Estoria ja existente ENS9250
+INFO:root:23/02/2026 15:07:40 -       Pulando Tarefa ja existente ENS9251
+INFO:root:23/02/2026 15:07:40 -   Pulando Epico ja existente ENS9165
+INFO:root:23/02/2026 15:07:40 -     Pulando Estoria ja existente ENS9252
+INFO:root:23/02/2026 15:07:40 -       Pulando Tarefa ja existente ENS9253
+INFO:root:23/02/2026 15:07:40 -   Pulando Epico ja existente ENS9171
+INFO:root:23/02/2026 15:07:40 -     Pulando Estoria ja existente ENS9256
+INFO:root:23/02/2026 15:07:40 -       Pulando Tarefa ja existente ENS9257
+INFO:root:23/02/2026 15:07:40 -   Pulando Epico ja existente ENS8911
+INFO:root:23/02/2026 15:07:40 -     Pulando Estoria ja existente ENS9260
+INFO:root:23/02/2026 15:07:40 -       Pulando Tarefa ja existente ENS9261
+INFO:root:23/02/2026 15:07:40 -   Pulando Epico ja existente ENS8920
+INFO:root:23/02/2026 15:07:40 -    Criando Estoria ALTERACAO  SCTASK0581534  Implementar uma nova interf
+INFO:root:23/02/2026 15:07:42 -        Sucesso Chave da Estoria ENS9316
+INFO:root:23/02/2026 15:07:43 -      Criando Tarefa Implementar uma nova interface no IRIS para trafegar infor
+INFO:root:23/02/2026 15:07:44 -          Sucesso Chave da Tarefa ENS9317
+INFO:root:23/02/2026 15:07:44 -  Criando Epico REQ0284297  Alterar a data de vencimento das parcelas de um 
+INFO:root:23/02/2026 15:07:47 -      Sucesso Chave do Epico ENS9318
+INFO:root:23/02/2026 15:07:50 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0566529  Alterar a data d
+INFO:root:23/02/2026 15:07:52 -        Sucesso Chave da Estoria ENS9319
+INFO:root:23/02/2026 15:07:52 -      Criando Tarefa Alterar a data de vencimento das parcelas de um contrato v
+INFO:root:23/02/2026 15:07:54 -          Sucesso Chave da Tarefa ENS9320
+INFO:root:23/02/2026 15:07:54 -   Pulando Epico ja existente ENS8156
+INFO:root:23/02/2026 15:07:54 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0531985  Sizing para solu
+INFO:root:23/02/2026 15:07:56 -        Sucesso Chave da Estoria ENS9321
+INFO:root:23/02/2026 15:07:57 -      Criando Tarefa Analise
+INFO:root:23/02/2026 15:07:59 -          Sucesso Chave da Tarefa ENS9322
+INFO:root:23/02/2026 15:07:59 -  Criando Epico 0  Incidente2026029EPIC 1
+INFO:root:23/02/2026 15:08:00 -      Sucesso Chave do Epico ENS9323
+INFO:root:23/02/2026 15:08:04 -    Criando Estoria ALTERACAO  0  Atividade 1
+INFO:root:23/02/2026 15:08:05 -        Sucesso Chave da Estoria ENS9324
+INFO:root:23/02/2026 15:08:06 -      Criando Tarefa Tarefa 1
+INFO:root:23/02/2026 15:08:08 -          Sucesso Chave da Tarefa ENS9325
+INFO:root:23/02/2026 15:08:08 -  Criando Epico 0  Incidente2026029EPIC 2
+INFO:root:23/02/2026 15:08:09 -      Sucesso Chave do Epico ENS9326
+INFO:root:23/02/2026 15:08:12 -    Criando Estoria ALTERACAO  0  Atividade 2
+INFO:root:23/02/2026 15:08:13 -        Sucesso Chave da Estoria ENS9327
+INFO:root:23/02/2026 15:08:14 -      Criando Tarefa Tarefa 2
+INFO:root:23/02/2026 15:08:16 -          Sucesso Chave da Tarefa ENS9328
+INFO:root:23/02/2026 15:08:16 -  Criando Epico 0  Incidente2026029EPIC 3
+INFO:root:23/02/2026 15:08:17 -      Sucesso Chave do Epico ENS9329
+INFO:root:23/02/2026 15:08:19 -    Criando Estoria ALTERACAO  0  Atividade 3
+INFO:root:23/02/2026 15:08:21 -        Sucesso Chave da Estoria ENS9330
+INFO:root:23/02/2026 15:08:22 -      Criando Tarefa Tarefa 3
+INFO:root:23/02/2026 15:08:24 -          Sucesso Chave da Tarefa ENS9331
+INFO:root:23/02/2026 15:08:24 -  Criando Epico 0  Incidente2026029EPIC 4
+INFO:root:23/02/2026 15:08:25 -      Sucesso Chave do Epico ENS9332
+INFO:root:23/02/2026 15:08:27 -    Criando Estoria ALTERACAO  0  Atividade 4
+INFO:root:23/02/2026 15:08:29 -        Sucesso Chave da Estoria ENS9333
+INFO:root:23/02/2026 15:08:30 -      Criando Tarefa Tarefa 4
+INFO:root:23/02/2026 15:08:32 -          Sucesso Chave da Tarefa ENS9334
+INFO:root:23/02/2026 15:08:32 -  Criando Epico 0  Incidente2026029EPIC 5
+INFO:root:23/02/2026 15:08:33 -      Sucesso Chave do Epico ENS9335
+INFO:root:23/02/2026 15:08:36 -    Criando Estoria ALTERACAO  0  Atividade 5
+INFO:root:23/02/2026 15:08:38 -        Sucesso Chave da Estoria ENS9336
+INFO:root:23/02/2026 15:08:38 -      Criando Tarefa Tarefa 5
+INFO:root:23/02/2026 15:08:40 -          Sucesso Chave da Tarefa ENS9337
+INFO:root:23/02/2026 15:08:40 -  Criando Epico 0  Incidente2026029EPIC 6
+INFO:root:23/02/2026 15:08:42 -      Sucesso Chave do Epico ENS9338
+INFO:root:23/02/2026 15:08:44 -    Criando Estoria ALTERACAO  0  Atividade 6
+INFO:root:23/02/2026 15:08:46 -        Sucesso Chave da Estoria ENS9339
+INFO:root:23/02/2026 15:08:47 -      Criando Tarefa Tarefa 6
+INFO:root:23/02/2026 15:08:49 -          Sucesso Chave da Tarefa ENS9340
+INFO:root:23/02/2026 15:08:49 -  Criando Epico 0  Incidente2026029EPIC 7
+INFO:root:23/02/2026 15:08:50 -      Sucesso Chave do Epico ENS9341
+INFO:root:23/02/2026 15:08:54 -    Criando Estoria ALTERACAO  0  Atividade 7
+INFO:root:23/02/2026 15:08:55 -        Sucesso Chave da Estoria ENS9342
+INFO:root:23/02/2026 15:08:56 -      Criando Tarefa Tarefa 7
+INFO:root:23/02/2026 15:08:58 -          Sucesso Chave da Tarefa ENS9343
+INFO:root:23/02/2026 15:08:58 -  Criando Epico 0  Incidente2026029EPIC 8
+INFO:root:23/02/2026 15:09:00 -      Sucesso Chave do Epico ENS9344
+INFO:root:23/02/2026 15:09:02 -    Criando Estoria ALTERACAO  0  Atividade 8
+INFO:root:23/02/2026 15:09:05 -        Sucesso Chave da Estoria ENS9345
+INFO:root:23/02/2026 15:09:06 -      Criando Tarefa Tarefa 8
+INFO:root:23/02/2026 15:09:08 -          Sucesso Chave da Tarefa ENS9346
+INFO:root:23/02/2026 15:09:08 -  Criando Epico 0  Incidente2026029EPIC 9
+INFO:root:23/02/2026 15:09:10 -      Sucesso Chave do Epico ENS9347
+INFO:root:23/02/2026 15:09:12 -    Criando Estoria ALTERACAO  0  Atividade 9
+INFO:root:23/02/2026 15:09:14 -        Sucesso Chave da Estoria ENS9348
+INFO:root:23/02/2026 15:09:14 -      Criando Tarefa Tarefa 9
+INFO:root:23/02/2026 15:09:16 -          Sucesso Chave da Tarefa ENS9349
+INFO:root:23/02/2026 15:09:16 -  Criando Epico 0  Incidente2026029EPIC 10
+INFO:root:23/02/2026 15:09:18 -      Sucesso Chave do Epico ENS9350
+INFO:root:23/02/2026 15:09:20 -    Criando Estoria ALTERACAO  0  Atividade 10
+INFO:root:23/02/2026 15:09:23 -        Sucesso Chave da Estoria ENS9351
+INFO:root:23/02/2026 15:09:24 -      Criando Tarefa Tarefa 10
+INFO:root:23/02/2026 15:09:25 -          Sucesso Chave da Tarefa ENS9352
+INFO:root:23/02/2026 15:09:25 -  Criando Epico 0  Incidente2026029EPIC 11
+INFO:root:23/02/2026 15:09:27 -      Sucesso Chave do Epico ENS9353
+INFO:root:23/02/2026 15:09:29 -    Criando Estoria ALTERACAO  0  Atividade 11
+INFO:root:23/02/2026 15:09:31 -        Sucesso Chave da Estoria ENS9354
+INFO:root:23/02/2026 15:09:32 -      Criando Tarefa Tarefa 11
+INFO:root:23/02/2026 15:09:33 -          Sucesso Chave da Tarefa ENS9355
+INFO:root:23/02/2026 15:09:33 -  Criando Epico 0  Incidente2026029EPIC 12
+INFO:root:23/02/2026 15:09:35 -      Sucesso Chave do Epico ENS9356
+INFO:root:23/02/2026 15:09:38 -    Criando Estoria ALTERACAO  0  Atividade 12
+INFO:root:23/02/2026 15:09:40 -        Sucesso Chave da Estoria ENS9357
+INFO:root:23/02/2026 15:09:41 -      Criando Tarefa Tarefa 12
+INFO:root:23/02/2026 15:09:43 -          Sucesso Chave da Tarefa ENS9358
+INFO:root:23/02/2026 15:09:43 -  Criando Epico 0  Incidente2026029EPIC 13
+INFO:root:23/02/2026 15:09:45 -      Sucesso Chave do Epico ENS9359
+INFO:root:23/02/2026 15:09:48 -    Criando Estoria ALTERACAO  0  Atividade 13
+INFO:root:23/02/2026 15:09:49 -        Sucesso Chave da Estoria ENS9360
+INFO:root:23/02/2026 15:09:50 -      Criando Tarefa Tarefa 13
+INFO:root:23/02/2026 15:09:52 -          Sucesso Chave da Tarefa ENS9361
+INFO:root:23/02/2026 15:09:52 -  Criando Epico 0  Incidente2026029EPIC 14
+INFO:root:23/02/2026 15:09:53 -      Sucesso Chave do Epico ENS9362
+INFO:root:23/02/2026 15:09:57 -    Criando Estoria ALTERACAO  0  Atividade 14
+INFO:root:23/02/2026 15:09:58 -        Sucesso Chave da Estoria ENS9363
+INFO:root:23/02/2026 15:09:59 -      Criando Tarefa Tarefa 14
+INFO:root:23/02/2026 15:10:02 -          Sucesso Chave da Tarefa ENS9364
+INFO:root:23/02/2026 15:10:02 -  Criando Epico 0  Incidente2026029EPIC 15
+INFO:root:23/02/2026 15:10:03 -      Sucesso Chave do Epico ENS9365
+INFO:root:23/02/2026 15:10:06 -    Criando Estoria ALTERACAO  0  Atividade 15
+INFO:root:23/02/2026 15:10:08 -        Sucesso Chave da Estoria ENS9366
+INFO:root:23/02/2026 15:10:10 -      Criando Tarefa Tarefa 15
+INFO:root:23/02/2026 15:10:12 -          Sucesso Chave da Tarefa ENS9367
+INFO:root:23/02/2026 15:10:12 -  Criando Epico 0  Incidente2026029EPIC 16
+INFO:root:23/02/2026 15:10:14 -      Sucesso Chave do Epico ENS9368
+INFO:root:23/02/2026 15:10:16 -    Criando Estoria ALTERACAO  0  Atividade 16
+INFO:root:23/02/2026 15:10:18 -        Sucesso Chave da Estoria ENS9369
+INFO:root:23/02/2026 15:10:19 -      Criando Tarefa Tarefa 16
+INFO:root:23/02/2026 15:10:20 -          Sucesso Chave da Tarefa ENS9370
+INFO:root:23/02/2026 15:10:20 -  Criando Epico 0  Incidente2026029EPIC 17
+INFO:root:23/02/2026 15:10:22 -      Sucesso Chave do Epico ENS9371
+INFO:root:23/02/2026 15:10:25 -    Criando Estoria ALTERACAO  0  Atividade 17
+INFO:root:23/02/2026 15:10:26 -        Sucesso Chave da Estoria ENS9372
+INFO:root:23/02/2026 15:10:27 -      Criando Tarefa Tarefa 17
+INFO:root:23/02/2026 15:10:29 -          Sucesso Chave da Tarefa ENS9373
+INFO:root:23/02/2026 15:10:29 -  Criando Epico 0  Incidente2026029EPIC 18
+INFO:root:23/02/2026 15:10:31 -      Sucesso Chave do Epico ENS9374
+INFO:root:23/02/2026 15:10:33 -    Criando Estoria ALTERACAO  0  Atividade 18
+INFO:root:23/02/2026 15:10:36 -        Sucesso Chave da Estoria ENS9375
+INFO:root:23/02/2026 15:10:36 -      Criando Tarefa Tarefa 18
+INFO:root:23/02/2026 15:10:38 -          Sucesso Chave da Tarefa ENS9376
+INFO:root:23/02/2026 15:10:38 -  Criando Epico 0  Incidente2026029EPIC 19
+INFO:root:23/02/2026 15:10:40 -      Sucesso Chave do Epico ENS9377
+INFO:root:23/02/2026 15:10:42 -    Criando Estoria ALTERACAO  0  Atividade 19
+INFO:root:23/02/2026 15:10:44 -        Sucesso Chave da Estoria ENS9378
+INFO:root:23/02/2026 15:10:44 -      Criando Tarefa Tarefa 19
+INFO:root:23/02/2026 15:10:46 -          Sucesso Chave da Tarefa ENS9379
+INFO:root:23/02/2026 15:10:46 -  Criando Epico 0  Incidente2026029EPIC 20
+INFO:root:23/02/2026 15:10:48 -      Sucesso Chave do Epico ENS9380
+INFO:root:23/02/2026 15:10:50 -    Criando Estoria ALTERACAO  0  Atividade 20
+INFO:root:23/02/2026 15:10:52 -        Sucesso Chave da Estoria ENS9381
+INFO:root:23/02/2026 15:10:53 -      Criando Tarefa Tarefa 20
+INFO:root:23/02/2026 15:10:54 -          Sucesso Chave da Tarefa ENS9382
+INFO:root:23/02/2026 15:10:54 -  Criando Epico 0  Incidente2026029EPIC 21
+INFO:root:23/02/2026 15:10:56 -      Sucesso Chave do Epico ENS9383
+INFO:root:23/02/2026 15:10:58 -    Criando Estoria ALTERACAO  0  Atividade 21
+INFO:root:23/02/2026 15:11:00 -        Sucesso Chave da Estoria ENS9384
+INFO:root:23/02/2026 15:11:01 -      Criando Tarefa Tarefa 21
+INFO:root:23/02/2026 15:11:02 -          Sucesso Chave da Tarefa ENS9385
+INFO:root:23/02/2026 15:11:02 -  Criando Epico 0  Incidente2026029EPIC 22
+INFO:root:23/02/2026 15:11:04 -      Sucesso Chave do Epico ENS9386
+INFO:root:23/02/2026 15:11:06 -    Criando Estoria ALTERACAO  0  Atividade 22
+INFO:root:23/02/2026 15:11:08 -        Sucesso Chave da Estoria ENS9387
+INFO:root:23/02/2026 15:11:09 -      Criando Tarefa Tarefa 22
+INFO:root:23/02/2026 15:11:11 -          Sucesso Chave da Tarefa ENS9388
+INFO:root:23/02/2026 15:11:11 -  Criando Epico 0  Incidente2026029EPIC 23
+INFO:root:23/02/2026 15:11:12 -      Sucesso Chave do Epico ENS9389
+INFO:root:23/02/2026 15:11:14 -    Criando Estoria ALTERACAO  0  Atividade 23
+INFO:root:23/02/2026 15:11:16 -        Sucesso Chave da Estoria ENS9390
+INFO:root:23/02/2026 15:11:17 -      Criando Tarefa Tarefa 23
+INFO:root:23/02/2026 15:11:19 -          Sucesso Chave da Tarefa ENS9391
+INFO:root:23/02/2026 15:11:19 -  Criando Epico 0  Incidente2026029EPIC 24
+INFO:root:23/02/2026 15:11:20 -      Sucesso Chave do Epico ENS9392
+INFO:root:23/02/2026 15:11:22 -    Criando Estoria ALTERACAO  0  Atividade 24
+INFO:root:23/02/2026 15:11:25 -        Sucesso Chave da Estoria ENS9393
+INFO:root:23/02/2026 15:11:26 -      Criando Tarefa Tarefa 24
+INFO:root:23/02/2026 15:11:27 -          Sucesso Chave da Tarefa ENS9394
+INFO:root:23/02/2026 15:11:27 -  Criando Epico 0  Incidente2026029EPIC 25
+INFO:root:23/02/2026 15:11:29 -      Sucesso Chave do Epico ENS9395
+INFO:root:23/02/2026 15:11:31 -    Criando Estoria ALTERACAO  0  Atividade 25
+INFO:root:23/02/2026 15:11:33 -        Sucesso Chave da Estoria ENS9396
+INFO:root:23/02/2026 15:11:34 -      Criando Tarefa Tarefa 25
+INFO:root:23/02/2026 15:11:35 -          Sucesso Chave da Tarefa ENS9397
+INFO:root:23/02/2026 15:11:35 -  Criando Epico 0  Incidente2026029EPIC 26
+INFO:root:23/02/2026 15:11:37 -      Sucesso Chave do Epico ENS9398
+INFO:root:23/02/2026 15:11:39 -    Criando Estoria ALTERACAO  0  Atividade 26
+INFO:root:23/02/2026 15:11:41 -        Sucesso Chave da Estoria ENS9399
+INFO:root:23/02/2026 15:11:42 -      Criando Tarefa Tarefa 26
+INFO:root:23/02/2026 15:11:43 -          Sucesso Chave da Tarefa ENS9400
+INFO:root:23/02/2026 15:11:43 -  Criando Epico 0  Incidente2026029EPIC 27
+INFO:root:23/02/2026 15:11:45 -      Sucesso Chave do Epico ENS9401
+INFO:root:23/02/2026 15:11:47 -    Criando Estoria ALTERACAO  0  Atividade 27
+INFO:root:23/02/2026 15:11:49 -        Sucesso Chave da Estoria ENS9402
+INFO:root:23/02/2026 15:11:50 -      Criando Tarefa Tarefa 27
+INFO:root:23/02/2026 15:11:51 -          Sucesso Chave da Tarefa ENS9403
+INFO:root:23/02/2026 15:11:51 -  Criando Epico 0  Incidente2026029EPIC 28
+INFO:root:23/02/2026 15:11:53 -      Sucesso Chave do Epico ENS9404
+INFO:root:23/02/2026 15:11:55 -    Criando Estoria ALTERACAO  0  Atividade 28
+INFO:root:23/02/2026 15:11:57 -        Sucesso Chave da Estoria ENS9405
+INFO:root:23/02/2026 15:11:58 -      Criando Tarefa Tarefa 28
+INFO:root:23/02/2026 15:11:59 -          Sucesso Chave da Tarefa ENS9406
+INFO:root:23/02/2026 15:11:59 -  Criando Epico 0  Incidente2026029EPIC 29
+INFO:root:23/02/2026 15:12:01 -      Sucesso Chave do Epico ENS9407
+INFO:root:23/02/2026 15:12:03 -    Criando Estoria ALTERACAO  0  Atividade 29
+INFO:root:23/02/2026 15:12:04 -        Sucesso Chave da Estoria ENS9408
+INFO:root:23/02/2026 15:12:05 -      Criando Tarefa Tarefa 29
+INFO:root:23/02/2026 15:12:07 -          Sucesso Chave da Tarefa ENS9409
+INFO:root:23/02/2026 15:12:07 -  Criando Epico 0  Incidente2026029EPIC 30
+INFO:root:23/02/2026 15:12:08 -      Sucesso Chave do Epico ENS9410
+INFO:root:23/02/2026 15:12:10 -    Criando Estoria ALTERACAO  0  Atividade 30
+INFO:root:23/02/2026 15:12:13 -        Sucesso Chave da Estoria ENS9411
+INFO:root:23/02/2026 15:12:13 -      Criando Tarefa Tarefa 30
+INFO:root:23/02/2026 15:12:15 -          Sucesso Chave da Tarefa ENS9412
+INFO:root:23/02/2026 15:12:15 -  Criando Epico 0  Incidente2026029EPIC 31
+INFO:root:23/02/2026 15:12:17 -      Sucesso Chave do Epico ENS9413
+INFO:root:23/02/2026 15:12:19 -    Criando Estoria ALTERACAO  0  Atividade 31
+INFO:root:23/02/2026 15:12:20 -        Sucesso Chave da Estoria ENS9414
+INFO:root:23/02/2026 15:12:21 -      Criando Tarefa Tarefa 31
+INFO:root:23/02/2026 15:12:23 -          Sucesso Chave da Tarefa ENS9415
+INFO:root:23/02/2026 15:12:23 -  Criando Epico 0  Incidente2026029EPIC 32
+INFO:root:23/02/2026 15:12:24 -      Sucesso Chave do Epico ENS9416
+INFO:root:23/02/2026 15:12:26 -    Criando Estoria ALTERACAO  0  Atividade 32
+INFO:root:23/02/2026 15:12:28 -        Sucesso Chave da Estoria ENS9417
+INFO:root:23/02/2026 15:12:29 -      Criando Tarefa Tarefa 32
+INFO:root:23/02/2026 15:12:31 -          Sucesso Chave da Tarefa ENS9418
+INFO:root:23/02/2026 15:12:31 -  Criando Epico 0  Incidente2026029EPIC 33
+INFO:root:23/02/2026 15:12:32 -      Sucesso Chave do Epico ENS9419
+INFO:root:23/02/2026 15:12:34 -    Criando Estoria ALTERACAO  0  Atividade 33
+INFO:root:23/02/2026 15:12:36 -        Sucesso Chave da Estoria ENS9420
+INFO:root:23/02/2026 15:12:37 -      Criando Tarefa Tarefa 33
+INFO:root:23/02/2026 15:12:39 -          Sucesso Chave da Tarefa ENS9421
+INFO:root:23/02/2026 15:12:39 -  Criando Epico 0  Incidente2026029EPIC 34
+INFO:root:23/02/2026 15:12:41 -      Sucesso Chave do Epico ENS9422
+INFO:root:23/02/2026 15:12:42 -    Criando Estoria ALTERACAO  0  Atividade 34
+INFO:root:23/02/2026 15:12:44 -        Sucesso Chave da Estoria ENS9423
+INFO:root:23/02/2026 15:12:45 -      Criando Tarefa Tarefa 34
+INFO:root:23/02/2026 15:12:47 -          Sucesso Chave da Tarefa ENS9424
+INFO:root:23/02/2026 15:12:47 -  Criando Epico 0  Incidente2026029EPIC 35
+INFO:root:23/02/2026 15:12:48 -      Sucesso Chave do Epico ENS9425
+INFO:root:23/02/2026 15:12:51 -    Criando Estoria ALTERACAO  0  Atividade 35
+INFO:root:23/02/2026 15:12:52 -        Sucesso Chave da Estoria ENS9426
+INFO:root:23/02/2026 15:12:53 -      Criando Tarefa Tarefa 35
+INFO:root:23/02/2026 15:12:55 -          Sucesso Chave da Tarefa ENS9427
+INFO:root:23/02/2026 15:12:55 -  Criando Epico 0  Incidente2026029EPIC 36
+INFO:root:23/02/2026 15:12:57 -      Sucesso Chave do Epico ENS9428
+INFO:root:23/02/2026 15:12:59 -    Criando Estoria ALTERACAO  0  Atividade 36
+INFO:root:23/02/2026 15:13:00 -        Sucesso Chave da Estoria ENS9429
+INFO:root:23/02/2026 15:13:01 -      Criando Tarefa Tarefa 36
+INFO:root:23/02/2026 15:13:03 -          Sucesso Chave da Tarefa ENS9430
+INFO:root:23/02/2026 15:13:03 -  Criando Epico 0  Incidente2026029EPIC 37
+INFO:root:23/02/2026 15:13:04 -      Sucesso Chave do Epico ENS9431
+INFO:root:23/02/2026 15:13:06 -    Criando Estoria ALTERACAO  0  Atividade 37
+INFO:root:23/02/2026 15:13:08 -        Sucesso Chave da Estoria ENS9432
+INFO:root:23/02/2026 15:13:08 -      Criando Tarefa Tarefa 37
+INFO:root:23/02/2026 15:13:10 -          Sucesso Chave da Tarefa ENS9433
+INFO:root:23/02/2026 15:13:10 -  Criando Epico 0  Incidente2026029EPIC 38
+INFO:root:23/02/2026 15:13:11 -      Sucesso Chave do Epico ENS9434
+INFO:root:23/02/2026 15:13:13 -    Criando Estoria ALTERACAO  0  Atividade 38
+INFO:root:23/02/2026 15:13:15 -        Sucesso Chave da Estoria ENS9435
+INFO:root:23/02/2026 15:13:16 -      Criando Tarefa Tarefa 38
+INFO:root:23/02/2026 15:13:18 -          Sucesso Chave da Tarefa ENS9436
+INFO:root:23/02/2026 15:13:18 -  Criando Epico 0  Incidente2026029EPIC 39
+INFO:root:23/02/2026 15:13:19 -      Sucesso Chave do Epico ENS9437
+INFO:root:23/02/2026 15:13:21 -    Criando Estoria ALTERACAO  0  Atividade 39
+INFO:root:23/02/2026 15:13:23 -        Sucesso Chave da Estoria ENS9438
+INFO:root:23/02/2026 15:13:24 -      Criando Tarefa Tarefa 39
+INFO:root:23/02/2026 15:13:25 -          Sucesso Chave da Tarefa ENS9439
+INFO:root:23/02/2026 15:13:25 -  Criando Epico 0  Incidente2026029EPIC 40
+INFO:root:23/02/2026 15:13:27 -      Sucesso Chave do Epico ENS9440
+INFO:root:23/02/2026 15:13:29 -    Criando Estoria ALTERACAO  0  Atividade 40
+INFO:root:23/02/2026 15:13:31 -        Sucesso Chave da Estoria ENS9441
+INFO:root:23/02/2026 15:13:32 -      Criando Tarefa Tarefa 40
+INFO:root:23/02/2026 15:13:33 -          Sucesso Chave da Tarefa ENS9442
+INFO:root:23/02/2026 15:13:33 -   Integracao com o Jira concluida
+INFO:root:23/02/2026 15:13:33 -  Atualizando a planilha com os novos tickets
+INFO:root:23/02/2026 15:13:33 -  Planilha salva com sucesso
+INFO:root:23/02/2026 15:13:33 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:23/02/2026 15:15:18 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:23/02/2026 15:15:18 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:23/02/2026 15:15:18 -  DataFrame preparado com sucesso
+INFO:root:23/02/2026 15:15:18 -   Comecando a integracao com o Jira Criando issues
+INFO:root:23/02/2026 15:15:18 -   Pulando Epico ja existente ENS7615
+INFO:root:23/02/2026 15:15:18 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0435445  Implementar uma 
+INFO:root:23/02/2026 15:15:20 -        Sucesso Chave da Estoria ENS9443
+INFO:root:23/02/2026 15:15:21 -      Criando Tarefa Implementar uma comunicacao no IRIS para suportar a integr
+INFO:root:23/02/2026 15:15:23 -          Sucesso Chave da Tarefa ENS9444
+INFO:root:23/02/2026 15:15:23 -   Pulando Epico ja existente ENS7890
+INFO:root:23/02/2026 15:15:23 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0435426  Implementar uma 
+INFO:root:23/02/2026 15:15:24 -        Sucesso Chave da Estoria ENS9445
+INFO:root:23/02/2026 15:15:25 -      Criando Tarefa Implementar uma integracao entre o sistema SAP e o sistema
+INFO:root:23/02/2026 15:15:27 -          Sucesso Chave da Tarefa ENS9446
+INFO:root:23/02/2026 15:15:27 -   Pulando Epico ja existente ENS8159
+INFO:root:23/02/2026 15:15:27 -    Criando Estoria ALTERACAO  0  Atividades Administrativas
+INFO:root:23/02/2026 15:15:29 -        Sucesso Chave da Estoria ENS9447
+INFO:root:23/02/2026 15:15:30 -      Criando Tarefa Atividades Administrativas
+INFO:root:23/02/2026 15:15:32 -          Sucesso Chave da Tarefa ENS9448
+INFO:root:23/02/2026 15:15:32 -   Pulando Epico ja existente ENS8650
+INFO:root:23/02/2026 15:15:32 -    Criando Estoria ALTERACAO  SCTASK0557644  Alterar documentacao
+INFO:root:23/02/2026 15:15:34 -        Sucesso Chave da Estoria ENS9449
+INFO:root:23/02/2026 15:15:36 -      Criando Tarefa Alterar documentacao
+INFO:root:23/02/2026 15:15:38 -          Sucesso Chave da Tarefa ENS9450
+INFO:root:23/02/2026 15:15:38 -   Pulando Epico ja existente ENS9017
+INFO:root:23/02/2026 15:15:38 -    Criando Estoria ALTERACAO  0  Automatizar script de limpeza de Logs V
+INFO:root:23/02/2026 15:15:41 -        Sucesso Chave da Estoria ENS9451
+INFO:root:23/02/2026 15:15:42 -      Criando Tarefa Automatizar script de limpeza de Logs VI
+INFO:root:23/02/2026 15:15:44 -          Sucesso Chave da Tarefa ENS9452
+INFO:root:23/02/2026 15:15:44 -   Pulando Epico ja existente ENS7736
+INFO:root:23/02/2026 15:15:44 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0489546  Criar um portal 
+INFO:root:23/02/2026 15:15:46 -        Sucesso Chave da Estoria ENS9453
+INFO:root:23/02/2026 15:15:47 -      Criando Tarefa Criar um portal de log para erros retornados ao IRIS aces
+INFO:root:23/02/2026 15:15:49 -          Sucesso Chave da Tarefa ENS9454
+INFO:root:23/02/2026 15:15:49 -   Pulando Epico ja existente ENS9165
+INFO:root:23/02/2026 15:15:49 -    Criando Estoria ALTERACAO  SCTASK0599872  Sincronizar Novos Campos da
+INFO:root:23/02/2026 15:15:52 -        Sucesso Chave da Estoria ENS9455
+INFO:root:23/02/2026 15:15:53 -      Criando Tarefa Sincronizar Novos Campos da Proposta do IRIS para o GUS
+INFO:root:23/02/2026 15:15:55 -          Sucesso Chave da Tarefa ENS9456
+INFO:root:23/02/2026 15:15:55 -   Pulando Epico ja existente ENS9171
+INFO:root:23/02/2026 15:15:55 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0504397  Apoiar testes Re
+INFO:root:23/02/2026 15:15:57 -        Sucesso Chave da Estoria ENS9457
+INFO:root:23/02/2026 15:15:58 -      Criando Tarefa Apoiar testes Relatorio para atualizacao de SLA Faltante a
+INFO:root:23/02/2026 15:16:01 -          Sucesso Chave da Tarefa ENS9458
+INFO:root:23/02/2026 15:16:01 -   Pulando Epico ja existente ENS8911
+INFO:root:23/02/2026 15:16:01 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0580842  Conversao da Int
+INFO:root:23/02/2026 15:16:03 -        Sucesso Chave da Estoria ENS9459
+INFO:root:23/02/2026 15:16:04 -      Criando Tarefa Conversao da Integracao para WebserviceWebAPI CliESP
+INFO:root:23/02/2026 15:16:07 -          Sucesso Chave da Tarefa ENS9460
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS8920
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9316
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9317
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9318
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9319
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9320
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS8156
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9321
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9322
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9323
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9324
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9325
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9326
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9327
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9328
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9329
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9330
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9331
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9332
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9333
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9334
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9335
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9336
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9337
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9338
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9339
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9340
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9341
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9342
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9343
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9344
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9345
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9346
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9347
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9348
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9349
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9350
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9351
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9352
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9353
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9354
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9355
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9356
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9357
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9358
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9359
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9360
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9361
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9362
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9363
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9364
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9365
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9366
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9367
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9368
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9369
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9370
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9371
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9372
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9373
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9374
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9375
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9376
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9377
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9378
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9379
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9380
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9381
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9382
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9383
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9384
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9385
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9386
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9387
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9388
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9389
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9390
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9391
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9392
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9393
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9394
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9395
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9396
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9397
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9398
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9399
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9400
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9401
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9402
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9403
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9404
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9405
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9406
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9407
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9408
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9409
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9410
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9411
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9412
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9413
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9414
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9415
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9416
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9417
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9418
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9419
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9420
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9421
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9422
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9423
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9424
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9425
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9426
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9427
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9428
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9429
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9430
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9431
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9432
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9433
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9434
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9435
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9436
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9437
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9438
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9439
+INFO:root:23/02/2026 15:16:07 -   Pulando Epico ja existente ENS9440
+INFO:root:23/02/2026 15:16:07 -     Pulando Estoria ja existente ENS9441
+INFO:root:23/02/2026 15:16:07 -       Pulando Tarefa ja existente ENS9442
+INFO:root:23/02/2026 15:16:07 -   Integracao com o Jira concluida
+INFO:root:23/02/2026 15:16:07 -  Atualizando a planilha com os novos tickets
+INFO:root:23/02/2026 15:16:07 -  Planilha salva com sucesso
+INFO:root:23/02/2026 15:16:07 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:09/03/2026 15:16:59 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:09/03/2026 15:16:59 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:09/03/2026 15:16:59 -  DataFrame preparado com sucesso
+INFO:root:09/03/2026 15:16:59 -   Comecando a integracao com o Jira Criando issues
+INFO:root:09/03/2026 15:16:59 -   Pulando Epico ja existente ENS7615
+INFO:root:09/03/2026 15:16:59 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0435445  Implementar uma 
+INFO:root:09/03/2026 15:17:00 -        Sucesso Chave da Estoria ENS9462
+INFO:root:09/03/2026 15:17:01 -      Criando Tarefa Implementar uma comunicacao no IRIS para suportar a integr
+INFO:root:09/03/2026 15:17:03 -          Sucesso Chave da Tarefa ENS9463
+INFO:root:09/03/2026 15:17:03 -   Pulando Epico ja existente ENS7890
+INFO:root:09/03/2026 15:17:03 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0435426  Implementar uma 
+INFO:root:09/03/2026 15:17:05 -        Sucesso Chave da Estoria ENS9464
+INFO:root:09/03/2026 15:17:06 -      Criando Tarefa Implementar uma integracao entre o sistema SAP e o sistema
+INFO:root:09/03/2026 15:17:08 -          Sucesso Chave da Tarefa ENS9465
+INFO:root:09/03/2026 15:17:08 -   Pulando Epico ja existente ENS8159
+INFO:root:09/03/2026 15:17:08 -    Criando Estoria ALTERACAO  0  Atividades Administrativas
+INFO:root:09/03/2026 15:17:10 -        Sucesso Chave da Estoria ENS9466
+INFO:root:09/03/2026 15:17:11 -      Criando Tarefa Atividades Administrativas
+INFO:root:09/03/2026 15:17:12 -          Sucesso Chave da Tarefa ENS9467
+INFO:root:09/03/2026 15:17:12 -   Pulando Epico ja existente ENS8650
+INFO:root:09/03/2026 15:17:12 -    Criando Estoria ALTERACAO  SCTASK0557644  Alterar documentacao
+INFO:root:09/03/2026 15:17:14 -        Sucesso Chave da Estoria ENS9468
+INFO:root:09/03/2026 15:17:15 -      Criando Tarefa Alterar documentacao
+INFO:root:09/03/2026 15:17:17 -          Sucesso Chave da Tarefa ENS9469
+INFO:root:09/03/2026 15:17:17 -   Pulando Epico ja existente ENS9017
+INFO:root:09/03/2026 15:17:17 -    Criando Estoria ALTERACAO  0  Automatizar script de limpeza de Logs V
+INFO:root:09/03/2026 15:17:18 -        Sucesso Chave da Estoria ENS9470
+INFO:root:09/03/2026 15:17:19 -      Criando Tarefa Automatizar script de limpeza de Logs VI
+INFO:root:09/03/2026 15:17:21 -          Sucesso Chave da Tarefa ENS9471
+INFO:root:09/03/2026 15:17:21 -   Pulando Epico ja existente ENS9165
+INFO:root:09/03/2026 15:17:21 -    Criando Estoria ALTERACAO  SCTASK0599872  Sincronizar Novos Campos da
+INFO:root:09/03/2026 15:17:22 -        Sucesso Chave da Estoria ENS9472
+INFO:root:09/03/2026 15:17:23 -      Criando Tarefa Sincronizar Novos Campos da Proposta do IRIS para o GUS
+INFO:root:09/03/2026 15:17:25 -          Sucesso Chave da Tarefa ENS9473
+INFO:root:09/03/2026 15:17:25 -   Pulando Epico ja existente ENS9171
+INFO:root:09/03/2026 15:17:25 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0504397  Apoiar testes Re
+INFO:root:09/03/2026 15:17:26 -        Sucesso Chave da Estoria ENS9474
+INFO:root:09/03/2026 15:17:27 -      Criando Tarefa Apoiar testes Relatorio para atualizacao de SLA Faltante a
+INFO:root:09/03/2026 15:17:29 -          Sucesso Chave da Tarefa ENS9475
+INFO:root:09/03/2026 15:17:29 -   Pulando Epico ja existente ENS8911
+INFO:root:09/03/2026 15:17:29 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0580842  Conversao da Int
+INFO:root:09/03/2026 15:17:30 -        Sucesso Chave da Estoria ENS9476
+INFO:root:09/03/2026 15:17:31 -      Criando Tarefa Conversao da Integracao para WebserviceWebAPI CliESP
+INFO:root:09/03/2026 15:17:33 -          Sucesso Chave da Tarefa ENS9477
+INFO:root:09/03/2026 15:17:33 -   Pulando Epico ja existente ENS8920
+INFO:root:09/03/2026 15:17:33 -    Criando Estoria ALTERACAO  SCTASK0581534  Implementar uma nova interf
+INFO:root:09/03/2026 15:17:35 -        Sucesso Chave da Estoria ENS9478
+INFO:root:09/03/2026 15:17:36 -      Criando Tarefa Implementar uma nova interface no IRIS para trafegar infor
+INFO:root:09/03/2026 15:17:37 -          Sucesso Chave da Tarefa ENS9479
+INFO:root:09/03/2026 15:17:37 -   Pulando Epico ja existente ENS9318
+INFO:root:09/03/2026 15:17:37 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0566529  Alterar a data d
+INFO:root:09/03/2026 15:17:39 -        Sucesso Chave da Estoria ENS9480
+INFO:root:09/03/2026 15:17:39 -      Criando Tarefa Alterar a data de vencimento das parcelas de um contrato v
+INFO:root:09/03/2026 15:17:42 -          Sucesso Chave da Tarefa ENS9481
+INFO:root:09/03/2026 15:17:42 -   Pulando Epico ja existente ENS8156
+INFO:root:09/03/2026 15:17:42 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0531985  Sizing para solu
+INFO:root:09/03/2026 15:17:43 -        Sucesso Chave da Estoria ENS9482
+INFO:root:09/03/2026 15:17:44 -      Criando Tarefa Analise
+INFO:root:09/03/2026 15:17:46 -          Sucesso Chave da Tarefa ENS9483
+INFO:root:09/03/2026 15:17:46 -  Criando Epico REQ0357124   Alterar a forma pelo qual o IRIS esta buscando 
+INFO:root:09/03/2026 15:17:47 -      Sucesso Chave do Epico ENS9484
+INFO:root:09/03/2026 15:17:49 -    Criando Estoria ALTERACAO  SCTASK0632280  Alterar a forma pelo qual o
+INFO:root:09/03/2026 15:17:50 -        Sucesso Chave da Estoria ENS9485
+INFO:root:09/03/2026 15:17:51 -      Criando Tarefa Alterar a forma pelo qual o IRIS esta buscando o PDF do fl
+INFO:root:09/03/2026 15:17:53 -          Sucesso Chave da Tarefa ENS9486
+INFO:root:09/03/2026 15:17:53 -  Criando Epico REQ0447698  Aprimorar a consulta do protocolo no eCold da N
+INFO:root:09/03/2026 15:17:54 -      Sucesso Chave do Epico ENS9487
+INFO:root:09/03/2026 15:17:57 -    Criando Estoria ALTERACAO  SCTASK0627332  Aprimorar a consulta do pro
+INFO:root:09/03/2026 15:17:58 -        Sucesso Chave da Estoria ENS9488
+INFO:root:09/03/2026 15:17:59 -      Criando Tarefa Aprimorar a consulta do protocolo no eCold da NDD quando 
+INFO:root:09/03/2026 15:18:00 -          Sucesso Chave da Tarefa ENS9489
+INFO:root:09/03/2026 15:18:00 -  Criando Epico 0  Incidente2023039EPIC 1
+INFO:root:09/03/2026 15:18:02 -      Sucesso Chave do Epico ENS9490
+INFO:root:09/03/2026 15:18:04 -    Criando Estoria ALTERACAO  0  Atividade 1
+INFO:root:09/03/2026 15:18:06 -        Sucesso Chave da Estoria ENS9491
+INFO:root:09/03/2026 15:18:07 -      Criando Tarefa Tarefa 1
+INFO:root:09/03/2026 15:18:09 -          Sucesso Chave da Tarefa ENS9492
+INFO:root:09/03/2026 15:18:09 -  Criando Epico 0  Incidente2023039EPIC 2
+INFO:root:09/03/2026 15:18:11 -      Sucesso Chave do Epico ENS9493
+INFO:root:09/03/2026 15:18:13 -    Criando Estoria ALTERACAO  0  Atividade 2
+INFO:root:09/03/2026 15:18:15 -        Sucesso Chave da Estoria ENS9494
+INFO:root:09/03/2026 15:18:15 -      Criando Tarefa Tarefa 2
+INFO:root:09/03/2026 15:18:17 -          Sucesso Chave da Tarefa ENS9495
+INFO:root:09/03/2026 15:18:17 -  Criando Epico 0  Incidente2023039EPIC 3
+INFO:root:09/03/2026 15:18:19 -      Sucesso Chave do Epico ENS9496
+INFO:root:09/03/2026 15:18:21 -    Criando Estoria ALTERACAO  0  Atividade 3
+INFO:root:09/03/2026 15:18:22 -        Sucesso Chave da Estoria ENS9497
+INFO:root:09/03/2026 15:18:23 -      Criando Tarefa Tarefa 3
+INFO:root:09/03/2026 15:18:25 -          Sucesso Chave da Tarefa ENS9498
+INFO:root:09/03/2026 15:18:25 -  Criando Epico 0  Incidente2023039EPIC 4
+INFO:root:09/03/2026 15:18:26 -      Sucesso Chave do Epico ENS9499
+INFO:root:09/03/2026 15:18:28 -    Criando Estoria ALTERACAO  0  Atividade 4
+INFO:root:09/03/2026 15:18:30 -        Sucesso Chave da Estoria ENS9500
+INFO:root:09/03/2026 15:18:31 -      Criando Tarefa Tarefa 4
+INFO:root:09/03/2026 15:18:32 -          Sucesso Chave da Tarefa ENS9501
+INFO:root:09/03/2026 15:18:32 -  Criando Epico 0  Incidente2023039EPIC 5
+INFO:root:09/03/2026 15:18:34 -      Sucesso Chave do Epico ENS9502
+INFO:root:09/03/2026 15:18:36 -    Criando Estoria ALTERACAO  0  Atividade 5
+INFO:root:09/03/2026 15:18:37 -        Sucesso Chave da Estoria ENS9503
+INFO:root:09/03/2026 15:18:38 -      Criando Tarefa Tarefa 5
+INFO:root:09/03/2026 15:18:40 -          Sucesso Chave da Tarefa ENS9504
+INFO:root:09/03/2026 15:18:40 -  Criando Epico 0  Incidente2023039EPIC 6
+INFO:root:09/03/2026 15:18:42 -      Sucesso Chave do Epico ENS9505
+INFO:root:09/03/2026 15:18:44 -    Criando Estoria ALTERACAO  0  Atividade 6
+INFO:root:09/03/2026 15:18:45 -        Sucesso Chave da Estoria ENS9506
+INFO:root:09/03/2026 15:18:46 -      Criando Tarefa Tarefa 6
+INFO:root:09/03/2026 15:18:48 -          Sucesso Chave da Tarefa ENS9507
+INFO:root:09/03/2026 15:18:48 -  Criando Epico 0  Incidente2023039EPIC 7
+INFO:root:09/03/2026 15:18:49 -      Sucesso Chave do Epico ENS9508
+INFO:root:09/03/2026 15:18:51 -    Criando Estoria ALTERACAO  0  Atividade 7
+INFO:root:09/03/2026 15:18:53 -        Sucesso Chave da Estoria ENS9509
+INFO:root:09/03/2026 15:18:54 -      Criando Tarefa Tarefa 7
+INFO:root:09/03/2026 15:18:55 -          Sucesso Chave da Tarefa ENS9510
+INFO:root:09/03/2026 15:18:55 -  Criando Epico 0  Incidente2023039EPIC 8
+INFO:root:09/03/2026 15:18:57 -      Sucesso Chave do Epico ENS9511
+INFO:root:09/03/2026 15:18:59 -    Criando Estoria ALTERACAO  0  Atividade 8
+INFO:root:09/03/2026 15:19:01 -        Sucesso Chave da Estoria ENS9512
+INFO:root:09/03/2026 15:19:01 -      Criando Tarefa Tarefa 8
+INFO:root:09/03/2026 15:19:04 -          Sucesso Chave da Tarefa ENS9513
+INFO:root:09/03/2026 15:19:04 -  Criando Epico 0  Incidente2023039EPIC 9
+INFO:root:09/03/2026 15:19:05 -      Sucesso Chave do Epico ENS9514
+INFO:root:09/03/2026 15:19:08 -    Criando Estoria ALTERACAO  0  Atividade 9
+INFO:root:09/03/2026 15:19:09 -        Sucesso Chave da Estoria ENS9515
+INFO:root:09/03/2026 15:19:10 -      Criando Tarefa Tarefa 9
+INFO:root:09/03/2026 15:19:12 -          Sucesso Chave da Tarefa ENS9516
+INFO:root:09/03/2026 15:19:12 -  Criando Epico 0  Incidente2023039EPIC 10
+INFO:root:09/03/2026 15:19:13 -      Sucesso Chave do Epico ENS9517
+INFO:root:09/03/2026 15:19:16 -    Criando Estoria ALTERACAO  0  Atividade 10
+INFO:root:09/03/2026 15:19:18 -        Sucesso Chave da Estoria ENS9518
+INFO:root:09/03/2026 15:19:18 -      Criando Tarefa Tarefa 10
+INFO:root:09/03/2026 15:19:20 -          Sucesso Chave da Tarefa ENS9519
+INFO:root:09/03/2026 15:19:20 -  Criando Epico 0  Incidente2023039EPIC 11
+INFO:root:09/03/2026 15:19:21 -      Sucesso Chave do Epico ENS9520
+INFO:root:09/03/2026 15:19:23 -    Criando Estoria ALTERACAO  0  Atividade 11
+INFO:root:09/03/2026 15:19:25 -        Sucesso Chave da Estoria ENS9521
+INFO:root:09/03/2026 15:19:26 -      Criando Tarefa Tarefa 11
+INFO:root:09/03/2026 15:19:27 -          Sucesso Chave da Tarefa ENS9522
+INFO:root:09/03/2026 15:19:27 -  Criando Epico 0  Incidente2023039EPIC 12
+INFO:root:09/03/2026 15:19:29 -      Sucesso Chave do Epico ENS9523
+INFO:root:09/03/2026 15:19:31 -    Criando Estoria ALTERACAO  0  Atividade 12
+INFO:root:09/03/2026 15:19:33 -        Sucesso Chave da Estoria ENS9524
+INFO:root:09/03/2026 15:19:34 -      Criando Tarefa Tarefa 12
+INFO:root:09/03/2026 15:19:35 -          Sucesso Chave da Tarefa ENS9525
+INFO:root:09/03/2026 15:19:35 -  Criando Epico 0  Incidente2023039EPIC 13
+INFO:root:09/03/2026 15:19:36 -      Sucesso Chave do Epico ENS9526
+INFO:root:09/03/2026 15:19:38 -    Criando Estoria ALTERACAO  0  Atividade 13
+INFO:root:09/03/2026 15:19:40 -        Sucesso Chave da Estoria ENS9527
+INFO:root:09/03/2026 15:19:41 -      Criando Tarefa Tarefa 13
+INFO:root:09/03/2026 15:19:43 -          Sucesso Chave da Tarefa ENS9528
+INFO:root:09/03/2026 15:19:43 -  Criando Epico 0  Incidente2023039EPIC 14
+INFO:root:09/03/2026 15:19:44 -      Sucesso Chave do Epico ENS9529
+INFO:root:09/03/2026 15:19:46 -    Criando Estoria ALTERACAO  0  Atividade 14
+INFO:root:09/03/2026 15:19:49 -        Sucesso Chave da Estoria ENS9530
+INFO:root:09/03/2026 15:19:49 -      Criando Tarefa Tarefa 14
+INFO:root:09/03/2026 15:19:52 -          Sucesso Chave da Tarefa ENS9531
+INFO:root:09/03/2026 15:19:52 -  Criando Epico 0  Incidente2023039EPIC 15
+INFO:root:09/03/2026 15:19:53 -      Sucesso Chave do Epico ENS9532
+INFO:root:09/03/2026 15:19:55 -    Criando Estoria ALTERACAO  0  Atividade 15
+INFO:root:09/03/2026 15:19:57 -        Sucesso Chave da Estoria ENS9533
+INFO:root:09/03/2026 15:19:58 -      Criando Tarefa Tarefa 15
+INFO:root:09/03/2026 15:20:00 -          Sucesso Chave da Tarefa ENS9534
+INFO:root:09/03/2026 15:20:00 -  Criando Epico 0  Incidente2023039EPIC 16
+INFO:root:09/03/2026 15:20:02 -      Sucesso Chave do Epico ENS9535
+INFO:root:09/03/2026 15:20:04 -    Criando Estoria ALTERACAO  0  Atividade 16
+INFO:root:09/03/2026 15:20:06 -        Sucesso Chave da Estoria ENS9536
+INFO:root:09/03/2026 15:20:07 -      Criando Tarefa Tarefa 16
+INFO:root:09/03/2026 15:20:08 -          Sucesso Chave da Tarefa ENS9537
+INFO:root:09/03/2026 15:20:08 -  Criando Epico 0  Incidente2023039EPIC 17
+INFO:root:09/03/2026 15:20:10 -      Sucesso Chave do Epico ENS9538
+INFO:root:09/03/2026 15:20:12 -    Criando Estoria ALTERACAO  0  Atividade 17
+INFO:root:09/03/2026 15:20:14 -        Sucesso Chave da Estoria ENS9539
+INFO:root:09/03/2026 15:20:15 -      Criando Tarefa Tarefa 17
+INFO:root:09/03/2026 15:20:17 -          Sucesso Chave da Tarefa ENS9540
+INFO:root:09/03/2026 15:20:17 -  Criando Epico 0  Incidente2023039EPIC 18
+INFO:root:09/03/2026 15:20:18 -      Sucesso Chave do Epico ENS9541
+INFO:root:09/03/2026 15:20:21 -    Criando Estoria ALTERACAO  0  Atividade 18
+INFO:root:09/03/2026 15:20:22 -        Sucesso Chave da Estoria ENS9542
+INFO:root:09/03/2026 15:20:23 -      Criando Tarefa Tarefa 18
+INFO:root:09/03/2026 15:20:25 -          Sucesso Chave da Tarefa ENS9543
+INFO:root:09/03/2026 15:20:25 -  Criando Epico 0  Incidente2023039EPIC 19
+INFO:root:09/03/2026 15:20:27 -      Sucesso Chave do Epico ENS9544
+INFO:root:09/03/2026 15:20:29 -    Criando Estoria ALTERACAO  0  Atividade 19
+INFO:root:09/03/2026 15:20:30 -        Sucesso Chave da Estoria ENS9545
+INFO:root:09/03/2026 15:20:31 -      Criando Tarefa Tarefa 19
+INFO:root:09/03/2026 15:20:33 -          Sucesso Chave da Tarefa ENS9546
+INFO:root:09/03/2026 15:20:33 -  Criando Epico 0  Incidente2023039EPIC 20
+INFO:root:09/03/2026 15:20:34 -      Sucesso Chave do Epico ENS9547
+INFO:root:09/03/2026 15:20:37 -    Criando Estoria ALTERACAO  0  Atividade 20
+INFO:root:09/03/2026 15:20:38 -        Sucesso Chave da Estoria ENS9548
+INFO:root:09/03/2026 15:20:39 -      Criando Tarefa Tarefa 20
+INFO:root:09/03/2026 15:20:41 -          Sucesso Chave da Tarefa ENS9549
+INFO:root:09/03/2026 15:20:41 -  Criando Epico 0  Incidente2023039EPIC 21
+INFO:root:09/03/2026 15:20:42 -      Sucesso Chave do Epico ENS9550
+INFO:root:09/03/2026 15:20:45 -    Criando Estoria ALTERACAO  0  Atividade 21
+INFO:root:09/03/2026 15:20:46 -        Sucesso Chave da Estoria ENS9551
+INFO:root:09/03/2026 15:20:47 -      Criando Tarefa Tarefa 21
+INFO:root:09/03/2026 15:20:49 -          Sucesso Chave da Tarefa ENS9552
+INFO:root:09/03/2026 15:20:49 -  Criando Epico 0  Incidente2023039EPIC 22
+INFO:root:09/03/2026 15:20:50 -      Sucesso Chave do Epico ENS9553
+INFO:root:09/03/2026 15:20:52 -    Criando Estoria ALTERACAO  0  Atividade 22
+INFO:root:09/03/2026 15:20:54 -        Sucesso Chave da Estoria ENS9554
+INFO:root:09/03/2026 15:20:55 -      Criando Tarefa Tarefa 22
+INFO:root:09/03/2026 15:20:56 -          Sucesso Chave da Tarefa ENS9555
+INFO:root:09/03/2026 15:20:56 -  Criando Epico 0  Incidente2023039EPIC 23
+INFO:root:09/03/2026 15:20:58 -      Sucesso Chave do Epico ENS9556
+INFO:root:09/03/2026 15:21:00 -    Criando Estoria ALTERACAO  0  Atividade 23
+INFO:root:09/03/2026 15:21:02 -        Sucesso Chave da Estoria ENS9557
+INFO:root:09/03/2026 15:21:02 -      Criando Tarefa Tarefa 23
+INFO:root:09/03/2026 15:21:04 -          Sucesso Chave da Tarefa ENS9558
+INFO:root:09/03/2026 15:21:04 -  Criando Epico 0  Incidente2023039EPIC 24
+INFO:root:09/03/2026 15:21:06 -      Sucesso Chave do Epico ENS9559
+INFO:root:09/03/2026 15:21:08 -    Criando Estoria ALTERACAO  0  Atividade 24
+INFO:root:09/03/2026 15:21:10 -        Sucesso Chave da Estoria ENS9560
+INFO:root:09/03/2026 15:21:11 -      Criando Tarefa Tarefa 24
+INFO:root:09/03/2026 15:21:13 -          Sucesso Chave da Tarefa ENS9561
+INFO:root:09/03/2026 15:21:13 -  Criando Epico 0  Incidente2023039EPIC 25
+INFO:root:09/03/2026 15:21:14 -      Sucesso Chave do Epico ENS9562

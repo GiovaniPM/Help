@@ -1,0 +1,1002 @@
+Ticket   || Tipo            || Data       || Pai      || Incidente       || Descrição                                          ||
+ENS-8429 || História        || 2025-11-11 || ENS-8428 ||                 || Atividade                                          ||
+ENS-8428 || Epic            || 2025-11-11 || ENS-8428 || 0               || Atividades gerais                                  ||
+ENS-8425 || História        || 2025-10-29 || ENS-8352 ||                 || [ALTERAÇÃO] - [0] - Atividade 37                   ||
+ENS-8423 || História        || 2025-10-29 || ENS-8351 ||                 || [ALTERAÇÃO] - [0] - Atividade 36                   ||
+ENS-8421 || História        || 2025-10-29 || ENS-8350 ||                 || [ALTERAÇÃO] - [0] - Atividade 35                   ||
+ENS-8419 || História        || 2025-10-29 || ENS-8349 ||                 || [ALTERAÇÃO] - [0] - Atividade 34                   ||
+ENS-8417 || História        || 2025-10-29 || ENS-8348 ||                 || [ALTERAÇÃO] - [0] - Atividade 33                   ||
+ENS-8415 || História        || 2025-10-29 || ENS-8347 ||                 || [ALTERAÇÃO] - [0] - Atividade 32                   ||
+ENS-8413 || História        || 2025-10-29 || ENS-8346 ||                 || [ALTERAÇÃO] - [0] - Atividade 31                   ||
+ENS-8411 || História        || 2025-10-29 || ENS-8345 ||                 || [ALTERAÇÃO] - [0] - Atividade 30                   ||
+ENS-8409 || História        || 2025-10-29 || ENS-8344 ||                 || [ALTERAÇÃO] - [0] - Atividade 29                   ||
+ENS-8407 || História        || 2025-10-29 || ENS-8343 ||                 || [ALTERAÇÃO] - [0] - Atividade 28                   ||
+ENS-8405 || História        || 2025-10-29 || ENS-8342 ||                 || [ALTERAÇÃO] - [0] - Atividade 27                   ||
+ENS-8403 || História        || 2025-10-29 || ENS-8341 ||                 || [ALTERAÇÃO] - [0] - Atividade 26                   ||
+ENS-8401 || História        || 2025-10-29 || ENS-8340 ||                 || [ALTERAÇÃO] - [0] - Atividade 25                   ||
+ENS-8399 || História        || 2025-10-29 || ENS-8339 ||                 || [ALTERAÇÃO] - [0] - Atividade 24                   ||
+ENS-8397 || História        || 2025-10-29 || ENS-8338 ||                 || [ALTERAÇÃO] - [0] - Atividade 23                   ||
+ENS-8395 || História        || 2025-10-29 || ENS-8337 ||                 || [ALTERAÇÃO] - [0] - Atividade 22                   ||
+ENS-8393 || História        || 2025-10-29 || ENS-8336 ||                 || [ALTERAÇÃO] - [0] - Atividade 21                   ||
+ENS-8391 || História        || 2025-10-29 || ENS-8335 ||                 || [ALTERAÇÃO] - [0] - Atividade 20                   ||
+ENS-8389 || História        || 2025-10-29 || ENS-8334 ||                 || [ALTERAÇÃO] - [0] - Atividade 19                   ||
+ENS-8387 || História        || 2025-10-29 || ENS-8333 ||                 || [ALTERAÇÃO] - [0] - Atividade 18                   ||
+ENS-8385 || História        || 2025-10-29 || ENS-8332 ||                 || [ALTERAÇÃO] - [0] - Atividade 17                   ||
+ENS-8383 || História        || 2025-10-29 || ENS-8331 ||                 || [ALTERAÇÃO] - [0] - Atividade 16                   ||
+ENS-8381 || História        || 2025-10-29 || ENS-8330 ||                 || [ALTERAÇÃO] - [0] - Atividade 15                   ||
+ENS-8379 || História        || 2025-10-29 || ENS-8329 ||                 || [ALTERAÇÃO] - [0] - Atividade 14                   ||
+ENS-8377 || História        || 2025-10-29 || ENS-8328 ||                 || [ALTERAÇÃO] - [0] - Atividade 13                   ||
+ENS-8375 || História        || 2025-10-29 || ENS-8327 ||                 || [ALTERAÇÃO] - [0] - Atividade 12                   ||
+ENS-8373 || História        || 2025-10-29 || ENS-8326 ||                 || [ALTERAÇÃO] - [0] - Atividade 11                   ||
+ENS-8371 || História        || 2025-10-29 || ENS-8325 ||                 || [ALTERAÇÃO] - [0] - Atividade 10                   ||
+ENS-8369 || História        || 2025-10-29 || ENS-8324 ||                 || [ALTERAÇÃO] - [0] - Atividade 9                    ||
+ENS-8367 || História        || 2025-10-29 || ENS-8323 ||                 || [ALTERAÇÃO] - [0] - Atividade 8                    ||
+ENS-8365 || História        || 2025-10-29 || ENS-8322 ||                 || [ALTERAÇÃO] - [0] - Atividade 7                    ||
+ENS-8363 || História        || 2025-10-29 || ENS-8321 ||                 || [ALTERAÇÃO] - [0] - Atividade 6                    ||
+ENS-8361 || História        || 2025-10-29 || ENS-8320 ||                 || [ALTERAÇÃO] - [0] - Atividade 5                    ||
+ENS-8359 || História        || 2025-10-29 || ENS-8319 ||                 || [ALTERAÇÃO] - [0] - Atividade 4                    ||
+ENS-8357 || História        || 2025-10-29 || ENS-8318 ||                 || [ALTERAÇÃO] - [0] - Atividade 3                    ||
+ENS-8355 || História        || 2025-10-29 || ENS-8317 ||                 || [ALTERAÇÃO] - [0] - Atividade 2                    ||
+ENS-8353 || História        || 2025-10-29 || ENS-8316 ||                 || [ALTERAÇÃO] - [0] - Atividade 1                    ||
+ENS-8352 || Epic            || 2025-10-29 || ENS-8352 || 0               || [0] - Incidente-2025-10-29_EPIC 37                 ||
+ENS-8351 || Epic            || 2025-10-29 || ENS-8351 || 0               || [0] - Incidente-2025-10-29_EPIC 36                 ||
+ENS-8350 || Epic            || 2025-10-29 || ENS-8350 || 0               || [0] - Incidente-2025-10-29_EPIC 35                 ||
+ENS-8349 || Epic            || 2025-10-29 || ENS-8349 || 0               || [0] - Incidente-2025-10-29_EPIC 34                 ||
+ENS-8348 || Epic            || 2025-10-29 || ENS-8348 || 0               || [0] - Incidente-2025-10-29_EPIC 33                 ||
+ENS-8347 || Epic            || 2025-10-29 || ENS-8347 || 0               || [0] - Incidente-2025-10-29_EPIC 32                 ||
+ENS-8346 || Epic            || 2025-10-29 || ENS-8346 || 0               || [0] - Incidente-2025-10-29_EPIC 31                 ||
+ENS-8345 || Epic            || 2025-10-29 || ENS-8345 || 0               || [0] - Incidente-2025-10-29_EPIC 30                 ||
+ENS-8344 || Epic            || 2025-10-29 || ENS-8344 || 0               || [0] - Incidente-2025-10-29_EPIC 29                 ||
+ENS-8343 || Epic            || 2025-10-29 || ENS-8343 || 0               || [0] - Incidente-2025-10-29_EPIC 28                 ||
+ENS-8342 || Epic            || 2025-10-29 || ENS-8342 || 0               || [0] - Incidente-2025-10-29_EPIC 27                 ||
+ENS-8341 || Epic            || 2025-10-29 || ENS-8341 || 0               || [0] - Incidente-2025-10-29_EPIC 26                 ||
+ENS-8340 || Epic            || 2025-10-29 || ENS-8340 || 0               || [0] - Incidente-2025-10-29_EPIC 25                 ||
+ENS-8339 || Epic            || 2025-10-29 || ENS-8339 || 0               || [0] - Incidente-2025-10-29_EPIC 24                 ||
+ENS-8338 || Epic            || 2025-10-29 || ENS-8338 || 0               || [0] - Incidente-2025-10-29_EPIC 23                 ||
+ENS-8337 || Epic            || 2025-10-29 || ENS-8337 || 0               || [0] - Incidente-2025-10-29_EPIC 22                 ||
+ENS-8336 || Epic            || 2025-10-29 || ENS-8336 || 0               || [0] - Incidente-2025-10-29_EPIC 21                 ||
+ENS-8335 || Epic            || 2025-10-29 || ENS-8335 || 0               || [0] - Incidente-2025-10-29_EPIC 20                 ||
+ENS-8334 || Epic            || 2025-10-29 || ENS-8334 || 0               || [0] - Incidente-2025-10-29_EPIC 19                 ||
+ENS-8333 || Epic            || 2025-10-29 || ENS-8333 || 0               || [0] - Incidente-2025-10-29_EPIC 18                 ||
+ENS-8332 || Epic            || 2025-10-29 || ENS-8332 || 0               || [0] - Incidente-2025-10-29_EPIC 17                 ||
+ENS-8331 || Epic            || 2025-10-29 || ENS-8331 || 0               || [0] - Incidente-2025-10-29_EPIC 16                 ||
+ENS-8330 || Epic            || 2025-10-29 || ENS-8330 || 0               || [0] - Incidente-2025-10-29_EPIC 15                 ||
+ENS-8329 || Epic            || 2025-10-29 || ENS-8329 || 0               || [0] - Incidente-2025-10-29_EPIC 14                 ||
+ENS-8328 || Epic            || 2025-10-29 || ENS-8328 || 0               || [0] - Incidente-2025-10-29_EPIC 13                 ||
+ENS-8327 || Epic            || 2025-10-29 || ENS-8327 || 0               || [0] - Incidente-2025-10-29_EPIC 12                 ||
+ENS-8326 || Epic            || 2025-10-29 || ENS-8326 || 0               || [0] - Incidente-2025-10-29_EPIC 11                 ||
+ENS-8325 || Epic            || 2025-10-29 || ENS-8325 || 0               || [0] - Incidente-2025-10-29_EPIC 10                 ||
+ENS-8324 || Epic            || 2025-10-29 || ENS-8324 || 0               || [0] - Incidente-2025-10-29_EPIC 9                  ||
+ENS-8323 || Epic            || 2025-10-29 || ENS-8323 || 0               || [0] - Incidente-2025-10-29_EPIC 8                  ||
+ENS-8322 || Epic            || 2025-10-29 || ENS-8322 || 0               || [0] - Incidente-2025-10-29_EPIC 7                  ||
+ENS-8321 || Epic            || 2025-10-29 || ENS-8321 || 0               || [0] - Incidente-2025-10-29_EPIC 6                  ||
+ENS-8320 || Epic            || 2025-10-29 || ENS-8320 || 0               || [0] - Incidente-2025-10-29_EPIC 5                  ||
+ENS-8319 || Epic            || 2025-10-29 || ENS-8319 || 0               || [0] - Incidente-2025-10-29_EPIC 4                  ||
+ENS-8318 || Epic            || 2025-10-29 || ENS-8318 || 0               || [0] - Incidente-2025-10-29_EPIC 3                  ||
+ENS-8317 || Epic            || 2025-10-29 || ENS-8317 || 0               || [0] - Incidente-2025-10-29_EPIC 2                  ||
+ENS-8316 || Epic            || 2025-10-29 || ENS-8316 || 0               || [0] - Incidente-2025-10-29_EPIC 1                  ||
+ENS-8314 || História        || 2025-10-29 || ENS-8313 ||                 || [ALTERAÇÃO] - [SCTASK0542453] - Criar e integrar o ||
+ENS-8313 || Epic            || 2025-10-29 || ENS-8313 || SCTASK0542453   || [REQ0371716] - Inclusão do campo novo              ||
+ENS-8311 || História        || 2025-10-29 || ENS-7614 ||                 || [NOVO DESENVOLVIMENTO] - [SCTASK0494199] - Treinam ||
+ENS-8309 || História        || 2025-10-29 || ENS-7615 ||                 || [NOVO DESENVOLVIMENTO] - [SCTASK0435445] - SOC     ||
+ENS-8307 || História        || 2025-10-29 || ENS-8306 ||                 || [ALTERAÇÃO] - [SCTASK0536420] - O sistema IRIS dev ||
+ENS-8306 || Epic            || 2025-10-29 || ENS-8306 || SCTASK0536420   || [REQ0363031] - Requisito uma melhoria para a valid ||
+ENS-8304 || História        || 2025-10-29 || ENS-8303 ||                 || [DÚVIDA] - [0] - Levantamento alterações comm matr ||
+ENS-8303 || Epic            || 2025-10-29 || ENS-8303 || 0               || [0] - Levantamento alterações comm matrix IRIS par ||
+ENS-8301 || História        || 2025-10-29 || ENS-7736 ||                 || [NOVO DESENVOLVIMENTO] - [SCTASK0489546] - Criar u ||
+ENS-8299 || História        || 2025-10-29 || ENS-8162 ||                 || [NOVO DESENVOLVIMENTO] - [0] - IAM reativação do e ||
+ENS-8297 || História        || 2025-10-29 || ENS-8159 ||                 || [ALTERAÇÃO] - [0] - Atividades Administrativas     ||
+ENS-8292 || História        || 2025-10-15 || ENS-7766 ||                 || [ALTERAÇÃO] - [SCTASK0501210] - Conforme orientaçã ||
+ENS-8290 || História        || 2025-10-15 || ENS-8289 ||                 || [ALTERAÇÃO] - [0] - IRIS 2025                      ||
+ENS-8289 || Epic            || 2025-10-15 || ENS-8289 || 0               || [0] - Incidente-2025-10-15_EPIC 41                 ||
+ENS-8287 || História        || 2025-10-15 || ENS-8286 ||                 || [ALTERAÇÃO] - [0] - VS CODE                        ||
+ENS-8286 || Epic            || 2025-10-15 || ENS-8286 || 0               || [0] - Incidente-2025-10-15_EPIC 40                 ||
+ENS-8284 || História        || 2025-10-15 || ENS-8283 ||                 || [ALTERAÇÃO] - [0] - MAX                            ||
+ENS-8283 || Epic            || 2025-10-15 || ENS-8283 || 0               || [0] - Incidente-2025-10-15_EPIC 39                 ||
+ENS-8281 || História        || 2025-10-15 || ENS-8280 ||                 || [ALTERAÇÃO] - [0] - Reunião IRIS Planilhas         ||
+ENS-8280 || Epic            || 2025-10-15 || ENS-8280 || 0               || [0] - Incidente-2025-10-15_EPIC 38                 ||
+ENS-8278 || História        || 2025-10-15 || ENS-8277 ||                 || [ALTERAÇÃO] - [0] - Reunião IRIS  Planilhas        ||
+ENS-8277 || Epic            || 2025-10-15 || ENS-8277 || 0               || [0] - Incidente-2025-10-15_EPIC 37                 ||
+ENS-8275 || História        || 2025-10-15 || ENS-8274 ||                 || [ALTERAÇÃO] - [0] - CEP                            ||
+ENS-8274 || Epic            || 2025-10-15 || ENS-8274 || 0               || [0] - Incidente-2025-10-15_EPIC 36                 ||
+ENS-8272 || História        || 2025-10-15 || ENS-8271 ||                 || [ALTERAÇÃO] - [0] - LHP - Projetos - Avaliação ger ||
+ENS-8271 || Epic            || 2025-10-15 || ENS-8271 || 0               || [0] - Incidente-2025-10-15_EPIC 35                 ||
+ENS-8269 || História        || 2025-10-15 || ENS-8268 ||                 || [ALTERAÇÃO] - [0] - CAB                            ||
+ENS-8268 || Epic            || 2025-10-15 || ENS-8268 || 0               || [0] - Incidente-2025-10-15_EPIC 34                 ||
+ENS-8266 || História        || 2025-10-15 || ENS-8265 ||                 || [ALTERAÇÃO] - [0] - Monthly Service Meeting - IRIS ||
+ENS-8265 || Epic            || 2025-10-15 || ENS-8265 || 0               || [0] - Incidente-2025-10-15_EPIC 33                 ||
+ENS-8263 || História        || 2025-10-15 || ENS-8262 ||                 || [ALTERAÇÃO] - [0] - Reunião Status IRIS            ||
+ENS-8262 || Epic            || 2025-10-15 || ENS-8262 || 0               || [0] - Incidente-2025-10-15_EPIC 32                 ||
+ENS-8260 || História        || 2025-10-15 || ENS-8259 ||                 || [ALTERAÇÃO] - [0] - Reunião de Status              ||
+ENS-8259 || Epic            || 2025-10-15 || ENS-8259 || 0               || [0] - Incidente-2025-10-15_EPIC 31                 ||
+ENS-8257 || História        || 2025-10-15 || ENS-7815 ||                 || [ALTERAÇÃO] - [SCTASK0504397] - Apoio a UAT (Ferna ||
+ENS-8255 || História        || 2025-10-15 || ENS-8254 ||                 || [ALTERAÇÃO] - [0] - Verificação - Thyssen.commom / ||
+ENS-8254 || Epic            || 2025-10-15 || ENS-8254 || 0               || [0] - Incidente-2025-10-15_EPIC 29                 ||
+ENS-8252 || História        || 2025-10-15 || ENS-8251 ||                 || [ALTERAÇÃO] - [0] - Verificação - Thyssen.commom / ||
+ENS-8251 || Epic            || 2025-10-15 || ENS-8251 || 0               || [0] - Incidente-2025-10-15_EPIC 28                 ||
+ENS-8249 || História        || 2025-10-15 || ENS-8248 ||                 || [ALTERAÇÃO] - [0] - Manutenção DBA IRIS QA         ||
+ENS-8248 || Epic            || 2025-10-15 || ENS-8248 || 0               || [0] - Incidente-2025-10-15_EPIC 27                 ||
+ENS-8246 || História        || 2025-10-15 || ENS-8245 ||                 || [ALTERAÇÃO] - [0] - Alinhamento Interno IRIS       ||
+ENS-8245 || Epic            || 2025-10-15 || ENS-8245 || 0               || [0] - Incidente-2025-10-15_EPIC 26                 ||
+ENS-8243 || História        || 2025-10-15 || ENS-8242 ||                 || [ALTERAÇÃO] - [0] - Alinhamento Interno IRIS       ||
+ENS-8242 || Epic            || 2025-10-15 || ENS-8242 || 0               || [0] - Incidente-2025-10-15_EPIC 25                 ||
+ENS-8240 || História        || 2025-10-15 || ENS-8239 ||                 || [ALTERAÇÃO] - [0] - Alinhamento Interno IRIS       ||
+ENS-8239 || Epic            || 2025-10-15 || ENS-8239 || 0               || [0] - Incidente-2025-10-15_EPIC 24                 ||
+ENS-8237 || História        || 2025-10-15 || ENS-8236 ||                 || [ALTERAÇÃO] - [0] - Alinhamento Interno IRIS       ||
+ENS-8236 || Epic            || 2025-10-15 || ENS-8236 || 0               || [0] - Incidente-2025-10-15_EPIC 23                 ||
+ENS-8234 || História        || 2025-10-15 || ENS-8233 ||                 || [ALTERAÇÃO] - [0] - EOX - PRICING                  ||
+ENS-8233 || Epic            || 2025-10-15 || ENS-8233 || 0               || [0] - Incidente-2025-10-15_EPIC 22                 ||
+ENS-8231 || História        || 2025-10-15 || ENS-8230 ||                 || [ALTERAÇÃO] - [0] - IRIS NO VISUAL STUDIO CODE     ||
+ENS-8230 || Epic            || 2025-10-15 || ENS-8230 || 0               || [0] - Incidente-2025-10-15_EPIC 21                 ||
+ENS-8228 || História        || 2025-10-15 || ENS-8227 ||                 || [ALTERAÇÃO] - [0] - Atividades Internas IRIS       ||
+ENS-8227 || Epic            || 2025-10-15 || ENS-8227 || 0               || [0] - Incidente-2025-10-15_EPIC 20                 ||
+ENS-8225 || História        || 2025-10-15 || ENS-8224 ||                 || [ALTERAÇÃO] - [0] - INSTALAÇÃO E CONFIGURAÇÃO IRIS ||
+ENS-8224 || Epic            || 2025-10-15 || ENS-8224 || 0               || [0] - Incidente-2025-10-15_EPIC 19                 ||
+ENS-8222 || História        || 2025-10-15 || ENS-8221 ||                 || [ALTERAÇÃO] - [0] - Atividades Internas IRIS       ||
+ENS-8221 || Epic            || 2025-10-15 || ENS-8221 || 0               || [0] - Incidente-2025-10-15_EPIC 18                 ||
+ENS-8219 || História        || 2025-10-15 || ENS-8218 ||                 || [ALTERAÇÃO] - [0] - Atividades Internas IRIS       ||
+ENS-8218 || Epic            || 2025-10-15 || ENS-8218 || 0               || [0] - Incidente-2025-10-15_EPIC 17                 ||
+ENS-8216 || História        || 2025-10-15 || ENS-8215 ||                 || [ALTERAÇÃO] - [0] - Atividades Internas IRIS       ||
+ENS-8215 || Epic            || 2025-10-15 || ENS-8215 || 0               || [0] - Incidente-2025-10-15_EPIC 16                 ||
+ENS-8213 || História        || 2025-10-15 || ENS-8212 ||                 || [ALTERAÇÃO] - [0] - Atividades Internas IRIS       ||
+ENS-8212 || Epic            || 2025-10-15 || ENS-8212 || 0               || [0] - Incidente-2025-10-15_EPIC 15                 ||
+ENS-8210 || História        || 2025-10-15 || ENS-8209 ||                 || [ALTERAÇÃO] - [0] - Atividades Internas IRIS       ||
+ENS-8209 || Epic            || 2025-10-15 || ENS-8209 || 0               || [0] - Incidente-2025-10-15_EPIC 14                 ||
+ENS-8207 || História        || 2025-10-15 || ENS-7942 ||                 || [ALTERAÇÃO] - [SCTASK0517284] - Apoio a UAT (Silvi ||
+ENS-8205 || História        || 2025-10-15 || ENS-8204 ||                 || [ALTERAÇÃO] - [RITM0523894] - Arquivos RH          ||
+ENS-8204 || Epic            || 2025-10-15 || ENS-8204 || 0               || [0] - Incidente-2025-10-15_EPIC 12                 ||
+ENS-8202 || História        || 2025-10-15 || ENS-8201 ||                 || [ALTERAÇÃO] - [RITM0519333] - Arquivos RH          ||
+ENS-8201 || Epic            || 2025-10-15 || ENS-8201 || 0               || [0] - Incidente-2025-10-15_EPIC 11                 ||
+ENS-8199 || História        || 2025-10-15 || ENS-8198 ||                 || [ALTERAÇÃO] - TKE | Atualização IRIS QA            ||
+ENS-8198 || Epic            || 2025-10-15 || ENS-8198 || 0               || [0] - Incidente-2025-10-15_EPIC 10                 ||
+ENS-8196 || História        || 2025-10-15 || ENS-7615 ||                 || [NOVO DESENVOLVIMENTO] - [SCTASK0435445] - SOC     ||
+ENS-8194 || História        || 2025-10-15 || ENS-8193 ||                 || [ALTERAÇÃO] - [0] - Demandas Internas III          ||
+ENS-8193 || Epic            || 2025-10-15 || ENS-8193 || 0               || [0] - Incidente-2025-10-15_EPIC 8                  ||
+ENS-8191 || História        || 2025-10-15 || ENS-8190 ||                 || [ALTERAÇÃO] - [0] - Demandas Internas II           ||
+ENS-8190 || Epic            || 2025-10-15 || ENS-8190 || 0               || [0] - Incidente-2025-10-15_EPIC 7                  ||
+ENS-8188 || História        || 2025-10-15 || ENS-8187 ||                 || [ALTERAÇÃO] - [0] - Demandas Internas              ||
+ENS-8187 || Epic            || 2025-10-15 || ENS-8187 || 0               || [0] - Incidente-2025-10-15_EPIC 6                  ||
+ENS-8185 || História        || 2025-10-15 || ENS-8184 ||                 || [ALTERAÇÃO] - [0] - Atividade 5                    ||
+ENS-8184 || Epic            || 2025-10-15 || ENS-8184 || 0               || [0] - Incidente-2025-10-15_EPIC 5                  ||
+ENS-8182 || História        || 2025-10-15 || ENS-8181 ||                 || [ALTERAÇÃO] - [0] - Demandas de Gestão             ||
+ENS-8181 || Epic            || 2025-10-15 || ENS-8181 || 0               || [0] - Incidente-2025-10-15_EPIC 4                  ||
+ENS-8179 || História        || 2025-10-15 || ENS-8178 ||                 || [ALTERAÇÃO] - [0] - Manutenção DBs SRVIRIS02QA     ||
+ENS-8178 || Epic            || 2025-10-15 || ENS-8178 || 0               || [0] - Incidente-2025-10-15_EPIC 3                  ||
+ENS-8176 || História        || 2025-10-15 || ENS-8175 ||                 || [ALTERAÇÃO] - [0] - Windows Update SRVIRIS02 II    ||
+ENS-8175 || Epic            || 2025-10-15 || ENS-8175 || 0               || [0] - Incidente-2025-10-15_EPIC 2                  ||
+ENS-8173 || História        || 2025-10-15 || ENS-8172 ||                 || [ALTERAÇÃO] - [0] - Windows Update SRVIRIS02       ||
+ENS-8172 || Epic            || 2025-10-15 || ENS-8172 || 0               || [0] - Incidente-2025-10-15_EPIC 1                  ||
+ENS-8170 || História        || 2025-10-15 || ENS-6593 ||                 || [ALTERAÇÃO] - [SCTASK0426427] - Ordens de vendas Z ||
+ENS-8169 || Epic            || 2025-10-15 || ENS-8169 || SCTASK0426427   || [REQ0273533] - Ordens de vendas ZWEB ter a  área d ||
+ENS-8167 || História        || 2025-10-15 || ENS-7737 ||                 || [ALTERAÇÃO] - [SCTASK0493057] - Alteração IRIS MOB ||
+ENS-8165 || História        || 2025-10-15 || ENS-7614 ||                 || [NOVO DESENVOLVIMENTO] - [SCTASK0494199] - Treinam ||
+ENS-8163 || História        || 2025-10-15 || ENS-8162 ||                 || [NOVO DESENVOLVIMENTO] - [0] - IAM reativação do e ||
+ENS-8162 || Epic            || 2025-10-15 || ENS-8162 || 0               || [0] - IAM reativação do ecossistema                ||
+ENS-8160 || História        || 2025-10-15 || ENS-8159 ||                 || [ALTERAÇÃO] - [0] - Atividades Administrativas     ||
+ENS-8159 || Epic            || 2025-10-15 || ENS-8159 || 0               || [0] - Atividades Administrativas                   ||
+ENS-8157 || História        || 2025-10-15 || ENS-8156 ||                 || [NOVO DESENVOLVIMENTO] - [SCTASK0531985] - Sizing  ||
+ENS-8156 || Epic            || 2025-10-15 || ENS-8156 || SCTASK0531985   || [REQ0314387] - Numeração de equipamento (Andrey Pa ||
+ENS-8154 || História        || 2025-10-13 || ENS-6863 ||                 || [Alteração] Improper error handling desenvolviment ||
+ENS-8153 || Epic            || 2025-10-12 || ENS-8153 || REQ0349359      || [REQ0349359] - Alternativas para ZINTERFACELOTE2   ||
+ENS-8133 || História        || 2025-10-01 || ENS-8068 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-8131 || História        || 2025-10-01 || ENS-8067 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-8129 || História        || 2025-10-01 || ENS-8066 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-8127 || História        || 2025-10-01 || ENS-8065 ||                 || [Alteração] Apoio ENC: RITM0500408 - SCTASK0517600 ||
+ENS-8125 || História        || 2025-10-01 || ENS-8064 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-8123 || História        || 2025-10-01 || ENS-8063 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-8121 || História        || 2025-10-01 || ENS-8062 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-8117 || História        || 2025-10-01 || ENS-8061 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-8114 || História        || 2025-10-01 || ENS-8080 ||                 || [Alteração] Vault                                  ||
+ENS-8113 || História        || 2025-10-01 || ENS-8060 ||                 || [Alteração] Apoio GUS - OV Duplicadas              ||
+ENS-8112 || História        || 2025-10-01 || ENS-8079 ||                 || [Alteração] MAX Ticket                             ||
+ENS-8111 || História        || 2025-10-01 || ENS-8078 ||                 || [Alteração] MAX Contract Site                      ||
+ENS-8109 || História        || 2025-10-01 || ENS-8059 ||                 || [Alteração] Apoio Eox - Pricing                    ||
+ENS-8105 || História        || 2025-10-01 || ENS-8077 ||                 || [Alteração] IAM no Portal                          ||
+ENS-8104 || História        || 2025-10-01 || ENS-8058 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-8103 || História        || 2025-10-01 || ENS-8076 ||                 || [Alteração] Status IRIS                            ||
+ENS-8100 || História        || 2025-10-01 || ENS-8057 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-8097 || História        || 2025-10-01 || ENS-8075 ||                 || [Alteração] Status IRIS                            ||
+ENS-8096 || História        || 2025-10-01 || ENS-8074 ||                 || [Alteração] ZK53                                   ||
+ENS-8095 || História        || 2025-10-01 || ENS-8055 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-8092 || História        || 2025-10-01 || ENS-8073 ||                 || [Alteração] TKE IRIS - Manutenção Databases        ||
+ENS-8091 || História        || 2025-10-01 || ENS-8054 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-8089 || História        || 2025-10-01 || ENS-8072 ||                 || [Alteração] TKE IRIS - Manutenção Databases        ||
+ENS-8086 || História        || 2025-10-01 || ENS-8052 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-8085 || História        || 2025-10-01 || ENS-8071 ||                 || [Alteração] CAB                                    ||
+ENS-8083 || História        || 2025-10-01 || ENS-7766 ||                 || [Alteração]ZK53 – Carga: atual → fim FY            ||
+ENS-8081 || História        || 2025-10-01 || ENS-7815 ||                 || [Alteração]Apoio a UAT (User Acceptence Test)      ||
+ENS-8080 || Epic            || 2025-10-01 || ENS-8080 || 0               || Incidente-2025-10-01_EPIC X                        ||
+ENS-8079 || Epic            || 2025-10-01 || ENS-8079 || 0               || Incidente-2025-10-01_EPIC IX                       ||
+ENS-8078 || Epic            || 2025-10-01 || ENS-8078 || 0               || Incidente-2025-10-01_EPIC VIII                     ||
+ENS-8077 || Epic            || 2025-10-01 || ENS-8077 || 0               || Incidente-2025-10-01_EPIC VII                      ||
+ENS-8076 || Epic            || 2025-10-01 || ENS-8076 || 0               || Incidente-2025-10-01_EPIC VI                       ||
+ENS-8075 || Epic            || 2025-10-01 || ENS-8075 || 0               || Incidente-2025-10-01_EPIC V                        ||
+ENS-8074 || Epic            || 2025-10-01 || ENS-8074 || 0               || Incidente-2025-10-01_EPIC IV                       ||
+ENS-8073 || Epic            || 2025-10-01 || ENS-8073 || 0               || Incidente-2025-10-01_EPIC III                      ||
+ENS-8072 || Epic            || 2025-10-01 || ENS-8072 || 0               || Incidente-2025-10-01_EPIC II                       ||
+ENS-8071 || Epic            || 2025-10-01 || ENS-8071 || 0               || Incidente-2025-10-01_EPIC I                        ||
+ENS-8069 || Epic            || 2025-10-01 || ENS-8069 || SCTASK0504397   || Apoio a UAT (User Acceptence Test)                 ||
+ENS-8068 || Epic            || 2025-10-01 || ENS-8068 || 0               || Incidente-2025-10-01_EPIC XV                       ||
+ENS-8067 || Epic            || 2025-10-01 || ENS-8067 || 0               || Incidente-2025-10-01_EPIC XIV                      ||
+ENS-8066 || Epic            || 2025-10-01 || ENS-8066 || 0               || Incidente-2025-10-01_EPIC XIII                     ||
+ENS-8065 || Epic            || 2025-10-01 || ENS-8065 || 0               || Incidente-2025-10-01_EPIC XII                      ||
+ENS-8064 || Epic            || 2025-10-01 || ENS-8064 || 0               || Incidente-2025-10-01_EPIC XI                       ||
+ENS-8063 || Epic            || 2025-10-01 || ENS-8063 || 0               || Incidente-2025-10-01_EPIC X                        ||
+ENS-8062 || Epic            || 2025-10-01 || ENS-8062 || 0               || Incidente-2025-10-01_EPIC IX                       ||
+ENS-8061 || Epic            || 2025-10-01 || ENS-8061 || 0               || Incidente-2025-10-01_EPIC VIII                     ||
+ENS-8060 || Epic            || 2025-10-01 || ENS-8060 || 0               || Incidente-2025-10-01_EPIC VII                      ||
+ENS-8059 || Epic            || 2025-10-01 || ENS-8059 || 0               || Incidente-2025-10-01_EPIC VI                       ||
+ENS-8058 || Epic            || 2025-10-01 || ENS-8058 || 0               || Incidente-2025-10-01_EPIC V                        ||
+ENS-8057 || Epic            || 2025-10-01 || ENS-8057 || 0               || Incidente-2025-10-01_EPIC IV                       ||
+ENS-8055 || Epic            || 2025-10-01 || ENS-8055 || 0               || Incidente-2025-10-01_EPIC III                      ||
+ENS-8054 || Epic            || 2025-10-01 || ENS-8054 || 0               || Incidente-2025-10-01_EPIC II                       ||
+ENS-8052 || Epic            || 2025-10-01 || ENS-8052 || 0               || Incidente-2025-10-01_EPIC I                        ||
+ENS-8045 || História        || 2025-10-01 || ENS-8016 ||                 || [Alteração] Configuração IRIS 2025 no QA II        ||
+ENS-8043 || História        || 2025-10-01 || ENS-8015 ||                 || [Alteração] Gestão de Demandas IV                  ||
+ENS-8040 || História        || 2025-10-01 || ENS-8014 ||                 || [Alteração] Gestão de Demandas III                 ||
+ENS-8039 || História        || 2025-10-01 || ENS-7942 ||                 || Apoio a testes UAT                                 ||
+ENS-8037 || História        || 2025-10-01 || ENS-8013 ||                 || [Alteração] Gestão de Demandas II                  ||
+ENS-8035 || História        || 2025-10-01 || ENS-8006 ||                 || [Alteração] Capacitação novos Gestores de Projeto  ||
+ENS-8033 || História        || 2025-10-01 || ENS-8005 ||                 || [Alteração] Gestão de pendências                   ||
+ENS-8031 || História        || 2025-10-01 || ENS-8003 ||                 || Atividade                                          ||
+ENS-8029 || História        || 2025-10-01 || ENS-8002 ||                 || [Alteração] Configuração IRIS 2025 no QA           ||
+ENS-8027 || História        || 2025-10-01 || ENS-8000 ||                 || [Alteração] Manutenção Databases                   ||
+ENS-8026 || História        || 2025-10-01 || ENS-8010 ||                 || [Alteração] ZV48                                   ||
+ENS-8023 || História        || 2025-10-01 || ENS-7999 ||                 || IAM reativação do ecossistema                      ||
+ENS-8022 || História        || 2025-10-01 || ENS-8009 ||                 || [Alteração] ZF190- Febraban                        ||
+ENS-8019 || História        || 2025-10-01 || ENS-8008 ||                 || [Alteração] RH -Email Colaborador/Liderança        ||
+ENS-8016 || Epic            || 2025-10-01 || ENS-8016 || 0               || Incidente-2025-10-01_EPIC IX                       ||
+ENS-8015 || Epic            || 2025-10-01 || ENS-8015 || 0               || Incidente-2025-10-01_EPIC VIII                     ||
+ENS-8014 || Epic            || 2025-10-01 || ENS-8014 || 0               || Incidente-2025-10-01_EPIC VII                      ||
+ENS-8013 || Epic            || 2025-10-01 || ENS-8013 || 0               || Incidente-2025-10-01_EPIC VI                       ||
+ENS-8011 || História        || 2025-10-01 || ENS-8007 ||                 || [Alteração] -  Numeração de Equipamento [GUS > EAL ||
+ENS-8010 || Epic            || 2025-10-01 || ENS-8010 || 0               || Incidente-2025-10-01_EPIC IV                       ||
+ENS-8009 || Epic            || 2025-10-01 || ENS-8009 || 0               || Incidente-2025-10-01_EPIC III                      ||
+ENS-8008 || Epic            || 2025-10-01 || ENS-8008 || 0               || Incidente-2025-10-01_EPIC II                       ||
+ENS-8007 || Epic            || 2025-10-01 || ENS-8007 || 0               || Incidente-2025-10-01_EPIC I                        ||
+ENS-8006 || Epic            || 2025-10-01 || ENS-8006 || 0               || Incidente-2025-10-01_EPIC V                        ||
+ENS-8005 || Epic            || 2025-10-01 || ENS-8005 || 0               || Incidente-2025-10-01_EPIC IV                       ||
+ENS-8003 || Epic            || 2025-10-01 || ENS-8003 || 0               || Incidente-2025-10-01_EPIC III                      ||
+ENS-8002 || Epic            || 2025-10-01 || ENS-8002 || 0               || Incidente-2025-10-01_EPIC II                       ||
+ENS-8001 || História        || 2025-10-01 || ENS-7614 ||                 || [Alteração] Teste e Desenvolvimento                ||
+ENS-8000 || Epic            || 2025-10-01 || ENS-8000 || 0               || Incidente-2025-10-01_EPIC I                        ||
+ENS-7999 || Epic            || 2025-10-01 || ENS-7999 || 0               || IAM reativação do ecossistema                      ||
+ENS-7997 || História        || 2025-10-01 || ENS-7996 ||                 || [Alteração] Atividades Administrativas             ||
+ENS-7996 || Epic            || 2025-10-01 || ENS-7996 || 0               || Atividades Administrativas                         ||
+ENS-7994 || História        || 2025-10-01 || ENS-7737 ||                 || [Alteração] Alteração IRIS MOBI                    ||
+ENS-7989 || História        || 2025-09-23 || ENS-7614 ||                 || [Alteração] Desenvolvimento                        ||
+ENS-7985 || História        || 2025-09-22 || ENS-7956 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-7984 || História        || 2025-09-22 || ENS-7955 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-7982 || História        || 2025-09-22 || ENS-7954 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-7980 || História        || 2025-09-22 || ENS-7953 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-7978 || História        || 2025-09-22 || ENS-7952 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7976 || História        || 2025-09-22 || ENS-7951 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7974 || História        || 2025-09-22 || ENS-7950 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7972 || História        || 2025-09-22 || ENS-7948 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7970 || História        || 2025-09-22 || ENS-7947 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7967 || História        || 2025-09-22 || ENS-7946 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7966 || História        || 2025-09-22 || ENS-7945 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7964 || História        || 2025-09-22 || ENS-7944 ||                 || [Alteração] Apoio EOX / Pricing                    ||
+ENS-7962 || História        || 2025-09-22 || ENS-7949 ||                 || [Alteração] Apoio EOX / Pricing                    ||
+ENS-7959 || História        || 2025-09-22 || ENS-7943 ||                 || [Alteração] Apoio EOX / Pricing                    ||
+ENS-7957 || História        || 2025-09-22 || ENS-7942 ||                 || [Alteração] Apoio a testes UAT                     ||
+ENS-7956 || Epic            || 2025-09-22 || ENS-7956 || 0               || Incidente-2025-9-17_EPIC XV                        ||
+ENS-7955 || Epic            || 2025-09-22 || ENS-7955 || 0               || Incidente-2025-9-17_EPIC XIV                       ||
+ENS-7954 || Epic            || 2025-09-22 || ENS-7954 || 0               || Incidente-2025-9-17_EPIC XIII                      ||
+ENS-7953 || Epic            || 2025-09-22 || ENS-7953 || 0               || Incidente-2025-9-17_EPIC XII                       ||
+ENS-7952 || Epic            || 2025-09-22 || ENS-7952 || 0               || Incidente-2025-9-17_EPIC XI                        ||
+ENS-7951 || Epic            || 2025-09-22 || ENS-7951 || 0               || Incidente-2025-9-17_EPIC X                         ||
+ENS-7950 || Epic            || 2025-09-22 || ENS-7950 || 0               || Incidente-2025-9-17_EPIC IX                        ||
+ENS-7949 || Epic            || 2025-09-22 || ENS-7949 || 0               || Incidente-2025-9-17_EPIC VIII                      ||
+ENS-7948 || Epic            || 2025-09-22 || ENS-7948 || 0               || Incidente-2025-9-17_EPIC VII                       ||
+ENS-7947 || Epic            || 2025-09-22 || ENS-7947 || 0               || Incidente-2025-9-17_EPIC VI                        ||
+ENS-7946 || Epic            || 2025-09-22 || ENS-7946 || 0               || Incidente-2025-9-17_EPIC V                         ||
+ENS-7945 || Epic            || 2025-09-22 || ENS-7945 || 0               || Incidente-2025-9-17_EPIC IV                        ||
+ENS-7944 || Epic            || 2025-09-22 || ENS-7944 || 0               || Incidente-2025-9-17_EPIC II                        ||
+ENS-7943 || Epic            || 2025-09-22 || ENS-7943 || 0               || Incidente-2025-9-17_EPIC I                         ||
+ENS-7942 || Epic            || 2025-09-22 || ENS-7942 || SCTASK0517284   || Apoio a testes UAT                                 ||
+ENS-7940 || História        || 2025-09-22 || ENS-7915 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7938 || História        || 2025-09-22 || ENS-7914 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7936 || História        || 2025-09-22 || ENS-7913 ||                 || [Alteração] MAX                                    ||
+ENS-7934 || História        || 2025-09-22 || ENS-7912 ||                 || [Alteração] TKE - Manutenção Databases - Execução  ||
+ENS-7932 || História        || 2025-09-22 || ENS-7911 ||                 || [Alteração] Drummer                                ||
+ENS-7930 || História        || 2025-09-22 || ENS-7910 ||                 || [Alteração] Erro na API da interface CEF – Débito  ||
+ENS-7928 || História        || 2025-09-22 || ENS-7909 ||                 || [Alteração] CAB                                    ||
+ENS-7926 || História        || 2025-09-22 || ENS-7908 ||                 || [Alteração] API da CEF -SAP                        ||
+ENS-7924 || História        || 2025-09-22 || ENS-7907 ||                 || [Alteração] IRIS Status                            ||
+ENS-7922 || História        || 2025-09-22 || ENS-7906 ||                 || [Alteração] IRIS Status                            ||
+ENS-7920 || História        || 2025-09-22 || ENS-7905 ||                 || [Alteração] CAB                                    ||
+ENS-7918 || História        || 2025-09-22 || ENS-7815 ||                 || [Alteração] Apoio a UAT (User Acceptence Test)     ||
+ENS-7916 || História        || 2025-09-22 || ENS-7766 ||                 || [Alteração] ZK53 – Carga: atual → fim FY           ||
+ENS-7915 || Epic            || 2025-09-22 || ENS-7915 || 0               || Incidente-2025-9-17_EPIC XI                        ||
+ENS-7914 || Epic            || 2025-09-22 || ENS-7914 || 0               || Incidente-2025-9-17_EPIC X                         ||
+ENS-7913 || Epic            || 2025-09-22 || ENS-7913 || 0               || Incidente-2025-9-17_EPIC IX                        ||
+ENS-7912 || Epic            || 2025-09-22 || ENS-7912 || 0               || Incidente-2025-9-17_EPIC VIII                      ||
+ENS-7911 || Epic            || 2025-09-22 || ENS-7911 || 0               || Incidente-2025-9-17_EPIC VII                       ||
+ENS-7910 || Epic            || 2025-09-22 || ENS-7910 || 0               || Incidente-2025-9-17_EPIC VI                        ||
+ENS-7909 || Epic            || 2025-09-22 || ENS-7909 || 0               || Incidente-2025-9-17_EPIC V                         ||
+ENS-7908 || Epic            || 2025-09-22 || ENS-7908 || 0               || Incidente-2025-9-17_EPIC IV                        ||
+ENS-7907 || Epic            || 2025-09-22 || ENS-7907 || 0               || Incidente-2025-9-17_EPIC III                       ||
+ENS-7906 || Epic            || 2025-09-22 || ENS-7906 || 0               || Incidente-2025-9-17_EPIC II                        ||
+ENS-7905 || Epic            || 2025-09-22 || ENS-7905 || 0               || Incidente-2025-9-17_EPIC I                         ||
+ENS-7904 || Epic            || 2025-09-22 || ENS-7904 || SCTASK0504397   || Apoio a UAT (User Acceptence Test)                 ||
+ENS-7901 || História        || 2025-09-19 || ENS-7893 ||                 || [Alteração] - Automatic Loading sharepoint INC6368 ||
+ENS-7900 || História        || 2025-09-19 || ENS-7892 ||                 || [Alteração] -  Arquivos Febraban                   ||
+ENS-7898 || História        || 2025-09-19 || ENS-7891 ||                 || [Alteração] -  Apoio problema em Cadastro de propo ||
+ENS-7896 || História        || 2025-09-19 || ENS-7890 ||                 || [Novo Desenvolvimento]  - Lemontech                ||
+ENS-7893 || Epic            || 2025-09-19 || ENS-7893 || SCTASK0494199   || Incidente-2025-9-17_EPIC IV                        ||
+ENS-7892 || Epic            || 2025-09-19 || ENS-7892 || SCTASK0494199   || Incidente-2025-9-17_EPIC III                       ||
+ENS-7891 || Epic            || 2025-09-19 || ENS-7891 || SCTASK0494199   || Incidente-2025-9-17_EPIC II                        ||
+ENS-7890 || Epic            || 2025-09-19 || ENS-7890 || SCTASK0435426   || Incidente-2025-9-17_EPIC I                         ||
+ENS-7885 || História        || 2025-09-19 || ENS-7868 ||                 || [Alteração] Demandas Técnicas Internas             ||
+ENS-7884 || História        || 2025-09-19 || ENS-7867 ||                 || [Alteração] IAM                                    ||
+ENS-7883 || História        || 2025-09-19 || ENS-7866 ||                 || [Alteração] Levantamento para Desligamento JSPV    ||
+ENS-7881 || História        || 2025-09-19 || ENS-7865 ||                 || [Alteração] TKE | Atualização patches IRIS PRD II  ||
+ENS-7879 || História        || 2025-09-19 || ENS-7864 ||                 || [Alteração] Gestão de demandas                     ||
+ENS-7877 || História        || 2025-09-19 || ENS-7863 ||                 || [Alteração] TKE | Atualização patches IRIS PRD     ||
+ENS-7875 || História        || 2025-09-19 || ENS-7862 ||                 || [Alteração] MIGRAÇÃO SAP TQA -> AZURE II           ||
+ENS-7873 || História        || 2025-09-19 || ENS-7861 ||                 || [Alteração] MIGRAÇÃO SAP TQA -> AZURE              ||
+ENS-7871 || História        || 2025-09-19 || ENS-7860 ||                 || [Alteração] IAM reativação do ecossistema          ||
+ENS-7869 || História        || 2025-09-19 || ENS-7859 ||                 || [Alteração] Atividades Administrativas             ||
+ENS-7868 || Epic            || 2025-09-19 || ENS-7868 || 0               || Incidente-2025-9-17_EPIC VIII                      ||
+ENS-7867 || Epic            || 2025-09-19 || ENS-7867 || 0               || Incidente-2025-9-17_EPIC VII                       ||
+ENS-7866 || Epic            || 2025-09-19 || ENS-7866 || 0               || Incidente-2025-9-17_EPIC VI                        ||
+ENS-7865 || Epic            || 2025-09-19 || ENS-7865 || 0               || Incidente-2025-9-17_EPIC V                         ||
+ENS-7864 || Epic            || 2025-09-19 || ENS-7864 || 0               || Incidente-2025-9-17_EPIC IV                        ||
+ENS-7863 || Epic            || 2025-09-19 || ENS-7863 || 0               || Incidente-2025-9-17_EPIC III                       ||
+ENS-7862 || Epic            || 2025-09-19 || ENS-7862 || 0               || Incidente-2025-9-17_EPIC II                        ||
+ENS-7861 || Epic            || 2025-09-19 || ENS-7861 || 0               || Incidente-2025-9-17_EPIC I                         ||
+ENS-7860 || Epic            || 2025-09-19 || ENS-7860 || 0               || IAM reativação do ecossistema                      ||
+ENS-7859 || Epic            || 2025-09-19 || ENS-7859 || 0               || Atividades Administrativas                         ||
+ENS-7856 || História        || 2025-09-09 || ENS-7827 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7854 || História        || 2025-09-09 || ENS-7826 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7852 || História        || 2025-09-09 || ENS-7825 ||                 || [Alteração] Importa NFe Protocolo - ZV47_Prot - Er ||
+ENS-7850 || História        || 2025-09-09 || ENS-7824 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7848 || História        || 2025-09-09 || ENS-7823 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7846 || História        || 2025-09-09 || ENS-7822 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7844 || História        || 2025-09-09 || ENS-7821 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7842 || História        || 2025-09-09 || ENS-7820 ||                 ||  [Alteração] Atividades Internas IRIS              ||
+ENS-7840 || História        || 2025-09-09 || ENS-7819 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-7838 || História        || 2025-09-09 || ENS-7818 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-7836 || História        || 2025-09-09 || ENS-7817 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-7834 || História        || 2025-09-09 || ENS-7816 ||                 || [Alteração] Alinhamentos IRIS                      ||
+ENS-7832 || História        || 2025-09-09 || ENS-7815 ||                 || [Alteração] Apoio para UAT, atualizando os .p info ||
+ENS-7830 || História        || 2025-09-09 || ENS-7814 ||                 || [Alteração] Apoio para SIT & UAT                   ||
+ENS-7828 || História        || 2025-09-09 || ENS-7813 ||                 || [Alteração] Apoio para SIT & UAT                   ||
+ENS-7827 || Epic            || 2025-09-09 || ENS-7827 || 0               || Incidente-2025-9-03_EPIC XII                       ||
+ENS-7826 || Epic            || 2025-09-09 || ENS-7826 || 0               || Incidente-2025-9-03_EPIC XI                        ||
+ENS-7825 || Epic            || 2025-09-09 || ENS-7825 || 0               || Incidente-2025-9-03_EPIC X                         ||
+ENS-7824 || Epic            || 2025-09-09 || ENS-7824 || 0               || Incidente-2025-9-03_EPIC IX                        ||
+ENS-7823 || Epic            || 2025-09-09 || ENS-7823 || 0               || Incidente-2025-9-03_EPIC VIII                      ||
+ENS-7822 || Epic            || 2025-09-09 || ENS-7822 || 0               || Incidente-2025-9-03_EPIC VII                       ||
+ENS-7821 || Epic            || 2025-09-09 || ENS-7821 || 0               || Incidente-2025-9-03_EPIC VI                        ||
+ENS-7820 || Epic            || 2025-09-09 || ENS-7820 || 0               || Incidente-2025-9-03_EPIC V                         ||
+ENS-7819 || Epic            || 2025-09-09 || ENS-7819 || 0               || Incidente-2025-9-03_EPIC IV                        ||
+ENS-7818 || Epic            || 2025-09-09 || ENS-7818 || 0               || Incidente-2025-9-03_EPIC III                       ||
+ENS-7817 || Epic            || 2025-09-09 || ENS-7817 || 0               || Incidente-2025-9-03_EPIC II                        ||
+ENS-7816 || Epic            || 2025-09-09 || ENS-7816 || 0               || Incidente-2025-9-03_EPIC I                         ||
+ENS-7815 || Epic            || 2025-09-09 || ENS-7815 || SCTASK0504397   || Apoio para UAT, atualizando os .p informados para  ||
+ENS-7814 || Epic            || 2025-09-09 || ENS-7814 || SCTASK0504383   || Apoio para SIT & UAT                               ||
+ENS-7813 || Epic            || 2025-09-09 || ENS-7813 || SCTASK0435860   || Apoio para SIT & UAT                               ||
+ENS-7809 || História        || 2025-09-08 || ENS-7780 ||                 || [Alteração] Max SoapUI                             ||
+ENS-7807 || História        || 2025-09-08 || ENS-7779 ||                 || [Alteração] Max SoapUI                             ||
+ENS-7805 || História        || 2025-09-08 || ENS-7778 ||                 || [Alteração] Max SoapUI                             ||
+ENS-7803 || História        || 2025-09-08 || ENS-7777 ||                 || [Alteração] Max SoapUI                             ||
+ENS-7801 || História        || 2025-09-08 || ENS-7776 ||                 || [Alteração] CEP                                    ||
+ENS-7799 || História        || 2025-09-08 || ENS-7775 ||                 || [Alteração] CEP                                    ||
+ENS-7797 || História        || 2025-09-08 || ENS-7774 ||                 || [Alteração] TKE | Janela IRIS QA                   ||
+ENS-7795 || História        || 2025-09-08 || ENS-7773 ||                 || [Alteração] TKE | Janela IRIS QA                   ||
+ENS-7793 || História        || 2025-09-08 || ENS-7772 ||                 || [Alteração] TKE | Janela IRIS QA                   ||
+ENS-7791 || História        || 2025-09-08 || ENS-7771 ||                 || [Alteração] IRIS status                            ||
+ENS-7789 || História        || 2025-09-08 || ENS-7770 ||                 || [Alteração] IRIS status                            ||
+ENS-7787 || História        || 2025-09-08 || ENS-7769 ||                 || [Alteração] CAB                                    ||
+ENS-7785 || História        || 2025-09-08 || ENS-7768 ||                 || [Alteração] CAB                                    ||
+ENS-7783 || História        || 2025-09-08 || ENS-7767 ||                 || [Alteração] CAB                                    ||
+ENS-7781 || História        || 2025-09-08 || ENS-7766 ||                 || [Alteração]  ZK53 - Agenda para carga complementar ||
+ENS-7780 || Epic            || 2025-09-08 || ENS-7780 || 0               || Incidente-2025-9-03_EPIC XIV                       ||
+ENS-7779 || Epic            || 2025-09-08 || ENS-7779 || 0               || Incidente-2025-9-03_EPIC XIII                      ||
+ENS-7778 || Epic            || 2025-09-08 || ENS-7778 || 0               || Incidente-2025-9-03_EPIC XII                       ||
+ENS-7777 || Epic            || 2025-09-08 || ENS-7777 || 0               || Incidente-2025-9-03_EPIC XI                        ||
+ENS-7776 || Epic            || 2025-09-08 || ENS-7776 || 0               || Incidente-2025-9-03_EPIC X                         ||
+ENS-7775 || Epic            || 2025-09-08 || ENS-7775 || 0               || Incidente-2025-9-03_EPIC IX                        ||
+ENS-7774 || Epic            || 2025-09-08 || ENS-7774 || 0               || Incidente-2025-9-03_EPIC VIII                      ||
+ENS-7773 || Epic            || 2025-09-08 || ENS-7773 || 0               || Incidente-2025-9-03_EPIC VII                       ||
+ENS-7772 || Epic            || 2025-09-08 || ENS-7772 || 0               || Incidente-2025-9-03_EPIC VI                        ||
+ENS-7771 || Epic            || 2025-09-08 || ENS-7771 || 0               || Incidente-2025-9-03_EPIC V                         ||
+ENS-7770 || Epic            || 2025-09-08 || ENS-7770 || 0               || Incidente-2025-9-03_EPIC IV                        ||
+ENS-7769 || Epic            || 2025-09-08 || ENS-7769 || 0               || Incidente-2025-9-03_EPIC III                       ||
+ENS-7768 || Epic            || 2025-09-08 || ENS-7768 || 0               || Incidente-2025-9-03_EPIC II                        ||
+ENS-7767 || Epic            || 2025-09-08 || ENS-7767 || 0               || Incidente-2025-9-03_EPIC I                         ||
+ENS-7766 || Epic            || 2025-09-08 || ENS-7766 || SCTASK0501210   || ZK53 - Agenda para carga complementar do mês atual ||
+ENS-7764 || História        || 2025-09-08 || ENS-7743 ||                 || [Alteração] Demandas Internas IV                   ||
+ENS-7762 || História        || 2025-09-08 || ENS-7742 ||                 || [Alteração] SRVIRISQA WU                           ||
+ENS-7760 || História        || 2025-09-08 || ENS-7741 ||                 || [Alteração] Demandas Internas III                  ||
+ENS-7758 || História        || 2025-09-08 || ENS-7740 ||                 || [Alteração] Demandas Internas II                   ||
+ENS-7756 || História        || 2025-09-08 || ENS-7739 ||                 || [Alteração] Demandas Internas                      ||
+ENS-7754 || História        || 2025-09-08 || ENS-7738 ||                 || [Alteração] Atividades Administrativas II          ||
+ENS-7752 || História        || 2025-09-08 || ENS-7737 ||                 || Alteração IRIS MOBI                                ||
+ENS-7750 || História        || 2025-09-08 || ENS-7736 ||                 || [Alteração] Portal de Log                          ||
+ENS-7748 || História        || 2025-09-08 || ENS-7735 ||                 || [Alteração] IAM reativação do ecossistema          ||
+ENS-7746 || História        || 2025-09-08 || ENS-7734 ||                 || [Alteração] Atividades Administrativas             ||
+ENS-7744 || História        || 2025-09-08 || ENS-7733 ||                 || [Alteração] Alternativas para ZINTERFACELOTE2      ||
+ENS-7743 || Epic            || 2025-09-08 || ENS-7743 || 0               || Incidente-2025-9-03_EPIC VI                        ||
+ENS-7742 || Epic            || 2025-09-08 || ENS-7742 || 0               || Incidente-2025-9-03_EPIC V                         ||
+ENS-7741 || Epic            || 2025-09-08 || ENS-7741 || 0               || Incidente-2025-9-03_EPIC IV                        ||
+ENS-7740 || Epic            || 2025-09-08 || ENS-7740 || 0               || Incidente-2025-9-03_EPIC III                       ||
+ENS-7739 || Epic            || 2025-09-08 || ENS-7739 || 0               || Incidente-2025-9-03_EPIC II                        ||
+ENS-7738 || Epic            || 2025-09-08 || ENS-7738 || 0               || Incidente-2025-9-03_EPIC I                         ||
+ENS-7737 || Epic            || 2025-09-08 || ENS-7737 || SCTASK0493057   || Alteração IRIS MOBI                                ||
+ENS-7736 || Epic            || 2025-09-08 || ENS-7736 || SCTASK0489546   || Portal de Log                                      ||
+ENS-7735 || Epic            || 2025-09-08 || ENS-7735 || 0               || IAM reativação do ecossistema                      ||
+ENS-7734 || Epic            || 2025-09-08 || ENS-7734 || 0               || Atividades Administrativas                         ||
+ENS-7733 || Epic            || 2025-09-08 || ENS-7733 || 0               || Alternativas para ZINTERFACELOTE2                  ||
+ENS-7729 || História        || 2025-08-27 || ENS-7702 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7727 || História        || 2025-08-27 || ENS-7701 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7725 || História        || 2025-08-27 || ENS-7700 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7723 || História        || 2025-08-27 || ENS-7699 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7721 || História        || 2025-08-27 || ENS-7698 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7719 || História        || 2025-08-27 || ENS-7697 ||                 || [Alteração] War Room SAP                           ||
+ENS-7717 || História        || 2025-08-27 || ENS-7696 ||                 || [Alteração] War Room SAP                           ||
+ENS-7715 || História        || 2025-08-27 || ENS-7695 ||                 || [Alteração] Alinhamento Interno IRIS               ||
+ENS-7713 || História        || 2025-08-27 || ENS-7694 ||                 || [Alteração] Alinhamento Interno IRIS               ||
+ENS-7711 || História        || 2025-08-27 || ENS-7693 ||                 || [Alteração] Alinhamento Interno IRIS               ||
+ENS-7709 || História        || 2025-08-27 || ENS-7692 ||                 || [Alteração] Alinhamento Interno IRIS               ||
+ENS-7707 || História        || 2025-08-27 || ENS-7691 ||                 || [Alteração] Alinhamento Interno IRIS               ||
+ENS-7705 || História        || 2025-08-27 || ENS-7690 ||                 || Apoio para ajustar Interface Z_RFC_MMCP21 para rec ||
+ENS-7703 || História        || 2025-08-27 || ENS-7689 ||                 || Envio de email do GUS, ajuda para identificar o pr ||
+ENS-7702 || Epic            || 2025-08-27 || ENS-7702 || 0               || Incidente-2025-08-20_EPIC XII                      ||
+ENS-7701 || Epic            || 2025-08-27 || ENS-7701 || 0               || Incidente-2025-08-20_EPIC XI                       ||
+ENS-7700 || Epic            || 2025-08-27 || ENS-7700 || 0               || Incidente-2025-08-20_EPIC X                        ||
+ENS-7699 || Epic            || 2025-08-27 || ENS-7699 || 0               || Incidente-2025-08-20_EPIC IX                       ||
+ENS-7698 || Epic            || 2025-08-27 || ENS-7698 || 0               || Incidente-2025-08-20_EPIC VIII                     ||
+ENS-7697 || Epic            || 2025-08-27 || ENS-7697 || 0               || Incidente-2025-08-20_EPIC VII                      ||
+ENS-7696 || Epic            || 2025-08-27 || ENS-7696 || 0               || Incidente-2025-08-20_EPIC VI                       ||
+ENS-7695 || Epic            || 2025-08-27 || ENS-7695 || 0               || Incidente-2025-08-20_EPIC V                        ||
+ENS-7694 || Epic            || 2025-08-27 || ENS-7694 || 0               || Incidente-2025-08-20_EPIC IV                       ||
+ENS-7693 || Epic            || 2025-08-27 || ENS-7693 || 0               || Incidente-2025-08-20_EPIC III                      ||
+ENS-7692 || Epic            || 2025-08-27 || ENS-7692 || 0               || Incidente-2025-08-20_EPIC II                       ||
+ENS-7691 || Epic            || 2025-08-27 || ENS-7691 || 0               || Incidente-2025-08-20_EPIC I                        ||
+ENS-7690 || Epic            || 2025-08-27 || ENS-7690 || SCTASK0487543   || Apoio para ajustar Interface Z_RFC_MMCP21 para rec ||
+ENS-7689 || Epic            || 2025-08-27 || ENS-7689 || SCTASK0488918   || Envio de email do GUS, ajuda para identificar o pr ||
+ENS-7684 || História        || 2025-08-27 || ENS-7655 ||                 || [Alteração] Teste no LiftDesigner                  ||
+ENS-7682 || História        || 2025-08-27 || ENS-7654 ||                 || [Alteração] Teste no LiftDesigner                  ||
+ENS-7680 || História        || 2025-08-27 || ENS-7653 ||                 || [Alteração] Teste no LiftDesigner                  ||
+ENS-7678 || História        || 2025-08-27 || ENS-7652 ||                 || [Alteração] Erro no LiftDesigner                   ||
+ENS-7676 || História        || 2025-08-27 || ENS-7651 ||                 || [Alteração] Erro no LiftDesigner                   ||
+ENS-7674 || História        || 2025-08-27 || ENS-7650 ||                 || [Alteração] CIELO                                  ||
+ENS-7672 || História        || 2025-08-27 || ENS-7649 ||                 || [Alteração] Cielo                                  ||
+ENS-7670 || História        || 2025-08-27 || ENS-7648 ||                 || [Alteração] War Room SAP                           ||
+ENS-7668 || História        || 2025-08-27 || ENS-7647 ||                 || [Alteração] War Room SAP                           ||
+ENS-7666 || História        || 2025-08-27 || ENS-7646 ||                 || [Alteração] War Room SAP                           ||
+ENS-7664 || História        || 2025-08-27 || ENS-7645 ||                 || [Alteração]  Análise ZF004                         ||
+ENS-7662 || História        || 2025-08-27 || ENS-7644 ||                 || [Alteração]  Análise ZF004                         ||
+ENS-7660 || História        || 2025-08-27 || ENS-7643 ||                 || [Alteração] Monthly Service Meeting -IRIS          ||
+ENS-7658 || História        || 2025-08-27 || ENS-7642 ||                 || [Alteração] Reunião IRIS                           ||
+ENS-7656 || História        || 2025-08-27 || ENS-7641 ||                 || [Alteração] Reunião IRIS                           ||
+ENS-7655 || Epic            || 2025-08-27 || ENS-7655 || 0               || Incidente-2025-08-20_EPIC XV                       ||
+ENS-7654 || Epic            || 2025-08-27 || ENS-7654 || 0               || Incidente-2025-08-20_EPIC XIV                      ||
+ENS-7653 || Epic            || 2025-08-27 || ENS-7653 || 0               || Incidente-2025-08-20_EPIC XIII                     ||
+ENS-7652 || Epic            || 2025-08-27 || ENS-7652 || 0               || Incidente-2025-08-20_EPIC XII                      ||
+ENS-7651 || Epic            || 2025-08-27 || ENS-7651 || 0               || Incidente-2025-08-20_EPIC XI                       ||
+ENS-7650 || Epic            || 2025-08-27 || ENS-7650 || 0               || Incidente-2025-08-20_EPIC X                        ||
+ENS-7649 || Epic            || 2025-08-27 || ENS-7649 || 0               || Incidente-2025-08-20_EPIC IX                       ||
+ENS-7648 || Epic            || 2025-08-27 || ENS-7648 || 0               || Incidente-2025-08-20_EPIC VIII                     ||
+ENS-7647 || Epic            || 2025-08-27 || ENS-7647 || 0               || Incidente-2025-08-20_EPIC VII                      ||
+ENS-7646 || Epic            || 2025-08-27 || ENS-7646 || 0               || Incidente-2025-08-20_EPIC VI                       ||
+ENS-7645 || Epic            || 2025-08-27 || ENS-7645 || 0               || Incidente-2025-08-20_EPIC V                        ||
+ENS-7644 || Epic            || 2025-08-27 || ENS-7644 || 0               || Incidente-2025-08-20_EPIC IV                       ||
+ENS-7643 || Epic            || 2025-08-27 || ENS-7643 || 0               || Incidente-2025-08-20_EPIC III                      ||
+ENS-7642 || Epic            || 2025-08-27 || ENS-7642 || 0               || Incidente-2025-08-20_EPIC II                       ||
+ENS-7641 || Epic            || 2025-08-27 || ENS-7641 || 0               || Incidente-2025-08-20_EPIC I                        ||
+ENS-7639 || História        || 2025-08-27 || ENS-7622 ||                 || Alteração] - Verificação consulta nfse em QA TKEDÍ ||
+ENS-7637 || História        || 2025-08-27 || ENS-7621 ||                 || [Alteração]  -  REQ0314387 - Numeração de  equipam ||
+ENS-7635 || História        || 2025-08-27 || ENS-7620 ||                 || [Alteração]  -  Verificação Lift Designer          ||
+ENS-7633 || História        || 2025-08-27 || ENS-7619 ||                 || [Alteração]  -Verificação Purge                    ||
+ENS-7631 || História        || 2025-08-27 || ENS-7618 ||                 || [Alteração] - Verificação erro ZF001               ||
+ENS-7629 || História        || 2025-08-27 || ENS-7617 ||                 || [Alteração]  - EOX Display para Nuvem              ||
+ENS-7627 || História        || 2025-08-27 || ENS-7616 ||                 || [Alteração] - Concur                               ||
+ENS-7625 || História        || 2025-08-27 || ENS-7615 ||                 || [Novo Desenvolvimento]  - SOC                      ||
+ENS-7623 || História        || 2025-08-27 || ENS-7614 ||                 || [Alteração] Análise Treinamentos Finalizados Level ||
+ENS-7622 || Epic            || 2025-08-27 || ENS-7622 || 0               || Incidente-2025-08-20_EPIC VIII                     ||
+ENS-7621 || Epic            || 2025-08-27 || ENS-7621 || 0               || Incidente-2025-08-20_EPIC VII                      ||
+ENS-7620 || Epic            || 2025-08-27 || ENS-7620 || 0               || Incidente-2025-08-20_EPIC VI                       ||
+ENS-7619 || Epic            || 2025-08-27 || ENS-7619 || 0               || Incidente-2025-08-20_EPIC V                        ||
+ENS-7618 || Epic            || 2025-08-27 || ENS-7618 || 0               || Incidente-2025-08-20_EPIC IV                       ||
+ENS-7617 || Epic            || 2025-08-27 || ENS-7617 || 0               || Incidente-2025-08-20_EPIC III                      ||
+ENS-7616 || Epic            || 2025-08-27 || ENS-7616 || 0               || Incidente-2025-08-20_EPIC II                       ||
+ENS-7615 || Epic            || 2025-08-27 || ENS-7615 || SCTASK0435445   || Incidente-2025-08-20_EPIC I                        ||
+ENS-7614 || Epic            || 2025-08-27 || ENS-7614 || SCTASK0494199   || Treinamentos finalizados                           ||
+ENS-7612 || História        || 2025-08-27 || ENS-7587 ||                 || [Alteração] Atividades Administrativas             ||
+ENS-7610 || História        || 2025-08-27 || ENS-7595 ||                 || [Alteração] Manutenção SRVIRIS02 - WU              ||
+ENS-7608 || História        || 2025-08-27 || ENS-7594 ||                 || [Alteração] Atividades Administrativas III         ||
+ENS-7606 || História        || 2025-08-27 || ENS-7593 ||                 || [Alteração] Atividades Administrativas II          ||
+ENS-7604 || História        || 2025-08-27 || ENS-7592 ||                 || [Alteração] Demandas Internas                      ||
+ENS-7602 || História        || 2025-08-27 || ENS-7591 ||                 || [Alteração] Manutenção Databases                   ||
+ENS-7600 || História        || 2025-08-27 || ENS-7590 ||                 || [Alteração] Manutenção SRVIRIS02 - WU II           ||
+ENS-7598 || História        || 2025-08-27 || ENS-7589 ||                 || [Alteração] Portal de Log                          ||
+ENS-7596 || História        || 2025-08-27 || ENS-7588 ||                 || [Alteração] IAM reativação do ecossistema          ||
+ENS-7595 || Epic            || 2025-08-27 || ENS-7595 || 0               || Incidente-2025-08-20_EPIC VI                       ||
+ENS-7594 || Epic            || 2025-08-27 || ENS-7594 || 0               || Incidente-2025-08-20_EPIC V                        ||
+ENS-7593 || Epic            || 2025-08-27 || ENS-7593 || 0               || Incidente-2025-08-20_EPIC IV                       ||
+ENS-7592 || Epic            || 2025-08-27 || ENS-7592 || 0               || Incidente-2025-08-20_EPIC III                      ||
+ENS-7591 || Epic            || 2025-08-27 || ENS-7591 || 0               || Incidente-2025-08-20_EPIC II                       ||
+ENS-7590 || Epic            || 2025-08-27 || ENS-7590 || 0               || Incidente-2025-08-20_EPIC I                        ||
+ENS-7589 || Epic            || 2025-08-27 || ENS-7589 || 0               || Portal de Log                                      ||
+ENS-7588 || Epic            || 2025-08-27 || ENS-7588 || 0               || IAM reativação do ecossistema                      ||
+ENS-7587 || Epic            || 2025-08-27 || ENS-7587 || 0               || Atividades Administrativas                         ||
+ENS-7582 || História        || 2025-08-12 || ENS-7555 ||                 || [Alteração] Reunião IRIS                           ||
+ENS-7580 || História        || 2025-08-12 || ENS-7554 ||                 || [Alteração] EOX/PRICING- Apoio testes Cadastros Ba ||
+ENS-7578 || História        || 2025-08-12 || ENS-7553 ||                 || [Alteração] Atividades Internas IRIS X             ||
+ENS-7576 || História        || 2025-08-12 || ENS-7552 ||                 || [Alteração] Atividades Internas IRIS IX            ||
+ENS-7574 || História        || 2025-08-12 || ENS-7551 ||                 || [Alteração] Atividades Internas IRIS VII           ||
+ENS-7572 || História        || 2025-08-12 || ENS-7550 ||                 || [Alteração] Atividades Internas IRIS VI            ||
+ENS-7570 || História        || 2025-08-12 || ENS-7549 ||                 || [Alteração] Atividades Internas IRIS V             ||
+ENS-7568 || História        || 2025-08-12 || ENS-7548 ||                 || [Alteração] Atividades Internas IRIS II            ||
+ENS-7566 || História        || 2025-08-12 || ENS-7547 ||                 || [Alteração] Atividades Internas IRIS IV            ||
+ENS-7564 || História        || 2025-08-12 || ENS-7546 ||                 || [Alteração] Atividades Internas IRIS III           ||
+ENS-7562 || História        || 2025-08-12 || ENS-7545 ||                 || [Alteração] Atividades Internas IRIS I             ||
+ENS-7560 || História        || 2025-08-12 || ENS-7544 ||                 || Apoio a testes 880215 do AIT                       ||
+ENS-7558 || História        || 2025-08-12 || ENS-7543 ||                 || Envio de email do GUS, ajuda para identificar o pr ||
+ENS-7556 || História        || 2025-08-12 || ENS-7542 ||                 || Cubiscan                                           ||
+ENS-7555 || Epic            || 2025-08-12 || ENS-7555 || 0               || Incidente-2025-08-06_EPIC XI                       ||
+ENS-7554 || Epic            || 2025-08-12 || ENS-7554 || 0               || Incidente-2025-08-06_EPIC X                        ||
+ENS-7553 || Epic            || 2025-08-12 || ENS-7553 || 0               || Incidente-2025-08-06_EPIC IX                       ||
+ENS-7552 || Epic            || 2025-08-12 || ENS-7552 || 0               || Incidente-2025-08-06_EPIC VIII                     ||
+ENS-7551 || Epic            || 2025-08-12 || ENS-7551 || 0               || Incidente-2025-08-06_EPIC VII                      ||
+ENS-7550 || Epic            || 2025-08-12 || ENS-7550 || 0               || Incidente-2025-08-06_EPIC VI                       ||
+ENS-7549 || Epic            || 2025-08-12 || ENS-7549 || 0               || Incidente-2025-08-06_EPIC V                        ||
+ENS-7548 || Epic            || 2025-08-12 || ENS-7548 || 0               || Incidente-2025-08-06_EPIC IV                       ||
+ENS-7547 || Epic            || 2025-08-12 || ENS-7547 || 0               || Incidente-2025-08-06_EPIC III                      ||
+ENS-7546 || Epic            || 2025-08-12 || ENS-7546 || 0               || Incidente-2025-08-06_EPIC II                       ||
+ENS-7545 || Epic            || 2025-08-12 || ENS-7545 || 0               || Incidente-2025-08-06_EPIC I                        ||
+ENS-7544 || Epic            || 2025-08-12 || ENS-7544 || SCTASK0436795   || Apoio a testes 880215 do AIT                       ||
+ENS-7543 || Epic            || 2025-08-12 || ENS-7543 || SCTASK0483169   || Envio de email do GUS, ajuda para identificar o pr ||
+ENS-7542 || Epic            || 2025-08-12 || ENS-7542 || SCTASK0435437   || Cubiscan                                           ||
+ENS-7540 || História        || 2025-08-12 || ENS-7515 ||                 || [Alteração] Avaliação Componente BS                ||
+ENS-7538 || História        || 2025-08-12 || ENS-7514 ||                 || [Alteração] Avaliação Componente BS                ||
+ENS-7536 || História        || 2025-08-12 || ENS-7513 ||                 || [Alteração] Avaliação Componente BS                ||
+ENS-7534 || História        || 2025-08-12 || ENS-7512 ||                 || [Alteração] Avaliação IIS Infra                    ||
+ENS-7532 || História        || 2025-08-12 || ENS-7511 ||                 || [Alteração] Avaliação IIS Infra                    ||
+ENS-7530 || História        || 2025-08-12 || ENS-7510 ||                 || [Alteração] Reunião IRIS                           ||
+ENS-7528 || História        || 2025-08-12 || ENS-7509 ||                 || [Alteração] Reunião IRIS                           ||
+ENS-7526 || História        || 2025-08-12 || ENS-7508 ||                 || [Alteração] Avaliação novidades IRIS / Intersystem ||
+ENS-7524 || História        || 2025-08-12 || ENS-7507 ||                 || [Alteração] Avaliação novidades IRIS / Intersystem ||
+ENS-7522 || História        || 2025-08-12 || ENS-7506 ||                 || [Alteração] Avaliação novidades IRIS / Intersystem ||
+ENS-7520 || História        || 2025-08-12 || ENS-7505 ||                 || [Alteração] Avaliação novidades IRIS / Intersystem ||
+ENS-7518 || História        || 2025-08-12 || ENS-7504 ||                 || [Alteração] IRIS + WebGateway + IIS WAS            ||
+ENS-7516 || História        || 2025-08-12 || ENS-7503 ||                 || [Alteração] IRIS + WebGateway + IIS WAS            ||
+ENS-7515 || Epic            || 2025-08-12 || ENS-7515 || 0               || Incidente-2025-08-06_EPIC XIII                     ||
+ENS-7514 || Epic            || 2025-08-12 || ENS-7514 || 0               || Incidente-2025-08-06_EPIC XII                      ||
+ENS-7513 || Epic            || 2025-08-12 || ENS-7513 || 0               || Incidente-2025-08-06_EPIC XI                       ||
+ENS-7512 || Epic            || 2025-08-12 || ENS-7512 || 0               || Incidente-2025-08-06_EPIC X                        ||
+ENS-7511 || Epic            || 2025-08-12 || ENS-7511 || 0               || Incidente-2025-08-06_EPIC IX                       ||
+ENS-7510 || Epic            || 2025-08-12 || ENS-7510 || 0               || Incidente-2025-08-06_EPIC VIII                     ||
+ENS-7509 || Epic            || 2025-08-12 || ENS-7509 || 0               || Incidente-2025-08-06_EPIC VII                      ||
+ENS-7508 || Epic            || 2025-08-12 || ENS-7508 || 0               || Incidente-2025-08-06_EPIC VI                       ||
+ENS-7507 || Epic            || 2025-08-12 || ENS-7507 || 0               || Incidente-2025-08-06_EPIC V                        ||
+ENS-7506 || Epic            || 2025-08-12 || ENS-7506 || 0               || Incidente-2025-08-06_EPIC IV                       ||
+ENS-7505 || Epic            || 2025-08-12 || ENS-7505 || 0               || Incidente-2025-08-06_EPIC III                      ||
+ENS-7504 || Epic            || 2025-08-12 || ENS-7504 || 0               || Incidente-2025-08-06_EPIC II                       ||
+ENS-7503 || Epic            || 2025-08-12 || ENS-7503 || 0               || Incidente-2025-08-06_EPIC I                        ||
+ENS-7501 || História        || 2025-08-11 || ENS-7470 ||                 || [Alteração] IRIS + WebGateway + IIS WAS            ||
+ENS-7499 || História        || 2025-08-11 || ENS-7469 ||                 || [Alteração] IRIS + WebGateway + IIS WAS            ||
+ENS-7497 || História        || 2025-08-11 || ENS-7468 ||                 || [Alteração]  -Teste e Deploy pesquisa NDD D009     ||
+ENS-7495 || História        || 2025-08-11 || ENS-7467 ||                 || [Alteração] - Janela IRIS QA atualização II        ||
+ENS-7493 || História        || 2025-08-11 || ENS-7466 ||                 || -[Alteração] - Janela IRIS QA atualização I        ||
+ENS-7491 || História        || 2025-08-11 || ENS-7465 ||                 || -[Alteração] -  Deploy importa arquivo ZF190       ||
+ENS-7489 || História        || 2025-08-11 || ENS-7464 ||                 || [Alteração] -  Erro 400 Traking                    ||
+ENS-7487 || História        || 2025-08-11 || ENS-7463 ||                 || [Alteração]  - Erro 500 WeHandle                   ||
+ENS-7485 || História        || 2025-08-11 || ENS-7462 ||                 || [Alteração] -  Verificação erro CompatibilidadeMAX ||
+ENS-7483 || História        || 2025-08-11 || ENS-7461 ||                 || [Alteração] - Infobip funcionários - acerto email  ||
+ENS-7481 || História        || 2025-08-11 || ENS-7460 ||                 || [Alteração] - Real Time - EOX-DEP                  ||
+ENS-7479 || História        || 2025-08-11 || ENS-7459 ||                 || -[Alteração] - REQ0268324 (Pasta sharepoint ZF190) ||
+ENS-7477 || História        || 2025-08-11 || ENS-7458 ||                 || [Novo Desenvolvimento] - SOC                       ||
+ENS-7475 || História        || 2025-08-11 || ENS-7457 ||                 || [Alteração] Verificação Triger GUS QA              ||
+ENS-7473 || História        || 2025-08-11 || ENS-7456 ||                 || Por gentileza, alterar consulta das notas de NFe p ||
+ENS-7471 || História        || 2025-08-11 || ENS-7455 ||                 || O GUS deve enviar ao E-sales o status da proposta  ||
+ENS-7470 || Epic            || 2025-08-11 || ENS-7470 || 0               || Incidente-2025-08-06_EPIC XIV                      ||
+ENS-7469 || Epic            || 2025-08-11 || ENS-7469 || 0               || Incidente-2025-08-06_EPIC XIII                     ||
+ENS-7468 || Epic            || 2025-08-11 || ENS-7468 || 0               || Incidente-2025-08-06_EPIC XII                      ||
+ENS-7467 || Epic            || 2025-08-11 || ENS-7467 || 0               || Incidente-2025-08-06_EPIC XI                       ||
+ENS-7466 || Epic            || 2025-08-11 || ENS-7466 || 0               || Incidente-2025-08-06_EPIC X                        ||
+ENS-7465 || Epic            || 2025-08-11 || ENS-7465 || 0               || Incidente-2025-08-06_EPIC IX                       ||
+ENS-7464 || Epic            || 2025-08-11 || ENS-7464 || 0               || Incidente-2025-08-06_EPIC VIII                     ||
+ENS-7463 || Epic            || 2025-08-11 || ENS-7463 || 0               || Incidente-2025-08-06_EPIC VII                      ||
+ENS-7462 || Epic            || 2025-08-11 || ENS-7462 || 0               || Incidente-2025-08-06_EPIC VI                       ||
+ENS-7461 || Epic            || 2025-08-11 || ENS-7461 || 0               || Incidente-2025-08-06_EPIC V                        ||
+ENS-7460 || Epic            || 2025-08-11 || ENS-7460 || 0               || Incidente-2025-08-06_EPIC IV                       ||
+ENS-7459 || Epic            || 2025-08-11 || ENS-7459 || 0               || Incidente-2025-08-06_EPIC III                      ||
+ENS-7458 || Epic            || 2025-08-11 || ENS-7458 || SCTASK0435445   || Incidente-2025-08-06_EPIC II                       ||
+ENS-7457 || Epic            || 2025-08-11 || ENS-7457 || 0               || Incidente-2025-08-06_EPIC I                        ||
+ENS-7456 || Epic            || 2025-08-11 || ENS-7456 || SCTASK0468668   || Por gentileza, alterar consulta das notas de NFe p ||
+ENS-7455 || Epic            || 2025-08-11 || ENS-7455 || SCTASK0427711   || O GUS deve enviar ao E-sales o status da proposta  ||
+ENS-7453 || História        || 2025-08-11 || ENS-7432 ||                 || [Alteração] Análise melhorias caso ZF004N          ||
+ENS-7451 || História        || 2025-08-11 || ENS-7431 ||                 || [Alteração] War Room ZF004N - II                   ||
+ENS-7449 || História        || 2025-08-11 || ENS-7430 ||                 || [Alteração] War Room ZF004N                        ||
+ENS-7447 || História        || 2025-08-11 || ENS-7429 ||                 || [Alteração] Gestão Demandas                        ||
+ENS-7445 || História        || 2025-08-11 || ENS-7428 ||                 || [Alteração] Análise ZF004N                         ||
+ENS-7443 || História        || 2025-08-11 || ENS-7427 ||                 || [Alteração] Atividades Administrativas II          ||
+ENS-7441 || História        || 2025-08-11 || ENS-7426 ||                 || [Alteração] Atividades Administrativas III         ||
+ENS-7439 || História        || 2025-08-11 || ENS-7425 ||                 || IAM reativação do ecossistema                      ||
+ENS-7437 || História        || 2025-08-11 || ENS-7424 ||                 || [Alteração] Análise do portal de ocorrências de lo ||
+ENS-7435 || História        || 2025-08-11 || ENS-7423 ||                 || [Alteração] Alternativa ZINTERFACELOTE2            ||
+ENS-7433 || História        || 2025-08-11 || ENS-7422 ||                 || [Alteração] Atividades Administrativas             ||
+ENS-7432 || Epic            || 2025-08-11 || ENS-7432 || 0               || Incidente-2025-08-06_EPIC VII                      ||
+ENS-7431 || Epic            || 2025-08-11 || ENS-7431 || 0               || Incidente-2025-08-06_EPIC VI                       ||
+ENS-7430 || Epic            || 2025-08-11 || ENS-7430 || 0               || Incidente-2025-08-06_EPIC V                        ||
+ENS-7429 || Epic            || 2025-08-11 || ENS-7429 || 0               || Incidente-2025-08-06_EPIC IV                       ||
+ENS-7428 || Epic            || 2025-08-11 || ENS-7428 || 0               || Incidente-2025-08-06_EPIC III                      ||
+ENS-7427 || Epic            || 2025-08-11 || ENS-7427 || 0               || Incidente-2025-08-06_EPIC II                       ||
+ENS-7426 || Epic            || 2025-08-11 || ENS-7426 || 0               || Incidente-2025-08-06_EPIC I                        ||
+ENS-7425 || Epic            || 2025-08-11 || ENS-7425 || 0               || IAM reativação do ecossistema                      ||
+ENS-7424 || Epic            || 2025-08-11 || ENS-7424 || 0               || Análise do portal de ocorrências de log            ||
+ENS-7423 || Epic            || 2025-08-11 || ENS-7423 || 0               || Alternativa ZINTERFACELOTE2                        ||
+ENS-7422 || Epic            || 2025-08-11 || ENS-7422 || 0               || Atividades Administrativas                         ||
+ENS-7419 || História        || 2025-07-30 || ENS-7396 ||                 || [Alteração] Gestão IV                              ||
+ENS-7417 || História        || 2025-07-30 || ENS-7395 ||                 || [Alteração] ObjectScript / VS Code                 ||
+ENS-7415 || História        || 2025-07-30 || ENS-7394 ||                 || [Alteração] ObjectScript / VS Code                 ||
+ENS-7413 || História        || 2025-07-30 || ENS-7393 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7411 || História        || 2025-07-30 || ENS-7392 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7409 || História        || 2025-07-30 || ENS-7391 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7407 || História        || 2025-07-30 || ENS-7390 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7405 || História        || 2025-07-30 || ENS-7389 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7403 || História        || 2025-07-30 || ENS-7388 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7401 || História        || 2025-07-30 || ENS-7387 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7399 || História        || 2025-07-30 || ENS-7386 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7397 || História        || 2025-07-30 || ENS-7385 ||                 || [Alteração] Cubiscan                               ||
+ENS-7396 || Epic            || 2025-07-30 || ENS-7396 || 0               || Incidente-2025-07-23_EPIC XI                       ||
+ENS-7395 || Epic            || 2025-07-30 || ENS-7395 || 0               || Incidente-2025-07-23_EPIC X                        ||
+ENS-7394 || Epic            || 2025-07-30 || ENS-7394 || 0               || Incidente-2025-07-23_EPIC IX                       ||
+ENS-7393 || Epic            || 2025-07-30 || ENS-7393 || 0               || Incidente-2025-07-23_EPIC VIII                     ||
+ENS-7392 || Epic            || 2025-07-30 || ENS-7392 || 0               || Incidente-2025-07-23_EPIC VII                      ||
+ENS-7391 || Epic            || 2025-07-30 || ENS-7391 || 0               || Incidente-2025-07-23_EPIC VI                       ||
+ENS-7390 || Epic            || 2025-07-30 || ENS-7390 || 0               || Incidente-2025-07-23_EPIC V                        ||
+ENS-7389 || Epic            || 2025-07-30 || ENS-7389 || 0               || Incidente-2025-07-23_EPIC IV                       ||
+ENS-7388 || Epic            || 2025-07-30 || ENS-7388 || 0               || Incidente-2025-07-23_EPIC III                      ||
+ENS-7387 || Epic            || 2025-07-30 || ENS-7387 || 0               || Incidente-2025-07-23_EPIC II                       ||
+ENS-7386 || Epic            || 2025-07-30 || ENS-7386 || 0               || Incidente-2025-07-23_EPIC I                        ||
+ENS-7385 || Epic            || 2025-07-30 || ENS-7385 || SCTASK0435437   || Cubiscan                                           ||
+ENS-7383 || História        || 2025-07-30 || ENS-7360 ||                 || [Alteração] Gestão II                              ||
+ENS-7381 || História        || 2025-07-30 || ENS-7359 ||                 || [Alteração] Gestão III                             ||
+ENS-7379 || História        || 2025-07-30 || ENS-7358 ||                 || [Alteração] Manutenção Databases                   ||
+ENS-7377 || História        || 2025-07-30 || ENS-7357 ||                 || [Alteração] Drummer                                ||
+ENS-7375 || História        || 2025-07-30 || ENS-7356 ||                 || [Alteração] Drummer                                ||
+ENS-7373 || História        || 2025-07-30 || ENS-7355 ||                 || [Alteração] POC arquivo Parquet IRIS/PYTHON        ||
+ENS-7371 || História        || 2025-07-30 || ENS-7354 ||                 || [Alteração] Pentest Portal de Integração           ||
+ENS-7369 || História        || 2025-07-30 || ENS-7353 ||                 || [Alteração] POC arquivo Parquet IRIS/PYTHON        ||
+ENS-7367 || História        || 2025-07-30 || ENS-7352 ||                 || [Alteração] POC arquivo Parquet IRIS/PYTHON        ||
+ENS-7365 || História        || 2025-07-30 || ENS-7351 ||                 || [Alteração] Análise de  filas direcionadas ao SAP  ||
+ENS-7363 || História        || 2025-07-30 || ENS-7350 ||                 || [Alteração]Problema de paginação MAX               ||
+ENS-7361 || História        || 2025-07-30 || ENS-7349 ||                 || [Alteração]Testes da ZINTERFACELOTE2               ||
+ENS-7360 || Epic            || 2025-07-30 || ENS-7360 || 0               || Incidente-2025-07-23_EPIC X                        ||
+ENS-7359 || Epic            || 2025-07-30 || ENS-7359 || 0               || Incidente-2025-07-23_EPIC IX                       ||
+ENS-7358 || Epic            || 2025-07-30 || ENS-7358 || 0               || Incidente-2025-07-23_EPIC VIII                     ||
+ENS-7357 || Epic            || 2025-07-30 || ENS-7357 || 0               || Incidente-2025-07-23_EPIC VII                      ||
+ENS-7356 || Epic            || 2025-07-30 || ENS-7356 || 0               || Incidente-2025-07-23_EPIC VI                       ||
+ENS-7355 || Epic            || 2025-07-30 || ENS-7355 || 0               || Incidente-2025-07-23_EPIC V                        ||
+ENS-7354 || Epic            || 2025-07-30 || ENS-7354 || 0               || Incidente-2025-07-23_EPIC IV                       ||
+ENS-7353 || Epic            || 2025-07-30 || ENS-7353 || 0               || Incidente-2025-07-23_EPIC III                      ||
+ENS-7352 || Epic            || 2025-07-30 || ENS-7352 || 0               || Incidente-2025-07-23_EPIC II                       ||
+ENS-7351 || Epic            || 2025-07-30 || ENS-7351 || 0               || Incidente-2025-07-23_EPIC I                        ||
+ENS-7350 || Epic            || 2025-07-30 || ENS-7350 || 0               || Problema de paginação MAX                          ||
+ENS-7349 || Epic            || 2025-07-30 || ENS-7349 || 0               || Testes da ZINTERFACELOTE2                          ||
+ENS-7347 || História        || 2025-07-29 || ENS-7334 ||                 || [Alteração] Verificação email infobip funcionários ||
+ENS-7345 || História        || 2025-07-29 || ENS-7333 ||                 || [Alteração]  REQ0289672 Status GUS/ESALES          ||
+ENS-7343 || História        || 2025-07-29 || ENS-7332 ||                 || [Alteração] REQ0299582 - parâmetro gamificação     ||
+ENS-7341 || História        || 2025-07-29 || ENS-7331 ||                 || [Alteração] Revisão Integração envio de email RH l ||
+ENS-7339 || História        || 2025-07-29 || ENS-7330 ||                 || [Novo Desenvolvimento] - SOC                       ||
+ENS-7337 || História        || 2025-07-29 || ENS-7329 ||                 || [Alteração] o portal receba uma recusa da NDD (cód ||
+ENS-7335 || História        || 2025-07-29 || ENS-7328 ||                 || [Novo Desenvolvimento]Bancos Cobrança Reprocessame ||
+ENS-7334 || Epic            || 2025-07-29 || ENS-7334 || 0               || Incidente-2025-07-23_EPIC V                        ||
+ENS-7333 || Epic            || 2025-07-29 || ENS-7333 || 0               || Incidente-2025-07-23_EPIC IV                       ||
+ENS-7332 || Epic            || 2025-07-29 || ENS-7332 || 0               || Incidente-2025-07-23_EPIC III                      ||
+ENS-7331 || Epic            || 2025-07-29 || ENS-7331 || 0               || Incidente-2025-07-23_EPIC II                       ||
+ENS-7330 || Epic            || 2025-07-29 || ENS-7330 || SCTASK0435445   || Incidente-2025-07-23_EPIC I                        ||
+ENS-7329 || Epic            || 2025-07-29 || ENS-7329 || SCTASK0468668   || o portal receba uma recusa da NDD (código D009)    ||
+ENS-7328 || Epic            || 2025-07-29 || ENS-7328 || REQ0268324      || Bancos Cobrança Reprocessamento                    ||
+ENS-7326 || História        || 2025-07-29 || ENS-7319 ||                 || [Alteração] IAM reativação do ecossistema          ||
+ENS-7324 || História        || 2025-07-29 || ENS-7318 ||                 || [Alteração] Análise do portal de ocorrências de lo ||
+ENS-7322 || História        || 2025-07-29 || ENS-7317 ||                 || [Alteração] Alternativa ZINTERFACELOTE2            ||
+ENS-7320 || História        || 2025-07-29 || ENS-7316 ||                 || [Alteração] Atividades Administrativas             ||
+ENS-7319 || Epic            || 2025-07-29 || ENS-7319 || 0               || IAM reativação do ecossistema                      ||
+ENS-7318 || Epic            || 2025-07-29 || ENS-7318 || 0               || Análise do portal de ocorrênicas de log            ||
+ENS-7317 || Epic            || 2025-07-29 || ENS-7317 || 0               || Alternativa ZINTERFACELOTE2                        ||
+ENS-7316 || Epic            || 2025-07-29 || ENS-7316 || 0               || Atividades Administrativas                         ||
+ENS-7312 || História        || 2025-07-15 || ENS-7282 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7310 || História        || 2025-07-15 || ENS-7281 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7308 || História        || 2025-07-15 || ENS-7280 ||                 || [Alteração] IRIS > VSCODE                          ||
+ENS-7306 || História        || 2025-07-15 || ENS-7279 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7304 || História        || 2025-07-15 || ENS-7278 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7302 || História        || 2025-07-15 || ENS-7277 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7300 || História        || 2025-07-15 || ENS-7276 ||                 || [Alteração] Portal de Integrações - testes         ||
+ENS-7298 || História        || 2025-07-15 || ENS-7275 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7296 || História        || 2025-07-15 || ENS-7274 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7294 || História        || 2025-07-15 || ENS-7273 ||                 || [Alteração] Portal de Integrações - testes         ||
+ENS-7292 || História        || 2025-07-15 || ENS-7272 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7290 || História        || 2025-07-15 || ENS-7271 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7288 || História        || 2025-07-15 || ENS-7270 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7286 || História        || 2025-07-15 || ENS-7269 ||                 || [Alteração] Atividades Internas IRIS               ||
+ENS-7284 || História        || 2025-07-15 || ENS-7283 ||                 || [Alteração] Cubiscan                               ||
+ENS-7283 || Epic            || 2025-07-15 || ENS-7283 || 874286          || Cubiscan                                           ||
+ENS-7282 || Epic            || 2025-07-15 || ENS-7282 || 0               || Incidente-2025-07-9_EPIC XIV                       ||
+ENS-7281 || Epic            || 2025-07-15 || ENS-7281 || 0               || Incidente-2025-07-9_EPIC XIII                      ||
+ENS-7280 || Epic            || 2025-07-15 || ENS-7280 || 0               || Incidente-2025-07-9_EPIC XII                       ||
+ENS-7279 || Epic            || 2025-07-15 || ENS-7279 || 0               || Incidente-2025-07-9_EPIC XI                        ||
+ENS-7278 || Epic            || 2025-07-15 || ENS-7278 || 0               || Incidente-2025-07-9_EPIC X                         ||
+ENS-7277 || Epic            || 2025-07-15 || ENS-7277 || 0               || Incidente-2025-07-9_EPIC IX                        ||
+ENS-7276 || Epic            || 2025-07-15 || ENS-7276 || 0               || Incidente-2025-07-9_EPIC VIII                      ||
+ENS-7275 || Epic            || 2025-07-15 || ENS-7275 || 0               || Incidente-2025-07-9_EPIC VII                       ||
+ENS-7274 || Epic            || 2025-07-15 || ENS-7274 || 0               || Incidente-2025-07-9_EPIC VI                        ||
+ENS-7273 || Epic            || 2025-07-15 || ENS-7273 || 0               || Incidente-2025-07-9_EPIC V                         ||
+ENS-7272 || Epic            || 2025-07-15 || ENS-7272 || 0               || Incidente-2025-07-9_EPIC IV                        ||
+ENS-7271 || Epic            || 2025-07-15 || ENS-7271 || 0               || Incidente-2025-07-9_EPIC III                       ||
+ENS-7270 || Epic            || 2025-07-15 || ENS-7270 || 0               || Incidente-2025-07-9_EPIC II                        ||
+ENS-7269 || Epic            || 2025-07-15 || ENS-7269 || 0               || Incidente-2025-07-9_EPIC I                         ||
+ENS-7267 || História        || 2025-07-15 || ENS-7244 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7265 || História        || 2025-07-15 || ENS-7243 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7263 || História        || 2025-07-15 || ENS-7242 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7261 || História        || 2025-07-15 || ENS-7241 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7259 || História        || 2025-07-15 || ENS-7240 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7257 || História        || 2025-07-15 || ENS-7239 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7255 || História        || 2025-07-15 || ENS-7238 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7253 || História        || 2025-07-15 || ENS-7237 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7251 || História        || 2025-07-15 || ENS-7236 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7249 || História        || 2025-07-15 || ENS-7235 ||                 || [Alteração] Portal de Integração                   ||
+ENS-7247 || História        || 2025-07-15 || ENS-7234 ||                 || [Alteração] Problema de paginação MAX              ||
+ENS-7245 || História        || 2025-07-15 || ENS-7233 ||                 || [Alteração]Testes da ZINTERFACELOTE2               ||
+ENS-7244 || Epic            || 2025-07-15 || ENS-7244 || 0               || Incidente-2025-07-9_EPIC X                         ||
+ENS-7243 || Epic            || 2025-07-15 || ENS-7243 || 0               || Incidente-2025-07-9_EPIC IX                        ||
+ENS-7242 || Epic            || 2025-07-15 || ENS-7242 || 0               || Incidente-2025-07-9_EPIC VIII                      ||
+ENS-7241 || Epic            || 2025-07-15 || ENS-7241 || 0               || Incidente-2025-07-9_EPIC VII                       ||
+ENS-7240 || Epic            || 2025-07-15 || ENS-7240 || 0               || Incidente-2025-07-9_EPIC VI                        ||
+ENS-7239 || Epic            || 2025-07-15 || ENS-7239 || 0               || Incidente-2025-07-9_EPIC V                         ||
+ENS-7238 || Epic            || 2025-07-15 || ENS-7238 || 0               || Incidente-2025-07-9_EPIC IV                        ||
+ENS-7237 || Epic            || 2025-07-15 || ENS-7237 || 0               || Incidente-2025-07-9_EPIC III                       ||
+ENS-7236 || Epic            || 2025-07-15 || ENS-7236 || 0               || Incidente-2025-07-9_EPIC II                        ||
+ENS-7235 || Epic            || 2025-07-15 || ENS-7235 || 0               || Incidente-2025-07-9_EPIC I                         ||
+ENS-7234 || Epic            || 2025-07-15 || ENS-7234 || SCTASK0442180   || Problema de paginação MAX                          ||
+ENS-7233 || Epic            || 2025-07-15 || ENS-7233 || 0               || Testes da ZINTERFACELOTE2                          ||
+ENS-7231 || História        || 2025-07-15 || ENS-7196 ||                 || [Alteração] Apoio requisição Concur-descriptografa ||
+ENS-7229 || História        || 2025-07-15 || ENS-7195 ||                 || [Novo Desenvolvimento] - SOC                       ||
+ENS-7227 || História        || 2025-07-15 || ENS-7194 ||                 || [Alteração]  -   Verificação ssl api Entregou      ||
+ENS-7225 || História        || 2025-07-15 || ENS-7193 ||                 || [Alteração] - Item 48 pricing                      ||
+ENS-7223 || História        || 2025-07-15 || ENS-7192 ||                 || [Alteração]  -  Verificação de cliente e produto s ||
+ENS-7221 || História        || 2025-07-15 || ENS-7191 ||                 || [Novo Desenvolvimento] - Validação RITM0418658 (or ||
+ENS-7219 || História        || 2025-07-15 || ENS-7190 ||                 || [Novo Desenvolvimento] -  Lemontech                ||
+ENS-7217 || História        || 2025-07-15 || ENS-7189 ||                 || [Alteração]  -   Deploy  item[111] Pricing         ||
+ENS-7215 || História        || 2025-07-15 || ENS-7188 ||                 || [Alteração] -  Verificação retorno LTAI            ||
+ENS-7213 || História        || 2025-07-15 || ENS-7187 ||                 || [Alteração]  - Verificação Cadastrar Ocorrência Mo ||
+ENS-7211 || História        || 2025-07-15 || ENS-7186 ||                 || [Alteração]  - Verificação retorno NDD/TKEDÍGITAL  ||
+ENS-7209 || História        || 2025-07-15 || ENS-7185 ||                 || [Alteração]  -   Verificação de erro no envio Adob ||
+ENS-7207 || História        || 2025-07-15 || ENS-7184 ||                 || [Alteração]  - Verificação erro lock na interface  ||
+ENS-7205 || História        || 2025-07-15 || ENS-7043 ||                 || [Alteração] Ajustar o layout das RFCs ZV30 e ZV31  ||
+ENS-7203 || História        || 2025-07-15 || ENS-7182 ||                 || [Alteração] MaxLength do campo complexType name te ||
+ENS-7201 || História        || 2025-07-15 || ENS-6920 ||                 || [Alteração] Configurar a interface de envio de arq ||
+ENS-7199 || História        || 2025-07-15 || ENS-7180 ||                 || [Novo Desenvolvimento]  -Abbiamo                   ||
+ENS-7197 || História        || 2025-07-15 || ENS-6593 ||                 || [Alteração] Ajustar layout da interface ZV48N      ||
+ENS-7196 || Epic            || 2025-07-15 || ENS-7196 || 0               || Incidente-2025-07-9_EPIC XIII                      ||
+ENS-7195 || Epic            || 2025-07-15 || ENS-7195 || SCTASK0435445   || Incidente-2025-07-9_EPIC XII                       ||
+ENS-7194 || Epic            || 2025-07-15 || ENS-7194 || 0               || Incidente-2025-07-9_EPIC XI                        ||
+ENS-7193 || Epic            || 2025-07-15 || ENS-7193 || 0               || Incidente-2025-07-9_EPIC X                         ||
+ENS-7192 || Epic            || 2025-07-15 || ENS-7192 || 0               || Incidente-2025-07-9_EPIC IX                        ||
+ENS-7191 || Epic            || 2025-07-15 || ENS-7191 || 0               || Incidente-2025-07-9_EPIC VIII                      ||
+ENS-7190 || Epic            || 2025-07-15 || ENS-7190 || 0               || Incidente-2025-07-9_EPIC VII                       ||
+ENS-7189 || Epic            || 2025-07-15 || ENS-7189 || 0               || Incidente-2025-07-9_EPIC VI                        ||
+ENS-7188 || Epic            || 2025-07-15 || ENS-7188 || 0               || Incidente-2025-07-9_EPIC V                         ||
+ENS-7187 || Epic            || 2025-07-15 || ENS-7187 || 0               || Incidente-2025-07-9_EPIC IV                        ||
+ENS-7186 || Epic            || 2025-07-15 || ENS-7186 || 0               || Incidente-2025-07-9_EPIC III                       ||
+ENS-7185 || Epic            || 2025-07-15 || ENS-7185 || 0               || Incidente-2025-07-9_EPIC II                        ||
+ENS-7184 || Epic            || 2025-07-15 || ENS-7184 || 0               || Incidente-2025-07-9_EPIC I                         ||
+ENS-7183 || Epic            || 2025-07-15 || ENS-7183 || SCTASK0457110   || ajustar o layout das RFCs ZV30 e ZV31 para os tipo ||
+ENS-7182 || Epic            || 2025-07-15 || ENS-7182 || SCTASK0453616   || MaxLength do campo complexType name tecnicaProduto ||
+ENS-7181 || Epic            || 2025-07-15 || ENS-7181 || SCTASK0433986   || configurar a interface de envio de arquivos do fil ||
+ENS-7180 || Epic            || 2025-07-15 || ENS-7180 || SCTASK0435907   || Teste integrado Abbiamo                            ||
+ENS-7179 || Epic            || 2025-07-15 || ENS-7179 || SCTASK0426427   ||  ajustar layout da interface ZV48N                 ||
+ENS-7177 || História        || 2025-07-15 || ENS-7163 ||                 || [Alteração] Gestão Demandas                        ||
+ENS-7175 || História        || 2025-07-15 || ENS-7162 ||                 || [Alteração] IAM                                    ||
+ENS-7173 || História        || 2025-07-15 || ENS-7161 ||                 || [Alteração] TKE | Patches Microsoft IRIS PRD       ||
+ENS-7171 || História        || 2025-07-15 || ENS-7160 ||                 || [Alteração] Demandas Técnicas I                    ||
+ENS-7169 || História        || 2025-07-15 || ENS-7159 ||                 || [Alteração] Atividades                             ||
+ENS-7167 || História        || 2025-07-15 || ENS-7158 ||                 || [Alteração] Atividades                             ||
+ENS-7165 || História        || 2025-07-15 || ENS-7157 ||                 || [Alteração] Alinhamento Demandas                   ||
+ENS-7163 || Epic            || 2025-07-15 || ENS-7163 || 0               || Incidente-2025-07-9_EPIC VII                       ||
+ENS-7162 || Epic            || 2025-07-15 || ENS-7162 || 0               || Incidente-2025-07-9_EPIC VI                        ||
+ENS-7161 || Epic            || 2025-07-15 || ENS-7161 || 0               || Incidente-2025-07-9_EPIC V                         ||
+ENS-7160 || Epic            || 2025-07-15 || ENS-7160 || 0               || Incidente-2025-07-9_EPIC IV                        ||
+ENS-7159 || Epic            || 2025-07-15 || ENS-7159 || 0               || Incidente-2025-07-9_EPIC III                       ||
+ENS-7158 || Epic            || 2025-07-15 || ENS-7158 || 0               || Incidente-2025-07-9_EPIC II                        ||
+ENS-7157 || Epic            || 2025-07-15 || ENS-7157 || 0               || Incidente-2025-07-9_EPIC I                         ||
+ENS-7155 || História        || 2025-07-15 || ENS-7154 ||                 || [Alteração] Análise do portal de ocorrências de lo ||
+ENS-7154 || Epic            || 2025-07-15 || ENS-7154 || 0               || Análise do portal de ocorrênicas de log            ||
+ENS-7152 || História        || 2025-07-15 || ENS-7151 ||                 || [Alteração] Alternativa ZINTERFACELOTE2            ||
+ENS-7151 || Epic            || 2025-07-15 || ENS-7151 || 0               || Alternativa ZINTERFACELOTE2                        ||
+ENS-7149 || História        || 2025-07-15 || ENS-7148 ||                 || [Alteração] Atividades Administrativas             ||
+ENS-7148 || Epic            || 2025-07-15 || ENS-7148 || 0               || Atividades Administrativas                         ||
+ENS-7144 || História        || 2025-06-27 || ENS-7115 ||                 || [Alteração] Atividades Internas IRIS III           ||
+ENS-7142 || História        || 2025-06-27 || ENS-7114 ||                 || [Alteração] Atividades Internas IRIS II            ||
+ENS-7140 || História        || 2025-06-27 || ENS-7113 ||                 || [Alteração] Atividades Internas IRIS I             ||
+ENS-7138 || História        || 2025-06-27 || ENS-7112 ||                 || [Alteração] Atividades Internas IRIS IV
+           ||
+ENS-7136 || História        || 2025-06-27 || ENS-7111 ||                 || [Alteração] Atividades Internas IRIS V             ||
+ENS-7134 || História        || 2025-06-27 || ENS-7110 ||                 || [Alteração] Atividades Internas IRIS VI            ||
+ENS-7132 || História        || 2025-06-27 || ENS-7109 ||                 || [Alteração] Atividades Internas IRIS VII           ||
+ENS-7130 || História        || 2025-06-27 || ENS-7108 ||                 || [Alteração] Atividades Internas IRIS IX            ||
+ENS-7128 || História        || 2025-06-27 || ENS-7107 ||                 || [Alteração] Validação de envios IRIS III           ||
+ENS-7126 || História        || 2025-06-27 || ENS-7106 ||                 || [Alteração] Emails IRIS I                          ||
+ENS-7124 || História        || 2025-06-27 || ENS-7105 ||                 || [Alteração] Emails IRIS II                         ||
+ENS-7122 || História        || 2025-06-27 || ENS-7104 ||                 || [Alteração] Validação de envios IRIS II            ||
+ENS-7120 || História        || 2025-06-27 || ENS-7103 ||                 || [Alteração] Validação de envios IRIS I             ||
+ENS-7118 || História        || 2025-06-27 || ENS-7102 ||                 || [Alteração] Atividades Internas IRIS XI            ||
+ENS-7116 || História        || 2025-06-27 || ENS-7101 ||                 || [Alteração] Atividades Internas IRIS X             ||
+ENS-7115 || Epic            || 2025-06-27 || ENS-7115 || 0               || Incidente-2025-06-25_EPIC XV                       ||
+ENS-7114 || Epic            || 2025-06-27 || ENS-7114 || 0               || Incidente-2025-06-25_EPIC XIV                      ||
+ENS-7113 || Epic            || 2025-06-27 || ENS-7113 || 0               || Incidente-2025-06-25_EPIC XIII                     ||
+ENS-7112 || Epic            || 2025-06-27 || ENS-7112 || 0               || Incidente-2025-06-25_EPIC XII                      ||
+ENS-7111 || Epic            || 2025-06-27 || ENS-7111 || 0               || Incidente-2025-06-25_EPIC XI                       ||
+ENS-7110 || Epic            || 2025-06-27 || ENS-7110 || 0               || Incidente-2025-06-25_EPIC X                        ||
+ENS-7109 || Epic            || 2025-06-27 || ENS-7109 || 0               || Incidente-2025-06-25_EPIC IX                       ||
+ENS-7108 || Epic            || 2025-06-27 || ENS-7108 || 0               || Incidente-2025-06-25_EPIC VIII                     ||
+ENS-7107 || Epic            || 2025-06-27 || ENS-7107 || 0               || Incidente-2025-06-25_EPIC VII                      ||
+ENS-7106 || Epic            || 2025-06-27 || ENS-7106 || 0               || Incidente-2025-06-25_EPIC VI                       ||
+ENS-7105 || Epic            || 2025-06-27 || ENS-7105 || 0               || Incidente-2025-06-25_EPIC V                        ||
+ENS-7104 || Epic            || 2025-06-27 || ENS-7104 || 0               || Incidente-2025-06-25_EPIC IV                       ||
+ENS-7103 || Epic            || 2025-06-27 || ENS-7103 || 0               || Incidente-2025-06-25_EPIC III                      ||
+ENS-7102 || Epic            || 2025-06-27 || ENS-7102 || 0               || Incidente-2025-06-25_EPIC II                       ||
+ENS-7101 || Epic            || 2025-06-27 || ENS-7101 || 0               || Incidente-2025-06-25_EPIC I                        ||
+ENS-7098 || História        || 2025-06-27 || ENS-7097 ||                 || [Alteração] Cubiscan                               ||
+ENS-7097 || Epic            || 2025-06-27 || ENS-7097 || 874286          || Cubiscan                                           ||
+ENS-7095 || História        || 2025-06-27 || ENS-7086 ||                 || [Alteração] Reunião Status IRIS                    ||
+ENS-7093 || História        || 2025-06-27 || ENS-7085 ||                 || [Alteração] Alinhamento Operação SNOW - GUS X IRIS ||
+ENS-7091 || História        || 2025-06-27 || ENS-7084 ||                 || [Alteração] Improper error handling - Reunião de A ||
+ENS-7089 || História        || 2025-06-27 || ENS-7083 ||                 || [Alteração] MAX - IRIS - BlueBox                   ||
+ENS-7087 || História        || 2025-06-27 || ENS-7082 ||                 || [Alteração] MAX Iris - Blue box                    ||
+ENS-7086 || Epic            || 2025-06-27 || ENS-7086 || 0               || Incidente-2025-06-25_EPIC V                        ||
+ENS-7085 || Epic            || 2025-06-27 || ENS-7085 || 0               || Incidente-2025-06-25_EPIC IV                       ||
+ENS-7084 || Epic            || 2025-06-27 || ENS-7084 || 0               || Incidente-2025-06-25_EPIC III                      ||
+ENS-7083 || Epic            || 2025-06-27 || ENS-7083 || 0               || Incidente-2025-06-25_EPIC Ii                       ||
+ENS-7082 || Epic            || 2025-06-27 || ENS-7082 || 0               || Incidente-2025-06-25_EPIC I                        ||
+ENS-7080 || História        || 2025-06-27 || ENS-7079 ||                 || [Alteração]Precisamos passar a enviar dados refere ||
+ENS-7079 || Epic            || 2025-06-27 || ENS-7079 || SCTASK0454683   || Precisamos passar a enviar dados referentes aos pa ||
+ENS-7077 || História        || 2025-06-27 || ENS-7076 ||                 || [Alteração]Problema de paginação MAX               ||
+ENS-7076 || Epic            || 2025-06-27 || ENS-7076 || SCTASK0442180   || Problema de paginação MAX                          ||
+ENS-7074 || História        || 2025-06-27 || ENS-7073 ||                 || [Alteração]Testes da ZINTERFACELOTE2               ||
+ENS-7073 || Epic            || 2025-06-27 || ENS-7073 || 0               || Testes da ZINTERFACELOTE2                          ||
+ENS-7071 || História        || 2025-06-27 || ENS-7054 ||                 || [Alteração] -  Execução em qa com dados de produçã ||
+ENS-7069 || História        || 2025-06-27 || ENS-7053 ||                 || [Alteração] - Execução em qa com dados de produção ||
+ENS-7067 || História        || 2025-06-27 || ENS-7052 ||                 || [Alteração] - WeHandle                             ||
+ENS-7065 || História        || 2025-06-27 || ENS-7051 ||                 || [Alteração] -  TELEGESTÃO                          ||
+ENS-7063 || História        || 2025-06-27 || ENS-7050 ||                 || [Novo Desenvolvimento] -  SOC                      ||
+ENS-7061 || História        || 2025-06-27 || ENS-7049 ||                 || [Alteração] - ITEM 50 Pricing                      ||
+ENS-7059 || História        || 2025-06-26 || ENS-7048 ||                 || [Alteração]  -Análise problema NF NDD              ||
+ENS-7057 || História        || 2025-06-26 || ENS-7047 ||                 || [Alteração] - ZV09                                 ||
+ENS-7055 || História        || 2025-06-26 || ENS-7046 ||                 || [Alteração] - CN25 SAP para AIT de todas as obras  ||
+ENS-7054 || Epic            || 2025-06-26 || ENS-7054 || 0               || Incidente-2025-06-25_EPIC IX                       ||
+ENS-7053 || Epic            || 2025-06-26 || ENS-7053 || 0               || Incidente-2025-06-25_EPIC VIII                     ||
+ENS-7052 || Epic            || 2025-06-26 || ENS-7052 || 0               || Incidente-2025-06-25_EPIC VII                      ||
+ENS-7051 || Epic            || 2025-06-26 || ENS-7051 || 0               || Incidente-2025-06-25_EPIC VI                       ||
+ENS-7050 || Epic            || 2025-06-26 || ENS-7050 || SCTASK0435445   || Incidente-2025-06-25_EPIC V                        ||
+ENS-7049 || Epic            || 2025-06-26 || ENS-7049 || 0               || Incidente-2025-06-25_EPIC IV                       ||
+ENS-7048 || Epic            || 2025-06-26 || ENS-7048 || 0               || Incidente-2025-06-25_EPIC III                      ||
+ENS-7047 || Epic            || 2025-06-26 || ENS-7047 || 0               || Incidente-2025-06-25_EPIC II                       ||
+ENS-7046 || Epic            || 2025-06-26 || ENS-7046 || 0               || Incidente-2025-06-25_EPIC I                        ||
+ENS-7044 || História        || 2025-06-26 || ENS-7043 ||                 || [Alteração] Ajustar o layout das RFCs ZV30 e ZV31  ||
+ENS-7043 || Epic            || 2025-06-26 || ENS-7043 || SCTASK0457110   || Ajustar o layout das RFCs ZV30 e ZV31 para os tipo ||
+ENS-7041 || História        || 2025-06-26 || ENS-7038 ||                 || [Alteração] Necessitamos que seja alterado oo MaxL ||
+ENS-7039 || História        || 2025-06-26 || ENS-6920 ||                 || [Novo Desenvolvimento] IRIS configurar a interface ||
+ENS-7038 || Epic            || 2025-06-26 || ENS-7038 || SCTASK0453616   || Necessitamos que seja alterado oo MaxLength do cam ||
+ENS-7035 || Epic            || 2025-06-26 || ENS-7035 || SCTASK0433986   || IRIS configurar a interface de envio de arquivos d ||
+ENS-7033 || História        || 2025-06-26 || ENS-7032 ||                 || [Novo Desenvolvimento] Teste integrado Abbiamo     ||
+ENS-7032 || Epic            || 2025-06-26 || ENS-7032 || SCTASK0435907   || Teste integrado Abbiamo                            ||
+ENS-7030 || História        || 2025-06-26 || ENS-6593 ||                 || [Alteração] ZV48N Testes                           ||
+ENS-7029 || Epic            || 2025-06-26 || ENS-7029 || SCTASK0426427   || Apoio para equipe Iris, ajustar layout da interfac ||
+ENS-7027 || História        || 2025-06-26 || ENS-7014 ||                 || [Alteração] Gestão                                 ||
+ENS-7025 || História        || 2025-06-26 || ENS-7013 ||                 || [Alteração] DRP - Execução V                       ||
+ENS-7023 || História        || 2025-06-26 || ENS-7012 ||                 || [Alteração] DRP - Execução IV                      ||
+ENS-7021 || História        || 2025-06-26 || ENS-7011 ||                 || [Alteração] DRP - Execução III                     ||
+ENS-7019 || História        || 2025-06-26 || ENS-7010 ||                 || [Alteração] DRP - Execução II                      ||
+ENS-7017 || História        || 2025-06-26 || ENS-7009 ||                 || [Alteração] DRP - Execução I                       ||
+ENS-7015 || História        || 2025-06-26 || ENS-7008 ||                 || [Alteração] DRP - Planejamento e Plano de Ação     ||
+ENS-7014 || Epic            || 2025-06-26 || ENS-7014 || 0               || Incidente-2025-06-25_EPIC VII                      ||
+ENS-7013 || Epic            || 2025-06-26 || ENS-7013 || 0               || Incidente-2025-06-25_EPIC VI                       ||
+ENS-7012 || Epic            || 2025-06-26 || ENS-7012 || 0               || Incidente-2025-06-25_EPIC V                        ||
+ENS-7011 || Epic            || 2025-06-26 || ENS-7011 || 0               || Incidente-2025-06-25_EPIC IV                       ||
+ENS-7010 || Epic            || 2025-06-26 || ENS-7010 || 0               || Incidente-2025-06-25_EPIC III                      ||
+ENS-7009 || Epic            || 2025-06-26 || ENS-7009 || 0               || Incidente-2025-06-25_EPIC II                       ||
+ENS-7008 || Epic            || 2025-06-26 || ENS-7008 || 0               || Incidente-2025-06-25_EPIC I                        ||
+ENS-7006 || História        || 2025-06-26 || ENS-7005 ||                 || [Alteração] Análise do portal de ocorrências de lo ||
+ENS-7005 || Epic            || 2025-06-26 || ENS-7005 || 0               || Análise do portal de ocorrênicas de log            ||
+ENS-7003 || História        || 2025-06-26 || ENS-7002 ||                 || [Alteração] Alternativa ZINTERFACELOTE2            ||
+ENS-7002 || Epic            || 2025-06-26 || ENS-7002 || 0               || Alternativa ZINTERFACELOTE2                        ||
+ENS-7000 || História        || 2025-06-26 || ENS-6997 ||                 || [Alteração] Atividades Administrativas             ||
+ENS-6997 || Epic            || 2025-06-26 || ENS-6997 || 0               || Atividades Administrativas                         ||
+ENS-6990 || História        || 2025-06-18 || ENS-6981 ||                 || [Alteração] Drummer SQL                            ||
+ENS-6988 || História        || 2025-06-18 || ENS-6980 ||                 || [Alteração] Drummer sql                            ||
+ENS-6986 || História        || 2025-06-18 || ENS-6979 ||                 || [Alteração] Drummer SQL                            ||
+ENS-6984 || História        || 2025-06-18 || ENS-6978 ||                 || [Alteração] Status IRIS                            ||
+ENS-6982 || História        || 2025-06-18 || ENS-6977 ||                 || [Alteração] ZINTERFACELOTE2                        ||
+ENS-6981 || Epic            || 2025-06-18 || ENS-6981 || 0               || Incidente-2025-06-11_EPIC V                        ||
+ENS-6980 || Epic            || 2025-06-18 || ENS-6980 || 0               || Incidente-2025-06-11_EPIC IV                       ||
+ENS-6979 || Epic            || 2025-06-18 || ENS-6979 || 0               || Incidente-2025-06-11_EPIC III                      ||
+ENS-6978 || Epic            || 2025-06-18 || ENS-6978 || 0               || Incidente-2025-06-11_EPIC II                       ||
+ENS-6977 || Epic            || 2025-06-18 || ENS-6977 || 0               || Incidente-2025-06-11_EPIC I                        ||
+ENS-6975 || História        || 2025-06-18 || ENS-6974 ||                 || [Alteração] Problema de paginação MAX - SCTASK0442 ||
+ENS-6974 || Epic            || 2025-06-18 || ENS-6974 || SCTASK0442180   || Problema de paginação MAX                          ||
+ENS-6972 || História        || 2025-06-18 || ENS-6971 ||                 || [Alteração] Testes da ZINTERFACELOTE2              ||
+ENS-6971 || Epic            || 2025-06-18 || ENS-6971 || 0               || Testes da ZINTERFACELOTE2                          ||
+ENS-6969 || História        || 2025-06-18 || ENS-6950 ||                 || [Alteração] Demandas internas IRIS I               ||
+ENS-6967 || História        || 2025-06-18 || ENS-6956 ||                 || [Alteração] Demandas internas IRIS II              ||
+ENS-6965 || História        || 2025-06-18 || ENS-6955 ||                 || [Alteração] Demandas internas IRIS III             ||
+ENS-6963 || História        || 2025-06-18 || ENS-6954 ||                 || [Alteração] Demandas internas IRIS IV              ||
+ENS-6961 || História        || 2025-06-18 || ENS-6953 ||                 || [Alteração] Emails IRIS I                          ||
+ENS-6959 || História        || 2025-06-18 || ENS-6952 ||                 || [Alteração] Emails IRIS II                         ||
+ENS-6957 || História        || 2025-06-18 || ENS-6951 ||                 || [Alteração] Emails IRIS III                        ||
+ENS-6956 || Epic            || 2025-06-18 || ENS-6956 || 0               || Incidente-2025-06-11_EPIC VII                      ||
+ENS-6955 || Epic            || 2025-06-18 || ENS-6955 || 0               || Incidente-2025-06-11_EPIC VI                       ||
+ENS-6954 || Epic            || 2025-06-18 || ENS-6954 || 0               || Incidente-2025-06-11_EPIC V                        ||
+ENS-6953 || Epic            || 2025-06-18 || ENS-6953 || 0               || Incidente-2025-06-11_EPIC IV                       ||
+ENS-6952 || Epic            || 2025-06-18 || ENS-6952 || 0               || Incidente-2025-06-11_EPIC III                      ||
+ENS-6951 || Epic            || 2025-06-18 || ENS-6951 || 0               || Incidente-2025-06-11_EPIC II                       ||
+ENS-6950 || Epic            || 2025-06-18 || ENS-6950 || 0               || Incidente-2025-06-11_EPIC I                        ||
+ENS-6948 || História        || 2025-06-18 || ENS-6947 ||                 || [Alteração] Cubiscan                               ||
+ENS-6947 || Epic            || 2025-06-18 || ENS-6947 || 874286          || Cubiscan                                           ||
+ENS-6945 || História        || 2025-06-18 || ENS-6944 ||                 || [Alteração] Apoio a teste                          ||
+ENS-6944 || Epic            || 2025-06-18 || ENS-6944 || SCTASK0435853   || Solicito que a informação de alteração de filial s ||
+ENS-6942 || História        || 2025-06-16 || ENS-6929 ||                 || [Alteração]  Item 82 pricing                       ||
+ENS-6940 || História        || 2025-06-16 || ENS-6928 ||                 || [Novo Desenvolvimento]  Gamificação SDT 862896 -RE ||
+ENS-6938 || História        || 2025-06-16 || ENS-6927 ||                 || [Alteração] Revisão retorno VA02 e ZV77            ||
+ENS-6936 || História        || 2025-06-16 || ENS-6926 ||                 || [Alteração] Atualização IRIS QA II                 ||
+ENS-6934 || História        || 2025-06-16 || ENS-6925 ||                 || [Alteração] Atualização IRIS QA I                  ||
+ENS-6932 || História        || 2025-06-16 || ENS-6924 ||                 || [Novo Desenvolvimento] - SOC II                    ||
+ENS-6930 || História        || 2025-06-16 || ENS-6923 ||                 || [Novo Desenvolvimento] - SOC I                     ||
+ENS-6929 || Epic            || 2025-06-16 || ENS-6929 || 0               || Incidente-2025-06-11_EPIC VII                      ||
+ENS-6928 || Epic            || 2025-06-16 || ENS-6928 || 0               || Incidente-2025-06-11_EPIC VI                       ||
+ENS-6927 || Epic            || 2025-06-16 || ENS-6927 || 0               || Incidente-2025-06-11_EPIC V                        ||
+ENS-6926 || Epic            || 2025-06-16 || ENS-6926 || 0               || Incidente-2025-06-11_EPIC IV                       ||
+ENS-6925 || Epic            || 2025-06-16 || ENS-6925 || 0               || Incidente-2025-06-11_EPIC III                      ||
+ENS-6924 || Epic            || 2025-06-16 || ENS-6924 || SCTASK0435445   || Incidente-2025-06-11_EPIC II                       ||
+ENS-6923 || Epic            || 2025-06-16 || ENS-6923 || SCTASK0435445   || Incidente-2025-06-11_EPIC I                        ||
+ENS-6921 || História        || 2025-06-16 || ENS-6920 ||                 || [Novo Desenvolvimneto] Configurar a interface de e ||
+ENS-6920 || Epic            || 2025-06-16 || ENS-6920 || SCTASK0433986   ||  configurar a interface de envio de arquivos do fi ||
+ENS-6918 || História        || 2025-06-16 || ENS-6917 ||                 || [Novo Desenvolvimento] Teste integrado Abbiamo     ||
+ENS-6917 || Epic            || 2025-06-16 || ENS-6917 || SCTASK0435907   || Teste integrado Abbiamo                            ||
+ENS-6915 || História        || 2025-06-16 || ENS-6593 ||                 || [Alteração]ajustar layout da interface ZV48N       ||
+ENS-6914 || Epic            || 2025-06-16 || ENS-6914 || SCTASK0426427   || ajustar layout da interface ZV48N                  ||
+ENS-6912 || História        || 2025-06-16 || ENS-6911 ||                 || [Novo Desenvolvimento] Criar uma interface com o G ||
+ENS-6911 || Epic            || 2025-06-16 || ENS-6911 || 878738          || criar uma interface com o GUS |tela 217| para atua ||
+ENS-6909 || História        || 2025-06-16 || ENS-6890 ||                 || [Alteração] Demandas Internas I                    ||
+ENS-6907 || História        || 2025-06-16 || ENS-6889 ||                 || [Alteração] Demandas Internas II                   ||
+ENS-6905 || História        || 2025-06-16 || ENS-6888 ||                 || [Alteração] Manutenção DB III                      ||
+ENS-6903 || História        || 2025-06-16 || ENS-6887 ||                 || [Alteração] Manutenção DB II                       ||
+ENS-6901 || História        || 2025-06-16 || ENS-6886 ||                 || [Alteração] Manutenção DB I                        ||
+ENS-6899 || História        || 2025-06-16 || ENS-6885 ||                 || [Alteração] Manutenção IRIS                        ||
+ENS-6897 || História        || 2025-06-16 || ENS-6884 ||                 || [Alteração] Gestão                                 ||
+ENS-6895 || História        || 2025-06-16 || ENS-6883 ||                 || [Alteração] Windows Update SRVIRIS02, SRVCSPGW02,  ||
+ENS-6893 || História        || 2025-06-16 || ENS-6882 ||                 || [Alteração] Windows Update SRVIRIS02               ||
+ENS-6891 || História        || 2025-06-16 || ENS-6881 ||                 || [Alteração] Lista Técnica VA02 - SCTASK0451540     ||
+ENS-6890 || Epic            || 2025-06-16 || ENS-6890 || 0               || Incidente-2025-06-11_EPIC X                        ||
+ENS-6889 || Epic            || 2025-06-16 || ENS-6889 || 0               || Incidente-2025-06-11_EPIC IX                       ||
+ENS-6888 || Epic            || 2025-06-16 || ENS-6888 || 0               || Incidente-2025-06-11_EPIC VIII                     ||
+ENS-6887 || Epic            || 2025-06-16 || ENS-6887 || 0               || Incidente-2025-06-11_EPIC VII                      ||
+ENS-6886 || Epic            || 2025-06-16 || ENS-6886 || 0               || Incidente-2025-06-11_EPIC VI                       ||
+ENS-6885 || Epic            || 2025-06-16 || ENS-6885 || 0               || Incidente-2025-06-11_EPIC V                        ||
+ENS-6884 || Epic            || 2025-06-16 || ENS-6884 || 0               || [Alteração] Incidente-2025-06-11_EPIC IV           ||
+ENS-6883 || Epic            || 2025-06-16 || ENS-6883 || 0               || Incidente-2025-06-11_EPIC III                      ||
+ENS-6882 || Epic            || 2025-06-16 || ENS-6882 || 0               || Incidente-2025-06-11_EPIC II                       ||
+ENS-6881 || Epic            || 2025-06-16 || ENS-6881 || 0               || Incidente-2025-06-11_EPIC I                        ||
+ENS-6879 || História        || 2025-06-16 || ENS-6878 ||                 || [Alteração] Atividades Administrativas             ||
+ENS-6878 || Epic            || 2025-06-16 || ENS-6878 || 0               || Atividades Administrativas                         ||
+ENS-6870 || História        || 2025-06-12 || ENS-6863 ||                 || [Alteração] Improper error handling HyperCare      ||
+ENS-6869 || História        || 2025-06-12 || ENS-6863 ||                 || [Alteração] Improper error handling Deploy         ||
+ENS-6868 || História        || 2025-06-12 || ENS-6863 ||                 || [Alteração] Improper error handling Testes II      ||
+ENS-6867 || História        || 2025-06-12 || ENS-6863 ||                 || [Alteração] Improper error handling Testes I       ||
+ENS-6866 || História        || 2025-06-12 || ENS-6863 ||                 || [Alteração] Improper error handling Desenvolviment ||
+ENS-6865 || História        || 2025-06-12 || ENS-6863 ||                 || [Alteração] Improper error handling Desenvolviment ||
+ENS-6864 || História        || 2025-06-12 || ENS-6863 ||                 || [Alteração] Improper error handling Análise        ||
+ENS-6863 || Epic            || 2025-06-12 || ENS-6863 || 0               || [Alteração] Improper error handling                ||
+ENS-6856 || História        || 2025-06-12 || ENS-6850 ||                 || [Alteração]Information leakage in source code Hype ||
+ENS-6855 || História        || 2025-06-12 || ENS-6850 ||                 || [Alteração] Information leakage in source code Dep ||
+ENS-6854 || História        || 2025-06-12 || ENS-6850 ||                 || [Alteração] Information leakage in source code Tes ||
+ENS-6853 || História        || 2025-06-12 || ENS-6850 ||                 || [Alteração] Information leakage in source code Des ||
+ENS-6852 || História        || 2025-06-12 || ENS-6850 ||                 || [Alteração Information leakage in source code Dese ||
+ENS-6851 || História        || 2025-06-12 || ENS-6850 ||                 || [Alteração] Information leakage in source code Aná ||
+ENS-6850 || Epic            || 2025-06-12 || ENS-6850 || 0               || Information leakage in source code                 ||

@@ -1,0 +1,29 @@
+============================================================
+  Data/Hora: 02/06/2026 16:27:27
+  Modelo: gemini-2.5-flash
+============================================================
+
+📝 PROMPT:
+----------------------------------------
+me fale de giovani perotto mesquita
+
+🤖 RESPOSTA:
+----------------------------------------
+Giovani Perotto Mesquita é uma figura proeminente no cenário jurídico e de controle no Brasil, especialmente no estado do Rio Grande do Sul. Ele é **Conselheiro do Tribunal de Contas do Estado do Rio Grande do Sul (TCE-RS)**.
+
+Aqui estão os principais pontos sobre sua trajetória e atuação:
+
+1.  **Cargo Atual:** É Conselheiro do Tribunal de Contas do Estado do Rio Grande do Sul, órgão responsável pela fiscalização contábil, financeira, orçamentária, operacional e patrimonial dos órgãos e entidades da administração pública estadual e municipal.
+
+2.  **Carreira no Ministério Público de Contas:** Antes de assumir o cargo de Conselheiro, Mesquita teve uma longa e respeitada carreira no **Ministério Público de Contas do Rio Grande do Sul (MPC-RS)**, onde atuou como **Procurador de Contas**. Ele ingressou no MPC-RS em 2004, por meio de concurso público. Durante sua atuação no MPC-RS, foi Procurador-Geral de Contas em diferentes períodos, liderando o órgão que atua junto ao TCE-RS, fiscalizando e emitindo pareceres em processos de contas.
+
+3.  **Formação Acadêmica:**
+    *   **Bacharel em Ciências Jurídicas e Sociais** pela Pontifícia Universidade Católica do Rio Grande do Sul (PUC-RS).
+    *   Possui **Mestrado em Direito do Estado** pela Universidade Federal do Rio Grande do Sul (UFRGS).
+    *   É **Doutor em Direito** pela Universidade Federal do Rio Grande do Sul (UFRGS).
+
+4.  **Docência e Publicações:** Além de sua atuação no TCE-RS, ele é professor universitário e possui diversas publicações na área do Direito Público, com foco em Direito Administrativo, Direito Financeiro e Controle Externo da Administração Pública. Sua produção acadêmica e sua experiência prática o tornam uma referência nos temas relacionados à gestão pública e fiscalização.
+
+5.  **Áreas de Expertise:** Sua expertise abrange áreas como Direito Público, Direito Administrativo, Direito Financeiro e Controle Externo da Administração Pública, o que é fundamental para a análise complexa dos processos que tramitam no Tribunal de Contas.
+
+Em resumo, Giovani Perotto Mesquita é um jurista e gestor público com vasta experiência no controle e fiscalização da administração pública, consolidada por uma sólida formação acadêmica e uma carreira dedicada ao Ministério Público de Contas e, atualmente, como Conselheiro do TCE-RS.

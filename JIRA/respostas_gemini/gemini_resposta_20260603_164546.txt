@@ -1,0 +1,48 @@
+============================================================
+  Data/Hora: 03/06/2026 16:45:46
+  Modelo: gemini-3.5-flash
+============================================================
+
+📝 PROMPT:
+----------------------------------------
+defina o que é cubo
+
+🤖 RESPOSTA:
+----------------------------------------
+Um **cubo** (ou **hexaedro regular**) é um sólido geométrico tridimensional que possui **seis faces quadradas idênticas** (congruentes). É um dos cinco Sólidos de Platão e se caracteriza por sua perfeita simetria.
+
+Aqui estão as principais características, elementos e fórmulas associadas ao cubo:
+
+---
+
+### 1. Elementos do Cubo
+* **Faces:** Tem **6 faces** planas, e todas são quadrados perfeitos de mesmo tamanho.
+* **Arestas:** Tem **12 arestas** (as linhas onde duas faces se encontram). Todas as arestas têm o mesmo comprimento (medida $a$).
+* **Vértices:** Tem **8 vértices** (os pontos de encontro de três arestas).
+* **Ângulos:** Todos os ângulos formados pelo encontro das arestas são ângulos retos ($90^\circ$).
+
+---
+
+### 2. Principais Fórmulas do Cubo
+Se chamarmos a medida da aresta (lado) do cubo de **$a$**, temos as seguintes fórmulas:
+
+* **Área de uma face ($A_f$):** Como cada face é um quadrado:
+  $$A_f = a^2$$
+
+* **Área Total ($A_t$):** É a soma da área das 6 faces:
+  $$A_t = 6 \cdot a^2$$
+
+* **Volume ($V$):** É o espaço ocupado pelo cubo, calculado multiplicando largura x altura x profundidade:
+  $$V = a^3$$
+
+* **Diagonal do Cubo ($d$):** A distância entre dois vértices opostos através do interior do cubo:
+  $$d = a\sqrt{3}$$
+
+---
+
+### 3. Exemplos no dia a dia
+O cubo é uma das formas mais comuns no nosso cotidiano. Alguns exemplos incluem:
+* Um **dado** de jogo.
+* O **cubo mágico** (Cubo de Rubik).
+* Um **cubo de gelo**.
+* Caixas de papelão quadradas.

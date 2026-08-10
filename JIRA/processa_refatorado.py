@@ -299,13 +299,13 @@ if __name__ == "__main__":
     # 3. Ler e preparar os dados da planilha.
     df_processamento = preparar_dataframe(nome_arquivo)
     
-    # É uma boa ideia manter uma cópia do DataFrame original para a gravação final.
+    # 4. É uma boa ideia manter uma cópia do DataFrame original para a gravação final.
     df_original = pd.read_excel(nome_arquivo, sheet_name=ABA_PLANILHA, engine="openpyxl")
 
-    # 4. Processar e criar as issues no Jira.
+    # 5. Processar e criar as issues no Jira.
     resultados_jira = processar_issues_jira(df_processamento)
 
-    # 5. Atualizar a planilha com os resultados.
+    # 6. Atualizar a planilha com os resultados.
     atualizar_planilha(nome_arquivo, df_original, resultados_jira)
 
     jiralib.add_output("\n🎊 Processo finalizado com sucesso! Seu trabalho foi feito! 🎊")

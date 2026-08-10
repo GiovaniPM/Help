@@ -1,0 +1,24 @@
+============================================================
+  Data/Hora: 16/06/2026 14:06:57
+  Modelo: gemini-3.5-flash
+============================================================
+
+📝 PROMPT:
+----------------------------------------
+Juca bala
+
+🤖 RESPOSTA:
+----------------------------------------
+**Juca Bala** é um nome bastante conhecido na cultura pop brasileira e pode se referir a duas coisas principais:
+
+### 1. O Desenho Animado (Hanna-Barbera)
+Nos anos 1970 e 1980, fez muito sucesso no Brasil o desenho animado **"Juca Bala e Zé Bolha"** (no original em inglês: *Motomouse and Autocat*), produzido pela Hanna-Barbera.
+* **Juca Bala** era um camundongo audaz que pilotava uma motocicleta barulhenta.
+* **Zé Bolha** era um gato que tentava a todo custo capturar Juca Bala usando diversos carros e engenhocas tecnológicas (que sempre davam errado).
+
+### 2. O Personagem de Chico Anysio
+**Juca Bala** também foi um personagem marcante criado pelo humorista **Chico Anysio**. Ele era a caricatura de um radialista de rádio AM do interior, com um estilo muito peculiar, fofoqueiro, que falava rápido e mandava "alôs" para os ouvintes de forma cômica.
+
+---
+
+Você estava lembrando do **desenho animado** do ratinho motoqueiro ou do **personagem** do Chico Anysio?
