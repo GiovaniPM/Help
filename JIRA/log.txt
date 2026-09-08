@@ -7103,3 +7103,493 @@ INFO:root:21/08/2026 18:58:06 -   Integracao com o Jira concluida
 INFO:root:21/08/2026 18:58:06 -  Atualizando a planilha com os novos tickets
 INFO:root:21/08/2026 18:58:06 -  Planilha salva com sucesso
 INFO:root:21/08/2026 18:58:06 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:07/09/2026 19:41:07 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:07/09/2026 19:41:07 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:07/09/2026 19:41:07 -  DataFrame preparado com sucesso
+INFO:root:07/09/2026 19:41:07 -   Comecando a integracao com o Jira Criando issues
+INFO:root:07/09/2026 19:41:07 -   Pulando Epico ja existente ENS10640
+INFO:root:07/09/2026 19:41:07 -    Criando Estoria ALTERACAO  0  Confeccionar logs para auditoria
+INFO:root:07/09/2026 19:41:09 -        Sucesso Chave da Estoria ENS10973
+INFO:root:07/09/2026 19:41:10 -      Criando Tarefa Confeccionar logs para auditoria
+INFO:root:07/09/2026 19:41:11 -          Sucesso Chave da Tarefa ENS10974
+INFO:root:07/09/2026 19:41:11 -   Pulando Epico ja existente ENS10725
+INFO:root:07/09/2026 19:41:11 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0581534  PO  GP  Menus 
+INFO:root:07/09/2026 19:41:12 -        Sucesso Chave da Estoria ENS10975
+INFO:root:07/09/2026 19:41:13 -      Criando Tarefa PO  GP  Menus Intec
+INFO:root:07/09/2026 19:41:15 -          Sucesso Chave da Tarefa ENS10976
+INFO:root:07/09/2026 19:41:15 -  Criando Epico 0  PO  Sprint
+INFO:root:07/09/2026 19:41:16 -      Sucesso Chave do Epico ENS10977
+INFO:root:07/09/2026 19:41:18 -    Criando Estoria NOVO DESENVOLVIMENTO  0  PO  Sprint
+INFO:root:07/09/2026 19:41:20 -        Sucesso Chave da Estoria ENS10978
+INFO:root:07/09/2026 19:41:20 -      Criando Tarefa PO  Sprint
+INFO:root:07/09/2026 19:41:21 -          Sucesso Chave da Tarefa ENS10979
+INFO:root:07/09/2026 19:41:21 -   Pulando Epico ja existente ENS10844
+INFO:root:07/09/2026 19:41:21 -    Criando Estoria NOVO DESENVOLVIMENTO  TKE China  PO  TKE China
+INFO:root:07/09/2026 19:41:22 -        Sucesso Chave da Estoria ENS10980
+INFO:root:07/09/2026 19:41:23 -      Criando Tarefa PO  TKE China
+INFO:root:07/09/2026 19:41:25 -          Sucesso Chave da Tarefa ENS10981
+INFO:root:07/09/2026 19:41:25 -   Pulando Epico ja existente ENS8159
+INFO:root:07/09/2026 19:41:25 -    Criando Estoria ALTERACAO  0  Atividades Administrativas
+INFO:root:07/09/2026 19:41:26 -        Sucesso Chave da Estoria ENS10982
+INFO:root:07/09/2026 19:41:27 -      Criando Tarefa Atividades Administrativas
+INFO:root:07/09/2026 19:41:28 -          Sucesso Chave da Tarefa ENS10983
+INFO:root:07/09/2026 19:41:28 -   Pulando Epico ja existente ENS8908
+INFO:root:07/09/2026 19:41:28 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0579990   Integracao de M
+INFO:root:07/09/2026 19:41:29 -        Sucesso Chave da Estoria ENS10984
+INFO:root:07/09/2026 19:41:30 -      Criando Tarefa  Integracao de Margens entre GUS e ESales
+INFO:root:07/09/2026 19:41:31 -          Sucesso Chave da Tarefa ENS10985
+INFO:root:07/09/2026 19:41:31 -   Pulando Epico ja existente ENS9944
+INFO:root:07/09/2026 19:41:31 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Alterar logs do IRIS para ta
+INFO:root:07/09/2026 19:41:32 -        Sucesso Chave da Estoria ENS10986
+INFO:root:07/09/2026 19:41:32 -      Criando Tarefa Alterar logs do IRIS para tabela federada 1
+INFO:root:07/09/2026 19:41:33 -          Sucesso Chave da Tarefa ENS10987
+INFO:root:07/09/2026 19:41:33 -   Pulando Epico ja existente ENS9944
+INFO:root:07/09/2026 19:41:33 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Alterar logs do IRIS para ta
+INFO:root:07/09/2026 19:41:34 -        Sucesso Chave da Estoria ENS10988
+INFO:root:07/09/2026 19:41:35 -      Criando Tarefa Alterar logs do IRIS para tabela federada 2
+INFO:root:07/09/2026 19:41:36 -          Sucesso Chave da Tarefa ENS10989
+INFO:root:07/09/2026 19:41:36 -   Pulando Epico ja existente ENS9944
+INFO:root:07/09/2026 19:41:36 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Alterar logs do IRIS para ta
+INFO:root:07/09/2026 19:41:38 -        Sucesso Chave da Estoria ENS10990
+INFO:root:07/09/2026 19:41:38 -      Criando Tarefa Alterar logs do IRIS para tabela federada 3
+INFO:root:07/09/2026 19:41:39 -          Sucesso Chave da Tarefa ENS10991
+INFO:root:07/09/2026 19:41:39 -   Pulando Epico ja existente ENS9951
+INFO:root:07/09/2026 19:41:39 -    Criando Estoria NOVO DESENVOLVIMENTO  CR AP Summary  Alteracao da int
+INFO:root:07/09/2026 19:41:40 -        Sucesso Chave da Estoria ENS10992
+INFO:root:07/09/2026 19:41:41 -      Criando Tarefa Alteracao da interface Sincrona para Assincrona do AP Summ
+INFO:root:07/09/2026 19:41:42 -          Sucesso Chave da Tarefa ENS10993
+INFO:root:07/09/2026 19:41:42 -   Pulando Epico ja existente ENS9954
+INFO:root:07/09/2026 19:41:42 -    Criando Estoria ALTERACAO  SCTASK0704281  Alterar na interface Posica
+INFO:root:07/09/2026 19:41:43 -        Sucesso Chave da Estoria ENS10994
+INFO:root:07/09/2026 19:41:44 -      Criando Tarefa Alterar na interface PosicaoFinanceiraContratosContatos p
+INFO:root:07/09/2026 19:41:45 -          Sucesso Chave da Tarefa ENS10995
+INFO:root:07/09/2026 19:41:45 -   Pulando Epico ja existente ENS9957
+INFO:root:07/09/2026 19:41:45 -    Criando Estoria ALTERACAO  SCTASK0592786  Criar e disponibilizar um n
+INFO:root:07/09/2026 19:41:46 -        Sucesso Chave da Estoria ENS10996
+INFO:root:07/09/2026 19:41:47 -      Criando Tarefa Criar e disponibilizar um novo campo denominado Preco Max
+INFO:root:07/09/2026 19:41:48 -          Sucesso Chave da Tarefa ENS10997
+INFO:root:07/09/2026 19:41:48 -   Pulando Epico ja existente ENS10442
+INFO:root:07/09/2026 19:41:48 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0727583  Criar alerta qua
+INFO:root:07/09/2026 19:41:49 -        Sucesso Chave da Estoria ENS10998
+INFO:root:07/09/2026 19:41:49 -      Criando Tarefa Criar alerta quando mensagem da Adobe chegar no webhook
+INFO:root:07/09/2026 19:41:51 -          Sucesso Chave da Tarefa ENS10999
+INFO:root:07/09/2026 19:41:51 -   Pulando Epico ja existente ENS10362
+INFO:root:07/09/2026 19:41:51 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0727520  Implementar API 
+INFO:root:07/09/2026 19:41:52 -        Sucesso Chave da Estoria ENS11000
+INFO:root:07/09/2026 19:41:52 -      Criando Tarefa Implementar API Soluti timestamp
+INFO:root:07/09/2026 19:41:53 -          Sucesso Chave da Tarefa ENS11001
+INFO:root:07/09/2026 19:41:53 -   Pulando Epico ja existente ENS10576
+INFO:root:07/09/2026 19:41:53 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0708892  Enviar CPF via j
+INFO:root:07/09/2026 19:41:54 -        Sucesso Chave da Estoria ENS11002
+INFO:root:07/09/2026 19:41:54 -      Criando Tarefa Enviar CPF via jspv
+INFO:root:07/09/2026 19:41:56 -          Sucesso Chave da Tarefa ENS11003
+INFO:root:07/09/2026 19:41:56 -   Pulando Epico ja existente ENS10673
+INFO:root:07/09/2026 19:41:56 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0744373  Criar um fluxo d
+INFO:root:07/09/2026 19:41:57 -        Sucesso Chave da Estoria ENS11004
+INFO:root:07/09/2026 19:41:57 -      Criando Tarefa Criar um fluxo de dados para capturar as informacoes de DO
+INFO:root:07/09/2026 19:41:58 -          Sucesso Chave da Tarefa ENS11005
+INFO:root:07/09/2026 19:41:58 -   Pulando Epico ja existente ENS10676
+INFO:root:07/09/2026 19:41:58 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Criar dashboard de negocios 
+INFO:root:07/09/2026 19:41:59 -        Sucesso Chave da Estoria ENS11006
+INFO:root:07/09/2026 19:42:00 -      Criando Tarefa Criar dashboard de negocios do IRIS
+INFO:root:07/09/2026 19:42:01 -          Sucesso Chave da Tarefa ENS11007
+INFO:root:07/09/2026 19:42:01 -   Pulando Epico ja existente ENS10380
+INFO:root:07/09/2026 19:42:01 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0730907  Criar e parametr
+INFO:root:07/09/2026 19:42:02 -        Sucesso Chave da Estoria ENS11008
+INFO:root:07/09/2026 19:42:03 -      Criando Tarefa Criar e parametrizar IOT Dynamox
+INFO:root:07/09/2026 19:42:04 -          Sucesso Chave da Tarefa ENS11009
+INFO:root:07/09/2026 19:42:04 -   Pulando Epico ja existente ENS10762
+INFO:root:07/09/2026 19:42:04 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0489536  Implementar a co
+INFO:root:07/09/2026 19:42:05 -        Sucesso Chave da Estoria ENS11010
+INFO:root:07/09/2026 19:42:05 -      Criando Tarefa Implementar a correcao da informacao apresentada na coluna
+INFO:root:07/09/2026 19:42:06 -          Sucesso Chave da Tarefa ENS11011
+INFO:root:07/09/2026 19:42:06 -   Pulando Epico ja existente ENS10877
+INFO:root:07/09/2026 19:42:06 -    Criando Estoria ALTERACAO  0  VS Code
+INFO:root:07/09/2026 19:42:07 -        Sucesso Chave da Estoria ENS11012
+INFO:root:07/09/2026 19:42:08 -      Criando Tarefa VS Code 1
+INFO:root:07/09/2026 19:42:09 -          Sucesso Chave da Tarefa ENS11013
+INFO:root:07/09/2026 19:42:09 -   Pulando Epico ja existente ENS10877
+INFO:root:07/09/2026 19:42:09 -     Pulando Estoria ja criado nesta execucao ENS11012
+INFO:root:07/09/2026 19:42:09 -      Criando Tarefa VS Code 2
+INFO:root:07/09/2026 19:42:11 -          Sucesso Chave da Tarefa ENS11014
+INFO:root:07/09/2026 19:42:11 -   Pulando Epico ja existente ENS10877
+INFO:root:07/09/2026 19:42:11 -     Pulando Estoria ja criado nesta execucao ENS11012
+INFO:root:07/09/2026 19:42:11 -      Criando Tarefa VS Code 3
+INFO:root:07/09/2026 19:42:12 -          Sucesso Chave da Tarefa ENS11015
+INFO:root:07/09/2026 19:42:12 -   Pulando Epico ja existente ENS10877
+INFO:root:07/09/2026 19:42:12 -     Pulando Estoria ja criado nesta execucao ENS11012
+INFO:root:07/09/2026 19:42:12 -      Criando Tarefa VS Code 4
+INFO:root:07/09/2026 19:42:13 -          Sucesso Chave da Tarefa ENS11016
+INFO:root:07/09/2026 19:42:13 -   Pulando Epico ja existente ENS10767
+INFO:root:07/09/2026 19:42:13 -    Criando Estoria ALTERACAO  0  Analisar de depreciacao de interfaces
+INFO:root:07/09/2026 19:42:15 -        Sucesso Chave da Estoria ENS11017
+INFO:root:07/09/2026 19:42:15 -      Criando Tarefa Analisar de depreciacao de interfaces
+INFO:root:07/09/2026 19:42:16 -          Sucesso Chave da Tarefa ENS11018
+INFO:root:07/09/2026 19:42:16 -  Criando Epico REQ0023707  Disponibilizar acesso ao fluxo ZP048
+INFO:root:07/09/2026 19:42:17 -      Sucesso Chave do Epico ENS11019
+INFO:root:07/09/2026 19:42:18 -    Criando Estoria ALTERACAO  SCTASK0027251  Disponibilizar acesso ao fl
+INFO:root:07/09/2026 19:42:19 -        Sucesso Chave da Estoria ENS11020
+INFO:root:07/09/2026 19:42:20 -      Criando Tarefa Disponibilizar acesso ao fluxo ZP048
+INFO:root:07/09/2026 19:42:21 -          Sucesso Chave da Tarefa ENS11021
+INFO:root:07/09/2026 19:42:21 -  Criando Epico 0  Epico 1
+INFO:root:07/09/2026 19:42:22 -      Sucesso Chave do Epico ENS11022
+INFO:root:07/09/2026 19:42:23 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 1
+INFO:root:07/09/2026 19:42:24 -        Sucesso Chave da Estoria ENS11023
+INFO:root:07/09/2026 19:42:24 -      Criando Tarefa Tarefa 1
+INFO:root:07/09/2026 19:42:25 -          Sucesso Chave da Tarefa ENS11024
+INFO:root:07/09/2026 19:42:25 -  Criando Epico 0  Epico 2
+INFO:root:07/09/2026 19:42:26 -      Sucesso Chave do Epico ENS11025
+INFO:root:07/09/2026 19:42:28 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 2
+INFO:root:07/09/2026 19:42:29 -        Sucesso Chave da Estoria ENS11026
+INFO:root:07/09/2026 19:42:29 -      Criando Tarefa Tarefa 2
+INFO:root:07/09/2026 19:42:31 -          Sucesso Chave da Tarefa ENS11027
+INFO:root:07/09/2026 19:42:31 -  Criando Epico 0  Epico 3
+INFO:root:07/09/2026 19:42:32 -      Sucesso Chave do Epico ENS11028
+INFO:root:07/09/2026 19:42:33 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 3
+INFO:root:07/09/2026 19:42:35 -        Sucesso Chave da Estoria ENS11029
+INFO:root:07/09/2026 19:42:35 -      Criando Tarefa Tarefa 3
+INFO:root:07/09/2026 19:42:36 -          Sucesso Chave da Tarefa ENS11030
+INFO:root:07/09/2026 19:42:36 -  Criando Epico 0  Epico 4
+INFO:root:07/09/2026 19:42:37 -      Sucesso Chave do Epico ENS11031
+INFO:root:07/09/2026 19:42:39 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 4
+INFO:root:07/09/2026 19:42:40 -        Sucesso Chave da Estoria ENS11032
+INFO:root:07/09/2026 19:42:40 -      Criando Tarefa Tarefa 4
+INFO:root:07/09/2026 19:42:41 -          Sucesso Chave da Tarefa ENS11033
+INFO:root:07/09/2026 19:42:41 -  Criando Epico 0  Epico 5
+INFO:root:07/09/2026 19:42:42 -      Sucesso Chave do Epico ENS11034
+INFO:root:07/09/2026 19:42:44 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 5
+INFO:root:07/09/2026 19:42:45 -        Sucesso Chave da Estoria ENS11035
+INFO:root:07/09/2026 19:42:45 -      Criando Tarefa Tarefa 5
+INFO:root:07/09/2026 19:42:46 -          Sucesso Chave da Tarefa ENS11036
+INFO:root:07/09/2026 19:42:46 -  Criando Epico 0  Epico 6
+INFO:root:07/09/2026 19:42:47 -      Sucesso Chave do Epico ENS11037
+INFO:root:07/09/2026 19:42:49 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 6
+INFO:root:07/09/2026 19:42:49 -        Sucesso Chave da Estoria ENS11038
+INFO:root:07/09/2026 19:42:50 -      Criando Tarefa Tarefa 6
+INFO:root:07/09/2026 19:42:51 -          Sucesso Chave da Tarefa ENS11039
+INFO:root:07/09/2026 19:42:51 -  Criando Epico 0  Epico 7
+INFO:root:07/09/2026 19:42:52 -      Sucesso Chave do Epico ENS11040
+INFO:root:07/09/2026 19:42:53 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 7
+INFO:root:07/09/2026 19:42:54 -        Sucesso Chave da Estoria ENS11041
+INFO:root:07/09/2026 19:42:55 -      Criando Tarefa Tarefa 7
+INFO:root:07/09/2026 19:42:56 -          Sucesso Chave da Tarefa ENS11042
+INFO:root:07/09/2026 19:42:56 -  Criando Epico 0  Epico 8
+INFO:root:07/09/2026 19:42:57 -      Sucesso Chave do Epico ENS11043
+INFO:root:07/09/2026 19:42:59 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 8
+INFO:root:07/09/2026 19:43:00 -        Sucesso Chave da Estoria ENS11044
+INFO:root:07/09/2026 19:43:00 -      Criando Tarefa Tarefa 8
+INFO:root:07/09/2026 19:43:01 -          Sucesso Chave da Tarefa ENS11045
+INFO:root:07/09/2026 19:43:01 -  Criando Epico 0  Epico 9
+INFO:root:07/09/2026 19:43:02 -      Sucesso Chave do Epico ENS11046
+INFO:root:07/09/2026 19:43:03 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 9
+INFO:root:07/09/2026 19:43:04 -        Sucesso Chave da Estoria ENS11047
+INFO:root:07/09/2026 19:43:04 -      Criando Tarefa Tarefa 9
+INFO:root:07/09/2026 19:43:06 -          Sucesso Chave da Tarefa ENS11048
+INFO:root:07/09/2026 19:43:06 -  Criando Epico 0  Epico 10
+INFO:root:07/09/2026 19:43:07 -      Sucesso Chave do Epico ENS11049
+INFO:root:07/09/2026 19:43:08 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 10
+INFO:root:07/09/2026 19:43:09 -        Sucesso Chave da Estoria ENS11050
+INFO:root:07/09/2026 19:43:09 -      Criando Tarefa Tarefa 10
+INFO:root:07/09/2026 19:43:11 -          Sucesso Chave da Tarefa ENS11051
+INFO:root:07/09/2026 19:43:11 -  Criando Epico 0  Epico 11
+INFO:root:07/09/2026 19:43:11 -      Sucesso Chave do Epico ENS11052
+INFO:root:07/09/2026 19:43:13 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 11
+INFO:root:07/09/2026 19:43:14 -        Sucesso Chave da Estoria ENS11053
+INFO:root:07/09/2026 19:43:14 -      Criando Tarefa Tarefa 11
+INFO:root:07/09/2026 19:43:15 -          Sucesso Chave da Tarefa ENS11054
+INFO:root:07/09/2026 19:43:15 -  Criando Epico 0  Epico 12
+INFO:root:07/09/2026 19:43:16 -      Sucesso Chave do Epico ENS11055
+INFO:root:07/09/2026 19:43:17 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 12
+INFO:root:07/09/2026 19:43:19 -        Sucesso Chave da Estoria ENS11056
+INFO:root:07/09/2026 19:43:19 -      Criando Tarefa Tarefa 12
+INFO:root:07/09/2026 19:43:20 -          Sucesso Chave da Tarefa ENS11057
+INFO:root:07/09/2026 19:43:20 -   Integracao com o Jira concluida
+INFO:root:07/09/2026 19:43:20 -  Atualizando a planilha com os novos tickets
+INFO:root:07/09/2026 19:43:20 -  Planilha salva com sucesso
+INFO:root:07/09/2026 19:43:20 -   Processo finalizado com sucesso Seu trabalho foi feito 
+INFO:root:07/09/2026 19:55:15 -  Configuracoes do Jira carregadas com sucesso
+INFO:root:07/09/2026 19:55:15 -  Iniciando a leitura e preparacao dos dados da planilha
+INFO:root:07/09/2026 19:55:15 -  DataFrame preparado com sucesso
+INFO:root:07/09/2026 19:55:15 -   Comecando a integracao com o Jira Criando issues
+INFO:root:07/09/2026 19:55:15 -   Pulando Epico ja existente ENS10640
+INFO:root:07/09/2026 19:55:15 -    Criando Estoria ALTERACAO  0  Confeccionar logs para auditoria
+INFO:root:07/09/2026 19:55:17 -        Sucesso Chave da Estoria ENS11058
+INFO:root:07/09/2026 19:55:18 -      Criando Tarefa Confeccionar logs para auditoria
+INFO:root:07/09/2026 19:55:19 -          Sucesso Chave da Tarefa ENS11059
+INFO:root:07/09/2026 19:55:19 -   Pulando Epico ja existente ENS10725
+INFO:root:07/09/2026 19:55:19 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0581534  PO  GP  Menus 
+INFO:root:07/09/2026 19:55:21 -        Sucesso Chave da Estoria ENS11060
+INFO:root:07/09/2026 19:55:21 -      Criando Tarefa PO  GP  Menus Intec
+INFO:root:07/09/2026 19:55:23 -          Sucesso Chave da Tarefa ENS11061
+INFO:root:07/09/2026 19:55:23 -   Pulando Epico ja existente ENS10977
+INFO:root:07/09/2026 19:55:23 -    Criando Estoria NOVO DESENVOLVIMENTO  0  PO  Sprint
+INFO:root:07/09/2026 19:55:24 -        Sucesso Chave da Estoria ENS11062
+INFO:root:07/09/2026 19:55:25 -      Criando Tarefa PO  Sprint
+INFO:root:07/09/2026 19:55:26 -          Sucesso Chave da Tarefa ENS11063
+INFO:root:07/09/2026 19:55:26 -   Pulando Epico ja existente ENS10844
+INFO:root:07/09/2026 19:55:26 -    Criando Estoria NOVO DESENVOLVIMENTO  TKE China  PO  TKE China
+INFO:root:07/09/2026 19:55:27 -        Sucesso Chave da Estoria ENS11064
+INFO:root:07/09/2026 19:55:28 -      Criando Tarefa PO  TKE China
+INFO:root:07/09/2026 19:55:29 -          Sucesso Chave da Tarefa ENS11065
+INFO:root:07/09/2026 19:55:29 -   Pulando Epico ja existente ENS8159
+INFO:root:07/09/2026 19:55:29 -    Criando Estoria ALTERACAO  0  Atividades Administrativas
+INFO:root:07/09/2026 19:55:31 -        Sucesso Chave da Estoria ENS11066
+INFO:root:07/09/2026 19:55:31 -      Criando Tarefa Atividades Administrativas
+INFO:root:07/09/2026 19:55:33 -          Sucesso Chave da Tarefa ENS11067
+INFO:root:07/09/2026 19:55:33 -   Pulando Epico ja existente ENS8908
+INFO:root:07/09/2026 19:55:33 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0579990   Integracao de M
+INFO:root:07/09/2026 19:55:34 -        Sucesso Chave da Estoria ENS11068
+INFO:root:07/09/2026 19:55:35 -      Criando Tarefa  Integracao de Margens entre GUS e ESales
+INFO:root:07/09/2026 19:55:36 -          Sucesso Chave da Tarefa ENS11069
+INFO:root:07/09/2026 19:55:36 -   Pulando Epico ja existente ENS9944
+INFO:root:07/09/2026 19:55:36 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Alterar logs do IRIS para ta
+INFO:root:07/09/2026 19:55:37 -        Sucesso Chave da Estoria ENS11070
+INFO:root:07/09/2026 19:55:38 -      Criando Tarefa Alterar logs do IRIS para tabela federada 1
+INFO:root:07/09/2026 19:55:39 -          Sucesso Chave da Tarefa ENS11071
+INFO:root:07/09/2026 19:55:39 -   Pulando Epico ja existente ENS9944
+INFO:root:07/09/2026 19:55:39 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Alterar logs do IRIS para ta
+INFO:root:07/09/2026 19:55:41 -        Sucesso Chave da Estoria ENS11072
+INFO:root:07/09/2026 19:55:41 -      Criando Tarefa Alterar logs do IRIS para tabela federada 2
+INFO:root:07/09/2026 19:55:43 -          Sucesso Chave da Tarefa ENS11073
+INFO:root:07/09/2026 19:55:43 -   Pulando Epico ja existente ENS9944
+INFO:root:07/09/2026 19:55:43 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Alterar logs do IRIS para ta
+INFO:root:07/09/2026 19:55:44 -        Sucesso Chave da Estoria ENS11074
+INFO:root:07/09/2026 19:55:44 -      Criando Tarefa Alterar logs do IRIS para tabela federada 3
+INFO:root:07/09/2026 19:55:46 -          Sucesso Chave da Tarefa ENS11075
+INFO:root:07/09/2026 19:55:46 -   Pulando Epico ja existente ENS9951
+INFO:root:07/09/2026 19:55:46 -    Criando Estoria NOVO DESENVOLVIMENTO  CR AP Summary  Alteracao da int
+INFO:root:07/09/2026 19:55:47 -        Sucesso Chave da Estoria ENS11076
+INFO:root:07/09/2026 19:55:47 -      Criando Tarefa Alteracao da interface Sincrona para Assincrona do AP Summ
+INFO:root:07/09/2026 19:55:49 -          Sucesso Chave da Tarefa ENS11077
+INFO:root:07/09/2026 19:55:49 -   Pulando Epico ja existente ENS9954
+INFO:root:07/09/2026 19:55:49 -    Criando Estoria ALTERACAO  SCTASK0704281  Alterar na interface Posica
+INFO:root:07/09/2026 19:55:50 -        Sucesso Chave da Estoria ENS11078
+INFO:root:07/09/2026 19:55:50 -      Criando Tarefa Alterar na interface PosicaoFinanceiraContratosContatos p
+INFO:root:07/09/2026 19:55:52 -          Sucesso Chave da Tarefa ENS11079
+INFO:root:07/09/2026 19:55:52 -   Pulando Epico ja existente ENS9957
+INFO:root:07/09/2026 19:55:52 -    Criando Estoria ALTERACAO  SCTASK0592786  Criar e disponibilizar um n
+INFO:root:07/09/2026 19:55:53 -        Sucesso Chave da Estoria ENS11080
+INFO:root:07/09/2026 19:55:53 -      Criando Tarefa Criar e disponibilizar um novo campo denominado Preco Max
+INFO:root:07/09/2026 19:55:54 -          Sucesso Chave da Tarefa ENS11081
+INFO:root:07/09/2026 19:55:54 -   Pulando Epico ja existente ENS10442
+INFO:root:07/09/2026 19:55:54 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0727583  Criar alerta qua
+INFO:root:07/09/2026 19:55:56 -        Sucesso Chave da Estoria ENS11082
+INFO:root:07/09/2026 19:55:56 -      Criando Tarefa Criar alerta quando mensagem da Adobe chegar no webhook
+INFO:root:07/09/2026 19:55:57 -          Sucesso Chave da Tarefa ENS11083
+INFO:root:07/09/2026 19:55:57 -   Pulando Epico ja existente ENS10362
+INFO:root:07/09/2026 19:55:57 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0727520  Implementar API 
+INFO:root:07/09/2026 19:55:59 -        Sucesso Chave da Estoria ENS11084
+INFO:root:07/09/2026 19:55:59 -      Criando Tarefa Implementar API Soluti timestamp
+INFO:root:07/09/2026 19:56:00 -          Sucesso Chave da Tarefa ENS11085
+INFO:root:07/09/2026 19:56:00 -   Pulando Epico ja existente ENS10576
+INFO:root:07/09/2026 19:56:00 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0708892  Enviar CPF via j
+INFO:root:07/09/2026 19:56:01 -        Sucesso Chave da Estoria ENS11086
+INFO:root:07/09/2026 19:56:02 -      Criando Tarefa Enviar CPF via jspv
+INFO:root:07/09/2026 19:56:04 -          Sucesso Chave da Tarefa ENS11087
+INFO:root:07/09/2026 19:56:04 -   Pulando Epico ja existente ENS10673
+INFO:root:07/09/2026 19:56:04 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0744373  Criar um fluxo d
+INFO:root:07/09/2026 19:56:05 -        Sucesso Chave da Estoria ENS11088
+INFO:root:07/09/2026 19:56:05 -      Criando Tarefa Criar um fluxo de dados para capturar as informacoes de DO
+INFO:root:07/09/2026 19:56:06 -          Sucesso Chave da Tarefa ENS11089
+INFO:root:07/09/2026 19:56:06 -   Pulando Epico ja existente ENS10676
+INFO:root:07/09/2026 19:56:06 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Criar dashboard de negocios 
+INFO:root:07/09/2026 19:56:07 -        Sucesso Chave da Estoria ENS11090
+INFO:root:07/09/2026 19:56:08 -      Criando Tarefa Criar dashboard de negocios do IRIS
+INFO:root:07/09/2026 19:56:09 -          Sucesso Chave da Tarefa ENS11091
+INFO:root:07/09/2026 19:56:09 -   Pulando Epico ja existente ENS10380
+INFO:root:07/09/2026 19:56:09 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0730907  Criar e parametr
+INFO:root:07/09/2026 19:56:11 -        Sucesso Chave da Estoria ENS11092
+INFO:root:07/09/2026 19:56:11 -      Criando Tarefa Criar e parametrizar IOT Dynamox
+INFO:root:07/09/2026 19:56:12 -          Sucesso Chave da Tarefa ENS11093
+INFO:root:07/09/2026 19:56:12 -   Pulando Epico ja existente ENS10762
+INFO:root:07/09/2026 19:56:12 -    Criando Estoria NOVO DESENVOLVIMENTO  SCTASK0489536  Implementar a co
+INFO:root:07/09/2026 19:56:13 -        Sucesso Chave da Estoria ENS11094
+INFO:root:07/09/2026 19:56:13 -      Criando Tarefa Implementar a correcao da informacao apresentada na coluna
+INFO:root:07/09/2026 19:56:14 -          Sucesso Chave da Tarefa ENS11095
+INFO:root:07/09/2026 19:56:14 -   Pulando Epico ja existente ENS10877
+INFO:root:07/09/2026 19:56:14 -    Criando Estoria ALTERACAO  0  VS Code
+INFO:root:07/09/2026 19:56:16 -        Sucesso Chave da Estoria ENS11096
+INFO:root:07/09/2026 19:56:16 -      Criando Tarefa VS Code 1
+INFO:root:07/09/2026 19:56:17 -          Sucesso Chave da Tarefa ENS11097
+INFO:root:07/09/2026 19:56:17 -   Pulando Epico ja existente ENS10877
+INFO:root:07/09/2026 19:56:17 -     Pulando Estoria ja criado nesta execucao ENS11096
+INFO:root:07/09/2026 19:56:17 -      Criando Tarefa VS Code 2
+INFO:root:07/09/2026 19:56:18 -          Sucesso Chave da Tarefa ENS11098
+INFO:root:07/09/2026 19:56:18 -   Pulando Epico ja existente ENS10877
+INFO:root:07/09/2026 19:56:18 -     Pulando Estoria ja criado nesta execucao ENS11096
+INFO:root:07/09/2026 19:56:18 -      Criando Tarefa VS Code 3
+INFO:root:07/09/2026 19:56:19 -          Sucesso Chave da Tarefa ENS11099
+INFO:root:07/09/2026 19:56:19 -   Pulando Epico ja existente ENS10877
+INFO:root:07/09/2026 19:56:19 -     Pulando Estoria ja criado nesta execucao ENS11096
+INFO:root:07/09/2026 19:56:19 -      Criando Tarefa VS Code 4
+INFO:root:07/09/2026 19:56:20 -          Sucesso Chave da Tarefa ENS11100
+INFO:root:07/09/2026 19:56:20 -   Pulando Epico ja existente ENS10767
+INFO:root:07/09/2026 19:56:20 -    Criando Estoria ALTERACAO  0  Analisar de depreciacao de interfaces
+INFO:root:07/09/2026 19:56:21 -        Sucesso Chave da Estoria ENS11101
+INFO:root:07/09/2026 19:56:22 -      Criando Tarefa Analisar de depreciacao de interfaces
+INFO:root:07/09/2026 19:56:23 -          Sucesso Chave da Tarefa ENS11102
+INFO:root:07/09/2026 19:56:23 -   Pulando Epico ja existente ENS11019
+INFO:root:07/09/2026 19:56:23 -    Criando Estoria ALTERACAO  SCTASK0027251  Disponibilizar acesso ao fl
+INFO:root:07/09/2026 19:56:24 -        Sucesso Chave da Estoria ENS11103
+INFO:root:07/09/2026 19:56:24 -      Criando Tarefa Disponibilizar acesso ao fluxo ZP048
+INFO:root:07/09/2026 19:56:26 -          Sucesso Chave da Tarefa ENS11104
+INFO:root:07/09/2026 19:56:26 -  Criando Epico 0  Epico 1
+INFO:root:07/09/2026 19:56:27 -      Sucesso Chave do Epico ENS11105
+INFO:root:07/09/2026 19:56:28 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 1
+INFO:root:07/09/2026 19:56:29 -        Sucesso Chave da Estoria ENS11106
+INFO:root:07/09/2026 19:56:30 -      Criando Tarefa Tarefa 1 
+INFO:root:07/09/2026 19:56:31 -          Sucesso Chave da Tarefa ENS11107
+INFO:root:07/09/2026 19:56:31 -  Criando Epico 0  Epico 2
+INFO:root:07/09/2026 19:56:32 -      Sucesso Chave do Epico ENS11108
+INFO:root:07/09/2026 19:56:33 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 2
+INFO:root:07/09/2026 19:56:34 -        Sucesso Chave da Estoria ENS11109
+INFO:root:07/09/2026 19:56:34 -      Criando Tarefa Tarefa 2
+INFO:root:07/09/2026 19:56:36 -          Sucesso Chave da Tarefa ENS11110
+INFO:root:07/09/2026 19:56:36 -  Criando Epico 0  Epico 3
+INFO:root:07/09/2026 19:56:37 -      Sucesso Chave do Epico ENS11111
+INFO:root:07/09/2026 19:56:38 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 3
+INFO:root:07/09/2026 19:56:39 -        Sucesso Chave da Estoria ENS11112
+INFO:root:07/09/2026 19:56:39 -      Criando Tarefa Tarefa 3
+INFO:root:07/09/2026 19:56:40 -          Sucesso Chave da Tarefa ENS11113
+INFO:root:07/09/2026 19:56:40 -  Criando Epico 0  Epico 4
+INFO:root:07/09/2026 19:56:41 -      Sucesso Chave do Epico ENS11114
+INFO:root:07/09/2026 19:56:43 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 4
+INFO:root:07/09/2026 19:56:44 -        Sucesso Chave da Estoria ENS11115
+INFO:root:07/09/2026 19:56:44 -      Criando Tarefa Tarefa 4
+INFO:root:07/09/2026 19:56:45 -          Sucesso Chave da Tarefa ENS11116
+INFO:root:07/09/2026 19:56:45 -  Criando Epico 0  Epico 5
+INFO:root:07/09/2026 19:56:46 -      Sucesso Chave do Epico ENS11117
+INFO:root:07/09/2026 19:56:47 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 5
+INFO:root:07/09/2026 19:56:48 -        Sucesso Chave da Estoria ENS11118
+INFO:root:07/09/2026 19:56:49 -      Criando Tarefa Tarefa 5
+INFO:root:07/09/2026 19:56:50 -          Sucesso Chave da Tarefa ENS11119
+INFO:root:07/09/2026 19:56:50 -  Criando Epico 0  Epico 6
+INFO:root:07/09/2026 19:56:51 -      Sucesso Chave do Epico ENS11120
+INFO:root:07/09/2026 19:56:52 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 6
+INFO:root:07/09/2026 19:56:53 -        Sucesso Chave da Estoria ENS11121
+INFO:root:07/09/2026 19:56:53 -      Criando Tarefa Tarefa 6
+INFO:root:07/09/2026 19:56:54 -          Sucesso Chave da Tarefa ENS11122
+INFO:root:07/09/2026 19:56:54 -  Criando Epico 0  Epico 7
+INFO:root:07/09/2026 19:56:55 -      Sucesso Chave do Epico ENS11123
+INFO:root:07/09/2026 19:56:57 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 7
+INFO:root:07/09/2026 19:56:58 -        Sucesso Chave da Estoria ENS11124
+INFO:root:07/09/2026 19:56:58 -      Criando Tarefa Tarefa 7
+INFO:root:07/09/2026 19:56:59 -          Sucesso Chave da Tarefa ENS11125
+INFO:root:07/09/2026 19:56:59 -  Criando Epico 0  Epico 8
+INFO:root:07/09/2026 19:57:00 -      Sucesso Chave do Epico ENS11126
+INFO:root:07/09/2026 19:57:01 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 8
+INFO:root:07/09/2026 19:57:02 -        Sucesso Chave da Estoria ENS11127
+INFO:root:07/09/2026 19:57:02 -      Criando Tarefa Tarefa 8
+INFO:root:07/09/2026 19:57:03 -          Sucesso Chave da Tarefa ENS11128
+INFO:root:07/09/2026 19:57:03 -  Criando Epico 0  Epico 9
+INFO:root:07/09/2026 19:57:04 -      Sucesso Chave do Epico ENS11129
+INFO:root:07/09/2026 19:57:06 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 9
+INFO:root:07/09/2026 19:57:07 -        Sucesso Chave da Estoria ENS11130
+INFO:root:07/09/2026 19:57:07 -      Criando Tarefa Tarefa 9
+INFO:root:07/09/2026 19:57:08 -          Sucesso Chave da Tarefa ENS11131
+INFO:root:07/09/2026 19:57:08 -  Criando Epico 0  Epico 10
+INFO:root:07/09/2026 19:57:09 -      Sucesso Chave do Epico ENS11132
+INFO:root:07/09/2026 19:57:11 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 10
+INFO:root:07/09/2026 19:57:11 -        Sucesso Chave da Estoria ENS11133
+INFO:root:07/09/2026 19:57:12 -      Criando Tarefa Tarefa 10
+INFO:root:07/09/2026 19:57:13 -          Sucesso Chave da Tarefa ENS11134
+INFO:root:07/09/2026 19:57:13 -  Criando Epico 0  Epico 11
+INFO:root:07/09/2026 19:57:14 -      Sucesso Chave do Epico ENS11135
+INFO:root:07/09/2026 19:57:15 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 11
+INFO:root:07/09/2026 19:57:16 -        Sucesso Chave da Estoria ENS11136
+INFO:root:07/09/2026 19:57:16 -      Criando Tarefa Tarefa 11
+INFO:root:07/09/2026 19:57:17 -          Sucesso Chave da Tarefa ENS11137
+INFO:root:07/09/2026 19:57:17 -  Criando Epico 0  Epico 12
+INFO:root:07/09/2026 19:57:18 -      Sucesso Chave do Epico ENS11138
+INFO:root:07/09/2026 19:57:19 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 12
+INFO:root:07/09/2026 19:57:20 -        Sucesso Chave da Estoria ENS11139
+INFO:root:07/09/2026 19:57:21 -      Criando Tarefa Tarefa 12
+INFO:root:07/09/2026 19:57:22 -          Sucesso Chave da Tarefa ENS11140
+INFO:root:07/09/2026 19:57:22 -  Criando Epico 0  Epico 13
+INFO:root:07/09/2026 19:57:23 -      Sucesso Chave do Epico ENS11141
+INFO:root:07/09/2026 19:57:24 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 13
+INFO:root:07/09/2026 19:57:25 -        Sucesso Chave da Estoria ENS11142
+INFO:root:07/09/2026 19:57:26 -      Criando Tarefa Tarefa 13
+INFO:root:07/09/2026 19:57:27 -          Sucesso Chave da Tarefa ENS11143
+INFO:root:07/09/2026 19:57:27 -  Criando Epico 0  Epico 14
+INFO:root:07/09/2026 19:57:28 -      Sucesso Chave do Epico ENS11144
+INFO:root:07/09/2026 19:57:29 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 14
+INFO:root:07/09/2026 19:57:30 -        Sucesso Chave da Estoria ENS11145
+INFO:root:07/09/2026 19:57:30 -      Criando Tarefa Tarefa 14
+INFO:root:07/09/2026 19:57:32 -          Sucesso Chave da Tarefa ENS11146
+INFO:root:07/09/2026 19:57:32 -  Criando Epico 0  Epico 15
+INFO:root:07/09/2026 19:57:32 -      Sucesso Chave do Epico ENS11147
+INFO:root:07/09/2026 19:57:34 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 15
+INFO:root:07/09/2026 19:57:35 -        Sucesso Chave da Estoria ENS11148
+INFO:root:07/09/2026 19:57:35 -      Criando Tarefa Tarefa 15
+INFO:root:07/09/2026 19:57:36 -          Sucesso Chave da Tarefa ENS11149
+INFO:root:07/09/2026 19:57:36 -  Criando Epico 0  Epico 16
+INFO:root:07/09/2026 19:57:37 -      Sucesso Chave do Epico ENS11150
+INFO:root:07/09/2026 19:57:39 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 16
+INFO:root:07/09/2026 19:57:39 -        Sucesso Chave da Estoria ENS11151
+INFO:root:07/09/2026 19:57:40 -      Criando Tarefa Tarefa 16
+INFO:root:07/09/2026 19:57:41 -          Sucesso Chave da Tarefa ENS11152
+INFO:root:07/09/2026 19:57:41 -  Criando Epico 0  Epico 17
+INFO:root:07/09/2026 19:57:42 -      Sucesso Chave do Epico ENS11153
+INFO:root:07/09/2026 19:57:43 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 17
+INFO:root:07/09/2026 19:57:44 -        Sucesso Chave da Estoria ENS11154
+INFO:root:07/09/2026 19:57:45 -      Criando Tarefa Tarefa 17
+INFO:root:07/09/2026 19:57:46 -          Sucesso Chave da Tarefa ENS11155
+INFO:root:07/09/2026 19:57:46 -  Criando Epico 0  Epico 18
+INFO:root:07/09/2026 19:57:47 -      Sucesso Chave do Epico ENS11156
+INFO:root:07/09/2026 19:57:48 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 18
+INFO:root:07/09/2026 19:57:49 -        Sucesso Chave da Estoria ENS11157
+INFO:root:07/09/2026 19:57:49 -      Criando Tarefa Tarefa 18
+INFO:root:07/09/2026 19:57:51 -          Sucesso Chave da Tarefa ENS11158
+INFO:root:07/09/2026 19:57:51 -  Criando Epico 0  Epico 19
+INFO:root:07/09/2026 19:57:51 -      Sucesso Chave do Epico ENS11159
+INFO:root:07/09/2026 19:57:53 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 19
+INFO:root:07/09/2026 19:57:54 -        Sucesso Chave da Estoria ENS11160
+INFO:root:07/09/2026 19:57:54 -      Criando Tarefa Tarefa 19
+INFO:root:07/09/2026 19:57:55 -          Sucesso Chave da Tarefa ENS11161
+INFO:root:07/09/2026 19:57:55 -  Criando Epico 0  Epico 20
+INFO:root:07/09/2026 19:57:56 -      Sucesso Chave do Epico ENS11162
+INFO:root:07/09/2026 19:57:57 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 20
+INFO:root:07/09/2026 19:57:58 -        Sucesso Chave da Estoria ENS11163
+INFO:root:07/09/2026 19:57:59 -      Criando Tarefa Tarefa 20
+INFO:root:07/09/2026 19:58:00 -          Sucesso Chave da Tarefa ENS11164
+INFO:root:07/09/2026 19:58:00 -  Criando Epico 0  Epico 21
+INFO:root:07/09/2026 19:58:01 -      Sucesso Chave do Epico ENS11165
+INFO:root:07/09/2026 19:58:02 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 21
+INFO:root:07/09/2026 19:58:03 -        Sucesso Chave da Estoria ENS11166
+INFO:root:07/09/2026 19:58:03 -      Criando Tarefa Tarefa 21
+INFO:root:07/09/2026 19:58:04 -          Sucesso Chave da Tarefa ENS11167
+INFO:root:07/09/2026 19:58:04 -  Criando Epico 0  Epico 22
+INFO:root:07/09/2026 19:58:05 -      Sucesso Chave do Epico ENS11168
+INFO:root:07/09/2026 19:58:07 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 22
+INFO:root:07/09/2026 19:58:08 -        Sucesso Chave da Estoria ENS11169
+INFO:root:07/09/2026 19:58:08 -      Criando Tarefa Tarefa 22
+INFO:root:07/09/2026 19:58:09 -          Sucesso Chave da Tarefa ENS11170
+INFO:root:07/09/2026 19:58:09 -  Criando Epico 0  Epico 23
+INFO:root:07/09/2026 19:58:10 -      Sucesso Chave do Epico ENS11171
+INFO:root:07/09/2026 19:58:11 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 23
+INFO:root:07/09/2026 19:58:12 -        Sucesso Chave da Estoria ENS11172
+INFO:root:07/09/2026 19:58:13 -      Criando Tarefa Tarefa 23
+INFO:root:07/09/2026 19:58:14 -          Sucesso Chave da Tarefa ENS11173
+INFO:root:07/09/2026 19:58:14 -  Criando Epico 0  Epico 24
+INFO:root:07/09/2026 19:58:15 -      Sucesso Chave do Epico ENS11174
+INFO:root:07/09/2026 19:58:16 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 24
+INFO:root:07/09/2026 19:58:17 -        Sucesso Chave da Estoria ENS11175
+INFO:root:07/09/2026 19:58:18 -      Criando Tarefa Tarefa 24
+INFO:root:07/09/2026 19:58:19 -          Sucesso Chave da Tarefa ENS11176
+INFO:root:07/09/2026 19:58:19 -  Criando Epico 0  Epico 25
+INFO:root:07/09/2026 19:58:20 -      Sucesso Chave do Epico ENS11177
+INFO:root:07/09/2026 19:58:21 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 25
+INFO:root:07/09/2026 19:58:22 -        Sucesso Chave da Estoria ENS11178
+INFO:root:07/09/2026 19:58:22 -      Criando Tarefa Tarefa 25
+INFO:root:07/09/2026 19:58:24 -          Sucesso Chave da Tarefa ENS11179
+INFO:root:07/09/2026 19:58:24 -  Criando Epico 0  Epico 26
+INFO:root:07/09/2026 19:58:24 -      Sucesso Chave do Epico ENS11180
+INFO:root:07/09/2026 19:58:26 -    Criando Estoria NOVO DESENVOLVIMENTO  0  Aitivade 26
+INFO:root:07/09/2026 19:58:27 -        Sucesso Chave da Estoria ENS11181
+INFO:root:07/09/2026 19:58:27 -      Criando Tarefa Tarefa 26
+INFO:root:07/09/2026 19:58:28 -          Sucesso Chave da Tarefa ENS11182
+INFO:root:07/09/2026 19:58:28 -   Integracao com o Jira concluida
+INFO:root:07/09/2026 19:58:28 -  Atualizando a planilha com os novos tickets
+INFO:root:07/09/2026 19:58:28 -  Planilha salva com sucesso
+INFO:root:07/09/2026 19:58:28 -   Processo finalizado com sucesso Seu trabalho foi feito 
