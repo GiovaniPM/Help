@@ -1,0 +1,12 @@
+============================================================
+  Data/Hora: 19/09/2026 18:46:57
+  Modelo: gemini-3.5-flash
+============================================================
+
+📝 PROMPT:
+----------------------------------------
+O que é necessário para fazer funcionar o google code assistante no vs code, sendo que eu sou um usuário google pro
+
+🤖 RESPOSTA:
+----------------------------------------
+❌ Erro ao obter resposta da API: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your API key was reported as leaked. Please use another API key.', 'status': 'PERMISSION_DENIED'}}
