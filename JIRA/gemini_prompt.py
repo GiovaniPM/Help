@@ -11,6 +11,7 @@
   ----------
   1. Obtenha sua API Key gratuita:
        - Acesse: https://aistudio.google.com
+          - https://console.cloud.google.com/
        - Faça login com sua conta Google
        - Clique em "Get API Key" → "Create API Key"
        - Copie a chave gerada
