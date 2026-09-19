@@ -1,0 +1,12 @@
+============================================================
+  Data/Hora: 19/09/2026 18:54:21
+  Modelo: gemini-3.5-flash
+============================================================
+
+📝 PROMPT:
+----------------------------------------
+Como utilizar o gemini code assistant no vs code, sendo que eu sou um usuário google pro
+
+🤖 RESPOSTA:
+----------------------------------------
+❌ Erro ao obter resposta da API: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
