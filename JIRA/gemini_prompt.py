@@ -1,20 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Gemini Prompt App
-Solicita prompts ao usuário, envia para a API do Google Gemini (com contexto
-de chat) e salva cada resposta em um arquivo .txt.
+=============================================================================
+  Gemini Prompt App
+  Aplicação que solicita um prompt ao usuário, envia para a API do
+  Google Gemini e salva a resposta em um arquivo .txt.
+=============================================================================
 
-<<<<<<< HEAD
-USO:
-  1. Obtenha uma API Key em https://aistudio.google.com ("Get API Key").
-  2. pip install google-genai
-  3. Defina a variável de ambiente (NUNCA grave a chave no código):
-       CMD:         set GEMINI_API_KEY=sua-chave
-       PowerShell:  $env:GEMINI_API_KEY = "sua-chave"
-       Linux/macOS: export GEMINI_API_KEY="sua-chave"
-  4. python gemini_prompt.py   (digite "sair" para encerrar)
-=======
   COMO USAR:
   ----------
   1. Obtenha sua API Key gratuita:
@@ -23,142 +15,240 @@ USO:
        - Faça login com sua conta Google
        - Clique em "Get API Key" → "Create API Key"
        - Copie a chave gerada
->>>>>>> 0e20bf25e5ab3357d65363aa91dcc43233836114
 
-Variáveis opcionais: GEMINI_MODEL (padrão gemini-2.5-flash), GEMINI_OUTPUT_DIR.
+  2. Instale a biblioteca (caso ainda não tenha):
+       pip install google-genai
+
+  3. Configure a variável de ambiente:
+       Windows CMD:   set GEMINI_API_KEY=sua-chave-aqui
+       PowerShell:    $env:GEMINI_API_KEY = "sua-chave-aqui"
+       Linux/macOS:   export GEMINI_API_KEY="sua-chave-aqui"
+
+     Ou edite a variável GEMINI_API_KEY diretamente neste arquivo.
+
+  4. Execute o script:
+       python gemini_prompt.py
+
+  5. Digite seu prompt quando solicitado. A resposta será exibida no
+     terminal e salva automaticamente em um arquivo .txt.
+
+  6. Digite "sair" para encerrar a aplicação.
+
+  MODELOS DISPONÍVEIS (Tier Gratuito):
+  ------------------------------------
+  - gemini-3.5-flash   (recomendado - rápido e inteligente)
+  - gemini-2.5-flash   (equilibrado)
+  - gemini-2.5-pro     (raciocínio avançado)
+  - gemini-2.0-flash   (leve e rápido)
+=============================================================================
 """
 
-import datetime
 import os
-import subprocess
 import sys
-from pathlib import Path
+import datetime
 
-API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
-MODELO = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-PASTA_SAIDA = Path(os.getenv("GEMINI_OUTPUT_DIR") or Path(__file__).resolve().parent / "respostas_gemini")
-COMANDOS_SAIR = {"sair", "exit", "quit", "q"}
+# ============================================================================
+# CONFIGURAÇÃO - Preencha aqui ou defina variáveis de ambiente
+# ============================================================================
 
-LINHA = "=" * 60
-SEP = "-" * 40
+# Chave da API do Gemini (obtenha em https://aistudio.google.com)
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or "AIzaSyAdrRQZ5vCJsIRxGvqfAZ3qmDMM3vBjztk"
 
-AJUDA_CONFIG = f"""{LINHA}
-⚠️  CONFIGURAÇÃO NECESSÁRIA
-{LINHA}
+# Modelo a ser utilizado (pode alterar conforme necessidade)
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
 
-Nenhuma API Key do Gemini foi configurada.
+# Pasta para salvar as respostas (será criada automaticamente)
+PASTA_SAIDA = "respostas_gemini"
 
-  1. Obtenha sua chave em https://aistudio.google.com ("Get API Key")
-  2. Defina a variável de ambiente GEMINI_API_KEY:
-       CMD:         set GEMINI_API_KEY=sua-chave
-       PowerShell:  $env:GEMINI_API_KEY = "sua-chave"
-       Linux/macOS: export GEMINI_API_KEY="sua-chave"
-{LINHA}"""
+# ============================================================================
+# FUNÇÕES AUXILIARES
+# ============================================================================
 
-
-def abortar(msg):
-    print(msg)
-    sys.exit(1)
-
-
-def importar_genai():
-    """Importa google-genai, instalando-o se necessário."""
+def instalar_genai():
+    """Tenta instalar a biblioteca google-genai caso não esteja disponível."""
+    print("📦 Biblioteca 'google-genai' não encontrada. Instalando...")
     try:
-        from google import genai
-        return genai
-    except ImportError:
-        print("📦 Instalando 'google-genai'...")
-        try:
-            subprocess.check_call(
-                [sys.executable, "-m", "pip", "install", "-q", "google-genai"]
-            )
-        except (subprocess.CalledProcessError, OSError) as e:
-            abortar(f"❌ Falha na instalação ({e}). Execute: pip install google-genai")
-        from google import genai
-        return genai
-
-
-def criar_chat():
-    """Cria o cliente e uma sessão de chat (o histórico é mantido pelo SDK)."""
-    if not API_KEY:
-        abortar(AJUDA_CONFIG)
-    genai = importar_genai()
-    try:
-        chat = genai.Client(api_key=API_KEY).chats.create(model=MODELO)
+        import subprocess
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "google-genai", "-q"])
+        print("✅ Biblioteca 'google-genai' instalada com sucesso!\n")
     except Exception as e:
-        abortar(f"❌ Erro ao criar sessão de chat (modelo: {MODELO}): {e}")
-    print("🔗 Conectado à API do Google Gemini.")
-    return chat
+        print(f"❌ Erro ao instalar a biblioteca 'google-genai': {e}")
+        print("   Tente instalar manualmente com: pip install google-genai")
+        sys.exit(1)
+
+
+def obter_cliente():
+    """
+    Retorna o cliente do Gemini configurado com a API Key.
+    """
+    # Importar a biblioteca (instalar se necessário)
+    try:
+        from google import genai
+    except ImportError:
+        instalar_genai()
+        from google import genai
+
+    # Verificar se a API Key foi configurada
+    if not GEMINI_API_KEY:
+        print("=" * 60)
+        print("⚠️  CONFIGURAÇÃO NECESSÁRIA")
+        print("=" * 60)
+        print()
+        print("Nenhuma API Key do Gemini foi configurada.")
+        print()
+        print("  PASSO 1 - Obtenha sua chave gratuita:")
+        print("    Acesse: https://aistudio.google.com")
+        print("    Clique em 'Get API Key' → 'Create API Key'")
+        print()
+        print("  PASSO 2 - Configure a variável de ambiente:")
+        print("    Windows CMD:   set GEMINI_API_KEY=sua-chave-aqui")
+        print("    PowerShell:    $env:GEMINI_API_KEY = \"sua-chave-aqui\"")
+        print("    Linux/macOS:   export GEMINI_API_KEY=\"sua-chave-aqui\"")
+        print()
+        print("  Ou edite a variável GEMINI_API_KEY diretamente neste arquivo.")
+        print("=" * 60)
+        sys.exit(1)
+
+    # Criar cliente com a API Key
+    try:
+        cliente = genai.Client(api_key=GEMINI_API_KEY)
+        print("🔗 Conectado à API do Google Gemini.")
+        return cliente
+    except Exception as e:
+        print(f"❌ Erro ao criar cliente Gemini: {e}")
+        sys.exit(1)
+
+
+def criar_chat(cliente, modelo):
+    """
+    Cria uma sessão de chat com o modelo especificado.
+    O chat mantém o histórico automaticamente para contexto.
+
+    Args:
+        cliente: cliente genai.Client
+        modelo: nome do modelo (ex: gemini-2.5-flash)
+
+    Returns:
+        objeto chat para envio de mensagens
+    """
+    try:
+        chat = cliente.chats.create(model=modelo)
+        return chat
+    except Exception as e:
+        print(f"❌ Erro ao criar sessão de chat: {e}")
+        print(f"   Modelo solicitado: {modelo}")
+        print("   Verifique se o modelo está disponível no tier gratuito.")
+        sys.exit(1)
 
 
 def enviar_prompt(chat, prompt):
-    """Envia o prompt e retorna (texto, sucesso)."""
+    """
+    Envia o prompt para o Gemini via sessão de chat e retorna a resposta.
+
+    Args:
+        chat: sessão de chat ativa
+        prompt: texto do prompt do usuário
+
+    Returns:
+        str: texto da resposta
+    """
     try:
-        return chat.send_message(prompt).text or "(resposta vazia)", True
+        resposta = chat.send_message(prompt)
+        return resposta.text
     except Exception as e:
-        return f"❌ Erro ao obter resposta da API: {e}", False
+        return f"❌ Erro ao obter resposta da API: {e}"
 
 
 def salvar_resposta(prompt, resposta):
-    """Salva prompt e resposta em um .txt com timestamp único e retorna o caminho."""
-    PASTA_SAIDA.mkdir(parents=True, exist_ok=True)
-    agora = datetime.datetime.now()
-    base = f"gemini_resposta_{agora:%Y%m%d_%H%M%S}"
-    caminho = PASTA_SAIDA / f"{base}.txt"
-    n = 1
-    while caminho.exists():  # evita sobrescrever respostas no mesmo segundo
-        caminho = PASTA_SAIDA / f"{base}_{n}.txt"
-        n += 1
+    """
+    Salva o prompt e a resposta em um arquivo .txt com timestamp.
 
-    caminho.write_text(
-        f"{LINHA}\n"
-        f"  Data/Hora: {agora:%d/%m/%Y %H:%M:%S}\n"
-        f"  Modelo: {MODELO}\n"
-        f"{LINHA}\n\n"
-        f"📝 PROMPT:\n{SEP}\n{prompt}\n\n"
-        f"🤖 RESPOSTA:\n{SEP}\n{resposta}\n",
-        encoding="utf-8",
-    )
+    Returns:
+        str: caminho do arquivo salvo
+    """
+    # Criar pasta de saída se não existir
+    os.makedirs(PASTA_SAIDA, exist_ok=True)
+
+    # Gerar nome do arquivo com timestamp
+    agora = datetime.datetime.now()
+    timestamp = agora.strftime("%Y%m%d_%H%M%S")
+    nome_arquivo = f"gemini_resposta_{timestamp}.txt"
+    caminho = os.path.join(PASTA_SAIDA, nome_arquivo)
+
+    # Escrever o conteúdo no arquivo
+    with open(caminho, "w", encoding="utf-8") as f:
+        f.write(f"{'=' * 60}\n")
+        f.write(f"  Data/Hora: {agora.strftime('%d/%m/%Y %H:%M:%S')}\n")
+        f.write(f"  Modelo: {GEMINI_MODEL}\n")
+        f.write(f"{'=' * 60}\n\n")
+        f.write(f"📝 PROMPT:\n")
+        f.write(f"{'-' * 40}\n")
+        f.write(f"{prompt}\n\n")
+        f.write(f"🤖 RESPOSTA:\n")
+        f.write(f"{'-' * 40}\n")
+        f.write(f"{resposta}\n")
+
     return caminho
 
 
-def ler_prompt():
-    """Lê o prompt; retorna None ao receber EOF/Ctrl+C."""
-    try:
-        return input("📝 Digite seu prompt:\n> ").strip()
-    except (EOFError, KeyboardInterrupt):
-        print()
-        return None
-
+# ============================================================================
+# EXECUÇÃO PRINCIPAL
+# ============================================================================
 
 def main():
-    print(f"\n{LINHA}\n  🤖  GEMINI PROMPT APP\n{LINHA}\n")
-    chat = criar_chat()
-    print(f"📌 Modelo: {MODELO}")
-    print(f"📂 Respostas em: {PASTA_SAIDA}")
-    print("💡 Digite 'sair' para encerrar.\n")
+    print()
+    print("=" * 60)
+    print("  🤖  GEMINI PROMPT APP")
+    print("  Envie prompts e receba respostas salvas em .txt")
+    print("=" * 60)
+    print()
+
+    # Obter cliente configurado
+    cliente = obter_cliente()
+    print(f"📌 Modelo: {GEMINI_MODEL}")
+    print(f"📂 Respostas serão salvas em: ./{PASTA_SAIDA}/")
+    print(f"💡 Digite 'sair' para encerrar.\n")
+
+    # Criar sessão de chat (mantém contexto entre mensagens)
+    chat = criar_chat(cliente, GEMINI_MODEL)
+    print("💬 Sessão de chat iniciada com sucesso!\n")
 
     contador = 0
+
     while True:
         print("-" * 60)
-        prompt = ler_prompt()
-        if prompt is None or prompt.lower() in COMANDOS_SAIR:
+        prompt = input("📝 Digite seu prompt:\n> ").strip()
+
+        # Verificar se o usuário quer sair
+        if prompt.lower() in ("sair", "exit", "quit", "q"):
             print("\n👋 Encerrando. Até a próxima!")
             break
+
+        # Verificar se o prompt não está vazio
         if not prompt:
             print("⚠️  Prompt vazio. Tente novamente.\n")
             continue
 
         print("\n⏳ Aguardando resposta do Gemini...")
-        resposta, ok = enviar_prompt(chat, prompt)
-        print(f"\n🤖 RESPOSTA:\n{SEP}\n{resposta}\n{SEP}")
 
-        if ok:  # não grava mensagens de erro como se fossem respostas
-            print(f"\n💾 Resposta salva em: {salvar_resposta(prompt, resposta)}")
-            contador += 1
-            print(f"📊 Total de perguntas nesta sessão: {contador}\n")
+        # Enviar prompt e obter resposta
+        resposta = enviar_prompt(chat, prompt)
+
+        # Exibir resposta no terminal
+        print(f"\n🤖 RESPOSTA:\n{'-' * 40}")
+        print(resposta)
+        print(f"{'-' * 40}")
+
+        # Salvar resposta em arquivo .txt
+        caminho = salvar_resposta(prompt, resposta)
+        print(f"\n💾 Resposta salva em: {caminho}")
+
+        contador += 1
+        print(f"📊 Total de perguntas nesta sessão: {contador}\n")
 
     print(f"\n📊 Sessão encerrada. {contador} pergunta(s) realizada(s).")
+    if contador > 0:
+        print(f"📂 Respostas salvas em: ./{PASTA_SAIDA}/")
 
 
 if __name__ == "__main__":
