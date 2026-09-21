@@ -4,74 +4,74 @@ ERROR: No matching distribution found for libtorrent
 
 
 === ANÁLISE DA IA ===
-Aqui está a análise detalhada do erro e as alternativas de solução para o seu ambiente Windows.
+Aqui está a análise do problema e as soluções recomendadas para o seu ambiente Windows.
 
 ---
 
 ### (1) Causa provável do erro
 
-O erro `Could not find a version that satisfies the requirement libtorrent` ocorre por dois motivos principais:
+O erro ocorre por três motivos principais combinados:
 
-1. **Incompatibilidade de Versão do Python e Ausência de Wheels:** O `libtorrent` é uma biblioteca escrita em C++ com bindings para Python. Para funcionar no Windows, o `pip` precisa de um arquivo pré-compilado (chamado *Wheel* ou `.whl`). Atualmente, **não existem wheels oficiais do `libtorrent` no PyPI para versões modernas do Python no Windows** (especialmente para a versão 3.14, que é uma versão de desenvolvimento/futura, e mesmo para as versões 3.11 ou 3.12).
-2. **Falha na Compilação Nativa:** Quando o `pip` não encontra o arquivo pré-compilado, ele tenta compilar o código-fonte C++ localmente. No Windows, isso quase sempre falha porque exige que você tenha o Visual Studio C++, as bibliotecas Boost e o OpenSSL instalados e configurados corretamente no seu sistema.
+1. **Nome Incorreto do Pacote no PyPI:** O pacote oficial de bindings do Python não se chama apenas `libtorrent` no gerenciador PyPI; o nome correto do pacote é **`python-libtorrent`**.
+2. **Ausência de "Wheels" (Binários Pré-compilados) para Windows:** O `libtorrent` é uma biblioteca escrita em C++. Para funcionar no Python, ela precisa ser compilada. O PyPI não possui binários pré-compilados (.whl) para sistemas Windows nas versões recentes do Python. Compilar do zero no Windows exige o Visual Studio C++, Boost C++ e configurações complexas.
+3. **Versão do Python:** Você mencionou a versão **3.14.7**. Atualmente, a versão estável mais recente do Python é a 3.13 (a 3.14 ainda está em desenvolvimento inicial/alfa). Se você estiver usando uma versão de pré-lançamento ou houver um erro de digitação (talvez 3.11.7 ou 3.10.7), saiba que **quanto mais nova a versão do Python, menor a chance de encontrar binários prontos** para bibliotecas C++ complexas como o `libtorrent`.
 
 ---
 
 ### (2) Alternativas de solução (em ordem de probabilidade de sucesso)
 
-#### Alternativa 1: Utilizar o Gerenciador de Pacotes Conda (Maior taxa de sucesso no Windows)
-O Anaconda/Miniconda é excelente para lidar com bibliotecas C++ complexas como o `libtorrent` no Windows, pois ele instala as dependências binárias (como o Boost) automaticamente.
+#### Solução 1: Utilizar o Gerenciador Conda (Recomendado para Windows)
+O Anaconda/Miniconda é excelente para gerenciar pacotes científicos e bibliotecas C++ no Windows, pois o canal `conda-forge` mantém binários do `libtorrent` pré-compilados e atualizados para Windows.
 
-1. Se não tiver, instale o [Miniconda](https://docs.anaconda.com/miniconda/).
-2. Abra o **Anaconda Prompt** e execute os seguintes comandos:
+1. Baixe e instale o [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (ou Anaconda).
+2. Abra o **Miniconda Prompt** (Prompt de Comando do Conda).
+3. Crie um ambiente com uma versão estável do Python (ex: 3.10 ou 3.11) e instale o pacote com os comandos abaixo:
 
 ```bash
-# Cria um ambiente com uma versão estável do Python (ex: 3.10 ou 3.11)
 conda create -n torrent_env python=3.10 -y
-
-# Ativa o ambiente
 conda activate torrent_env
-
-# Instala o libtorrent pré-compilado do canal conda-forge
 conda install -c conda-forge python-libtorrent -y
 ```
 
 ---
 
-#### Alternativa 2: Usar o WSL (Windows Subsystem for Linux)
-Se você puder rodar seu script em um ambiente Linux dentro do Windows, esta é a solução mais fácil e robusta, pois o Ubuntu/Debian possui o `libtorrent` nos repositórios oficiais.
+#### Solução 2: Instalar via pip usando o nome correto (Python <= 3.9)
+Se você puder fazer o downgrade do seu Python para a versão 3.9 (ou se o seu "3.14" na verdade for um Python antigo), você pode tentar instalar o pacote com o nome correto diretamente do PyPI, ou usar uma versão alternativa mantida pela comunidade (`python-libtorrent-bin`).
 
-1. Abra o terminal do WSL (Ubuntu).
-2. Execute o comando exato:
+Abra o prompt de comando (CMD) e execute:
+
+```cmd
+python -m pip install --upgrade pip
+pip install python-libtorrent
+```
+Se falhar, tente a versão binária alternativa:
+```cmd
+pip install python-libtorrent-bin
+```
+
+---
+
+#### Solução 3: Utilizar o WSL (Windows Subsystem for Linux)
+Se o seu projeto permitir, rodar o código dentro do WSL (Ubuntu) é extremamente mais simples, pois o ecossistema Linux possui suporte nativo e direto ao `libtorrent`.
+
+Dentro do terminal do WSL (Ubuntu), execute:
 
 ```bash
-sudo apt update && sudo apt install python3-libtorrent -y
+sudo apt update
+sudo apt install python3-libtorrent -y
 ```
+Depois, para usar no seu script Python do WSL, o pacote já estará disponível globalmente.
 
 ---
 
-#### Alternativa 3: Downgrade do Python + Instalação de Wheel Não-Oficial (Para Python nativo no Windows)
-Se você precisa rodar nativamente no Windows sem o Conda, a versão mais recente do Python que possui suporte fácil ao `libtorrent` via `pip` é o **Python 3.9** ou **3.10** (usando pacotes de terceiros).
+#### Solução 4: Compilar a partir do código-fonte (Apenas se as anteriores falharem)
+Esta é a opção mais complexa e demorada. Você precisará instalar as ferramentas de compilação do Windows.
 
-1. Instale o **Python 3.9** (64-bit) no Windows.
-2. Abra o Prompt de Comando (cmd) e execute:
-
-```cmd
-# Garanta que está usando o pip do Python 3.9
-py -3.9 -m pip install --upgrade pip
-
-# Instale o fork binário mantido pela comunidade
-py -3.9 -m pip install python-libtorrent
-```
-
----
-
-#### Alternativa 4: Usar uma biblioteca alternativa em Python Puro
-Se o seu objetivo é manipular arquivos torrent, ler metadados ou criar torrents (sem necessariamente gerenciar o download de alta performance do protocolo BitTorrent), você pode usar uma biblioteca escrita 100% em Python, que não requer compilação C++.
-
-Execute no seu terminal atual (Python 3.14):
+1. Baixe e instale o [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) selecionando a opção "Desenvolvimento para Desktop com C++".
+2. Tente instalar via pip forçando a compilação:
 
 ```cmd
-pip install torrentool
+pip install vcpkg
+vcpkg install libtorrent:x64-windows
+pip install python-libtorrent
 ```
-*Nota: Esta biblioteca serve para criar/editar arquivos `.torrent`. Se você precisa baixar arquivos via torrent, as alternativas 1 ou 2 são obrigatórias.*

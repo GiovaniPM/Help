@@ -9,6 +9,7 @@ RESET = "\033[0m"
 
 # nome do módulo para importar -> nome do pacote no pip
 BIBLIOTECAS = {
+    "google.genai": "google-genai",
     "numpy": "numpy",
     "bokeh": "bokeh",
     "pandas": "pandas",
@@ -27,12 +28,12 @@ BIBLIOTECAS = {
     "customtkinter": "customtkinter",
     "PIL": "pillow",
     "cx_Oracle": "cx_Oracle",
+    "oracledb": "oracledb",
     "pymongo": "pymongo",  # também fornece o módulo bson
     "redis": "redis",
     "zmq": "pyzmq",
     "libtorrent": "libtorrent",
     "openai": "openai",
-    "google.genai": "google-genai",
 }
 
 

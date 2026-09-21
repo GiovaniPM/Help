@@ -1,5 +1,5 @@
 import argparse
-import cx_Oracle
+import oracledb
 
 parser = argparse.ArgumentParser(description = 'Consulta UDC')
 parser.add_argument('--sy', action = 'store', dest = 'sy', required = True, help = 'System code ex.: 57')
@@ -24,7 +24,7 @@ conn_string = "\
                     )\
                 )" % (db_host, str(db_port), db_servicename)
 
-con = cx_Oracle.connect(user=db_user, password=db_pass, dsn=conn_string, encoding='UTF-8')
+con = oracledb.connect(user=db_user, password=db_pass, dsn=conn_string)
 
 sql_string = "SELECT\
                   DRSY,\
