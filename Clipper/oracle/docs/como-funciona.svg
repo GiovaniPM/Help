@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 390" width="1000" height="390" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="390" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="500" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Como funciona: cada consulta vira um DBF temporário</text>
+
+  <!-- Clipper -->
+  <rect x="25" y="65" width="225" height="140" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="137" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#1e3a8a">Clipper 5.2</text>
+  <text x="137" y="120" text-anchor="middle" font-size="13" fill="#1e3a8a">ORACLE.LIB</text>
+  <text x="137" y="152" text-anchor="middle" font-size="12" fill="#334155" font-family="Consolas, monospace">ORA USE "SELECT ..."</text>
+  <text x="137" y="174" text-anchor="middle" font-size="12" fill="#334155">(DOS, 16 bits)</text>
+
+  <!-- Bridge -->
+  <rect x="400" y="65" width="200" height="140" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="500" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#78350f">ORABRIDGE.EXE</text>
+  <text x="500" y="120" text-anchor="middle" font-size="13" fill="#78350f">C + ODPI-C</text>
+  <text x="500" y="152" text-anchor="middle" font-size="12" fill="#334155">lê a requisição</text>
+  <text x="500" y="172" text-anchor="middle" font-size="12" fill="#334155">e conecta ao banco</text>
+
+  <!-- Oracle -->
+  <rect x="750" y="65" width="225" height="140" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="862" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#7f1d1d">Oracle</text>
+  <text x="862" y="140" text-anchor="middle" font-size="12" fill="#334155">executa o SQL</text>
+  <text x="862" y="160" text-anchor="middle" font-size="12" fill="#334155">e devolve o resultado</text>
+
+  <!-- Arrows Clipper <-> Bridge -->
+  <line x1="254" y1="105" x2="396" y2="105" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <text x="325" y="88" text-anchor="middle" font-size="12" font-weight="600" fill="#0f172a">1. grava .REQ</text>
+  <text x="325" y="123" text-anchor="middle" font-size="12" fill="#475569">e executa (RUN)</text>
+
+  <line x1="396" y1="170" x2="254" y2="170" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <text x="325" y="153" text-anchor="middle" font-size="12" font-weight="600" fill="#0f172a">3. grava .DBF</text>
+  <text x="325" y="188" text-anchor="middle" font-size="12" fill="#475569">+ .RSP (OK / ERR)</text>
+
+  <!-- Arrows Bridge <-> Oracle -->
+  <line x1="604" y1="105" x2="746" y2="105" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <text x="675" y="88" text-anchor="middle" font-size="12" font-weight="600" fill="#0f172a">2. consulta</text>
+  <text x="675" y="123" text-anchor="middle" font-size="12" fill="#475569">via ODPI-C</text>
+
+  <line x1="746" y1="170" x2="604" y2="170" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <text x="675" y="188" text-anchor="middle" font-size="12" fill="#475569">linhas</text>
+
+  <!-- Down arrow -->
+  <line x1="137" y1="209" x2="137" y2="262" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <text x="150" y="240" font-size="12" font-weight="600" fill="#0f172a">4. lê o .RSP e abre o DBF</text>
+
+  <!-- Result -->
+  <rect x="25" y="266" width="950" height="100" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="500" y="298" text-anchor="middle" font-size="15" font-weight="700" fill="#14532d" font-family="Consolas, monospace">dbUseArea( .DBF )  ▸  alias aberto</text>
+  <text x="500" y="326" text-anchor="middle" font-size="13" fill="#334155" font-family="Consolas, monospace">GO TOP · SKIP · EOF() · INDEX ON · SEEK · SET FILTER · BROWSE · COPY TO</text>
+  <text x="500" y="349" text-anchor="middle" font-size="12" fill="#475569">Todos os comandos tradicionais do Clipper funcionam sobre o resultado</text>
+</svg>
