@@ -1,0 +1,107 @@
+=== DETALHAMENTO DA INSTALAÇÃO ===
+Collecting cx_Oracle
+  Using cached cx_Oracle-8.3.0.tar.gz (363 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  Getting requirements to build wheel did not run successfully.
+  exit code: 1
+  
+  [20 lines of output]
+  Traceback (most recent call last):
+    File "C:\Python314\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 389, in <module>
+      main()
+      ~~~~^^
+    File "C:\Python314\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 373, in main
+      json_out["return_val"] = hook(**hook_input["kwargs"])
+                               ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Python314\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 143, in get_requires_for_build_wheel
+      return hook(config_settings)
+    File "C:\Users\giova\AppData\Local\Temp\pip-build-env-_u51zups\overlay\Lib\site-packages\setuptools\build_meta.py", line 333, in get_requires_for_build_wheel
+      return self._get_build_requires(config_settings, requirements=[])
+             ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\giova\AppData\Local\Temp\pip-build-env-_u51zups\overlay\Lib\site-packages\setuptools\build_meta.py", line 301, in _get_build_requires
+      self.run_setup()
+      ~~~~~~~~~~~~~~^^
+    File "C:\Users\giova\AppData\Local\Temp\pip-build-env-_u51zups\overlay\Lib\site-packages\setuptools\build_meta.py", line 317, in run_setup
+      exec(code, locals())  # noqa: S102 # exec is intentional here
+      ~~~~^^^^^^^^^^^^^^^^
+    File "<string>", line 6, in <module>
+  ModuleNotFoundError: No module named 'pkg_resources'
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'cx_Oracle' when getting requirements to build wheel
+
+
+=== ANÁLISE DA IA ===
+Aqui está a análise do problema e as soluções recomendadas para o seu caso.
+
+---
+
+### 1. Causa Provável do Erro
+
+O erro ocorre por uma combinação de três fatores principais:
+
+1. **Descontinuação do `cx_Oracle`:** O pacote `cx_Oracle` foi descontinuado e substituído pelo `oracledb` em 2022. A última versão do `cx_Oracle` (8.3.0) não possui pacotes pré-compilados (*wheels*) para versões recentes do Python (como o Python 3.14).
+2. **Ausência do `pkg_resources`:** O instalador tentou compilar o `cx_Oracle` a partir do código-fonte (.tar.gz). Durante esse processo, o `setuptools` (ferramenta de build) tentou usar o módulo `pkg_resources`, que foi **removido/descontinuado** nas versões mais recentes do Python e do `setuptools`.
+3. **Python 3.14 (Versão Experimental):** O Python 3.14 ainda está em fase de desenvolvimento (pré-lançamento). Compilar extensões em C antigas (como o `cx_Oracle`) nesta versão é extremamente difícil devido a mudanças internas na API do Python.
+
+---
+
+### 2. Alternativas de Solução (em ordem de probabilidade de sucesso)
+
+#### Alternativa 1: Substituir pelo `oracledb` (Recomendado e mais provável de funcionar)
+A própria Oracle substituiu o `cx_Oracle` pelo novo pacote **`oracledb`** (conhecido como Thin Driver). Ele é escrito em Python puro (não precisa de compilador C para instalar) e **não requer a instalação do Oracle Instant Client** na sua máquina para funcionar.
+
+O `oracledb` possui um modo de compatibilidade que permite rodar códigos antigos do `cx_Oracle` sem precisar reescrevê-los.
+
+**Passo 1:** Instale o novo pacote:
+```bash
+pip install oracledb
+```
+
+**Passo 2:** No seu código Python, substitua a importação do `cx_Oracle` por esta linha de compatibilidade:
+```python
+import oracledb
+oracledb.thin_mode = True  # Ativa o modo Thin (não precisa do Instant Client)
+import sys
+sys.modules["cx_Oracle"] = oracledb  # Faz o código antigo pensar que está usando cx_Oracle
+```
+
+---
+
+#### Alternativa 2: Instalar uma versão antiga do `setuptools` para compilar o `cx_Oracle`
+Se você *realmente* precisa usar o `cx_Oracle` original e quer tentar compilá-lo no Python 3.14, você precisa forçar a instalação do `setuptools` em uma versão que ainda contenha o `pkg_resources`, e desabilitar o isolamento de build do `pip`.
+
+*Nota: Esta alternativa tem chance média/baixa de sucesso no Python 3.14 porque a compilação em C ainda pode falhar depois.*
+
+Execute os comandos exatamente nesta ordem:
+
+```bash
+# 1. Atualize o pip
+python -m pip install --upgrade pip
+
+# 2. Instale uma versão antiga do setuptools que possui o pkg_resources
+pip install "setuptools<70.0.0"
+
+# 3. Tente instalar o cx_Oracle desabilitando o isolamento de build
+pip install cx_Oracle --no-build-isolation
+```
+
+---
+
+#### Alternativa 3: Downgrade do Python para 3.11 ou 3.12 (Para manter o `cx_Oracle` antigo)
+Como o Python 3.14 é uma versão de desenvolvimento muito recente, quase nenhum pacote antigo com dependências em C funcionará facilmente nele. 
+
+Se o seu projeto depende estritamente do `cx_Oracle` clássico e você não pode migrar para o `oracledb`, a solução mais estável é desinstalar o Python 3.14 e instalar o **Python 3.11** (onde existem *wheels* pré-compiladas para o Windows).
+
+Depois de instalar o Python 3.11, basta rodar:
+
+```bash
+pip install cx_Oracle
+```
+*(Neste cenário, ele instalará instantaneamente sem tentar compilar nada).*

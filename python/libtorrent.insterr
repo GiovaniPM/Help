@@ -1,0 +1,77 @@
+=== DETALHAMENTO DA INSTALAÇÃO ===
+ERROR: Could not find a version that satisfies the requirement libtorrent (from versions: none)
+ERROR: No matching distribution found for libtorrent
+
+
+=== ANÁLISE DA IA ===
+Aqui está a análise detalhada do erro e as alternativas de solução para o seu ambiente Windows.
+
+---
+
+### (1) Causa provável do erro
+
+O erro `Could not find a version that satisfies the requirement libtorrent` ocorre por dois motivos principais:
+
+1. **Incompatibilidade de Versão do Python e Ausência de Wheels:** O `libtorrent` é uma biblioteca escrita em C++ com bindings para Python. Para funcionar no Windows, o `pip` precisa de um arquivo pré-compilado (chamado *Wheel* ou `.whl`). Atualmente, **não existem wheels oficiais do `libtorrent` no PyPI para versões modernas do Python no Windows** (especialmente para a versão 3.14, que é uma versão de desenvolvimento/futura, e mesmo para as versões 3.11 ou 3.12).
+2. **Falha na Compilação Nativa:** Quando o `pip` não encontra o arquivo pré-compilado, ele tenta compilar o código-fonte C++ localmente. No Windows, isso quase sempre falha porque exige que você tenha o Visual Studio C++, as bibliotecas Boost e o OpenSSL instalados e configurados corretamente no seu sistema.
+
+---
+
+### (2) Alternativas de solução (em ordem de probabilidade de sucesso)
+
+#### Alternativa 1: Utilizar o Gerenciador de Pacotes Conda (Maior taxa de sucesso no Windows)
+O Anaconda/Miniconda é excelente para lidar com bibliotecas C++ complexas como o `libtorrent` no Windows, pois ele instala as dependências binárias (como o Boost) automaticamente.
+
+1. Se não tiver, instale o [Miniconda](https://docs.anaconda.com/miniconda/).
+2. Abra o **Anaconda Prompt** e execute os seguintes comandos:
+
+```bash
+# Cria um ambiente com uma versão estável do Python (ex: 3.10 ou 3.11)
+conda create -n torrent_env python=3.10 -y
+
+# Ativa o ambiente
+conda activate torrent_env
+
+# Instala o libtorrent pré-compilado do canal conda-forge
+conda install -c conda-forge python-libtorrent -y
+```
+
+---
+
+#### Alternativa 2: Usar o WSL (Windows Subsystem for Linux)
+Se você puder rodar seu script em um ambiente Linux dentro do Windows, esta é a solução mais fácil e robusta, pois o Ubuntu/Debian possui o `libtorrent` nos repositórios oficiais.
+
+1. Abra o terminal do WSL (Ubuntu).
+2. Execute o comando exato:
+
+```bash
+sudo apt update && sudo apt install python3-libtorrent -y
+```
+
+---
+
+#### Alternativa 3: Downgrade do Python + Instalação de Wheel Não-Oficial (Para Python nativo no Windows)
+Se você precisa rodar nativamente no Windows sem o Conda, a versão mais recente do Python que possui suporte fácil ao `libtorrent` via `pip` é o **Python 3.9** ou **3.10** (usando pacotes de terceiros).
+
+1. Instale o **Python 3.9** (64-bit) no Windows.
+2. Abra o Prompt de Comando (cmd) e execute:
+
+```cmd
+# Garanta que está usando o pip do Python 3.9
+py -3.9 -m pip install --upgrade pip
+
+# Instale o fork binário mantido pela comunidade
+py -3.9 -m pip install python-libtorrent
+```
+
+---
+
+#### Alternativa 4: Usar uma biblioteca alternativa em Python Puro
+Se o seu objetivo é manipular arquivos torrent, ler metadados ou criar torrents (sem necessariamente gerenciar o download de alta performance do protocolo BitTorrent), você pode usar uma biblioteca escrita 100% em Python, que não requer compilação C++.
+
+Execute no seu terminal atual (Python 3.14):
+
+```cmd
+pip install torrentool
+```
+*Nota: Esta biblioteca serve para criar/editar arquivos `.torrent`. Se você precisa baixar arquivos via torrent, as alternativas 1 ou 2 são obrigatórias.*

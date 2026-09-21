@@ -1,0 +1,88 @@
+=== DETALHAMENTO DA INSTALAÇÃO ===
+ERROR: Could not find a version that satisfies the requirement tensorflow (from versions: none)
+ERROR: No matching distribution found for tensorflow
+
+
+=== ANÁLISE DA IA ===
+### (1) Causa provável do erro
+
+A causa do erro é a **incompatibilidade da versão do Python (3.14.7) com as versões do TensorFlow disponíveis no PyPI** (repositório oficial do pip).
+
+O TensorFlow é uma biblioteca complexa com muitas dependências em C/C++. Por isso, ela exige versões específicas do Python para as quais os desenvolvedores já compilaram pacotes prontos (chamados *wheels*). 
+* Atualmente, o TensorFlow suporta oficialmente as versões do **Python de 3.9 até 3.12** (em sistemas de 64 bits).
+* Como você está utilizando uma versão muito futura/experimental ou não oficial (Python 3.14.7), o `pip` não encontra nenhum pacote do TensorFlow compatível com essa versão específica no Windows, gerando o erro de *"No matching distribution found"*.
+
+---
+
+### (2) Alternativas de solução (em ordem de probabilidade de sucesso)
+
+#### Alternativa 1: Instalar uma versão compatível do Python (Recomendado)
+A forma mais segura e padrão de resolver é instalar o Python 3.11 (altamente estável com TensorFlow) ou 3.12 e criar um ambiente virtual dedicado.
+
+1. Baixe e instale o **Python 3.11.x** (64-bit) do site oficial python.org. (Certifique-se de marcar a opção "Add python.exe to PATH" durante a instalação).
+2. Abra o Prompt de Comando (cmd) ou PowerShell e execute os seguintes comandos para criar um ambiente isolado e instalar o TensorFlow:
+
+```bash
+# 1. Crie uma pasta para o seu projeto e acesse-a
+mkdir meu_projeto_tf
+cd meu_projeto_tf
+
+# 2. Crie um ambiente virtual usando o Python 3.11 especificamente
+# (O instalador do Windows geralmente registra o atalho 'py -3.11')
+py -3.11 -m venv venv
+
+# 3. Ative o ambiente virtual
+venv\Scripts\activate
+
+# 4. Atualize o pip dentro do ambiente virtual
+python -m pip install --upgrade pip
+
+# 5. Instale o TensorFlow (versão CPU/padrão)
+pip install tensorflow
+```
+
+---
+
+#### Alternativa 2: Utilizar o Anaconda ou Miniconda (Ótimo para Data Science)
+O Conda gerencia versões do Python e pacotes complexos de forma muito mais robusta no Windows.
+
+1. Baixe e instale o [Miniconda](https://docs.anaconda.com/miniconda/) (versão leve do Anaconda).
+2. Abra o **Miniconda Prompt** (pesquise no menu Iniciar) e execute:
+
+```bash
+# 1. Crie um ambiente chamado 'tf' com o Python 3.11
+conda create --name tf python=3.11 -y
+
+# 2. Ative o ambiente criado
+conda activate tf
+
+# 3. Instale o TensorFlow usando o pip dentro do ambiente conda
+pip install tensorflow
+```
+
+---
+
+#### Alternativa 3: Instalação via WSL 2 (Windows Subsystem for Linux)
+*Nota: Se você planeja usar aceleração por GPU (placa de vídeo NVIDIA), o TensorFlow para Windows nativo não suporta mais GPU desde a versão 2.10. A própria Google recomenda usar o WSL 2.*
+
+1. Abra o PowerShell como Administrador e instale o WSL (Ubuntu):
+   ```powershell
+   wsl --install
+   ```
+2. Reinicie o computador e finalize a configuração do Ubuntu (definindo usuário e senha).
+3. Abra o terminal do Ubuntu e execute os comandos para instalar o Python correto e o TensorFlow:
+   ```bash
+   # Atualizar o sistema
+   sudo apt update && sudo apt upgrade -y
+
+   # Instalar Python 3.11 e gerenciador de pacotes
+   sudo apt install python3.11 python3.11-venv python3-pip -y
+
+   # Criar e ativar ambiente virtual
+   python3.11 -m venv tf_env
+   source tf_env/bin/activate
+
+   # Instalar o TensorFlow
+   pip install --upgrade pip
+   pip install tensorflow
+   ```
