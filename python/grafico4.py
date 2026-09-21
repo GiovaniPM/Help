@@ -14,16 +14,16 @@ y2 = np.sin(x) + np.cos(x)
 output_file("linked_panning.html")
 
 # create a new plot
-s1 = figure(width=250, plot_height=250, title=None)
-s1.circle(x, y0, size=10, color="navy", alpha=0.5)
+s1 = figure(width=250, height=250, title=None)
+s1.scatter(x, y0, marker="circle", size=10, color="navy", alpha=0.5)
 
 # NEW: create a new plot and share both ranges
 s2 = figure(width=250, height=250, x_range=s1.x_range, y_range=s1.y_range, title=None)
-s2.triangle(x, y1, size=10, color="firebrick", alpha=0.5)
+s2.scatter(x, y1, marker="triangle", size=10, color="firebrick", alpha=0.5)
 
 # NEW: create a new plot and share only one range
 s3 = figure(width=250, height=250, x_range=s1.x_range, title=None)
-s3.square(x, y2, size=10, color="olive", alpha=0.5)
+s3.scatter(x, y2, marker="square", size=10, color="olive", alpha=0.5)
 
 # NEW: put the subplots in a gridplot
 p = gridplot([[s1, s2, s3]], toolbar_location=None)
