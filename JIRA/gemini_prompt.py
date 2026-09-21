@@ -5,6 +5,7 @@ Gemini Prompt App
 Solicita prompts ao usuário, envia para a API do Google Gemini (com contexto
 de chat) e salva cada resposta em um arquivo .txt.
 
+<<<<<<< HEAD
 USO:
   1. Obtenha uma API Key em https://aistudio.google.com ("Get API Key").
   2. pip install google-genai
@@ -13,6 +14,16 @@ USO:
        PowerShell:  $env:GEMINI_API_KEY = "sua-chave"
        Linux/macOS: export GEMINI_API_KEY="sua-chave"
   4. python gemini_prompt.py   (digite "sair" para encerrar)
+=======
+  COMO USAR:
+  ----------
+  1. Obtenha sua API Key gratuita:
+       - Acesse: https://aistudio.google.com
+          - https://console.cloud.google.com/
+       - Faça login com sua conta Google
+       - Clique em "Get API Key" → "Create API Key"
+       - Copie a chave gerada
+>>>>>>> 0e20bf25e5ab3357d65363aa91dcc43233836114
 
 Variáveis opcionais: GEMINI_MODEL (padrão gemini-2.5-flash), GEMINI_OUTPUT_DIR.
 """
