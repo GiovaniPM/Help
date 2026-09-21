@@ -52,7 +52,7 @@ import datetime
 # ============================================================================
 
 # Chave da API do Gemini (obtenha em https://aistudio.google.com)
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY") or "AIzaSyAdrRQZ5vCJsIRxGvqfAZ3qmDMM3vBjztk"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
 
 # Modelo a ser utilizado (pode alterar conforme necessidade)
 GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash")
