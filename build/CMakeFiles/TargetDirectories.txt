@@ -1,0 +1,7 @@
+C:/Users/giova/Projetos/Help/build/CMakeFiles/odpi.dir
+C:/Users/giova/Projetos/Help/build/CMakeFiles/bridge_core.dir
+C:/Users/giova/Projetos/Help/build/CMakeFiles/orabridge.dir
+C:/Users/giova/Projetos/Help/build/CMakeFiles/test_bridge.dir
+C:/Users/giova/Projetos/Help/build/CMakeFiles/test.dir
+C:/Users/giova/Projetos/Help/build/CMakeFiles/edit_cache.dir
+C:/Users/giova/Projetos/Help/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/CMakeFiles/odpi-populate"
+		},
+		{
+			"file" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/CMakeFiles/odpi-populate.rule"
+		},
+		{
+			"file" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/CMakeFiles/odpi-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/odpi-populate-prefix/src/odpi-populate-stamp/odpi-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/odpi-populate-prefix/src/odpi-populate-stamp/odpi-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/odpi-populate-prefix/src/odpi-populate-stamp/odpi-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/odpi-populate-prefix/src/odpi-populate-stamp/odpi-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/odpi-populate-prefix/src/odpi-populate-stamp/odpi-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/odpi-populate-prefix/src/odpi-populate-stamp/odpi-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/odpi-populate-prefix/src/odpi-populate-stamp/odpi-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/odpi-populate-prefix/src/odpi-populate-stamp/odpi-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"odpi-populate"
+		],
+		"name" : "odpi-populate"
+	}
+}

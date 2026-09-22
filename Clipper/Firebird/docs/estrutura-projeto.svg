@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="1000" height="520" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="520" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="500" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Estrutura do projeto: Clipper/Firebird</text>
+
+  <!-- Pasta raiz -->
+  <rect x="30" y="65" width="430" height="425" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="50" y="93" font-size="16" font-weight="700" fill="#1e3a8a">📁 Firebird/  (lado Clipper)</text>
+
+  <g font-size="13" fill="#334155">
+    <rect x="50" y="110" width="390" height="40" rx="6" fill="#fff" stroke="#93c5fd"/>
+    <text x="64" y="127" font-family="Consolas, monospace" font-weight="700" fill="#1e3a8a">FIREBIRD.CH</text>
+    <text x="64" y="143" font-size="12">Comandos FB CONNECT / USE / EXEC / CLOSE</text>
+
+    <rect x="50" y="160" width="390" height="40" rx="6" fill="#fff" stroke="#93c5fd"/>
+    <text x="64" y="177" font-family="Consolas, monospace" font-weight="700" fill="#1e3a8a">FIREBIRD.PRG</text>
+    <text x="64" y="193" font-size="12">Implementação das funções FB_*</text>
+
+    <rect x="50" y="210" width="390" height="40" rx="6" fill="#fff" stroke="#93c5fd"/>
+    <text x="64" y="227" font-family="Consolas, monospace" font-weight="700" fill="#1e3a8a">TESTE.PRG</text>
+    <text x="64" y="243" font-size="12">Exemplo de uso e teste de conexão</text>
+
+    <rect x="50" y="260" width="390" height="40" rx="6" fill="#fff" stroke="#93c5fd"/>
+    <text x="64" y="277" font-family="Consolas, monospace" font-weight="700" fill="#1e3a8a">BUILD.BAT</text>
+    <text x="64" y="293" font-size="12">Compila a biblioteca FIREBIRD.LIB</text>
+
+    <rect x="50" y="310" width="390" height="40" rx="6" fill="#fff" stroke="#93c5fd"/>
+    <text x="64" y="327" font-family="Consolas, monospace" font-weight="700" fill="#1e3a8a">README.md</text>
+    <text x="64" y="343" font-size="12">Documentação de uso</text>
+
+    <rect x="50" y="360" width="390" height="40" rx="6" fill="#fff" stroke="#93c5fd"/>
+    <text x="64" y="377" font-family="Consolas, monospace" font-weight="700" fill="#1e3a8a">📁 docs/</text>
+    <text x="64" y="393" font-size="12">Diagramas (como-funciona.svg, estrutura-projeto.svg)</text>
+  </g>
+
+  <rect x="50" y="415" width="390" height="55" rx="8" fill="#bfdbfe" stroke="#2563eb" stroke-dasharray="5 4"/>
+  <text x="245" y="438" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a8a">FIREBIRD.LIB</text>
+  <text x="245" y="457" text-anchor="middle" font-size="12" fill="#1e3a8a">gerada pelo BUILD.BAT a partir de FIREBIRD.PRG</text>
+
+  <!-- Pasta bridge -->
+  <rect x="540" y="65" width="430" height="425" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="560" y="93" font-size="16" font-weight="700" fill="#78350f">📁 bridge/  (ponte em C)</text>
+
+  <g font-size="13" fill="#334155">
+    <rect x="560" y="110" width="390" height="40" rx="6" fill="#fff" stroke="#fcd34d"/>
+    <text x="574" y="127" font-family="Consolas, monospace" font-weight="700" fill="#78350f">fbbridge.c</text>
+    <text x="574" y="143" font-size="12">Programa principal (FBBRIDGE.EXE)</text>
+
+    <rect x="560" y="160" width="390" height="40" rx="6" fill="#fff" stroke="#fcd34d"/>
+    <text x="574" y="177" font-family="Consolas, monospace" font-weight="700" fill="#78350f">bridge_core.c / .h</text>
+    <text x="574" y="193" font-size="12">Requisição, binds, página de código, geração do DBF</text>
+
+    <rect x="560" y="210" width="390" height="40" rx="6" fill="#fff" stroke="#fcd34d"/>
+    <text x="574" y="227" font-family="Consolas, monospace" font-weight="700" fill="#78350f">test_bridge.c</text>
+    <text x="574" y="243" font-size="12">Testes da ponte (sem banco)</text>
+
+    <rect x="560" y="260" width="390" height="40" rx="6" fill="#fff" stroke="#fcd34d"/>
+    <text x="574" y="277" font-family="Consolas, monospace" font-weight="700" fill="#78350f">CMakeLists.txt</text>
+    <text x="574" y="293" font-size="12">Build; localiza o cliente do Firebird (ibase.h/fbclient)</text>
+
+    <rect x="560" y="310" width="390" height="40" rx="6" fill="#fff" stroke="#fcd34d" stroke-dasharray="5 4"/>
+    <text x="574" y="327" font-family="Consolas, monospace" font-weight="700" fill="#78350f">📁 build/</text>
+    <text x="574" y="343" font-size="12">Saída do CMake (gerada, fora do controle de versão)</text>
+  </g>
+
+  <rect x="560" y="415" width="390" height="55" rx="8" fill="#fde68a" stroke="#d97706" stroke-dasharray="5 4"/>
+  <text x="755" y="438" text-anchor="middle" font-size="13" font-weight="700" fill="#78350f">FBBRIDGE.EXE</text>
+  <text x="755" y="457" text-anchor="middle" font-size="12" fill="#78350f">gerado pelo CMake a partir de fbbridge.c + bridge_core.c</text>
+
+  <!-- Setas de relação -->
+  <line x1="460" y1="442" x2="538" y2="442" stroke="#475569" stroke-width="2" marker-end="url(#a)" stroke-dasharray="6 4"/>
+  <text x="499" y="432" text-anchor="middle" font-size="11" fill="#475569">RUN</text>
+  <line x1="460" y1="180" x2="538" y2="180" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+  <text x="499" y="170" text-anchor="middle" font-size="11" fill="#475569">.REQ / .DBF</text>
+</svg>

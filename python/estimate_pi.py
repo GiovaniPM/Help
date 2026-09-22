@@ -11,5 +11,5 @@ def estimate_pi(num_samples):
     
     return (inside_circle / num_samples) * 4
 
-# Estimar π usando 1.000.000 amostras
-print(estimate_pi(1000000))
+# Estimar π usando 5.000.000 amostras
+print(estimate_pi(5000000))
