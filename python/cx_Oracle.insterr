@@ -20,13 +20,13 @@ Collecting cx_Oracle
                                ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
     File "C:\Python314\Lib\site-packages\pip\_vendor\pyproject_hooks\_in_process\_in_process.py", line 143, in get_requires_for_build_wheel
       return hook(config_settings)
-    File "C:\Users\giova\AppData\Local\Temp\pip-build-env-ist_s_uv\overlay\Lib\site-packages\setuptools\build_meta.py", line 333, in get_requires_for_build_wheel
+    File "C:\Users\giova\AppData\Local\Temp\pip-build-env-kfef49g5\overlay\Lib\site-packages\setuptools\build_meta.py", line 333, in get_requires_for_build_wheel
       return self._get_build_requires(config_settings, requirements=[])
              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\giova\AppData\Local\Temp\pip-build-env-ist_s_uv\overlay\Lib\site-packages\setuptools\build_meta.py", line 301, in _get_build_requires
+    File "C:\Users\giova\AppData\Local\Temp\pip-build-env-kfef49g5\overlay\Lib\site-packages\setuptools\build_meta.py", line 301, in _get_build_requires
       self.run_setup()
       ~~~~~~~~~~~~~~^^
-    File "C:\Users\giova\AppData\Local\Temp\pip-build-env-ist_s_uv\overlay\Lib\site-packages\setuptools\build_meta.py", line 317, in run_setup
+    File "C:\Users\giova\AppData\Local\Temp\pip-build-env-kfef49g5\overlay\Lib\site-packages\setuptools\build_meta.py", line 317, in run_setup
       exec(code, locals())  # noqa: S102 # exec is intentional here
       ~~~~^^^^^^^^^^^^^^^^
     File "<string>", line 6, in <module>
@@ -38,68 +38,4 @@ ERROR: Failed to build 'cx_Oracle' when getting requirements to build wheel
 
 
 === ANÁLISE DA IA ===
-Aqui está a análise do seu problema e as soluções recomendadas para resolvê-lo.
-
----
-
-### (1) Causa provável do erro
-
-O erro ocorre por uma combinação de três fatores:
-
-1. **Pacote Obsoleto (`cx_Oracle`):** O pacote `cx_Oracle` foi descontinuado pela Oracle e substituído pelo novo pacote **`oracledb`**. O `cx_Oracle` não recebe atualizações de compatibilidade para versões recentes do Python.
-2. **Versão do Python muito recente (Python 3.14.7):** O Python 3.14 é atualmente uma versão em desenvolvimento/experimental. Não existem *wheels* (binários pré-compilados) do `cx_Oracle` para essa versão do Python. Por isso, o `pip` tenta compilar o pacote a partir do código-fonte (`.tar.gz`).
-3. **Ausência de `pkg_resources`:** Durante a tentativa de compilação, o script de instalação do `cx_Oracle` tenta usar o módulo `pkg_resources` (que faz parte do pacote `setuptools`). Nas versões mais recentes do Python e do `setuptools`, o `pkg_resources` foi depreciado/removido ou não é incluído por padrão no ambiente isolado de build do `pip`.
-
----
-
-### (2) Alternativas de solução (em ordem de probabilidade de sucesso)
-
-#### Alternativa 1: Migrar para o `oracledb` (Solução Recomendada e Definitiva)
-O `oracledb` é o sucessor oficial do `cx_Oracle`. Ele possui um modo "Thin" (leve) que é escrito em Python puro, **não requer a instalação do Oracle Instant Client** no sistema e instala instantaneamente em qualquer versão do Python sem precisar de compilação C.
-
-**Comando para executar:**
-```bash
-pip install oracledb
-```
-
-**Como adaptar seu código (é muito simples):**
-No seu código Python, basta alterar a importação. O `oracledb` é compatível com a mesma API:
-```python
-# Substitua isso:
-# import cx_Oracle
-# conexao = cx_Oracle.connect(...)
-
-# Por isso:
-import oracledb
-
-# Para rodar no modo "Thin" (não precisa de Oracle Client instalado):
-conexao = oracledb.connect(user="usuario", password="senha", dsn="host:porta/servico")
-```
-*(Nota: Se você absolutamente precisar dos recursos antigos do Oracle Client, você pode ativar o modo Thick adicionando `oracledb.init_oracle_client()` no início do script).*
-
----
-
-#### Alternativa 2: Forçar a instalação do `setuptools` e desabilitar o isolamento de build
-Se você **realmente precisa** usar o `cx_Oracle` antigo e não pode alterar o código para `oracledb`, você deve instalar manualmente as dependências de build no seu ambiente global e instruir o `pip` a não isolar o ambiente de compilação.
-
-**Comandos para executar:**
-```bash
-python -m pip install --upgrade pip setuptools wheel
-pip install cx_Oracle --no-build-isolation
-```
-
-*Nota: Para que isso funcione no Windows, você também precisará ter o compilador C++ do Visual Studio instalado no seu computador (Visual Studio Build Tools).*
-
----
-
-#### Alternativa 3: Usar uma versão estável e anterior do Python (ex: Python 3.11 ou 3.12)
-O Python 3.14 é uma versão de desenvolvimento (pré-alfa). A grande maioria das bibliotecas de terceiros ainda não possui suporte oficial para ela. Se você puder utilizar uma versão estável do Python, o `pip` baixará o `cx_Oracle` pré-compilado diretamente, sem tentar compilá-lo na sua máquina.
-
-1. Desinstale o Python 3.14.
-2. Instale o **Python 3.11** ou **Python 3.12** (versões estáveis recomendadas).
-3. Execute o comando de instalação:
-
-**Comando para executar:**
-```bash
-pip install cx_Oracle
-```
+Consulta à IA desativada (USAR_IA_DIAGNOSTICO=0 ou --sem-ia).
