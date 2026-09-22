@@ -60,17 +60,65 @@ ORA EXEC "UPDATE T SET X = :1 WHERE Y = :2" BIND 10, "A"
 ORA DISCONNECT
 ```
 
+### Consultar, alterar, atualizar e apagar um registro
+
+O DBF gerado por `ORA USE` é apenas uma **cópia local** do resultado: alterar o campo nele não muda o Oracle. Para gravar, use `ORA EXEC` com `UPDATE`/`DELETE`, filtrando pela chave do registro. Cada `ORA EXEC` já faz `COMMIT` ao final.
+
+```clipper
+#include "oracle.ch"
+
+LOCAL cSy := "00", cRt := "UM", cKy := "ABC"
+LOCAL cDesc, nAfetadas
+
+ORA CONNECT USER "usr" PASSWORD "pwd" DSN "host:1544/servico"
+
+// 1. Consulta o registro
+ORA USE "SELECT DRDL01 FROM F0005 WHERE DRSY = :1 AND DRRT = :2 AND DRKY = :3" ;
+    ALIAS F0005 BIND cSy, cRt, cKy
+
+IF Eof()
+   ? "Registro não encontrado."
+   ORA CLOSE F0005
+   ORA DISCONNECT
+   RETURN
+ENDIF
+
+// 2. Altera o campo (em memória)
+cDesc := Upper( AllTrim( F0005->DRDL01 ) ) + " - REVISADO"
+ORA CLOSE F0005
+
+// 3. Atualiza a tabela no Oracle
+nAfetadas := ORA_Exec( "UPDATE F0005 SET DRDL01 = :1 WHERE DRSY = :2 AND DRRT = :3 AND DRKY = :4", ;
+                       { cDesc, cSy, cRt, cKy } )
+IF nAfetadas == -1
+   ? "Falha no UPDATE:", ORA_Error()
+ELSE
+   ? nAfetadas, "registro(s) atualizado(s)."
+ENDIF
+
+// 4. Apaga o registro
+nAfetadas := ORA_Exec( "DELETE FROM F0005 WHERE DRSY = :1 AND DRRT = :2 AND DRKY = :3", ;
+                       { cSy, cRt, cKy } )
+IF nAfetadas == -1
+   ? "Falha no DELETE:", ORA_Error()
+ELSE
+   ? nAfetadas, "registro(s) apagado(s)."
+ENDIF
+
+ORA DISCONNECT
+```
+
 ## Referência da API
 
 ### Comandos e funções equivalentes
 
-| Comando | Função | Retorno |
-|---------|--------|---------|
-| `ORA CONNECT USER u PASSWORD p DSN d` | `ORA_Connect()` | `.T.` / `.F.` |
-| `ORA USE cSql ALIAS a BIND v1, v2...` | `ORA_Use()` | `.T.` / `.F.` |
-| `ORA EXEC cSql BIND v1, v2...` | `ORA_Exec()` | linhas afetadas, ou `-1` em erro |
-| `ORA CLOSE alias` | — | fecha a área e apaga o DBF temporário |
-| `ORA DISCONNECT` | — | descarta os dados da conexão |
+| Comando | Função | Retorno | Descrição |
+|---------|--------|---------|-----------|
+| `ORA CONNECT USER u PASSWORD p DSN d` | `ORA_Connect()` | `.T.` / `.F.` | Abre a conexão com o Oracle usando usuário, senha e DSN. Deve ser o primeiro passo antes de qualquer consulta. |
+| `ORA USE cSql ALIAS a BIND v1, v2...` | `ORA_Use()` | `.T.` / `.F.` | Executa um `SELECT` e carrega o resultado em uma área de trabalho (DBF temporário) com o alias informado, para navegar com `DBSKIP`, `EOF()` etc. Os valores de `BIND` substituem `:1`, `:2`... no SQL. |
+| `ORA EXEC cSql BIND v1, v2...` | `ORA_Exec()` | linhas afetadas, ou `-1` em erro | Executa comandos que não retornam dados (`INSERT`, `UPDATE`, `DELETE`) e informa quantas linhas foram afetadas. |
+| `ORA CLOSE alias` | — | fecha a área e apaga o DBF temporário | Encerra a consulta aberta com `ORA USE` e limpa o arquivo temporário criado para ela. |
+| `ORA DISCONNECT` | — | descarta os dados da conexão | Encerra a sessão com o Oracle, esquecendo usuário, senha e DSN. Use ao final do programa. |
 
 Funções auxiliares:
 
