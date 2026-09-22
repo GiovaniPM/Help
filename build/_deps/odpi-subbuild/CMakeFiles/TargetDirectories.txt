@@ -1,3 +1,0 @@
-C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/CMakeFiles/odpi-populate.dir
-C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/CMakeFiles/edit_cache.dir
-C:/Users/giova/Projetos/Help/build/_deps/odpi-subbuild/CMakeFiles/rebuild_cache.dir

@@ -1,2 +1,0 @@
-C:\ProgramData\mingw64\mingw64\bin\ar.exe qc libbridge_core.a CMakeFiles/bridge_core.dir/bridge_core.c.obj
-C:\ProgramData\mingw64\mingw64\bin\ranlib.exe libbridge_core.a
