@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .caption { fill: #1a1d23; font-size: 18px; font-weight: 700; }
+    .pvc-box { fill: #fff8ef; stroke: #d9822b; stroke-width: 1.5; }
+    .disk-box { fill: #ffffff; stroke: #d9822b; stroke-width: 1.5; }
+    .title-14 { fill: #1a1d23; font-size: 14px; font-weight: 700; }
+    .title-13 { fill: #1a1d23; font-size: 13px; font-weight: 700; }
+    .sub-12 { fill: #6b7280; font-size: 12px; }
+    .sub-11 { fill: #6b7280; font-size: 11px; }
+    .pill { fill: #eef1f5; stroke: #c7ccd4; stroke-width: 1; }
+    .pill-text { fill: #374151; font-size: 11px; text-anchor: middle; dominant-baseline: central; }
+    .arrow { stroke: #6b7280; stroke-width: 1.8; fill: none; marker-end: url(#arrowhead); }
+    .flow-label { fill: #4b5563; font-size: 11px; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="9" markerHeight="7" refX="7.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="260" fill="#ffffff"/>
+
+  <text x="30" y="34" class="caption">iris-pvc.yaml — PersistentVolumeClaim</text>
+
+  <!-- PVC box -->
+  <rect x="40" y="60" width="330" height="150" rx="10" class="pvc-box"/>
+  <text x="60" y="86" class="title-14">PVC: iris-data</text>
+  <rect x="60" y="100" width="150" height="26" rx="13" class="pill"/>
+  <text x="135" y="114" class="pill-text">ReadWriteOnce</text>
+  <rect x="220" y="100" width="120" height="26" rx="13" class="pill"/>
+  <text x="280" y="114" class="pill-text">5Gi</text>
+  <text x="60" y="150" class="sub-12">Reserva armazenamento persistente</text>
+  <text x="60" y="168" class="sub-12">para os dados do IRIS.</text>
+  <text x="60" y="192" class="sub-11">Sobrevive a rollout restart / recriação do pod.</text>
+
+  <!-- Disk -->
+  <rect x="500" y="90" width="330" height="90" rx="10" class="disk-box"/>
+  <text x="520" y="115" class="title-13">Disco persistente do cluster</text>
+  <text x="520" y="135" class="sub-11">/durable (montado no container via</text>
+  <text x="520" y="151" class="sub-11">volumeMounts / ISC_DATA_DIRECTORY)</text>
+
+  <path d="M370,135 L498,135" class="arrow"/>
+  <text x="435" y="123" class="flow-label" text-anchor="middle">provisiona</text>
+</svg>

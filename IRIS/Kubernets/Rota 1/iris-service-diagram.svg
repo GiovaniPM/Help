@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .caption { fill: #1a1d23; font-size: 18px; font-weight: 700; }
+    .svc-box { fill: #f0fbf4; stroke: #1f9d55; stroke-width: 1.5; }
+    .pod-box { fill: #f7f9ff; stroke: #5b8def; stroke-width: 1.5; }
+    .ext-box { fill: #ffffff; stroke: #6b7280; stroke-width: 1.5; }
+    .title-14 { fill: #1a1d23; font-size: 14px; font-weight: 700; }
+    .title-13 { fill: #1a1d23; font-size: 13px; font-weight: 700; }
+    .sub-12 { fill: #6b7280; font-size: 12px; }
+    .sub-11 { fill: #6b7280; font-size: 11px; }
+    .pill { fill: #eef1f5; stroke: #c7ccd4; stroke-width: 1; }
+    .pill-text { fill: #374151; font-size: 11px; text-anchor: middle; dominant-baseline: central; }
+    .arrow { stroke: #6b7280; stroke-width: 1.8; fill: none; marker-end: url(#arrowhead); }
+    .flow-label { fill: #4b5563; font-size: 11px; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="9" markerHeight="7" refX="7.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="280" fill="#ffffff"/>
+
+  <text x="30" y="34" class="caption">iris-service.yaml — Service (ClusterIP)</text>
+
+  <!-- External access -->
+  <rect x="40" y="90" width="220" height="80" rx="8" class="ext-box"/>
+  <text x="60" y="116" class="title-13">kubectl port-forward</text>
+  <text x="60" y="136" class="sub-11">svc/iris 52773:52773</text>
+  <text x="60" y="152" class="sub-11">1972:1972</text>
+
+  <!-- Service -->
+  <rect x="330" y="70" width="260" height="120" rx="10" class="svc-box"/>
+  <text x="350" y="96" class="title-14">Service: iris</text>
+  <text x="350" y="114" class="sub-12">type: ClusterIP</text>
+  <text x="350" y="132" class="sub-12">selector: app=iris</text>
+  <rect x="350" y="146" width="90" height="26" rx="13" class="pill"/>
+  <text x="395" y="160" class="pill-text">52773</text>
+  <rect x="450" y="146" width="90" height="26" rx="13" class="pill"/>
+  <text x="495" y="160" class="pill-text">1972</text>
+
+  <!-- Pod -->
+  <rect x="660" y="90" width="200" height="80" rx="10" class="pod-box"/>
+  <text x="680" y="116" class="title-13">Pod: iris</text>
+  <text x="680" y="136" class="sub-11">label: app=iris</text>
+  <text x="680" y="152" class="sub-11">portas 52773 / 1972</text>
+
+  <path d="M260,130 L328,130" class="arrow"/>
+  <path d="M590,130 L658,130" class="arrow"/>
+  <text x="294" y="118" class="flow-label" text-anchor="middle">acessa</text>
+  <text x="624" y="118" class="flow-label" text-anchor="middle">roteia</text>
+</svg>

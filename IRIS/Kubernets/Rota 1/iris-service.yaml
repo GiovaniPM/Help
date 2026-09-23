@@ -1,0 +1,22 @@
+# iris-service.yaml
+#
+# Expõe as portas do pod do IRIS dentro do cluster. Como é ClusterIP
+# (não LoadBalancer), o acesso de fora do cluster é feito via
+# kubectl port-forward (passo 7) — o que funciona bem em qualquer
+# Kubernetes local, sem depender de um provedor de LoadBalancer.
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: iris
+spec:
+  selector:
+    app: iris
+  ports:
+    - name: webserver
+      port: 52773
+      targetPort: 52773
+    - name: superserver
+      port: 1972
+      targetPort: 1972
+  type: ClusterIP

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .caption { fill: #1a1d23; font-size: 20px; font-weight: 700; }
+    .cluster-box { fill: #eef1f5; stroke: #9aa1ad; stroke-width: 1.5; stroke-dasharray: 6 4; }
+    .cluster-label { fill: #4b5563; font-size: 13px; font-weight: 700; }
+    .deploy-box { fill: #ffffff; stroke: #2f6fed; stroke-width: 1.5; }
+    .pod-box { fill: #f7f9ff; stroke: #5b8def; stroke-width: 1.5; }
+    .container-box { fill: #ffffff; stroke: #9aa1ad; stroke-width: 1.5; }
+    .pvc-box { fill: #fff8ef; stroke: #d9822b; stroke-width: 1.5; }
+    .svc-box { fill: #f0fbf4; stroke: #1f9d55; stroke-width: 1.5; }
+    .ext-box { fill: #ffffff; stroke: #6b7280; stroke-width: 1.5; }
+    .title-14 { fill: #1a1d23; font-size: 14px; font-weight: 700; }
+    .title-13 { fill: #1a1d23; font-size: 13px; font-weight: 700; }
+    .sub-12 { fill: #6b7280; font-size: 12px; }
+    .sub-11 { fill: #6b7280; font-size: 11px; }
+    .sub-10 { fill: #6b7280; font-size: 10.5px; }
+    .pill { fill: #eef1f5; stroke: #c7ccd4; stroke-width: 1; }
+    .pill-text { fill: #374151; font-size: 11px; text-anchor: middle; dominant-baseline: central; }
+    .arrow { stroke: #6b7280; stroke-width: 1.8; fill: none; marker-end: url(#arrowhead); }
+    .arrow-dashed { stroke: #9aa1ad; stroke-width: 1.8; fill: none; stroke-dasharray: 5 4; marker-end: url(#arrowhead); }
+    .flow-label { fill: #4b5563; font-size: 10.5px; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="9" markerHeight="7" refX="7.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="620" fill="#ffffff"/>
+
+  <text x="30" y="34" class="caption">Arquitetura: IRIS no Kubernetes local</text>
+
+  <!-- Cluster boundary -->
+  <rect x="30" y="56" width="940" height="350" rx="12" class="cluster-box"/>
+  <text x="50" y="80" class="cluster-label">Cluster Kubernetes (Docker Desktop / kind / minikube)</text>
+
+  <!-- Deployment -->
+  <rect x="60" y="96" width="520" height="280" rx="10" class="deploy-box"/>
+  <text x="80" y="120" class="title-14">Deployment: iris</text>
+  <text x="80" y="138" class="sub-12">replicas: 1</text>
+
+  <!-- Pod -->
+  <rect x="90" y="150" width="460" height="210" rx="10" class="pod-box"/>
+  <text x="110" y="172" class="title-13">Pod: iris</text>
+  <text x="110" y="188" class="sub-11">label: app=iris</text>
+
+  <!-- Container -->
+  <rect x="120" y="200" width="400" height="150" rx="8" class="container-box"/>
+  <text x="140" y="222" class="title-13">Container: iris</text>
+  <text x="140" y="240" class="sub-10">image: intersystems/iris-community:latest-em</text>
+
+  <rect x="140" y="254" width="150" height="26" rx="13" class="pill"/>
+  <text x="215" y="268" class="pill-text">52773 · webserver</text>
+  <rect x="300" y="254" width="150" height="26" rx="13" class="pill"/>
+  <text x="375" y="268" class="pill-text">1972 · superserver</text>
+
+  <text x="140" y="312" class="sub-11">volumeMount:</text>
+  <text x="140" y="328" class="sub-11">/durable  (env ISC_DATA_DIRECTORY)</text>
+
+  <!-- PVC -->
+  <rect x="610" y="150" width="330" height="100" rx="10" class="pvc-box"/>
+  <text x="630" y="176" class="title-13">PersistentVolumeClaim: iris-data</text>
+  <text x="630" y="196" class="sub-11">5Gi · accessMode: ReadWriteOnce</text>
+  <text x="630" y="214" class="sub-11">dados do IRIS sobrevivem a restarts do pod</text>
+
+  <!-- Service -->
+  <rect x="610" y="280" width="330" height="100" rx="10" class="svc-box"/>
+  <text x="630" y="306" class="title-13">Service: iris (ClusterIP)</text>
+  <text x="630" y="326" class="sub-11">selector: app=iris</text>
+  <text x="630" y="344" class="sub-11">ports: 52773, 1972 → pod</text>
+
+  <!-- connectors inside cluster -->
+  <path d="M520,300 L575,300 L575,200 L608,200" class="arrow-dashed"/>
+  <text x="560" y="188" class="flow-label" text-anchor="middle">monta o volume</text>
+
+  <path d="M608,330 L550,330" class="arrow"/>
+  <text x="578" y="320" class="flow-label" text-anchor="middle">roteia p/ pod</text>
+
+  <!-- outside cluster -->
+  <text x="30" y="428" class="cluster-label">Fora do cluster (sua máquina)</text>
+
+  <rect x="610" y="446" width="330" height="56" rx="8" class="ext-box"/>
+  <text x="630" y="468" class="title-13">kubectl port-forward svc/iris</text>
+  <text x="630" y="486" class="sub-11">52773:52773   1972:1972</text>
+
+  <path d="M775,380 L775,446" class="arrow"/>
+
+  <rect x="380" y="524" width="260" height="76" rx="8" class="ext-box"/>
+  <text x="400" y="548" class="title-13">Navegador</text>
+  <text x="400" y="566" class="sub-10">localhost:52773/csp/sys/...</text>
+  <text x="400" y="582" class="sub-10">Management Portal (_SYSTEM)</text>
+
+  <path d="M775,502 L775,514 L510,514 L510,524" class="arrow"/>
+
+  <rect x="660" y="524" width="280" height="76" rx="8" class="ext-box"/>
+  <text x="680" y="548" class="title-13">Terminal</text>
+  <text x="680" y="566" class="sub-10">kubectl exec deploy/iris --</text>
+  <text x="680" y="582" class="sub-10">iris session iris</text>
+
+  <path d="M320,360 L320,506 L800,506 L800,524" class="arrow-dashed"/>
+  <text x="325" y="500" class="flow-label">exec direto no pod (não passa pelo Service)</text>
+</svg>

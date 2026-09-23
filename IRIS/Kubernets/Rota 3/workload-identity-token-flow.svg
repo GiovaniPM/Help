@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .caption { fill: #1a1d23; font-size: 20px; font-weight: 700; }
+    .step-box { fill: #ffffff; stroke: #6b7280; stroke-width: 1.5; }
+    .identity-box { fill: #eaf4ff; stroke: #0078d4; stroke-width: 1.5; }
+    .pod-box { fill: #f7f9ff; stroke: #5b8def; stroke-width: 1.5; }
+    .num-circle { fill: #0078d4; }
+    .num-text { fill: #ffffff; font-size: 13px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+    .title-13 { fill: #1a1d23; font-size: 13px; font-weight: 700; }
+    .sub-11 { fill: #6b7280; font-size: 11px; }
+    .sub-10 { fill: #6b7280; font-size: 10.5px; }
+    .arrow-blue { stroke: #0078d4; stroke-width: 2; fill: none; marker-end: url(#arrowhead-blue); }
+    .flow-label { fill: #374151; font-size: 11px; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead-blue" markerWidth="9" markerHeight="7" refX="7.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#0078d4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="520" fill="#ffffff"/>
+  <text x="30" y="34" class="caption">Fluxo: troca do token projetado da ServiceAccount por um token do Entra ID</text>
+
+  <!-- Pod -->
+  <rect x="40" y="80" width="200" height="90" rx="10" class="pod-box"/>
+  <text x="58" y="104" class="title-13">Pod (Job/CronJob)</text>
+  <text x="58" y="122" class="sub-11">ServiceAccount: iris-cloud-ops</text>
+  <text x="58" y="138" class="sub-10">webhook injeta AZURE_CLIENT_ID,</text>
+  <text x="58" y="152" class="sub-10">AZURE_TENANT_ID, token projetado</text>
+
+  <circle cx="270" cy="90" r="12" class="num-circle"/>
+  <text x="270" y="91" class="num-text">1</text>
+  <path d="M240,110 L360,110" class="arrow-blue"/>
+  <text x="255" y="100" class="flow-label">SDK/CLI lê o token projetado (arquivo local)</text>
+
+  <!-- AKS OIDC issuer -->
+  <rect x="360" y="80" width="220" height="90" rx="10" class="step-box"/>
+  <text x="378" y="104" class="title-13">OIDC issuer do AKS</text>
+  <text x="378" y="122" class="sub-11">expõe as chaves públicas que</text>
+  <text x="378" y="136" class="sub-11">assinam o token projetado</text>
+  <text x="378" y="152" class="sub-10">(Service Account Token Volume)</text>
+
+  <circle cx="610" cy="90" r="12" class="num-circle"/>
+  <text x="610" y="91" class="num-text">2</text>
+  <path d="M580,110 L720,110" class="arrow-blue"/>
+  <text x="600" y="100" class="flow-label">client_assertion (JWT) enviado ao Entra ID</text>
+
+  <!-- Entra ID -->
+  <rect x="720" y="80" width="240" height="90" rx="10" class="identity-box"/>
+  <text x="738" y="104" class="title-13">Microsoft Entra ID</text>
+  <text x="738" y="122" class="sub-11">valida issuer + subject contra a</text>
+  <text x="738" y="136" class="sub-11">Federated Identity Credential</text>
+  <text x="738" y="152" class="sub-10">(client assertion type: OIDC federation)</text>
+
+  <circle cx="840" cy="200" r="12" class="num-circle"/>
+  <text x="840" y="201" class="num-text">3</text>
+  <path d="M840,170 L840,240" class="arrow-blue"/>
+  <text x="850" y="210" class="flow-label">emite Azure AD access token</text>
+
+  <!-- Token issued -->
+  <rect x="720" y="250" width="240" height="70" rx="10" class="identity-box"/>
+  <text x="738" y="274" class="title-13">Azure AD access token</text>
+  <text x="738" y="292" class="sub-11">escopo da UAMI iris-workload-identity</text>
+  <text x="738" y="306" class="sub-10">validade curta (~1h), renovado automaticamente</text>
+
+  <circle cx="610" cy="335" r="12" class="num-circle"/>
+  <text x="610" y="336" class="num-text">4</text>
+  <path d="M720,300 L360,335" class="arrow-blue"/>
+  <text x="450" y="320" class="flow-label">token retorna ao SDK dentro do Pod</text>
+
+  <!-- Azure resource call -->
+  <rect x="140" y="300" width="300" height="90" rx="10" class="step-box"/>
+  <text x="158" y="324" class="title-13">Chamada autorizada ao recurso Azure</text>
+  <text x="158" y="342" class="sub-11">Key Vault: GetSecret (iris.key, senha)</text>
+  <text x="158" y="358" class="sub-11">Storage: PutBlob (backup)</text>
+  <text x="158" y="374" class="sub-10">autorizado pelas role assignments (RBAC)</text>
+
+  <path d="M240,170 Q120,240 200,300" class="arrow-blue"/>
+
+  <!-- Footnote -->
+  <rect x="40" y="420" width="920" height="70" rx="8" class="step-box"/>
+  <text x="58" y="444" class="sub-11">Nenhuma credencial estática (client secret, chave de acesso) é armazenada no cluster: o token projetado da</text>
+  <text x="58" y="462" class="sub-11">ServiceAccount é a única credencial local, tem escopo estreito (audience api://AzureADTokenExchange) e</text>
+  <text x="58" y="478" class="sub-11">validade curta — a Federated Identity Credential é o único elo de confiança entre AKS e Entra ID.</text>
+</svg>

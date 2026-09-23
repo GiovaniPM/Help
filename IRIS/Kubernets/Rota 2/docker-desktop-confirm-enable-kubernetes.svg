@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .step-box { fill: #ffffff; stroke: #c7ccd4; stroke-width: 1.5; }
+    .step-box.active { stroke: #22a06b; stroke-width: 2; }
+    .step-num { fill: #2f6fed; }
+    .step-num-text { fill: #ffffff; font-size: 15px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+    .step-title { fill: #1a1d23; font-size: 16px; font-weight: 600; text-anchor: middle; }
+    .step-sub { fill: #6b7280; font-size: 12px; text-anchor: middle; }
+    .arrow { stroke: #9aa1ad; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    .checkbox-box { fill: #22a06b; stroke: #22a06b; }
+    .check-mark { stroke: #ffffff; stroke-width: 2.4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .confirm-text { fill: #146c43; font-size: 13px; font-weight: 700; text-anchor: start; }
+    .caption { fill: #1a1d23; font-size: 18px; font-weight: 700; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#9aa1ad"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="220" fill="#f5f6f8"/>
+
+  <text x="30" y="34" class="caption">Confirmar: Enable Kubernetes marcado</text>
+
+  <!-- Step 1: Docker Desktop -->
+  <g>
+    <rect x="30" y="70" width="180" height="100" rx="10" class="step-box"/>
+    <circle cx="51" cy="87" r="12" class="step-num"/>
+    <text x="51" y="88" class="step-num-text">1</text>
+    <text x="120" y="112" class="step-title">Docker</text>
+    <text x="120" y="132" class="step-title">Desktop</text>
+    <!-- whale-ish icon: simple container box -->
+    <g transform="translate(120,150)" fill="none" stroke="#4b5563" stroke-width="2">
+      <rect x="-12" y="-8" width="24" height="14" rx="2"/>
+      <line x1="-16" y1="6" x2="16" y2="6"/>
+    </g>
+  </g>
+
+  <path d="M210,120 L246,120" class="arrow"/>
+
+  <!-- Step 2: Settings -->
+  <g>
+    <rect x="248" y="70" width="180" height="100" rx="10" class="step-box"/>
+    <circle cx="269" cy="87" r="12" class="step-num"/>
+    <text x="269" y="88" class="step-num-text">2</text>
+    <text x="338" y="122" class="step-title">Settings</text>
+    <g transform="translate(338,150)" fill="none" stroke="#4b5563" stroke-width="2">
+      <circle cx="0" cy="0" r="9"/>
+      <circle cx="0" cy="0" r="2.8" fill="#4b5563" stroke="none"/>
+      <g stroke-linecap="round">
+        <line x1="0" y1="-13" x2="0" y2="-9"/>
+        <line x1="0" y1="13" x2="0" y2="9"/>
+        <line x1="-13" y1="0" x2="-9" y2="0"/>
+        <line x1="13" y1="0" x2="9" y2="0"/>
+      </g>
+    </g>
+  </g>
+
+  <path d="M428,120 L464,120" class="arrow"/>
+
+  <!-- Step 3: Kubernetes -->
+  <g>
+    <rect x="466" y="70" width="180" height="100" rx="10" class="step-box"/>
+    <circle cx="487" cy="87" r="12" class="step-num"/>
+    <text x="487" y="88" class="step-num-text">3</text>
+    <text x="556" y="122" class="step-title">Kubernetes</text>
+    <g transform="translate(556,152)" fill="none" stroke="#4b5563" stroke-width="2">
+      <circle cx="0" cy="0" r="10"/>
+      <circle cx="0" cy="0" r="2.8" fill="#4b5563" stroke="none"/>
+      <line x1="0" y1="-10" x2="0" y2="-15"/>
+      <line x1="0" y1="10" x2="0" y2="15"/>
+      <line x1="-8.7" y1="-5" x2="-13" y2="-7.5"/>
+      <line x1="8.7" y1="5" x2="13" y2="7.5"/>
+      <line x1="-8.7" y1="5" x2="-13" y2="7.5"/>
+      <line x1="8.7" y1="-5" x2="13" y2="-7.5"/>
+    </g>
+  </g>
+
+  <path d="M646,120 L682,120" class="arrow"/>
+
+  <!-- Confirmation panel -->
+  <g>
+    <rect x="684" y="70" width="186" height="100" rx="10" class="step-box active"/>
+    <rect x="702" y="92" width="22" height="22" rx="4" class="checkbox-box"/>
+    <path d="M706,103 L712,109 L721,97" class="check-mark"/>
+    <text x="732" y="99" class="confirm-text">Enable</text>
+    <text x="732" y="115" class="confirm-text">Kubernetes</text>
+    <text x="777" y="148" class="step-sub" font-size="12">marcado ✓</text>
+  </g>
+</svg>

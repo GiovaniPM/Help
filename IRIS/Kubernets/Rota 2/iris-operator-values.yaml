@@ -1,0 +1,19 @@
+# iris-operator-values.yaml
+#
+# Override para o values.yaml do chart Helm "iris-operator" (distribuído
+# dentro do pacote IKO obtido no WRC, em chart/iris-operator/values.yaml).
+# Aponta o operador para a imagem já disponibilizada no registry acessível
+# ao cluster (ver seção 6.2) e referencia o pull secret criado na seção 6.3.
+#
+# Uso:
+#   helm install intersystems iris_operator-<versao>/chart/iris-operator \
+#     --namespace iko --create-namespace \
+#     -f iris-operator-values.yaml
+
+operator:
+  registry: docker.acme.com/kubernetes
+  repository: intersystems-operator
+  tag: latest
+
+imagePullSecrets:
+  - name: acme-pull-secret

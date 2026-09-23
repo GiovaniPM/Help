@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 480" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .caption { fill: #1a1d23; font-size: 20px; font-weight: 700; }
+    .cmd-bg { fill: #1a1d23; }
+    .cmd-text { font-family: 'Consolas', 'Courier New', monospace; font-size: 15px; fill: #e5e7eb; }
+    .cmd-flag { font-family: 'Consolas', 'Courier New', monospace; font-size: 15px; fill: #7dd3fc; font-weight: 700; }
+    .cmd-val { font-family: 'Consolas', 'Courier New', monospace; font-size: 15px; fill: #fbbf24; }
+    .leader { stroke: #9aa1ad; stroke-width: 1.3; fill: none; }
+    .dot { fill: #6b7280; }
+    .card { fill: #ffffff; stroke: #c7ccd4; stroke-width: 1.2; }
+    .card-title { fill: #1a1d23; font-size: 12.5px; font-weight: 700; }
+    .card-text { fill: #4b5563; font-size: 11.5px; }
+  </style>
+
+  <rect x="0" y="0" width="1000" height="480" fill="#ffffff"/>
+  <text x="30" y="34" class="caption">Anatomia do comando docker run</text>
+
+  <!-- command bar -->
+  <rect x="30" y="56" width="940" height="40" rx="6" class="cmd-bg"/>
+  <text x="46" y="82" class="cmd-text">docker run <tspan class="cmd-flag">-d</tspan> <tspan class="cmd-flag">--name</tspan> <tspan class="cmd-val">my-iris</tspan> <tspan class="cmd-flag">-p</tspan> <tspan class="cmd-val">1972:1972</tspan> <tspan class="cmd-flag">-p</tspan> <tspan class="cmd-val">52773:52773</tspan> <tspan class="cmd-flag">-v</tspan> <tspan class="cmd-val">iris_data:/durable</tspan> <tspan class="cmd-val">intersystems/iris-community:latest-em</tspan></text>
+
+  <!-- dots on the bar, approx x positions aligned to tokens -->
+  <circle cx="120" cy="96" r="3.5" class="dot"/>
+  <circle cx="175" cy="96" r="3.5" class="dot"/>
+  <circle cx="290" cy="96" r="3.5" class="dot"/>
+  <circle cx="420" cy="96" r="3.5" class="dot"/>
+  <circle cx="575" cy="96" r="3.5" class="dot"/>
+  <circle cx="770" cy="96" r="3.5" class="dot"/>
+
+  <!-- Card 1: -d -->
+  <path d="M120,96 L120,130" class="leader"/>
+  <rect x="30" y="130" width="180" height="86" rx="8" class="card"/>
+  <text x="46" y="150" class="card-title">-d (detach)</text>
+  <text x="46" y="168" class="card-text">Executa o container</text>
+  <text x="46" y="182" class="card-text">em segundo plano,</text>
+  <text x="46" y="196" class="card-text">liberando o terminal.</text>
+
+  <!-- Card 2: name flag -->
+  <path d="M175,96 L230,130" class="leader"/>
+  <rect x="220" y="130" width="180" height="86" rx="8" class="card"/>
+  <text x="236" y="150" class="card-title">--name my-iris</text>
+  <text x="236" y="168" class="card-text">Identificador fixo do</text>
+  <text x="236" y="182" class="card-text">container, usado em</text>
+  <text x="236" y="196" class="card-text">docker exec/stop/logs.</text>
+
+  <!-- Card 3: -p 1972 -->
+  <path d="M290,96 L290,130" class="leader"/>
+  <rect x="410" y="130" width="200" height="86" rx="8" class="card"/>
+  <text x="426" y="150" class="card-title">-p 1972:1972</text>
+  <text x="426" y="168" class="card-text">Publica a porta do</text>
+  <text x="426" y="182" class="card-text">SuperServer (protocolo</text>
+  <text x="426" y="196" class="card-text">nativo / drivers IRIS).</text>
+  <path d="M420,96 L420,130" class="leader"/>
+
+  <!-- Card 4: -p 52773 -->
+  <rect x="630" y="130" width="210" height="86" rx="8" class="card"/>
+  <text x="646" y="150" class="card-title">-p 52773:52773</text>
+  <text x="646" y="168" class="card-text">Publica a porta HTTP do</text>
+  <text x="646" y="182" class="card-text">Management Portal e do</text>
+  <text x="646" y="196" class="card-text">Web Gateway.</text>
+  <path d="M575,96 L735,130" class="leader"/>
+
+  <!-- Card 5: -v -->
+  <rect x="220" y="246" width="260" height="96" rx="8" class="card"/>
+  <text x="236" y="266" class="card-title">-v iris_data:/durable</text>
+  <text x="236" y="284" class="card-text">Monta o volume nomeado</text>
+  <text x="236" y="298" class="card-text">iris_data em /durable —</text>
+  <text x="236" y="312" class="card-text">diretório do durable %SYS,</text>
+  <text x="236" y="326" class="card-text">onde o IRIS persiste dados.</text>
+  <path d="M290,130 L350,246" class="leader" fill="none"/>
+
+  <!-- Card 6: image -->
+  <rect x="510" y="246" width="330" height="96" rx="8" class="card"/>
+  <text x="526" y="266" class="card-title">intersystems/iris-community:latest-em</text>
+  <text x="526" y="284" class="card-text">Imagem pública (Docker Hub) do</text>
+  <text x="526" y="298" class="card-text">InterSystems IRIS Community Edition,</text>
+  <text x="526" y="312" class="card-text">tag "latest-em" (Evaluation/Multi-arch).</text>
+  <path d="M770,96 L770,246" class="leader"/>
+
+  <!-- note box -->
+  <rect x="30" y="366" width="940" height="94" rx="8" fill="#fff8ef" stroke="#d9822b" stroke-width="1.2"/>
+  <text x="46" y="390" class="card-title" fill="#7a4a12">Observação de arquitetura</text>
+  <text x="46" y="410" class="card-text">O volume nomeado "iris_data" é gerenciado pelo próprio Docker (não é um bind mount para uma pasta do</text>
+  <text x="46" y="426" class="card-text">host). Isso garante persistência entre "docker stop/start" e "docker rm + docker run" com o mesmo volume,</text>
+  <text x="46" y="442" class="card-text">mas o ciclo de vida dos dados passa a depender do Docker local — não há replicação nem backup automático.</text>
+</svg>

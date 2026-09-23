@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 460" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .step-box { fill: #ffffff; stroke: #c7ccd4; stroke-width: 1.5; }
+    .step-box.active { stroke: #2f6fed; stroke-width: 2; }
+    .step-num { fill: #2f6fed; }
+    .step-num-text { fill: #ffffff; font-size: 15px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+    .step-title { fill: #1a1d23; font-size: 14px; font-weight: 600; text-anchor: middle; }
+    .step-sub { fill: #6b7280; font-size: 11px; text-anchor: middle; }
+    .arrow { stroke: #9aa1ad; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    .caption { fill: #1a1d23; font-size: 20px; font-weight: 700; }
+    .row-label { fill: #1a1d23; font-size: 13px; font-weight: 700; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#9aa1ad"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1040" height="460" fill="#f5f6f8"/>
+
+  <text x="30" y="38" class="caption">IKO: Obtenção e instalação do operador</text>
+
+  <!-- Row 1 -->
+  <text x="30" y="72" class="row-label">1. Obter e disponibilizar a imagem do IKO</text>
+
+  <g>
+    <rect x="30" y="90" width="220" height="110" rx="10" class="step-box"/>
+    <circle cx="53" cy="108" r="12" class="step-num"/>
+    <text x="53" y="109" class="step-num-text">1</text>
+    <text x="140" y="140" class="step-title">Download no WRC</text>
+    <text x="140" y="160" class="step-sub">iris_operator-&lt;versão&gt;</text>
+    <text x="140" y="176" class="step-sub">-unix.tar.gz</text>
+  </g>
+
+  <path d="M250,145 L286,145" class="arrow"/>
+
+  <g>
+    <rect x="288" y="90" width="220" height="110" rx="10" class="step-box"/>
+    <circle cx="309" cy="108" r="12" class="step-num"/>
+    <text x="309" y="109" class="step-num-text">2</text>
+    <text x="398" y="140" class="step-title">Extrair o pacote</text>
+    <text x="398" y="160" class="step-sub">image/ · chart/ ·</text>
+    <text x="398" y="176" class="step-sub">samples/</text>
+  </g>
+
+  <path d="M508,145 L544,145" class="arrow"/>
+
+  <g>
+    <rect x="546" y="90" width="230" height="110" rx="10" class="step-box"/>
+    <circle cx="567" cy="108" r="12" class="step-num"/>
+    <text x="567" y="109" class="step-num-text">3</text>
+    <text x="661" y="135" class="step-title">docker load / tag</text>
+    <text x="661" y="155" class="step-sub">a partir do .tgz ou via</text>
+    <text x="661" y="171" class="step-sub">ICR (containers.intersystems.com)</text>
+  </g>
+
+  <path d="M776,145 L812,145" class="arrow"/>
+
+  <g>
+    <rect x="814" y="90" width="196" height="110" rx="10" class="step-box active"/>
+    <circle cx="835" cy="108" r="12" class="step-num"/>
+    <text x="835" y="109" class="step-num-text">4</text>
+    <text x="912" y="135" class="step-title">docker push</text>
+    <text x="912" y="155" class="step-sub">para o registry privado</text>
+    <text x="912" y="171" class="step-sub">acessível ao cluster</text>
+  </g>
+
+  <path d="M912,200 L912,230 L145,230 L145,258" class="arrow"/>
+
+  <!-- Row 2 -->
+  <text x="30" y="252" class="row-label">2. Instalar o operador no cluster</text>
+
+  <g>
+    <rect x="30" y="270" width="220" height="120" rx="10" class="step-box"/>
+    <circle cx="53" cy="288" r="12" class="step-num"/>
+    <text x="53" y="289" class="step-num-text">5</text>
+    <text x="140" y="318" class="step-title">Criar image pull</text>
+    <text x="140" y="336" class="step-title">secrets</text>
+    <text x="140" y="356" class="step-sub">registry do operador +</text>
+    <text x="140" y="372" class="step-sub">ICR (imagens IRIS)</text>
+  </g>
+
+  <path d="M250,330 L286,330" class="arrow"/>
+
+  <g>
+    <rect x="288" y="270" width="220" height="120" rx="10" class="step-box"/>
+    <circle cx="309" cy="288" r="12" class="step-num"/>
+    <text x="309" y="289" class="step-num-text">6</text>
+    <text x="398" y="318" class="step-title">Editar values.yaml</text>
+    <text x="398" y="336" class="step-title">do chart</text>
+    <text x="398" y="356" class="step-sub">registry / repository /</text>
+    <text x="398" y="372" class="step-sub">tag / imagePullSecrets</text>
+  </g>
+
+  <path d="M508,330 L544,330" class="arrow"/>
+
+  <g>
+    <rect x="546" y="270" width="220" height="120" rx="10" class="step-box"/>
+    <circle cx="567" cy="288" r="12" class="step-num"/>
+    <text x="567" y="289" class="step-num-text">7</text>
+    <text x="656" y="326" class="step-title">helm install</text>
+    <text x="656" y="346" class="step-sub">chart/iris-operator</text>
+    <text x="656" y="362" class="step-sub">namespace: iko</text>
+  </g>
+
+  <path d="M766,330 L802,330" class="arrow"/>
+
+  <g>
+    <rect x="804" y="270" width="206" height="120" rx="10" class="step-box active"/>
+    <circle cx="825" cy="288" r="12" class="step-num"/>
+    <text x="825" y="289" class="step-num-text">8</text>
+    <text x="907" y="318" class="step-title">Verificar operador</text>
+    <text x="907" y="338" class="step-sub">kubectl get deploy -l</text>
+    <text x="907" y="354" class="step-sub">app=iris-operator</text>
+    <text x="907" y="370" class="step-sub">STATUS = Running</text>
+  </g>
+
+  <text x="30" y="418" class="step-sub" text-anchor="start" font-size="12.5">
+    Após o operador estar em execução, o CRD "IrisCluster" fica disponível no cluster para o próximo passo (seção 6.6).
+  </text>
+  <text x="30" y="438" class="step-sub" text-anchor="start" font-size="12.5">
+    O download no passo 1 exige uma conta gratuita no WRC (Worldwide Response Center).
+  </text>
+</svg>

@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .caption { fill: #1a1d23; font-size: 20px; font-weight: 700; }
+    .cluster-box { fill: #eef1f5; stroke: #9aa1ad; stroke-width: 1.5; stroke-dasharray: 6 4; }
+    .cluster-label { fill: #4b5563; font-size: 13px; font-weight: 700; }
+    .operator-box { fill: #f5f0ff; stroke: #7c4dff; stroke-width: 1.5; }
+    .cr-box { fill: #ffffff; stroke: #2f6fed; stroke-width: 1.5; }
+    .sts-box { fill: #ffffff; stroke: #2f6fed; stroke-width: 1.5; }
+    .pod-box { fill: #f7f9ff; stroke: #5b8def; stroke-width: 1.5; }
+    .mirror-box { fill: #f7f9ff; stroke: #5b8def; stroke-width: 1.2; stroke-dasharray: 4 3; }
+    .pvc-box { fill: #fff8ef; stroke: #d9822b; stroke-width: 1.5; }
+    .svc-box { fill: #f0fbf4; stroke: #1f9d55; stroke-width: 1.5; }
+    .ext-box { fill: #ffffff; stroke: #6b7280; stroke-width: 1.5; }
+    .title-14 { fill: #1a1d23; font-size: 14px; font-weight: 700; }
+    .title-13 { fill: #1a1d23; font-size: 13px; font-weight: 700; }
+    .title-12 { fill: #1a1d23; font-size: 12px; font-weight: 700; }
+    .sub-12 { fill: #6b7280; font-size: 12px; }
+    .sub-11 { fill: #6b7280; font-size: 11px; }
+    .sub-10 { fill: #6b7280; font-size: 10.5px; }
+    .pill { fill: #eef1f5; stroke: #c7ccd4; stroke-width: 1; }
+    .pill-text { fill: #374151; font-size: 10.5px; text-anchor: middle; dominant-baseline: central; }
+    .arrow { stroke: #6b7280; stroke-width: 1.8; fill: none; marker-end: url(#arrowhead); }
+    .arrow-dashed { stroke: #9aa1ad; stroke-width: 1.8; fill: none; stroke-dasharray: 5 4; marker-end: url(#arrowhead); }
+    .arrow-purple { stroke: #7c4dff; stroke-width: 1.8; fill: none; marker-end: url(#arrowhead-purple); }
+    .flow-label { fill: #4b5563; font-size: 10.5px; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="9" markerHeight="7" refX="7.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#6b7280"/>
+    </marker>
+    <marker id="arrowhead-purple" markerWidth="9" markerHeight="7" refX="7.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#7c4dff"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="760" fill="#ffffff"/>
+
+  <text x="30" y="34" class="caption">Arquitetura: IRIS no Kubernetes via IKO (InterSystems Kubernetes Operator)</text>
+
+  <!-- External registries -->
+  <text x="30" y="66" class="cluster-label">Fora do cluster</text>
+  <rect x="30" y="76" width="230" height="60" rx="8" class="ext-box"/>
+  <text x="50" y="100" class="title-13">WRC / ICR</text>
+  <text x="50" y="118" class="sub-10">pacote IKO + imagens IRIS/webgateway</text>
+
+  <!-- Cluster boundary -->
+  <rect x="30" y="150" width="940" height="560" rx="12" class="cluster-box"/>
+  <text x="50" y="174" class="cluster-label">Cluster Kubernetes</text>
+
+  <!-- Operator -->
+  <rect x="60" y="192" width="260" height="90" rx="10" class="operator-box"/>
+  <text x="80" y="216" class="title-14">Deployment: iris-operator</text>
+  <text x="80" y="234" class="sub-11">instalado via Helm (chart iris-operator)</text>
+  <text x="80" y="250" class="sub-11">observa (watch) recursos IrisCluster</text>
+  <text x="80" y="266" class="sub-10">namespace: iko</text>
+
+  <path d="M160,136 L160,192" class="arrow-dashed"/>
+  <text x="168" y="166" class="flow-label">pull da imagem do operador</text>
+
+  <!-- IrisCluster CR -->
+  <rect x="360" y="192" width="260" height="90" rx="10" class="cr-box"/>
+  <text x="380" y="216" class="title-14">CR: IrisCluster</text>
+  <text x="380" y="234" class="sub-11">metadata.name: iko-test</text>
+  <text x="380" y="250" class="sub-11">aplicado pelo usuário (kubectl apply)</text>
+  <text x="380" y="266" class="sub-10">spec.topology: data / compute / webgateway</text>
+
+  <path d="M320,237 L358,237" class="arrow-purple"/>
+  <text x="325" y="227" class="flow-label" fill="#7c4dff">reconcile</text>
+
+  <path d="M490,282 L490,300" class="arrow-purple"/>
+  <text x="498" y="296" class="flow-label" fill="#7c4dff">cria/gerencia recursos filhos</text>
+
+  <!-- Data StatefulSet (mirrored) -->
+  <rect x="60" y="312" width="420" height="150" rx="10" class="sts-box"/>
+  <text x="80" y="336" class="title-14">StatefulSet: iko-test-data</text>
+  <text x="80" y="352" class="sub-11">topology.data · mirrored: true</text>
+
+  <rect x="80" y="364" width="185" height="80" rx="8" class="mirror-box"/>
+  <text x="95" y="384" class="title-12">Pod: data-primary</text>
+  <text x="95" y="400" class="sub-10">IRIS + journal/mirror</text>
+  <text x="95" y="416" class="sub-10">portas 52773 / 1972</text>
+
+  <rect x="275" y="364" width="185" height="80" rx="8" class="mirror-box"/>
+  <text x="290" y="384" class="title-12">Pod: data-backup</text>
+  <text x="290" y="400" class="sub-10">réplica em mirror sync</text>
+  <text x="290" y="416" class="sub-10">assume em failover</text>
+
+  <!-- Arbiter -->
+  <rect x="500" y="312" width="150" height="60" rx="10" class="pod-box"/>
+  <text x="515" y="334" class="title-13">Pod: arbiter</text>
+  <text x="515" y="352" class="sub-10">árbitro do mirror</text>
+
+  <!-- Compute -->
+  <rect x="500" y="382" width="150" height="80" rx="10" class="sts-box"/>
+  <text x="515" y="404" class="title-13">Deployment:</text>
+  <text x="515" y="418" class="title-13">iko-test-compute</text>
+  <text x="515" y="436" class="sub-10">topology.compute</text>
+  <text x="515" y="450" class="sub-10">replicas: N</text>
+
+  <!-- WebGateway -->
+  <rect x="670" y="312" width="150" height="80" rx="10" class="sts-box"/>
+  <text x="685" y="334" class="title-13">Deployment:</text>
+  <text x="685" y="348" class="title-13">iko-test-webgateway</text>
+  <text x="685" y="366" class="sub-10">apache-lockeddown</text>
+  <text x="685" y="380" class="sub-10">replicas: 1</text>
+
+  <!-- PVCs -->
+  <rect x="60" y="480" width="420" height="60" rx="10" class="pvc-box"/>
+  <text x="80" y="502" class="title-13">PVCs: iko-test-data-primary / -backup</text>
+  <text x="80" y="520" class="sub-11">provisionados automaticamente pelo operator (storageClassName)</text>
+
+  <path d="M270,462 L270,480" class="arrow-dashed"/>
+
+  <!-- Services -->
+  <rect x="60" y="560" width="330" height="80" rx="10" class="svc-box"/>
+  <text x="80" y="584" class="title-13">Service: iko-test-data</text>
+  <text x="80" y="602" class="sub-11">serviceTemplate.spec.type</text>
+  <text x="80" y="618" class="sub-11">(ClusterIP ou LoadBalancer)</text>
+
+  <path d="M270,462 L270,560" class="arrow"/>
+
+  <rect x="670" y="560" width="200" height="80" rx="10" class="svc-box"/>
+  <text x="690" y="584" class="title-13">Service:</text>
+  <text x="690" y="600" class="title-13">iko-test-webgateway</text>
+  <text x="690" y="618" class="sub-11">porta 443/80</text>
+
+  <path d="M745,392 L745,560" class="arrow"/>
+  <path d="M575,462 L575,500 L225,500 L225,560" class="arrow-dashed"/>
+
+  <!-- Access -->
+  <text x="30" y="674" class="cluster-label">Acesso</text>
+  <rect x="60" y="686" width="330" height="56" rx="8" class="ext-box"/>
+  <text x="80" y="708" class="title-13">LoadBalancer externo ou</text>
+  <text x="80" y="726" class="sub-11">kubectl port-forward svc/iko-test-data 52773</text>
+
+  <path d="M225,640 L225,686" class="arrow"/>
+
+  <rect x="670" y="686" width="300" height="56" rx="8" class="ext-box"/>
+  <text x="690" y="708" class="title-13">Ingress / LoadBalancer HTTPS</text>
+  <text x="690" y="726" class="sub-11">via webgateway (produção)</text>
+
+  <path d="M770,640 L770,686" class="arrow"/>
+</svg>

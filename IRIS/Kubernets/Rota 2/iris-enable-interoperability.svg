@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 460" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .step-box { fill: #ffffff; stroke: #c7ccd4; stroke-width: 1.5; }
+    .step-box.active { stroke: #2f6fed; stroke-width: 2; }
+    .step-num { fill: #2f6fed; }
+    .step-num-text { fill: #ffffff; font-size: 15px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+    .step-title { fill: #1a1d23; font-size: 15px; font-weight: 600; text-anchor: middle; }
+    .step-sub { fill: #6b7280; font-size: 11.5px; text-anchor: middle; }
+    .arrow { stroke: #9aa1ad; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    .checkbox-box { fill: #2f6fed; stroke: #2f6fed; }
+    .check-mark { stroke: #ffffff; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .caption { fill: #1a1d23; font-size: 20px; font-weight: 700; }
+    .row-label { fill: #1a1d23; font-size: 13px; font-weight: 700; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#9aa1ad"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1040" height="460" fill="#f5f6f8"/>
+
+  <text x="30" y="38" class="caption">IRIS: Habilitar Interoperabilidade</text>
+
+  <!-- Row 1 label -->
+  <text x="30" y="72" class="row-label">1. Criar namespace com interoperabilidade</text>
+
+  <!-- Step 1: System Administration -->
+  <g>
+    <rect x="30" y="90" width="220" height="110" rx="10" class="step-box"/>
+    <circle cx="53" cy="108" r="12" class="step-num"/>
+    <text x="53" y="109" class="step-num-text">1</text>
+    <text x="140" y="140" class="step-title">System</text>
+    <text x="140" y="158" class="step-title">Administration</text>
+  </g>
+
+  <path d="M250,145 L286,145" class="arrow"/>
+
+  <!-- Step 2: Configuration -->
+  <g>
+    <rect x="288" y="90" width="180" height="110" rx="10" class="step-box"/>
+    <circle cx="309" cy="108" r="12" class="step-num"/>
+    <text x="309" y="109" class="step-num-text">2</text>
+    <text x="378" y="150" class="step-title">Configuration</text>
+  </g>
+
+  <path d="M468,145 L504,145" class="arrow"/>
+
+  <!-- Step 3: Namespaces -->
+  <g>
+    <rect x="506" y="90" width="180" height="110" rx="10" class="step-box"/>
+    <circle cx="527" cy="108" r="12" class="step-num"/>
+    <text x="527" y="109" class="step-num-text">3</text>
+    <text x="596" y="150" class="step-title">Namespaces</text>
+  </g>
+
+  <path d="M686,145 L722,145" class="arrow"/>
+
+  <!-- Step 4: Novo namespace / Enable Namespace for interoperability -->
+  <g>
+    <rect x="724" y="90" width="286" height="110" rx="10" class="step-box active"/>
+    <circle cx="747" cy="108" r="12" class="step-num"/>
+    <text x="747" y="109" class="step-num-text">4</text>
+    <text x="867" y="128" class="step-title">Novo namespace</text>
+    <rect x="742" y="140" width="18" height="18" rx="4" class="checkbox-box"/>
+    <path d="M745,149 L750,154 L757,144" class="check-mark"/>
+    <text x="769" y="153" class="step-sub" text-anchor="start" font-size="11">"Enable Namespace for</text>
+    <text x="769" y="165" class="step-sub" text-anchor="start" font-size="11">interoperability"</text>
+    <text x="867" y="188" class="step-sub">(ou use o namespace USER padrão)</text>
+  </g>
+
+  <!-- connector between rows -->
+  <path d="M867,200 L867,230 L145,230 L145,258" class="arrow"/>
+
+  <!-- Row 2 label -->
+  <text x="30" y="252" class="row-label">2. Criar a primeira Production</text>
+
+  <!-- Step 5: Interoperability -->
+  <g>
+    <rect x="30" y="270" width="200" height="110" rx="10" class="step-box"/>
+    <circle cx="53" cy="288" r="12" class="step-num"/>
+    <text x="53" y="289" class="step-num-text">5</text>
+    <text x="130" y="330" class="step-title">Interoperability</text>
+  </g>
+
+  <path d="M230,325 L266,325" class="arrow"/>
+
+  <!-- Step 6: List Productions -->
+  <g>
+    <rect x="268" y="270" width="200" height="110" rx="10" class="step-box"/>
+    <circle cx="291" cy="288" r="12" class="step-num"/>
+    <text x="291" y="289" class="step-num-text">6</text>
+    <text x="368" y="330" class="step-title">List Productions</text>
+  </g>
+
+  <path d="M468,325 L504,325" class="arrow"/>
+
+  <!-- Step 7: New -->
+  <g>
+    <rect x="506" y="270" width="150" height="110" rx="10" class="step-box"/>
+    <circle cx="527" cy="288" r="12" class="step-num"/>
+    <text x="527" y="289" class="step-num-text">7</text>
+    <text x="581" y="330" class="step-title">New</text>
+  </g>
+
+  <path d="M656,325 L692,325" class="arrow"/>
+
+  <!-- Step 8: Primeira Production -->
+  <g>
+    <rect x="694" y="270" width="316" height="110" rx="10" class="step-box active"/>
+    <circle cx="717" cy="288" r="12" class="step-num"/>
+    <text x="717" y="289" class="step-num-text">8</text>
+    <text x="852" y="320" class="step-title">Primeira Production</text>
+    <text x="852" y="342" class="step-sub">criada a partir do namespace</text>
+    <text x="852" y="358" class="step-sub">configurado no passo 4</text>
+  </g>
+
+  <text x="30" y="418" class="step-sub" text-anchor="start" font-size="13">
+    Caminho no Management Portal: System Administration → Configuration → Namespaces → (novo namespace)
+  </text>
+  <text x="30" y="440" class="step-sub" text-anchor="start" font-size="13">
+    Depois: Interoperability → List Productions → New
+  </text>
+</svg>

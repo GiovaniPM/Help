@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .caption { fill: #1a1d23; font-size: 20px; font-weight: 700; }
+    .host-box { fill: #eef1f5; stroke: #9aa1ad; stroke-width: 1.5; stroke-dasharray: 6 4; }
+    .host-label { fill: #4b5563; font-size: 13px; font-weight: 700; }
+    .container-box { fill: #ffffff; stroke: #2f6fed; stroke-width: 1.5; }
+    .engine-box { fill: #f7f9ff; stroke: #5b8def; stroke-width: 1.5; }
+    .volume-box { fill: #fff8ef; stroke: #d9822b; stroke-width: 1.5; }
+    .ext-box { fill: #ffffff; stroke: #6b7280; stroke-width: 1.5; }
+    .title-14 { fill: #1a1d23; font-size: 14px; font-weight: 700; }
+    .title-13 { fill: #1a1d23; font-size: 13px; font-weight: 700; }
+    .sub-12 { fill: #6b7280; font-size: 12px; }
+    .sub-11 { fill: #6b7280; font-size: 11px; }
+    .sub-10 { fill: #6b7280; font-size: 10.5px; }
+    .pill { fill: #eef1f5; stroke: #c7ccd4; stroke-width: 1; }
+    .pill-text { fill: #374151; font-size: 11px; text-anchor: middle; dominant-baseline: central; }
+    .arrow { stroke: #6b7280; stroke-width: 1.8; fill: none; marker-end: url(#arrowhead); }
+    .arrow-dashed { stroke: #9aa1ad; stroke-width: 1.8; fill: none; stroke-dasharray: 5 4; marker-end: url(#arrowhead); }
+    .flow-label { fill: #4b5563; font-size: 10.5px; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="9" markerHeight="7" refX="7.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="560" fill="#ffffff"/>
+
+  <text x="30" y="34" class="caption">Arquitetura: IRIS via Docker local</text>
+
+  <!-- Docker Engine host boundary -->
+  <rect x="30" y="56" width="940" height="330" rx="12" class="host-box"/>
+  <text x="50" y="80" class="host-label">Docker Engine (host local)</text>
+
+  <!-- Engine wrapper -->
+  <rect x="60" y="96" width="520" height="260" rx="10" class="engine-box"/>
+  <text x="80" y="120" class="title-14">Container: my-iris</text>
+  <text x="80" y="138" class="sub-12">docker run -d --name my-iris</text>
+
+  <!-- Container inner -->
+  <rect x="90" y="150" width="460" height="185" rx="10" class="container-box"/>
+  <text x="110" y="172" class="title-13">Processo IRIS</text>
+  <text x="110" y="188" class="sub-11">image: intersystems/iris-community:latest-em</text>
+
+  <rect x="110" y="204" width="150" height="26" rx="13" class="pill"/>
+  <text x="185" y="218" class="pill-text">52773 · webserver</text>
+  <rect x="270" y="204" width="150" height="26" rx="13" class="pill"/>
+  <text x="345" y="218" class="pill-text">1972 · superserver</text>
+
+  <text x="110" y="262" class="sub-11">volumeMount:</text>
+  <text x="110" y="278" class="sub-11">/durable  (dados, journals, WIJ)</text>
+
+  <text x="110" y="306" class="sub-11">-p 52773:52773</text>
+  <text x="110" y="322" class="sub-11">-p 1972:1972</text>
+
+  <!-- Volume -->
+  <rect x="610" y="150" width="330" height="110" rx="10" class="volume-box"/>
+  <text x="630" y="176" class="title-13">Volume nomeado: iris_data</text>
+  <text x="630" y="196" class="sub-11">gerenciado pelo Docker</text>
+  <text x="630" y="214" class="sub-11">montado em /durable no container</text>
+  <text x="630" y="232" class="sub-11">dados sobrevivem a stop/rm do container</text>
+
+  <!-- connector volume -->
+  <path d="M550,270 L580,270 L580,205 L608,205" class="arrow-dashed"/>
+  <text x="565" y="193" class="flow-label" text-anchor="middle">-v iris_data:/durable</text>
+
+  <!-- port mapping arrows -->
+  <path d="M608,310 L560,310" class="arrow"/>
+  <text x="583" y="300" class="flow-label" text-anchor="middle">mapeamento</text>
+
+  <rect x="610" y="280" width="330" height="76" rx="8" class="ext-box"/>
+  <text x="630" y="304" class="title-13">Publicação de portas (host)</text>
+  <text x="630" y="322" class="sub-11">localhost:52773 → container:52773</text>
+  <text x="630" y="338" class="sub-11">localhost:1972 → container:1972</text>
+
+  <!-- outside docker -->
+  <text x="30" y="418" class="host-label">Fora do container (sua máquina)</text>
+
+  <rect x="380" y="436" width="260" height="76" rx="8" class="ext-box"/>
+  <text x="400" y="460" class="title-13">Navegador</text>
+  <text x="400" y="478" class="sub-10">localhost:52773/csp/sys/...</text>
+  <text x="400" y="494" class="sub-10">Management Portal (_SYSTEM)</text>
+
+  <path d="M775,356 L775,400 L510,400 L510,436" class="arrow"/>
+
+  <rect x="660" y="436" width="280" height="76" rx="8" class="ext-box"/>
+  <text x="680" y="460" class="title-13">Terminal</text>
+  <text x="680" y="478" class="sub-10">docker exec -it my-iris --</text>
+  <text x="680" y="494" class="sub-10">iris session iris</text>
+
+  <path d="M320,335 L320,414 L800,414 L800,436" class="arrow-dashed"/>
+  <text x="325" y="408" class="flow-label">exec direto no container (não passa pela porta publicada)</text>
+</svg>

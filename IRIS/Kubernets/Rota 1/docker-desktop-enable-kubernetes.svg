@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 320" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .step-box { fill: #ffffff; stroke: #c7ccd4; stroke-width: 1.5; }
+    .step-box.active { stroke: #2f6fed; stroke-width: 2; }
+    .step-num { fill: #2f6fed; }
+    .step-num-text { fill: #ffffff; font-size: 15px; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+    .step-title { fill: #1a1d23; font-size: 16px; font-weight: 600; text-anchor: middle; }
+    .step-sub { fill: #6b7280; font-size: 12px; text-anchor: middle; }
+    .arrow { stroke: #9aa1ad; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    .checkbox-box { fill: #2f6fed; stroke: #2f6fed; }
+    .check-mark { stroke: #ffffff; stroke-width: 2.4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .btn { fill: #2f6fed; }
+    .btn-text { fill: #ffffff; font-size: 14px; font-weight: 600; text-anchor: middle; dominant-baseline: central; }
+    .caption { fill: #1a1d23; font-size: 20px; font-weight: 700; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#9aa1ad"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1040" height="320" fill="#f5f6f8"/>
+
+  <text x="30" y="38" class="caption">Docker Desktop &#8594; Habilitar Kubernetes</text>
+
+  <!-- Step 1: Settings -->
+  <g>
+    <rect x="30" y="100" width="200" height="120" rx="10" class="step-box"/>
+    <circle cx="55" cy="120" r="13" class="step-num"/>
+    <text x="55" y="121" class="step-num-text">1</text>
+    <text x="130" y="150" class="step-title">Settings</text>
+    <!-- gear icon -->
+    <g transform="translate(130,180)" fill="none" stroke="#4b5563" stroke-width="2">
+      <circle cx="0" cy="0" r="10"/>
+      <circle cx="0" cy="0" r="3.2" fill="#4b5563" stroke="none"/>
+      <g stroke-linecap="round">
+        <line x1="0" y1="-14" x2="0" y2="-10"/>
+        <line x1="0" y1="14" x2="0" y2="10"/>
+        <line x1="-14" y1="0" x2="-10" y2="0"/>
+        <line x1="14" y1="0" x2="10" y2="0"/>
+        <line x1="-10" y1="-10" x2="-7" y2="-7"/>
+        <line x1="10" y1="10" x2="7" y2="7"/>
+        <line x1="-10" y1="10" x2="-7" y2="7"/>
+        <line x1="10" y1="-10" x2="7" y2="-7"/>
+      </g>
+    </g>
+  </g>
+
+  <path d="M230,160 L268,160" class="arrow"/>
+
+  <!-- Step 2: Kubernetes -->
+  <g>
+    <rect x="270" y="100" width="200" height="120" rx="10" class="step-box"/>
+    <circle cx="295" cy="120" r="13" class="step-num"/>
+    <text x="295" y="121" class="step-num-text">2</text>
+    <text x="370" y="150" class="step-title">Kubernetes</text>
+    <!-- helm wheel icon -->
+    <g transform="translate(370,182)" fill="none" stroke="#4b5563" stroke-width="2">
+      <circle cx="0" cy="0" r="11"/>
+      <circle cx="0" cy="0" r="3" fill="#4b5563" stroke="none"/>
+      <line x1="0" y1="-11" x2="0" y2="-16"/>
+      <line x1="0" y1="11" x2="0" y2="16"/>
+      <line x1="-9.5" y1="-5.5" x2="-14" y2="-8"/>
+      <line x1="9.5" y1="5.5" x2="14" y2="8"/>
+      <line x1="-9.5" y1="5.5" x2="-14" y2="8"/>
+      <line x1="9.5" y1="-5.5" x2="14" y2="-8"/>
+    </g>
+  </g>
+
+  <path d="M470,160 L508,160" class="arrow"/>
+
+  <!-- Step 3: Enable Kubernetes -->
+  <g>
+    <rect x="510" y="100" width="230" height="120" rx="10" class="step-box active"/>
+    <circle cx="535" cy="120" r="13" class="step-num"/>
+    <text x="535" y="121" class="step-num-text">3</text>
+    <text x="625" y="150" class="step-title">Enable Kubernetes</text>
+    <rect x="600" y="172" width="22" height="22" rx="4" class="checkbox-box"/>
+    <path d="M604,183 L610,189 L619,177" class="check-mark"/>
+    <text x="632" y="188" class="step-sub" text-anchor="start">marcar a opção</text>
+  </g>
+
+  <path d="M740,160 L778,160" class="arrow"/>
+
+  <!-- Step 4: Apply & Restart -->
+  <g>
+    <rect x="780" y="100" width="230" height="120" rx="10" class="step-box"/>
+    <circle cx="805" cy="120" r="13" class="step-num"/>
+    <text x="805" y="121" class="step-num-text">4</text>
+    <text x="895" y="150" class="step-title">Apply &amp; Restart</text>
+    <rect x="825" y="168" width="140" height="34" rx="6" class="btn"/>
+    <text x="895" y="186" class="btn-text">Apply &amp; Restart</text>
+  </g>
+
+  <text x="30" y="270" class="step-sub" text-anchor="start" font-size="13">
+    Após reiniciar, o ícone do Docker Desktop fica verde com "Kubernetes running".
+  </text>
+  <text x="30" y="292" class="step-sub" text-anchor="start" font-size="13">
+    Em seguida: kubectl config use-context docker-desktop
+  </text>
+</svg>

@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 900" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .caption { fill: #1a1d23; font-size: 20px; font-weight: 700; }
+    .cluster-box { fill: #eef1f5; stroke: #9aa1ad; stroke-width: 1.5; stroke-dasharray: 6 4; }
+    .cluster-label { fill: #4b5563; font-size: 13px; font-weight: 700; }
+    .tenant-box { fill: #eaf4ff; stroke: #0078d4; stroke-width: 1.5; stroke-dasharray: 6 4; }
+    .identity-box { fill: #eaf4ff; stroke: #0078d4; stroke-width: 1.5; }
+    .cr-box { fill: #ffffff; stroke: #2f6fed; stroke-width: 1.5; }
+    .job-box { fill: #f5f0ff; stroke: #7c4dff; stroke-width: 1.5; }
+    .pod-box { fill: #f7f9ff; stroke: #5b8def; stroke-width: 1.5; }
+    .pvc-box { fill: #fff8ef; stroke: #d9822b; stroke-width: 1.5; }
+    .svc-box { fill: #f0fbf4; stroke: #1f9d55; stroke-width: 1.5; }
+    .ext-box { fill: #ffffff; stroke: #6b7280; stroke-width: 1.5; }
+    .secret-box { fill: #fff5f5; stroke: #d64545; stroke-width: 1.2; stroke-dasharray: 4 3; }
+    .title-14 { fill: #1a1d23; font-size: 14px; font-weight: 700; }
+    .title-13 { fill: #1a1d23; font-size: 13px; font-weight: 700; }
+    .title-12 { fill: #1a1d23; font-size: 12px; font-weight: 700; }
+    .sub-12 { fill: #6b7280; font-size: 12px; }
+    .sub-11 { fill: #6b7280; font-size: 11px; }
+    .sub-10 { fill: #6b7280; font-size: 10.5px; }
+    .arrow { stroke: #6b7280; stroke-width: 1.8; fill: none; marker-end: url(#arrowhead); }
+    .arrow-dashed { stroke: #9aa1ad; stroke-width: 1.8; fill: none; stroke-dasharray: 5 4; marker-end: url(#arrowhead); }
+    .arrow-blue { stroke: #0078d4; stroke-width: 1.8; fill: none; marker-end: url(#arrowhead-blue); }
+    .flow-label { fill: #4b5563; font-size: 10.5px; }
+    .flow-label-blue { fill: #0078d4; font-size: 10.5px; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="9" markerHeight="7" refX="7.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#6b7280"/>
+    </marker>
+    <marker id="arrowhead-blue" markerWidth="9" markerHeight="7" refX="7.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#0078d4"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="900" fill="#ffffff"/>
+
+  <text x="30" y="34" class="caption">Arquitetura: IRIS em AKS com Workload Identity (Microsoft Entra ID)</text>
+
+  <!-- Entra ID tenant -->
+  <text x="30" y="66" class="cluster-label">Microsoft Entra ID (tenant)</text>
+  <rect x="30" y="76" width="940" height="110" rx="12" class="tenant-box"/>
+
+  <rect x="55" y="96" width="260" height="70" rx="8" class="identity-box"/>
+  <text x="72" y="118" class="title-13">User-Assigned Managed Identity</text>
+  <text x="72" y="134" class="sub-10">iris-workload-identity</text>
+  <text x="72" y="150" class="sub-10">clientId / tenantId</text>
+
+  <rect x="345" y="96" width="280" height="70" rx="8" class="identity-box"/>
+  <text x="362" y="118" class="title-13">Federated Identity Credential</text>
+  <text x="362" y="134" class="sub-10">issuer: OIDC do AKS</text>
+  <text x="362" y="150" class="sub-10">subject: system:serviceaccount:iko:iris-cloud-ops</text>
+
+  <rect x="655" y="96" width="290" height="70" rx="8" class="identity-box"/>
+  <text x="672" y="118" class="title-13">Atribuições RBAC (role assignments)</text>
+  <text x="672" y="134" class="sub-10">Key Vault Secrets User · Storage Blob Data Contributor</text>
+  <text x="672" y="150" class="sub-10">escopo: recurso específico (Key Vault / Storage Account)</text>
+
+  <!-- Azure resources -->
+  <text x="30" y="216" class="cluster-label">Recursos Azure</text>
+  <rect x="30" y="226" width="230" height="66" rx="8" class="ext-box"/>
+  <text x="48" y="250" class="title-13">Key Vault: iris-kv</text>
+  <text x="48" y="268" class="sub-10">segredos: iris-license, admin-password</text>
+  <text x="48" y="282" class="sub-10">RBAC authorization habilitado</text>
+
+  <rect x="280" y="226" width="230" height="66" rx="8" class="ext-box"/>
+  <text x="298" y="250" class="title-13">Storage Account: irisbackups</text>
+  <text x="298" y="268" class="sub-10">container: backups</text>
+  <text x="298" y="282" class="sub-10">sem chave de acesso / SAS estática</text>
+
+  <rect x="530" y="226" width="230" height="66" rx="8" class="ext-box"/>
+  <text x="548" y="250" class="title-13">Azure Container Registry (ACR)</text>
+  <text x="548" y="268" class="sub-10">imagens IRIS/webgateway espelhadas do ICR</text>
+  <text x="548" y="282" class="sub-10">AcrPull via kubelet identity (nó, não pod)</text>
+
+  <path d="M185,166 L185,226" class="arrow-blue"/>
+  <path d="M395,166 L395,226 L395,226" class="arrow-blue"/>
+  <path d="M800,166 Q800,200 645,220" class="arrow-blue"/>
+  <text x="600" y="206" class="flow-label-blue">AcrPull (identidade do nó)</text>
+
+  <!-- Cluster boundary -->
+  <rect x="30" y="320" width="940" height="500" rx="12" class="cluster-box"/>
+  <text x="50" y="344" class="cluster-label">Cluster AKS — OIDC issuer + Workload Identity habilitados</text>
+
+  <!-- ServiceAccount -->
+  <rect x="60" y="362" width="300" height="80" rx="10" class="identity-box"/>
+  <text x="78" y="384" class="title-14">ServiceAccount: iris-cloud-ops</text>
+  <text x="78" y="400" class="sub-11">namespace: iko</text>
+  <text x="78" y="416" class="sub-10">annotations: azure.workload.identity/client-id</text>
+  <text x="78" y="430" class="sub-10">label: azure.workload.identity/use: "true"</text>
+
+  <path d="M185,292 L185,362" class="arrow-blue"/>
+  <text x="193" y="330" class="flow-label-blue">federação de token (OIDC)</text>
+
+  <!-- Bootstrap Job -->
+  <rect x="60" y="466" width="300" height="90" rx="10" class="job-box"/>
+  <text x="78" y="488" class="title-14">Job: iris-secrets-bootstrap</text>
+  <text x="78" y="506" class="sub-11">usa a ServiceAccount iris-cloud-ops</text>
+  <text x="78" y="522" class="sub-11">lê iris-license/admin-password do Key Vault</text>
+  <text x="78" y="538" class="sub-10">materializa Secrets nativos do Kubernetes</text>
+
+  <!-- CronJob backup -->
+  <rect x="60" y="580" width="300" height="90" rx="10" class="job-box"/>
+  <text x="78" y="602" class="title-14">CronJob: iris-backup-to-blob</text>
+  <text x="78" y="620" class="sub-11">usa a ServiceAccount iris-cloud-ops</text>
+  <text x="78" y="636" class="sub-11">executa backup externo do IRIS</text>
+  <text x="78" y="652" class="sub-10">envia para o Storage Account via AAD token</text>
+
+  <path d="M210,442 L210,466" class="arrow"/>
+  <path d="M210,556 L210,580" class="arrow-dashed"/>
+
+  <!-- Native secrets -->
+  <rect x="400" y="466" width="230" height="90" rx="10" class="secret-box"/>
+  <text x="418" y="488" class="title-13">Secret: iris-license</text>
+  <text x="418" y="504" class="title-13">Secret: iris-admin-password</text>
+  <text x="418" y="522" class="sub-10">criados pelo Job de bootstrap</text>
+  <text x="418" y="538" class="sub-10">consumidos pelo IrisCluster (Rota 2)</text>
+
+  <path d="M360,510 L398,510" class="arrow"/>
+
+  <!-- IrisCluster from Rota 2 -->
+  <rect x="400" y="580" width="530" height="200" rx="10" class="cr-box"/>
+  <text x="418" y="604" class="title-14">IrisCluster (IKO) — reaproveitado da Rota 2</text>
+  <text x="418" y="622" class="sub-11">licenseKeySecret / imagePullSecrets apontam para os Secrets acima</text>
+
+  <rect x="418" y="638" width="150" height="60" rx="8" class="pod-box"/>
+  <text x="432" y="660" class="title-12">data (mirrored)</text>
+  <text x="432" y="676" class="sub-10">StatefulSet</text>
+
+  <rect x="588" y="638" width="150" height="60" rx="8" class="pod-box"/>
+  <text x="602" y="660" class="title-12">compute</text>
+  <text x="602" y="676" class="sub-10">Deployment</text>
+
+  <rect x="758" y="638" width="150" height="60" rx="8" class="pod-box"/>
+  <text x="772" y="660" class="title-12">webgateway</text>
+  <text x="772" y="676" class="sub-10">Deployment</text>
+
+  <rect x="418" y="712" width="490" height="50" rx="8" class="pvc-box"/>
+  <text x="432" y="742" class="sub-11">PVCs + Services provisionados pelo operador (idêntico à Rota 2)</text>
+
+  <path d="M630,510 Q690,540 630,580" class="arrow"/>
+  <text x="640" y="558" class="flow-label">consumo dos secrets</text>
+
+  <path d="M210,670 Q210,760 400,700" class="arrow-blue"/>
+  <text x="220" y="770" class="flow-label-blue">AAD token → Blob Data Contributor</text>
+
+  <!-- Node / kubelet -->
+  <text x="30" y="850" class="cluster-label">Node pool</text>
+  <rect x="60" y="860" width="370" height="30" rx="6" class="ext-box"/>
+  <text x="72" y="880" class="sub-10">kubelet identity com AcrPull no ACR — pull de imagem, não de segredos de aplicação</text>
+</svg>

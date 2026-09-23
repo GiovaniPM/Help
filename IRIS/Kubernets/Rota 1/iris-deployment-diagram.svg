@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" font-family="'Segoe UI', Arial, sans-serif">
+  <style>
+    .caption { fill: #1a1d23; font-size: 18px; font-weight: 700; }
+    .deploy-box { fill: #ffffff; stroke: #2f6fed; stroke-width: 1.5; }
+    .pod-box { fill: #f7f9ff; stroke: #5b8def; stroke-width: 1.5; }
+    .container-box { fill: #ffffff; stroke: #9aa1ad; stroke-width: 1.5; }
+    .pvc-box { fill: #fff8ef; stroke: #d9822b; stroke-width: 1.5; }
+    .title-14 { fill: #1a1d23; font-size: 14px; font-weight: 700; }
+    .title-13 { fill: #1a1d23; font-size: 13px; font-weight: 700; }
+    .sub-12 { fill: #6b7280; font-size: 12px; }
+    .sub-11 { fill: #6b7280; font-size: 11px; }
+    .sub-10 { fill: #6b7280; font-size: 10.5px; }
+    .pill { fill: #eef1f5; stroke: #c7ccd4; stroke-width: 1; }
+    .pill-text { fill: #374151; font-size: 11px; text-anchor: middle; dominant-baseline: central; }
+    .arrow-dashed { stroke: #9aa1ad; stroke-width: 1.8; fill: none; stroke-dasharray: 5 4; marker-end: url(#arrowhead); }
+    .flow-label { fill: #4b5563; font-size: 10.5px; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="9" markerHeight="7" refX="7.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="320" fill="#ffffff"/>
+
+  <text x="30" y="34" class="caption">iris-deployment.yaml — Deployment</text>
+
+  <!-- Deployment -->
+  <rect x="40" y="56" width="560" height="230" rx="10" class="deploy-box"/>
+  <text x="60" y="80" class="title-14">Deployment: iris</text>
+  <text x="60" y="98" class="sub-12">label: app=iris  ·  replicas: 1</text>
+
+  <!-- Pod -->
+  <rect x="70" y="110" width="500" height="160" rx="10" class="pod-box"/>
+  <text x="90" y="132" class="title-13">Pod: iris</text>
+
+  <!-- Container -->
+  <rect x="100" y="146" width="440" height="110" rx="8" class="container-box"/>
+  <text x="120" y="168" class="title-13">Container: iris</text>
+  <text x="120" y="186" class="sub-10">image: intersystems/iris-community:latest-em</text>
+
+  <rect x="120" y="200" width="150" height="26" rx="13" class="pill"/>
+  <text x="195" y="214" class="pill-text">52773 · webserver</text>
+  <rect x="280" y="200" width="150" height="26" rx="13" class="pill"/>
+  <text x="355" y="214" class="pill-text">1972 · superserver</text>
+
+  <text x="120" y="242" class="sub-11">volumeMount: /durable (ISC_DATA_DIRECTORY)</text>
+
+  <!-- PVC reference -->
+  <rect x="650" y="146" width="210" height="110" rx="10" class="pvc-box"/>
+  <text x="670" y="172" class="title-13">PVC: iris-data</text>
+  <text x="670" y="192" class="sub-11">volumes:</text>
+  <text x="670" y="208" class="sub-11">claimName: iris-data</text>
+
+  <path d="M540,201 L648,201" class="arrow-dashed"/>
+  <text x="594" y="191" class="flow-label" text-anchor="middle">monta</text>
+</svg>

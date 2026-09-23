@@ -1,0 +1,44 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: iris-backup-to-blob
+  namespace: iko
+spec:
+  schedule: "0 2 * * *"
+  jobTemplate:
+    spec:
+      backoffLimit: 1
+      template:
+        metadata:
+          labels:
+            azure.workload.identity/use: "true"
+        spec:
+          serviceAccountName: iris-cloud-ops
+          restartPolicy: Never
+          containers:
+            - name: backup
+              # imagem ilustrativa: combine azcopy + iris CLI/client em uma imagem própria
+              image: <registry>/iris-cloud-ops-toolbox:latest
+              env:
+                - name: STORAGE_ACCOUNT
+                  value: irisbackups
+                - name: STORAGE_CONTAINER
+                  value: backups
+              command:
+                - /bin/sh
+                - -c
+                - |
+                  set -e
+                  kubectl exec iko-test-data-0 -n iko -- iris session iris -U "%SYS" \
+                    "##class(Backup.General).ExternalFreeze()"
+
+                  BACKUP_FILE="/tmp/iris-backup-$(date +%Y%m%d%H%M%S).tar.gz"
+                  kubectl exec iko-test-data-0 -n iko -- tar czf - /durable/irissys \
+                    > "$BACKUP_FILE"
+
+                  kubectl exec iko-test-data-0 -n iko -- iris session iris -U "%SYS" \
+                    "##class(Backup.General).ExternalThaw()"
+
+                  azcopy login --identity --identity-client-id "$AZURE_CLIENT_ID"
+                  azcopy copy "$BACKUP_FILE" \
+                    "https://${STORAGE_ACCOUNT}.blob.core.windows.net/${STORAGE_CONTAINER}/$(basename "$BACKUP_FILE")"

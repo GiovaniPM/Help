@@ -1,0 +1,46 @@
+# iris-cluster.yaml
+#
+# Custom Resource "IrisCluster", processado pelo IKO (InterSystems
+# Kubernetes Operator) já instalado no cluster (ver iris-operator-values.yaml
+# e seção 6 do documento de arquitetura). O operador cria e gerencia
+# automaticamente StatefulSet(s), PVC(s) e Service(s) a partir deste
+# manifest — não é necessário (nem recomendado) criar esses objetos à mão,
+# como acontece na Rota 1.
+
+apiVersion: intersystems.com/v1alpha1
+kind: IrisCluster
+metadata:
+  name: iko-test
+spec:
+  # Opcional para IRIS Community Edition; obrigatório para IRIS licenciado.
+  licenseKeySecret:
+    name: iris-license
+
+  # Credencial para pull das imagens do IRIS/webgateway a partir do ICR
+  # (containers.intersystems.com) — ver seção 6.3.
+  imagePullSecrets:
+    - name: intersystems-pull-secret
+
+  storageClassName: standard
+
+  serviceTemplate:
+    spec:
+      type: LoadBalancer
+
+  topology:
+    data:
+      image: containers.intersystems.com/intersystems/iris:2024.1.0.263.0
+      mirrored: true
+      storage:
+        resources:
+          requests:
+            storage: 10Gi
+
+    compute:
+      image: containers.intersystems.com/intersystems/iris:2024.1.0.263.0
+      replicas: 2
+
+    webgateway:
+      image: containers.intersystems.com/intersystems/webgateway:2024.1.0.263.0
+      type: apache-lockeddown
+      replicas: 1

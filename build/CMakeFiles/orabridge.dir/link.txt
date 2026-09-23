@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\orabridge.dir/objects.a
+C:\ProgramData\mingw64\mingw64\bin\ar.exe qc CMakeFiles\orabridge.dir/objects.a @CMakeFiles\orabridge.dir\objects1.rsp
+C:\ProgramData\mingw64\mingw64\bin\gcc.exe -g -static -Wl,--whole-archive CMakeFiles\orabridge.dir/objects.a -Wl,--no-whole-archive -o ORABRIDGE.exe -Wl,--out-implib,libORABRIDGE.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\orabridge.dir\linkLibs.rsp

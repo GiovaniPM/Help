@@ -1,0 +1,225 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/*.c",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiConn.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiContext.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiData.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiDebug.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiDeqOptions.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiEnqOptions.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiEnv.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiError.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiGen.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiGlobal.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiHandleList.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiHandlePool.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiJson.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiLob.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiMsgProps.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiObject.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiObjectAttr.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiObjectType.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiOci.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiOracleType.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiPool.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiQueue.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiRowid.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSodaColl.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSodaCollCursor.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSodaDb.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSodaDoc.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSodaDocCursor.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiStmt.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiStringList.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSubscr.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiUtils.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiVar.c",
+				"C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiVector.c"
+			]
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "C:/Users/giova/Projetos/Help/build/CMakeFiles/4.4.3/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "C:/Users/giova/Projetos/Help/build/CMakeFiles/4.4.3/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "C:/Users/giova/Projetos/Help/build/CMakeFiles/4.4.3/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Windows-GNU-C-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent/CMakeLists.cmake.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/giova/Projetos/Help/build",
+		"source" : "C:/Users/giova/Projetos/Help/Clipper/Oracle/bridge"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

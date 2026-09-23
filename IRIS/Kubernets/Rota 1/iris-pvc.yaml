@@ -1,0 +1,16 @@
+# iris-pvc.yaml
+#
+# Reserva armazenamento persistente para os dados do IRIS, para que
+# eles sobrevivam a reinicializações do pod (ex: kubectl rollout restart,
+# atualização da imagem, ou o pod sendo recriado pelo Kubernetes).
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: iris-data
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi

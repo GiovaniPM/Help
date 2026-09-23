@@ -1,0 +1,224 @@
+[
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiConn.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiConn.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiConn.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiConn.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiContext.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiContext.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiContext.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiContext.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiData.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiData.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiData.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiData.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiDebug.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiDebug.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiDebug.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiDebug.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiDeqOptions.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiDeqOptions.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiDeqOptions.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiDeqOptions.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiEnqOptions.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiEnqOptions.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiEnqOptions.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiEnqOptions.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiEnv.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiEnv.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiEnv.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiEnv.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiError.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiError.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiError.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiError.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiGen.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiGen.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiGen.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiGen.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiGlobal.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiGlobal.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiGlobal.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiGlobal.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiHandleList.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiHandleList.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiHandleList.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiHandleList.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiHandlePool.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiHandlePool.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiHandlePool.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiHandlePool.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiJson.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiJson.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiJson.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiJson.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiLob.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiLob.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiLob.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiLob.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiMsgProps.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiMsgProps.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiMsgProps.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiMsgProps.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiObject.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiObject.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiObject.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiObject.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiObjectAttr.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiObjectAttr.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiObjectAttr.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiObjectAttr.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiObjectType.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiObjectType.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiObjectType.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiObjectType.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiOci.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiOci.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiOci.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiOci.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiOracleType.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiOracleType.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiOracleType.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiOracleType.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiPool.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiPool.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiPool.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiPool.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiQueue.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiQueue.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiQueue.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiQueue.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiRowid.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiRowid.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiRowid.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiRowid.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiSodaColl.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiSodaColl.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSodaColl.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiSodaColl.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiSodaCollCursor.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiSodaCollCursor.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSodaCollCursor.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiSodaCollCursor.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiSodaDb.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiSodaDb.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSodaDb.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiSodaDb.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiSodaDoc.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiSodaDoc.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSodaDoc.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiSodaDoc.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiSodaDocCursor.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiSodaDocCursor.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSodaDocCursor.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiSodaDocCursor.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiStmt.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiStmt.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiStmt.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiStmt.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiStringList.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiStringList.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiStringList.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiStringList.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiSubscr.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiSubscr.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiSubscr.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiSubscr.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiUtils.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiUtils.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiUtils.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiUtils.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiVar.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiVar.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiVar.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiVar.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\odpi.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\odpi.dir\\_deps\\odpi-src\\src\\dpiVector.c.obj -c C:\\Users\\giova\\Projetos\\Help\\build\\_deps\\odpi-src\\src\\dpiVector.c",
+  "file": "C:/Users/giova/Projetos/Help/build/_deps/odpi-src/src/dpiVector.c",
+  "output": "CMakeFiles/odpi.dir/_deps/odpi-src/src/dpiVector.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\bridge_core.dir\\includes_C.rsp -g -std=gnu99 -Wall -Wextra -o CMakeFiles\\bridge_core.dir\\bridge_core.c.obj -c C:\\Users\\giova\\Projetos\\Help\\Clipper\\Oracle\\bridge\\bridge_core.c",
+  "file": "C:/Users/giova/Projetos/Help/Clipper/Oracle/bridge/bridge_core.c",
+  "output": "CMakeFiles/bridge_core.dir/bridge_core.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\orabridge.dir\\includes_C.rsp -g -std=gnu99 -Wall -Wextra -o CMakeFiles\\orabridge.dir\\orabridge.c.obj -c C:\\Users\\giova\\Projetos\\Help\\Clipper\\Oracle\\bridge\\orabridge.c",
+  "file": "C:/Users/giova/Projetos/Help/Clipper/Oracle/bridge/orabridge.c",
+  "output": "CMakeFiles/orabridge.dir/orabridge.c.obj"
+},
+{
+  "directory": "C:/Users/giova/Projetos/Help/build",
+  "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe  @CMakeFiles\\test_bridge.dir\\includes_C.rsp -g -std=gnu99 -o CMakeFiles\\test_bridge.dir\\test_bridge.c.obj -c C:\\Users\\giova\\Projetos\\Help\\Clipper\\Oracle\\bridge\\test_bridge.c",
+  "file": "C:/Users/giova/Projetos/Help/Clipper/Oracle/bridge/test_bridge.c",
+  "output": "CMakeFiles/test_bridge.dir/test_bridge.c.obj"
+}
+]
