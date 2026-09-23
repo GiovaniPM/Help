@@ -1,0 +1,76 @@
+============================================================
+  Data/Hora: 02/06/2026 16:50:03
+  Modelo: gemini-3.5-flash
+============================================================
+
+📝 PROMPT:
+----------------------------------------
+gere um código de exemplo em plantuml para criação de um diagrama de sequencia
+
+🤖 RESPOSTA:
+----------------------------------------
+Aqui está um exemplo prático de código **PlantUML** para criar um diagrama de sequência. 
+
+O cenário deste exemplo é um fluxo clássico de **Autenticação de Usuário** em um sistema web.
+
+### Código PlantUML
+
+```plantuml
+@startuml
+' Configurações visuais (opcional)
+skinparam style strictuml
+autonumber
+
+' Definição dos participantes
+actor "Usuário" as User
+participant "Navegador Web" as Browser
+participant "Servidor de API" as API
+database "Banco de Dados" as DB
+
+' Início do fluxo
+User -> Browser: Digita usuário/senha e clica em "Entrar"
+activate Browser
+
+Browser -> API: POST /login (credenciais)
+activate API
+
+API -> DB: Busca usuário por e-mail
+activate DB
+DB --> API: Retorna dados do usuário (hash da senha)
+deactivate DB
+
+' Estrutura condicional (alt/else)
+alt Senha Correta
+    API -> API: Gera Token JWT
+    API --> Browser: Retorna HTTP 200 (Token JWT)
+    Browser --> User: Exibe "Login realizado com sucesso!" e redireciona
+else Senha Incorreta ou Usuário Não Encontrado
+    API --> Browser: Retorna HTTP 401 (Não Autorizado)
+    Browser --> User: Exibe mensagem "Credenciais inválidas"
+end
+
+deactivate API
+deactivate Browser
+
+@enduml
+```
+
+---
+
+### Explicação dos elementos utilizados:
+
+*   **`@startuml` e `@enduml`**: Delimitam o início e o fim do diagrama.
+*   **`autonumber`**: Adiciona automaticamente números sequenciais às mensagens (1, 2, 3...).
+*   **`actor`**, **`participant`** e **`database`**: Definem os tipos de caixas/ícones que representam os elementos no topo do diagrama.
+*   **`as`**: Cria um apelido (alias) para facilitar a escrita do código (ex: `actor "Usuário" as User`).
+*   **`->` e `-->`**: 
+    *   `->` representa uma mensagem de envio (linha contínua).
+    *   `-->` representa uma resposta/retorno (linha tracejada).
+*   **`activate` e `deactivate`**: Controlam as "barras de ativação" (tempo de vida) que mostram quando um componente está processando algo de forma ativa.
+*   **`alt / else`**: Cria caixas de decisão condicional (como o `if/else` na programação).
+
+### Como visualizar este diagrama:
+1. Copie o código acima.
+2. Acesse o editor oficial online: [PlantText](https://www.planttext.com/) ou [PlantUML Online Server](https://www.plantuml.com/plantuml/).
+3. Cole o código no editor para ver o diagrama gerado automaticamente.
+4. Se usar o VS Code, você também pode instalar a extensão "PlantUML" para visualizar diretamente no editor.

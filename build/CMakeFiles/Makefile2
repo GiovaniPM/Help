@@ -154,8 +154,8 @@ CMakeFiles/bridge_core.dir/clean:
 # Target rules for target CMakeFiles/orabridge.dir
 
 # All Build rule for target.
-CMakeFiles/orabridge.dir/all: CMakeFiles/odpi.dir/all
 CMakeFiles/orabridge.dir/all: CMakeFiles/bridge_core.dir/all
+CMakeFiles/orabridge.dir/all: CMakeFiles/odpi.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\orabridge.dir\build.make CMakeFiles/orabridge.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\orabridge.dir\build.make CMakeFiles/orabridge.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\giova\Projetos\Help\build\CMakeFiles --progress-num=38,39 "Built target orabridge"

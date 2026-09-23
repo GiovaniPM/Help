@@ -1,0 +1,180 @@
+============================================================
+  Data/Hora: 02/06/2026 16:36:12
+  Modelo: gemini-2.5-flash
+============================================================
+
+📝 PROMPT:
+----------------------------------------
+gere uma app em python para realizar o split de um arquivo (informado por parametro), o qual será divido em n linha (informado por parametro, com default de 100)
+
+🤖 RESPOSTA:
+----------------------------------------
+Claro! Aqui está uma aplicação Python que realiza o split de um arquivo em múltiplos arquivos, cada um contendo um número especificado de linhas.
+
+A aplicação será executada via linha de comando e aceitará dois parâmetros:
+1.  **`--input_file`** (ou simplesmente o primeiro argumento posicional): O caminho para o arquivo que você deseja dividir.
+2.  **`--lines_per_chunk`** (opcional): O número de linhas por arquivo de saída. O valor padrão será 100.
+
+---
+
+### Código Python (`file_splitter.py`)
+
+```python
+import argparse
+import os
+
+def split_file_by_lines(input_filepath, lines_per_chunk=100):
+    """
+    Divide um arquivo em múltiplos arquivos menores, cada um contendo
+    um número especificado de linhas.
+
+    Args:
+        input_filepath (str): O caminho para o arquivo de entrada a ser dividido.
+        lines_per_chunk (int): O número de linhas por arquivo de saída.
+                                 Deve ser um inteiro positivo.
+    """
+    if not os.path.exists(input_filepath):
+        print(f"Erro: O arquivo de entrada '{input_filepath}' não foi encontrado.")
+        return
+
+    if not os.path.isfile(input_filepath):
+        print(f"Erro: O caminho '{input_filepath}' não aponta para um arquivo válido.")
+        return
+
+    if lines_per_chunk <= 0:
+        print("Erro: O número de linhas por bloco (lines_per_chunk) deve ser um inteiro positivo.")
+        return
+
+    # Extrai o nome base do arquivo e sua extensão
+    base_name, extension = os.path.splitext(input_filepath)
+    output_file_number = 1
+    current_line_count = 0
+    current_output_file = None
+
+    print(f"Iniciando a divisão do arquivo '{input_filepath}' em blocos de {lines_per_chunk} linhas...")
+
+    try:
+        # Abre o arquivo de entrada para leitura
+        with open(input_filepath, 'r', encoding='utf-8', errors='ignore') as infile:
+            for line in infile:
+                if current_line_count == 0:
+                    # Se é o início de um novo bloco, fecha o arquivo anterior (se houver)
+                    # e abre um novo arquivo de saída.
+                    if current_output_file:
+                        current_output_file.close()
+                        print(f"  Bloco {output_file_number-1} finalizado.")
+
+                    output_filename = f"{base_name}_part{output_file_number:04d}{extension}"
+                    current_output_file = open(output_filename, 'w', encoding='utf-8')
+                    print(f"  Criando '{output_filename}'...")
+
+                current_output_file.write(line)
+                current_line_count += 1
+
+                if current_line_count >= lines_per_chunk:
+                    # Quando o número de linhas por bloco é atingido,
+                    # prepara para o próximo arquivo.
+                    current_line_count = 0
+                    output_file_number += 1
+
+            # Após o loop, certifica-se de que o último arquivo de saída seja fechado
+            if current_output_file:
+                current_output_file.close()
+                print(f"  Bloco {output_file_number-1} finalizado.")
+        
+        print("\nProcesso de divisão do arquivo concluído com sucesso!")
+
+    except IOError as e:
+        print(f"Erro de E/S durante a operação do arquivo: {e}")
+        if current_output_file:
+            current_output_file.close()
+    except Exception as e:
+        print(f"Ocorreu um erro inesperado: {e}")
+        if current_output_file:
+            current_output_file.close()
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Divide um arquivo em múltiplos arquivos menores, baseando-se no número de linhas.",
+        formatter_class=argparse.RawTextHelpFormatter # Para formatar melhor a descrição
+    )
+    parser.add_argument(
+        "input_file",
+        type=str,
+        help="O caminho para o arquivo que será dividido."
+    )
+    parser.add_argument(
+        "--lines_per_chunk",
+        type=int,
+        default=100,
+        help="O número de linhas por arquivo de saída (padrão: 100).\n"
+             "Deve ser um inteiro positivo."
+    )
+
+    args = parser.parse_args()
+
+    split_file_by_lines(args.input_file, args.lines_per_chunk)
+
+if __name__ == "__main__":
+    main()
+```
+
+---
+
+### Como usar:
+
+1.  **Salve o código:** Salve o código acima em um arquivo chamado `file_splitter.py` (ou qualquer outro nome com extensão `.py`).
+
+2.  **Crie um arquivo de teste:** Para testar, você pode criar um arquivo de texto. Por exemplo, `meu_arquivo_grande.txt` com algumas dezenas ou centenas de linhas. Você pode gerar um rapidamente com este comando no terminal (Linux/macOS) ou PowerShell (Windows):
+
+    **Linux/macOS:**
+    ```bash
+    seq 1 350 > meu_arquivo_grande.txt
+    ```
+
+    **Windows (PowerShell):**
+    ```powershell
+    1..350 | ForEach-Object { "$_" } | Set-Content -Path meu_arquivo_grande.txt -Encoding Utf8
+    ```
+    Isso criará um arquivo com 350 linhas, cada uma contendo um número de 1 a 350.
+
+3.  **Execute a aplicação via linha de comando:**
+
+    *   **Com o número padrão de linhas (100):**
+        ```bash
+        python file_splitter.py meu_arquivo_grande.txt
+        ```
+        Isso criará:
+        *   `meu_arquivo_grande_part0001.txt` (100 linhas)
+        *   `meu_arquivo_grande_part0002.txt` (100 linhas)
+        *   `meu_arquivo_grande_part0003.txt` (100 linhas)
+        *   `meu_arquivo_grande_part0004.txt` (50 linhas restantes)
+
+    *   **Especificando um número diferente de linhas (ex: 50):**
+        ```bash
+        python file_splitter.py meu_arquivo_grande.txt --lines_per_chunk 50
+        ```
+        Isso criará 7 arquivos, cada um com 50 linhas (de `_part0001.txt` a `_part0007.txt`).
+
+    *   **Especificando o número de linhas como o segundo argumento posicional (também funciona):**
+        ```bash
+        python file_splitter.py meu_arquivo_grande.txt 50
+        ```
+        *(Nota: Na implementação atual com `argparse`, `--lines_per_chunk` é uma flag. Se você quiser que o segundo argumento seja posicional para `lines_per_chunk`, a configuração do `argparse` precisaria ser ligeiramente ajustada para um argumento opcional posicional. A forma `parser.add_argument("--lines_per_chunk", ...)` exige a flag `--lines_per_chunk`.)*
+
+        A forma correta com `argparse` para `input_file` é posicional, e `lines_per_chunk` é com a flag, como mostrado no exemplo `python file_splitter.py meu_arquivo_grande.txt --lines_per_chunk 50`.
+
+    *   **Para ver a ajuda:**
+        ```bash
+        python file_splitter.py --help
+        ```
+
+### Detalhes da Implementação:
+
+*   **`argparse`**: Usado para lidar com os argumentos da linha de comando de forma robusta e gerar automaticamente a mensagem de ajuda.
+*   **`os.path.exists()` / `os.path.isfile()`**: Verificações básicas para garantir que o arquivo de entrada existe e é de fato um arquivo.
+*   **`os.path.splitext()`**: Separa o nome do arquivo da sua extensão, permitindo criar nomes de arquivo de saída como `original_name_part0001.txt`.
+*   **`f"{base_name}_part{output_file_number:04d}{extension}"`**: Formatação de string para criar nomes de arquivos de saída com um número sequencial preenchido com zeros (ex: `0001`, `0002`).
+*   **`with open(...)`**: Garante que os arquivos são sempre fechados corretamente, mesmo que ocorram erros.
+*   **`encoding='utf-8', errors='ignore'`**: Define a codificação para UTF-8, que é amplamente compatível. `errors='ignore'` tenta lidar com caracteres que não podem ser decodificados, prevenindo que o programa falhe em arquivos com codificação mista ou inválida.
+*   **Tratamento de Erros**: Inclui blocos `try...except` para capturar erros de I/O (entrada/saída) e outros erros inesperados.

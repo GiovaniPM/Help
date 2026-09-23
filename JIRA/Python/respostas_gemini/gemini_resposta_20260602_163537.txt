@@ -1,0 +1,12 @@
+============================================================
+  Data/Hora: 02/06/2026 16:35:37
+  Modelo: gemini-2.5-flash
+============================================================
+
+📝 PROMPT:
+----------------------------------------
+gere uma app em python para realizar o split de um arquivo (informado por parametro), o qual será divido em n linha (informado por parametro, com default de 100)
+
+🤖 RESPOSTA:
+----------------------------------------
+❌ Erro ao obter resposta da API: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}

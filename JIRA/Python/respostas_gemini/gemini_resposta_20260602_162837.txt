@@ -1,0 +1,26 @@
+============================================================
+  Data/Hora: 02/06/2026 16:28:37
+  Modelo: gemini-2.5-flash
+============================================================
+
+📝 PROMPT:
+----------------------------------------
+resuma o livro: "O problema dos 3 corpos"
+
+🤖 RESPOSTA:
+----------------------------------------
+"O Problema dos Três Corpos" (The Three-Body Problem), de Liu Cixin, é o primeiro livro da aclamada trilogia "Lembrança do Passado da Terra" e é um romance de ficção científica que explora o primeiro contato da humanidade com uma civilização alienígena e as consequências existenciais dessa descoberta.
+
+**Resumo da Trama Principal:**
+
+A história começa na China contemporânea, onde uma série de suicídios inexplicáveis atinge cientistas de ponta ao redor do mundo. **Wang Miao**, um pesquisador de nanomateriais, é recrutado por um detetive cínico, porém astuto, chamado **Shi Qiang (Da Shi)**, para investigar esses incidentes e uma misteriosa organização que parece estar por trás deles.
+
+Paralelamente, somos levados a um flashback crucial para a **Revolução Cultural Chinesa** da década de 1960. Lá, conhecemos **Ye Wenjie**, uma astrofísica talentosa que testemunha a brutalidade de seu pai sendo morto e experimenta a profunda desilusão com a humanidade. Trabalhando em uma base militar secreta, ela intercepta uma mensagem alienígena e, em um momento de desespero e raiva contra a humanidade, decide **responder** a esse contato.
+
+De volta ao presente, Wang Miao descobre um misterioso jogo online de realidade virtual chamado **"Três Corpos"**. Este jogo, incrivelmente realista, simula a vida em um planeta distante que é orbitado por três sóis. Devido à gravidade caótica e imprevisível dos três corpos celestes, o planeta Trisolaris experimenta eras de catástrofe ("Eras Caóticas") e breves períodos de estabilidade ("Eras Estáveis"), forçando sua civilização a evoluir de maneiras extremas para sobreviver, incluindo a capacidade de "desidratar" e "reidratar" seus corpos.
+
+À medida que Wang Miao e Da Shi investigam mais a fundo, eles descobrem a verdade chocante: a organização por trás dos suicídios é a **Organização Terra-Trisolaris (ETO)**, fundada por ninguém menos que Ye Wenjie. Esta organização é composta por humanos que se dividem em duas facções principais: os que veem os Trisolaranos como salvadores para uma humanidade corrompida e os que acreditam que a Terra deve ser totalmente aniquilada para que os Trisolaranos possam encontrar um novo lar.
+
+Ainda mais assustador é o plano dos Trisolaranos. Eles descobriram a resposta de Ye Wenjie, mas a iminente destruição de seu próprio mundo os leva a enviar uma frota de invasão em direção à Terra. No entanto, o tempo de viagem é de 400 anos, e eles temem o avanço tecnológico da humanidade. Para evitar que a Terra se torne uma ameaça antes de sua chegada, os Trisolaranos enviam à frente de sua frota **"Sófons"**: supercomputadores do tamanho de prótons, dobrados em várias dimensões, que têm a capacidade de bloquear e perturbar as pesquisas em física fundamental na Terra, paralisando o avanço científico humano e espiando toda a civilização.
+
+O livro culmina na revelação da existência dos Trisolaranos, a iminência de sua invasão e o fato de que a ciência terrestre está efetivamente cega e paralisada pelos Sófons. A humanidade, embora com séculos para se preparar, enfrenta um desafio existencial para o qual está fundamentalmente despreparada e desinformada. A primeira parte da trilogia estabelece o palco para uma luta épica pela sobrevivência, explorando temas de natureza humana, ética científica, responsabilidade ambiental e as profundas implicações do contato com uma inteligência extraterrestre.

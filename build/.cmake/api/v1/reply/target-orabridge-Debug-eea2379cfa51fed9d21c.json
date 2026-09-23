@@ -116,11 +116,11 @@
 	[
 		{
 			"backtrace" : 3,
-			"id" : "odpi::@6890427a1f51a3e7e1df"
+			"id" : "bridge_core::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 3,
-			"id" : "bridge_core::@6890427a1f51a3e7e1df"
+			"id" : "odpi::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "orabridge::@6890427a1f51a3e7e1df",

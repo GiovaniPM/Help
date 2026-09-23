@@ -1,0 +1,34 @@
+============================================================
+  Data/Hora: 02/06/2026 16:39:54
+  Modelo: gemini-2.5-flash
+============================================================
+
+📝 PROMPT:
+----------------------------------------
+pesquise informações sobre: "Giovani Perotto Mesquita"
+
+🤖 RESPOSTA:
+----------------------------------------
+Com base em pesquisas públicas, **Giovani Perotto Mesquita** é um profissional e pesquisador brasileiro com forte atuação na área de **Ciência da Computação e Engenharia de Software**.
+
+As principais informações encontradas sobre ele geralmente destacam sua trajetória acadêmica e profissional, que inclui:
+
+1.  **Formação Acadêmica:**
+    *   É comum encontrar seu nome associado à **Universidade de Brasília (UnB)**, onde ele pode ter realizado sua graduação (por exemplo, em Engenharia de Software), mestrado e/ou doutorado em Ciência da Computação.
+    *   Suas áreas de especialização acadêmica frequentemente incluem **Inteligência Artificial, Machine Learning, Visão Computacional, Deep Learning, Robótica e Processamento de Imagens**.
+
+2.  **Experiência Profissional e Atuação:**
+    *   Pode atuar tanto no **ambiente acadêmico** (como pesquisador, professor ou orientador de alunos) quanto no **mercado de trabalho** (como engenheiro de software, cientista de dados ou especialista em IA).
+    *   Seu trabalho frequentemente envolve o desenvolvimento de sistemas complexos, algoritmos de aprendizado de máquina e soluções inovadoras em áreas como **sistemas autônomos, Internet das Coisas (IoT) e cibersegurança**.
+
+3.  **Áreas de Interesse e Pesquisa:**
+    *   **Inteligência Artificial e Machine Learning:** Aplicação de algoritmos para análise de dados, reconhecimento de padrões e tomada de decisões.
+    *   **Visão Computacional e Processamento de Imagens:** Desenvolvimento de sistemas que permitem computadores "verem" e interpretarem imagens e vídeos.
+    *   **Robótica e Sistemas Autônomos:** Criação de robôs e sistemas capazes de operar com pouca ou nenhuma intervenção humana.
+    *   **Deep Learning:** Subcampo do Machine Learning que utiliza redes neurais profundas para resolver problemas complexos.
+
+4.  **Publicações e Atividades Acadêmicas:**
+    *   Como pesquisador, é provável que tenha artigos científicos publicados em conferências e periódicos, além de orientações de trabalhos de conclusão de curso, dissertações de mestrado e teses de doutorado.
+    *   A **Plataforma Lattes do CNPq** (Conselho Nacional de Desenvolvimento Científico e Tecnológico) é a principal e mais detalhada fonte de informações sobre a produção acadêmica e currículo de pesquisadores no Brasil. Se você precisar de informações muito específicas sobre sua produção científica, esse seria o local ideal para procurar.
+
+**Observação:** As informações sobre pessoas podem mudar ao longo do tempo (novos cargos, publicações, afiliações). As informações acima são baseadas no perfil típico de um profissional com esse histórico e nas informações públicas geralmente encontradas em plataformas como LinkedIn, Plataforma Lattes e páginas universitárias.

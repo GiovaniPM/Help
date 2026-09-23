@@ -1,0 +1,290 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 920" width="1440" height="920" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowMGViNjgxZC0zMmViLTRhYjctODcwMy0yNWMyOTdjZmJjZGIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaG8eSzFenh5GvFGMi28QkwYAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmYzAwMWZiNy0wZTQyLTQ2MmMtYTViNS1hMjY2MWU1OGQxNzJscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoTe0f8y0jZV9hA23li1+rsgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggCiYKJosJy0ePiN/nv90ZVxau3CPayyXscQzQe4KpGh2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaC4RKUfCud/o1mpJUZgqqd8AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCALNM3+aDr5wNl2XFClltBr2xlt1L9QT4rkek6MN8BBHWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjWZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjAwZWI2ODFkLTMyZWItNGFiNy04NzAzLTI1YzI5N2NmYmNkYi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjFhZTE4NDRlLWI5OWQtNGM0MC1iNzUwLTYyMGQyZTM1YmE5Y3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAKJgomiwnLR4+I3+e/3RlXFq7cI9rLJexxDNB7gqkaHaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgggDc0Uz2/ZNOKcBDZ6e8IG9C26AGfXTjABQd1LXpjmRiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggIz4vXMRK/FFAk+EV787jQuWqyVwejmBgt15v1aHCsYx0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQOipVcLMnoQ59mrbviBA91mUZLrKpff+qPMLN9Nk+48SLn46d4aF9InhrDzsaUak+RxBDB+ai/UCcjiOtECTkaU=</c2pa:manifest></metadata>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#44546A"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C0392B"/>
+    </marker>
+    <filter id="sh" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1B2A41" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="1440" height="920" fill="#EEF2F6"/>
+  <rect width="1440" height="96" fill="#1B2A41"/>
+  <text x="40" y="46" fill="#FFFFFF" font-size="26" font-weight="600">Arquitetura da solução: criação automatizada de cards Jira a partir de planilha Excel</text>
+  <text x="40" y="74" fill="#AFC1D6" font-size="14">Leitura linha a linha da aba "planilha", validação dos campos e criação da hierarquia Épico, História e Tarefa no Jira Cloud</text>
+
+  <!-- ========== COLUNA 1: FONTE DE DADOS ========== -->
+  <g filter="url(#sh)">
+    <rect x="40" y="124" width="340" height="536" rx="10" fill="#FFFFFF"/>
+  </g>
+  <rect x="40" y="124" width="340" height="52" rx="10" fill="#1D6F42"/>
+  <rect x="40" y="160" width="340" height="16" fill="#1D6F42"/>
+  <!-- ícone Excel -->
+  <rect x="58" y="136" width="28" height="28" rx="4" fill="#FFFFFF"/>
+  <text x="72" y="157" text-anchor="middle" fill="#1D6F42" font-size="18" font-weight="700">X</text>
+  <text x="98" y="156" fill="#FFFFFF" font-size="17" font-weight="600">Fonte de dados</text>
+
+  <text x="60" y="204" fill="#1B2A41" font-size="14" font-weight="600">Arquivo Excel anexado</text>
+  <text x="60" y="222" fill="#5B6B7F" font-size="12">Somente a aba "planilha" é utilizada</text>
+
+  <!-- mini planilha -->
+  <g transform="translate(60,236)">
+    <rect width="300" height="96" fill="#FFFFFF" stroke="#C9D3DD"/>
+    <rect width="300" height="20" fill="#E3F1E8"/>
+    <g stroke="#C9D3DD">
+      <line x1="0" y1="20" x2="300" y2="20"/>
+      <line x1="0" y1="39" x2="300" y2="39"/>
+      <line x1="0" y1="58" x2="300" y2="58"/>
+      <line x1="0" y1="77" x2="300" y2="77"/>
+      <line x1="30" y1="0" x2="30" y2="96"/>
+      <line x1="100" y1="0" x2="100" y2="96"/>
+      <line x1="170" y1="0" x2="170" y2="96"/>
+      <line x1="240" y1="0" x2="240" y2="96"/>
+    </g>
+    <g font-size="10" fill="#1D6F42" font-weight="600">
+      <text x="42" y="14">Projeto</text>
+      <text x="108" y="14">Nome_Epico</text>
+      <text x="178" y="14">Tarefa</text>
+      <text x="252" y="14">Horas</text>
+    </g>
+    <g font-size="10" fill="#5B6B7F">
+      <text x="11" y="33">1</text><text x="11" y="52">2</text><text x="11" y="71">3</text><text x="11" y="90">4</text>
+    </g>
+    <rect x="31" y="21" width="268" height="17" fill="#1D6F42" opacity="0.12"/>
+    <text x="296" y="33" text-anchor="end" font-size="9" fill="#1D6F42" font-weight="600">em processamento</text>
+  </g>
+
+  <text x="60" y="360" fill="#1B2A41" font-size="13" font-weight="600">Colunas de origem</text>
+  <!-- chips obrigatórios -->
+  <g font-size="11" fill="#1B2A41">
+    <g fill="#E3F1E8" stroke="#1D6F42" stroke-width="1">
+      <rect x="60" y="372" width="145" height="24" rx="12"/><rect x="215" y="372" width="145" height="24" rx="12"/>
+      <rect x="60" y="402" width="145" height="24" rx="12"/><rect x="215" y="402" width="145" height="24" rx="12"/>
+      <rect x="60" y="432" width="145" height="24" rx="12"/><rect x="215" y="432" width="145" height="24" rx="12"/>
+      <rect x="60" y="462" width="145" height="24" rx="12"/><rect x="215" y="462" width="145" height="24" rx="12"/>
+      <rect x="60" y="492" width="145" height="24" rx="12"/><rect x="215" y="492" width="145" height="24" rx="12"/>
+      <rect x="60" y="522" width="145" height="24" rx="12"/><rect x="215" y="522" width="145" height="24" rx="12"/>
+      <rect x="60" y="552" width="145" height="24" rx="12"/><rect x="215" y="552" width="145" height="24" rx="12"/>
+      <rect x="60" y="582" width="145" height="24" rx="12"/>
+    </g>
+    <text x="132" y="388" text-anchor="middle">Projeto</text><text x="287" y="388" text-anchor="middle">Nome_Epico</text>
+    <text x="132" y="418" text-anchor="middle">Nome_Estoria</text><text x="287" y="418" text-anchor="middle">US</text>
+    <text x="132" y="448" text-anchor="middle">Tarefa</text><text x="287" y="448" text-anchor="middle">Data</text>
+    <text x="132" y="478" text-anchor="middle">Usuario_Projeto</text><text x="287" y="478" text-anchor="middle">UUID Recurso</text>
+    <text x="132" y="508" text-anchor="middle">UUID PO</text><text x="287" y="508" text-anchor="middle">Pontos</text>
+    <text x="132" y="538" text-anchor="middle">Horas</text><text x="287" y="538" text-anchor="middle">Módulo</text>
+    <text x="132" y="568" text-anchor="middle">Tipo</text><text x="287" y="568" text-anchor="middle">Etapa</text>
+    <text x="132" y="598" text-anchor="middle">Retorno</text>
+    <!-- opcionais -->
+    <g fill="#FFFFFF" stroke="#8A99AB" stroke-dasharray="3 3">
+      <rect x="215" y="582" width="70" height="24" rx="12"/><rect x="290" y="582" width="70" height="24" rx="12"/>
+      <rect x="60" y="612" width="70" height="24" rx="12"/>
+    </g>
+    <text x="250" y="598" text-anchor="middle" fill="#44546A">TicketE</text>
+    <text x="325" y="598" text-anchor="middle" fill="#44546A">TicketS</text>
+    <text x="95" y="628" text-anchor="middle" fill="#44546A">Task</text>
+  </g>
+  <rect x="148" y="618" width="12" height="12" rx="6" fill="#E3F1E8" stroke="#1D6F42"/>
+  <text x="166" y="628" font-size="10" fill="#5B6B7F">obrigatório</text>
+  <rect x="236" y="618" width="12" height="12" rx="6" fill="#FFFFFF" stroke="#8A99AB" stroke-dasharray="2 2"/>
+  <text x="254" y="628" font-size="10" fill="#5B6B7F">opcional / reuso</text>
+
+  <!-- seta 1 -> 2 -->
+  <line x1="384" y1="392" x2="424" y2="392" stroke="#44546A" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="404" y="380" text-anchor="middle" font-size="10" fill="#44546A">linha</text>
+
+  <!-- ========== COLUNA 2: ORQUESTRAÇÃO ========== -->
+  <g filter="url(#sh)">
+    <rect x="430" y="124" width="420" height="536" rx="10" fill="#FFFFFF"/>
+  </g>
+  <rect x="430" y="124" width="420" height="52" rx="10" fill="#3D3B8E"/>
+  <rect x="430" y="160" width="420" height="16" fill="#3D3B8E"/>
+  <circle cx="462" cy="150" r="14" fill="#FFFFFF"/>
+  <path d="M455,150 h14 M462,143 v14" stroke="#3D3B8E" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="486" y="148" fill="#FFFFFF" font-size="17" font-weight="600">Orquestração</text>
+  <text x="486" y="166" fill="#C9C7F2" font-size="11">Claude com conector @Jira Cloud, guiado pelo prompt</text>
+
+  <!-- passos -->
+  <g font-size="12">
+    <!-- 1 -->
+    <rect x="450" y="192" width="380" height="54" rx="8" fill="#F4F4FB" stroke="#D5D4EE"/>
+    <circle cx="474" cy="219" r="12" fill="#3D3B8E"/><text x="474" y="223" text-anchor="middle" fill="#FFF" font-size="11" font-weight="700">1</text>
+    <text x="496" y="214" fill="#1B2A41" font-weight="600">Limpeza de contexto</text>
+    <text x="496" y="232" fill="#5B6B7F" font-size="11">Descarta informações de processamentos anteriores</text>
+    <!-- 2 -->
+    <rect x="450" y="256" width="380" height="54" rx="8" fill="#F4F4FB" stroke="#D5D4EE"/>
+    <circle cx="474" cy="283" r="12" fill="#3D3B8E"/><text x="474" y="287" text-anchor="middle" fill="#FFF" font-size="11" font-weight="700">2</text>
+    <text x="496" y="278" fill="#1B2A41" font-weight="600">Validação inicial obrigatória</text>
+    <text x="496" y="296" fill="#5B6B7F" font-size="11">15 campos; célula vazia é nula, sem herdar valores</text>
+    <!-- 3 -->
+    <rect x="450" y="320" width="380" height="54" rx="8" fill="#F4F4FB" stroke="#D5D4EE"/>
+    <circle cx="474" cy="347" r="12" fill="#3D3B8E"/><text x="474" y="351" text-anchor="middle" fill="#FFF" font-size="11" font-weight="700">3</text>
+    <text x="496" y="342" fill="#1B2A41" font-weight="600">Leitura da linha e exibição dos dados</text>
+    <text x="496" y="360" fill="#5B6B7F" font-size="11">Uma linha por vez, dados exibidos antes de cada criação</text>
+    <!-- 4 decisão -->
+    <rect x="450" y="384" width="380" height="82" rx="8" fill="#FFF8E6" stroke="#E8C872"/>
+    <path d="M474,398 l12,12 l-12,12 l-12,-12 z" fill="#B7791F"/>
+    <text x="474" y="414" text-anchor="middle" fill="#FFF" font-size="11" font-weight="700">4</text>
+    <text x="496" y="406" fill="#1B2A41" font-weight="600">Decisão de reuso de chaves</text>
+    <text x="496" y="425" fill="#5B6B7F" font-size="11">TicketE preenchido: usa como CHAVE_EPICO, pula Épico</text>
+    <text x="496" y="442" fill="#5B6B7F" font-size="11">TicketS preenchido: usa como CHAVE_HISTORIA, pula História</text>
+    <text x="496" y="459" fill="#5B6B7F" font-size="11">Caso contrário: cria o item no Jira</text>
+    <!-- 5 -->
+    <rect x="450" y="476" width="380" height="54" rx="8" fill="#F4F4FB" stroke="#D5D4EE"/>
+    <circle cx="474" cy="503" r="12" fill="#3D3B8E"/><text x="474" y="507" text-anchor="middle" fill="#FFF" font-size="11" font-weight="700">5</text>
+    <text x="496" y="498" fill="#1B2A41" font-weight="600">Regra TRE</text>
+    <text x="496" y="516" fill="#5B6B7F" font-size="11">Projeto = TRE: não preenche Reporter nem Product Owner</text>
+    <!-- 6 -->
+    <rect x="450" y="540" width="380" height="54" rx="8" fill="#F4F4FB" stroke="#D5D4EE"/>
+    <circle cx="474" cy="567" r="12" fill="#3D3B8E"/><text x="474" y="571" text-anchor="middle" fill="#FFF" font-size="11" font-weight="700">6</text>
+    <text x="496" y="562" fill="#1B2A41" font-weight="600">Armazenamento das chaves geradas</text>
+    <text x="496" y="580" fill="#5B6B7F" font-size="11">CHAVE_EPICO, CHAVE_HISTORIA e CHAVE_TAREFA por linha</text>
+  </g>
+  <!-- loop próxima linha -->
+  <path d="M640,600 v28 h-196 v-281 h4" fill="none" stroke="#8A99AB" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+  <text x="652" y="640" font-size="11" fill="#5B6B7F">próxima linha da planilha</text>
+
+  <!-- seta 2 -> 3 -->
+  <line x1="854" y1="392" x2="894" y2="392" stroke="#44546A" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="874" y="380" text-anchor="middle" font-size="10" fill="#44546A">API</text>
+
+  <!-- ========== COLUNA 3: JIRA CLOUD ========== -->
+  <g filter="url(#sh)">
+    <rect x="900" y="124" width="500" height="536" rx="10" fill="#FFFFFF"/>
+  </g>
+  <rect x="900" y="124" width="500" height="52" rx="10" fill="#0052CC"/>
+  <rect x="900" y="160" width="500" height="16" fill="#0052CC"/>
+  <path d="M932,138 l12,12 l-12,12 l-12,-12 z" fill="#FFFFFF"/>
+  <path d="M932,144 l6,6 l-6,6 l-6,-6 z" fill="#0052CC"/>
+  <text x="956" y="156" fill="#FFFFFF" font-size="17" font-weight="600">Jira Cloud</text>
+  <text x="1380" y="156" text-anchor="end" fill="#B3D4FF" font-size="12">Hierarquia criada por linha</text>
+
+  <!-- conectores hierarquia -->
+  <path d="M936,316 V398 H950" fill="none" stroke="#8A99AB" stroke-width="2"/>
+  <path d="M966,476 V556 H980" fill="none" stroke="#8A99AB" stroke-width="2"/>
+
+  <!-- Épico -->
+  <rect x="920" y="192" width="460" height="124" rx="8" fill="#F5F3FF" stroke="#C7BFF0"/>
+  <rect x="920" y="192" width="6" height="124" rx="3" fill="#6554C0"/>
+  <path d="M948,202 l6,-4 l6,4 v10 l-6,4 l-6,-4 z" fill="#6554C0"/>
+  <text x="968" y="214" fill="#1B2A41" font-size="14" font-weight="700">Épico</text>
+  <rect x="1250" y="200" width="118" height="20" rx="10" fill="#6554C0"/>
+  <text x="1309" y="214" text-anchor="middle" fill="#FFF" font-size="10" font-weight="600">CHAVE_EPICO</text>
+  <g font-size="11" fill="#44546A">
+    <text x="944" y="238">Título / Descrição ← Nome_Epico</text>
+    <text x="944" y="256">Data de entrega ← Data</text>
+    <text x="944" y="274">Reporter ← Usuario_Projeto</text>
+    <text x="944" y="292">Ticket relacionado ← Task</text>
+    <text x="1170" y="238">Sistema ← Módulo</text>
+    <text x="1170" y="256">Módulo/Tipo ← Tipo</text>
+    <text x="1170" y="274">Saving ← Retorno</text>
+  </g>
+  <text x="944" y="308" font-size="10" fill="#6554C0" font-style="italic">Não criado quando TicketE está preenchido</text>
+
+  <!-- História -->
+  <rect x="950" y="336" width="430" height="140" rx="8" fill="#EEFAF4" stroke="#A8DEC4"/>
+  <rect x="950" y="336" width="6" height="140" rx="3" fill="#36B37E"/>
+  <path d="M978,346 h12 v14 l-6,-4 l-6,4 z" fill="#36B37E"/>
+  <text x="998" y="358" fill="#1B2A41" font-size="14" font-weight="700">História</text>
+  <rect x="1238" y="344" width="130" height="20" rx="10" fill="#36B37E"/>
+  <text x="1303" y="358" text-anchor="middle" fill="#FFF" font-size="10" font-weight="600">CHAVE_HISTORIA</text>
+  <g font-size="11" fill="#44546A">
+    <text x="974" y="382">Título ← Nome_Estoria</text>
+    <text x="974" y="400">User Story ← US</text>
+    <text x="974" y="418">Assignee ← UUID Recurso</text>
+    <text x="974" y="436">Product Owner ← UUID PO</text>
+    <text x="1180" y="382">Épico pai ← CHAVE_EPICO</text>
+    <text x="1180" y="400">Story Points ← Pontos</text>
+  </g>
+  <text x="974" y="456" font-size="10" fill="#1F8A5B" font-style="italic">Não criada quando TicketS está preenchido</text>
+  <text x="974" y="470" font-size="10" fill="#1F8A5B" font-style="italic">Sem Product Owner quando Projeto = TRE</text>
+
+  <!-- Tarefa -->
+  <rect x="980" y="496" width="400" height="148" rx="8" fill="#EDF5FF" stroke="#A9CBF7"/>
+  <rect x="980" y="496" width="6" height="148" rx="3" fill="#2684FF"/>
+  <rect x="1006" y="506" width="14" height="14" rx="3" fill="#2684FF"/>
+  <path d="M1009,513 l3,3 l5,-6" fill="none" stroke="#FFF" stroke-width="2"/>
+  <text x="1028" y="518" fill="#1B2A41" font-size="14" font-weight="700">Tarefa</text>
+  <rect x="1250" y="504" width="118" height="20" rx="10" fill="#2684FF"/>
+  <text x="1309" y="518" text-anchor="middle" fill="#FFF" font-size="10" font-weight="600">CHAVE_TAREFA</text>
+  <g font-size="11" fill="#44546A">
+    <text x="1004" y="542">Tipo de item ← Etapa</text>
+    <text x="1004" y="560">Título / Descrição ← Tarefa</text>
+    <text x="1004" y="578">Assignee ← UUID Recurso</text>
+    <text x="1004" y="596">Reporter ← UUID Recurso</text>
+    <text x="1196" y="542">História pai ←</text>
+    <text x="1196" y="556">CHAVE_HISTORIA</text>
+    <text x="1196" y="578">Estimativa ← Horas + "h"</text>
+  </g>
+  <text x="1004" y="618" font-size="10" fill="#1E6FD9" font-style="italic">Sempre criada; sem Reporter quando Projeto = TRE</text>
+  <text x="1004" y="634" font-size="10" fill="#1E6FD9" font-style="italic">Campo Tamanho permanece em branco</text>
+
+  <!-- ========== LINHA INFERIOR ========== -->
+  <!-- setas para baixo -->
+  <line x1="1150" y1="662" x2="1150" y2="696" stroke="#44546A" stroke-width="2.5" marker-end="url(#arr)"/>
+  <line x1="640" y1="662" x2="640" y2="696" stroke="#C0392B" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrRed)"/>
+  <text x="650" y="684" font-size="10" fill="#C0392B">em caso de falha</text>
+
+  <!-- Regras de integridade -->
+  <g filter="url(#sh)"><rect x="40" y="702" width="340" height="186" rx="10" fill="#FFFFFF"/></g>
+  <rect x="40" y="702" width="340" height="4" fill="#44546A"/>
+  <text x="60" y="734" fill="#1B2A41" font-size="15" font-weight="600">Regras de integridade</text>
+  <g font-size="12" fill="#44546A">
+    <circle cx="64" cy="758" r="3" fill="#44546A"/><text x="76" y="762">Usa apenas dados presentes na planilha</text>
+    <circle cx="64" cy="782" r="3" fill="#44546A"/><text x="76" y="786">Não inventa, completa, infere ou deduz valores</text>
+    <circle cx="64" cy="806" r="3" fill="#44546A"/><text x="76" y="810">Módulo e Prioridade copiados exatamente</text>
+    <circle cx="64" cy="830" r="3" fill="#44546A"/><text x="76" y="834">Células vazias tratadas estritamente como nulas</text>
+    <circle cx="64" cy="854" r="3" fill="#44546A"/><text x="76" y="858">Nenhum valor herdado da linha anterior</text>
+  </g>
+
+  <!-- Tratamento de erros -->
+  <g filter="url(#sh)"><rect x="430" y="702" width="420" height="186" rx="10" fill="#FFFFFF"/></g>
+  <rect x="430" y="702" width="420" height="4" fill="#C0392B"/>
+  <text x="450" y="734" fill="#1B2A41" font-size="15" font-weight="600">Tratamento de erros</text>
+  <rect x="450" y="748" width="186" height="100" rx="6" fill="#FDEDEC" stroke="#F1B7B1"/>
+  <text x="462" y="768" fill="#C0392B" font-size="12" font-weight="700">Erro de validação</text>
+  <g font-size="11" fill="#44546A">
+    <text x="462" y="788">Linha e campo ausente</text>
+    <text x="462" y="805">Linha interrompida</text>
+    <text x="462" y="822">Nenhum item criado</text>
+  </g>
+  <rect x="646" y="748" width="186" height="100" rx="6" fill="#FDEDEC" stroke="#F1B7B1"/>
+  <text x="658" y="768" fill="#C0392B" font-size="12" font-weight="700">Erro de processamento</text>
+  <g font-size="11" fill="#44546A">
+    <text x="658" y="788">Linha e etapa com falha</text>
+    <text x="658" y="805">Mensagem retornada</text>
+    <text x="658" y="822">pelo Jira</text>
+  </g>
+  <text x="450" y="872" font-size="11" fill="#C0392B" font-weight="600">Após uma falha, nenhum item filho é criado</text>
+
+  <!-- Relatório final -->
+  <g filter="url(#sh)"><rect x="900" y="702" width="500" height="186" rx="10" fill="#FFFFFF"/></g>
+  <rect x="900" y="702" width="500" height="4" fill="#0052CC"/>
+  <text x="920" y="734" fill="#1B2A41" font-size="15" font-weight="600">Relatório final</text>
+
+  <text x="920" y="760" font-size="11" fill="#44546A" font-weight="600">Itens criados</text>
+  <g transform="translate(920,768)">
+    <rect width="460" height="40" fill="#FFFFFF" stroke="#C9D3DD"/>
+    <rect width="460" height="18" fill="#E6EFFC"/>
+    <g font-size="9" fill="#0052CC" font-weight="600">
+      <text x="6" y="13">Nível</text><text x="58" y="13">Chave</text><text x="118" y="13">Título</text>
+      <text x="198" y="13">Item pai</text><text x="268" y="13">Responsável</text><text x="352" y="13">Estimativa</text><text x="420" y="13">Link</text>
+    </g>
+    <g stroke="#C9D3DD"><line x1="0" y1="18" x2="460" y2="18"/><line x1="0" y1="29" x2="460" y2="29"/></g>
+  </g>
+
+  <text x="920" y="830" font-size="11" fill="#44546A" font-weight="600">Consolidação por linha</text>
+  <g transform="translate(920,838)">
+    <rect width="460" height="40" fill="#FFFFFF" stroke="#C9D3DD"/>
+    <rect width="460" height="18" fill="#E6EFFC"/>
+    <g font-size="9" fill="#0052CC" font-weight="600">
+      <text x="6" y="13">Linha</text><text x="90" y="13">CHAVE_EPICO</text>
+      <text x="210" y="13">CHAVE_HISTORIA</text><text x="340" y="13">CHAVE_TAREFA</text>
+    </g>
+    <g stroke="#C9D3DD"><line x1="0" y1="18" x2="460" y2="18"/><line x1="0" y1="29" x2="460" y2="29"/></g>
+  </g>
+</svg>

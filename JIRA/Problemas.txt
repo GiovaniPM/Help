@@ -1,0 +1,125 @@
+DIAGNÓSTICO DO PROCESSO ÁGIL: PRINCIPAIS PONTOS DE ATENÇÃO E RECOMENDAÇÕES
+
+Resumo executivo
+
+Este documento reúne os principais fatores que comprometem a previsibilidade e a qualidade das entregas das sprints. Os pontos estão organizados em cinco eixos: planejamento e escopo, execução, cerimônias e papéis, métricas e cultura e, por fim, a divisão de capacidade entre sprints e projetos, que hoje é o fator de maior impacto na previsibilidade do time. Cada item traz o problema observado, o impacto no negócio e a ação recomendada.
+
+
+1. PLANEJAMENTO E ESCOPO
+
+1.1 Comprometimento acima da capacidade
+O time assume mais itens do que consegue entregar e a sprint termina com trabalho incompleto. Em geral, isso decorre de pressão externa ou de um planejamento que desconsidera o histórico de entregas.
+Recomendação: planejar com base na média de entrega das últimas sprints e reservar margem para imprevistos.
+
+1.2 Itens grandes ou pouco detalhados
+Demandas chegam ao planejamento sem critérios de aceite definidos ou com tamanho incompatível com uma sprint, o que gera incerteza e atrasos.
+Recomendação: manter o refinamento contínuo do backlog e dividir as demandas em entregas menores e independentes, conforme boas práticas de mercado (critério INVEST).
+
+1.3 Alteração de escopo durante a sprint
+Demandas urgentes são incluídas sem negociação, o que desestabiliza o compromisso assumido.
+Recomendação: o Product Owner deve proteger o escopo da sprint. Quando uma demanda realmente urgente for incluída, um item de esforço equivalente deve ser retirado.
+
+1.4 Ausência de objetivo claro para a sprint
+Sem uma meta definida, a sprint se torna uma lista de tarefas desconectadas e o time perde referência para priorizar.
+Recomendação: definir, em cada planejamento, um objetivo de negócio claro e mensurável para a sprint.
+
+
+2. EXECUÇÃO
+
+2.1 Excesso de trabalho simultâneo
+Cada profissional mantém várias atividades abertas ao mesmo tempo e as entregas se concentram no último dia da sprint.
+Recomendação: limitar o número de itens em andamento por pessoa e priorizar a conclusão antes do início de novas atividades.
+
+2.2 Critério de conclusão insuficiente
+Itens são considerados concluídos sem teste, revisão ou documentação, e retornam posteriormente como retrabalho ou defeito.
+Recomendação: formalizar uma Definição de Pronto que inclua, no mínimo, teste, revisão e documentação.
+
+2.3 Dependências externas
+O time fica bloqueado aguardando outras áreas, fornecedores ou aprovações.
+Recomendação: mapear as dependências já no refinamento e tratar os impedimentos de forma imediata, com escalonamento quando necessário.
+
+2.4 Testes concentrados no final da sprint
+A área de qualidade se torna um gargalo nos últimos dias, o que aumenta o risco de entregas sem validação adequada.
+Recomendação: distribuir os testes ao longo da sprint e ampliar a automação.
+
+
+3. CERIMÔNIAS E PAPÉIS
+
+3.1 Reunião diária com caráter de prestação de contas
+A reunião diária funciona como relatório de status à gestão, e não como alinhamento entre os membros do time.
+Recomendação: manter a reunião curta e focada em impedimentos e no progresso em direção à meta da sprint.
+
+3.2 Retrospectivas sem desdobramento prático
+Os mesmos problemas se repetem a cada sprint porque as discussões não geram mudanças.
+Recomendação: encerrar cada retrospectiva com uma ou duas ações concretas, com responsável definido, e verificar sua execução na retrospectiva seguinte.
+
+3.3 Product Owner ausente ou sem autonomia
+Dúvidas permanecem sem resposta e as prioridades mudam sem critério definido.
+Recomendação: garantir disponibilidade e poder de decisão ao Product Owner.
+
+3.4 Scrum Master com atuação apenas administrativa
+O papel se limita ao agendamento de reuniões, sem atuação na remoção de impedimentos ou na melhoria do processo.
+Recomendação: reposicionar o Scrum Master como facilitador e responsável pela evolução do processo.
+
+
+4. MÉTRICAS E CULTURA
+
+4.1 Uso inadequado da velocidade do time
+Quando a velocidade é usada como meta ou para comparar times, as estimativas tendem a ser infladas e o planejamento perde confiabilidade.
+Recomendação: utilizar a velocidade exclusivamente como ferramenta de previsão interna de cada time, e não como indicador de desempenho.
+
+4.2 Ausência de intervalo entre sprints
+A sequência ininterrupta de sprints acumula débito técnico e desgaste da equipe, sem espaço para melhorias estruturais.
+Recomendação: reservar capacidade periódica para redução de débito técnico e melhorias.
+
+4.3 Adoção apenas formal do método ágil
+O time cumpre os ritos, mas mantém a lógica tradicional em cascata: escopo fechado, prazo fixo e baixa autonomia.
+Recomendação: alinhar com a gestão o modelo de governança, de forma a permitir a adaptação de escopo e maior autonomia ao time.
+
+
+5. DIVISÃO DE CAPACIDADE ENTRE SPRINTS E PROJETOS
+
+5.1 Capacidade superestimada
+O planejamento considera dedicação integral do time à sprint, embora parte das horas seja destinada a projetos.
+Recomendação: calcular a capacidade real de cada pessoa, descontando a alocação em projetos (em horas ou percentual).
+
+5.2 Alocação não formalizada
+Não há registro preciso do tempo que cada profissional dedica a projetos, e a divisão muda informalmente conforme a pressão do momento.
+Recomendação: definir e registrar a alocação antes de cada planejamento e revisá-la sempre que houver mudança.
+
+5.3 Conflito de prioridades
+Sprint e projetos disputam os mesmos profissionais, e cada frente tem um responsável cobrando entregas. Sem uma regra de desempate, a decisão recai sobre o próprio profissional e ambas as frentes atrasam.
+Recomendação: estabelecer formalmente quem decide as prioridades em caso de conflito e com base em quais critérios.
+
+5.4 Troca frequente de contexto
+Alternar entre sprint e projeto várias vezes ao dia reduz a produtividade e aumenta a incidência de erros.
+Recomendação: reservar blocos de tempo ou dias fixos para cada frente de trabalho.
+
+5.5 Esforço em projetos sem visibilidade
+As atividades de projeto não são registradas no Jira da sprint. Com isso, a queda de produtividade da sprint parece não ter explicação e o esforço real da equipe não é reconhecido.
+Recomendação: registrar o trabalho de projeto no Jira (em quadro próprio, épico ou componente), com apontamento de horas, para dar visibilidade à divisão real de esforço.
+
+5.6 Instabilidade da velocidade
+Como a dedicação a projetos varia de uma sprint para outra, a média histórica perde valor para previsão.
+Recomendação: medir a velocidade em relação à capacidade disponível (pontos por pessoa-dia), o que permite comparações consistentes entre sprints.
+
+5.7 Marcos de projeto impactando a sprint
+Próximo a entregas importantes de projetos, profissionais são retirados da sprint sem renegociação do escopo.
+Recomendação: antecipar esses períodos no planejamento e reduzir o compromisso da sprint de forma proporcional.
+
+5.8 Dependência de profissionais-chave
+Especialistas alocados em vários projetos se tornam gargalo e ponto único de falha.
+Recomendação: promover a disseminação de conhecimento por meio de trabalho em par e documentação.
+
+5.9 Baixa participação nas cerimônias
+Profissionais alocados em projetos deixam de participar da reunião diária, do refinamento e da retrospectiva, o que compromete o alinhamento do time.
+Recomendação: garantir participação mínima nas cerimônias, mesmo para quem tem dedicação parcial à sprint.
+
+
+PRÓXIMOS PASSOS SUGERIDOS
+
+Para obter ganhos rápidos de previsibilidade, recomenda-se priorizar:
+1. O cálculo da capacidade real do time, considerando a alocação em projetos (itens 5.1 e 5.2).
+2. A definição de uma regra formal de priorização entre sprint e projetos (item 5.3).
+3. O registro do esforço de projetos no Jira, para dar visibilidade ao trabalho realizado (item 5.5).
+4. A formalização da Definição de Pronto e da meta de cada sprint (itens 1.4 e 2.2).

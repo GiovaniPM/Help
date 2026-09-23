@@ -1,0 +1,128 @@
+@Jira Cloud
+
+1. OBJETIVO
+
+Com base o arquivo excel anexado nesta pesquisa, utilize exclusivamente os dados contidos na aba "planilha".
+
+Para cada linha da planilha, crie a seguinte hierarquia no Jira Cloud:
+
+Épico
+ └── História
+      └── Tarefa
+
+Todas as colunas da planilha devem ser utilizadas como origem dos valores.
+
+2. REGRAS GERAIS
+
+- Inicie limpando qualquer informações sobre processamentos anteriores
+- Utilize apenas informações presentes na planilha.
+- Não invente, complete, infira ou deduza valores.
+- Se qualquer campo obrigatório estiver ausente, vazio ou inválido:
+  - Interrompa o processamento da linha.
+  - Não crie nenhum item.
+  - Informe claramente qual campo está faltando.
+- Processe uma linha por vez.
+- Exiba os dados antes da criação de cada item.
+- Armazene as chaves Jira geradas para uso nas etapas subsequentes.
+- O campo Módulo deve utilizar exatamente o valor da coluna [Módulo].
+- O campo Prioridade deve utilizar exatamente o valor da coluna [Prioridade].
+- O campo Tamanho deve permanecer em branco.
+- IMPORTANTE: Trate células vazias estritamente como nulas. Nunca assuma que um valor de uma linha anterior se aplica à linha atual, a menos que eu diga explicitamente.
+
+3. VALIDAÇÃO INICIAL OBRIGATÓRIA
+
+Validar os campos:
+Projeto, Nome_Epico, Nome_Estoria, US, Tarefa, Data, Usuario_Projeto,
+UUID Recurso, UUID PO, Pontos, Horas, Módulo, Tipo, Etapa, Retorno.
+
+Caso algum campo não exista ou esteja vazio quando necessário:
+
+ERRO DE VALIDAÇÃO
+Linha: X
+Campo obrigatório ausente: [NOME DO CAMPO]
+Nenhum item foi criado.
+
+4. REGRAS A SEREM EXECUTADAS PARA CADA LINHA
+
+Leia novamente as colunas da linha
+
+Se [TicketE] na linha estiver preenchido:
+- Não criar Épico
+- CHAVE_EPICO = [TicketE]
+- Pular ETAPA 1
+
+Se [TicketS] na linha estiver preenchido:
+- Não criar História
+- CHAVE_HISTORIA = [TicketS]
+- Pular ETAPA 2
+
+ETAPA 1 - CRIAR ÉPICO
+
+Executar somente quando [TicketE] não estiver preenchido.
+
+Projeto: [Projeto]
+Tipo: Épico
+Título: [Nome_Epico]
+Descrição: [Nome_Epico]
+Data de entrega: [Data]
+Reporter: [Usuario_Projeto]
+Ticket relacionado: [Task]
+Sistema: [Módulo]
+Módulo/Tipo: [Tipo]
+Saving: [Retorno]
+
+Após criação:
+CHAVE_EPICO = <chave criada>
+
+ETAPA 2 - CRIAR HISTÓRIA
+
+Executar somente quando [TicketS] não estiver preenchido.
+
+Projeto: [Projeto]
+Tipo: História
+Título: [Nome_Estoria]
+Descrição/User Story: [US]
+Assignee: [UUID Recurso]
+Reporter/Product Owner: [UUID PO]
+Épico Pai: CHAVE_EPICO
+Story Points: [Pontos]
+
+Regra TRE:
+Se Projeto = TRE, não preencher Reporter/Product Owner.
+
+Após criação:
+CHAVE_HISTORIA = <chave criada>
+
+ETAPA 3 - CRIAR TAREFA
+
+Projeto: [Projeto]
+Tipo de Item: [Etapa]
+Título: [Tarefa]
+Descrição: [Tarefa]
+Assignee: [UUID Recurso]
+Reporter: [UUID Recurso]
+História Pai: CHAVE_HISTORIA
+Estimativa Original: [Horas]h
+
+Regra TRE:
+Se Projeto = TRE, não preencher Reporter.
+
+Após criação:
+CHAVE_TAREFA = <chave criada>
+
+5. RELATÓRIO FINAL
+
+Tabela de Itens Criados:
+| Nível | Chave | Título | Item Pai | Responsável | Estimativa | Link |
+
+Tabela de Consolidação:
+| Linha | CHAVE_EPICO | CHAVE_HISTORIA | CHAVE_TAREFA |
+
+6. TRATAMENTO DE ERROS
+
+ERRO DE PROCESSAMENTO
+Linha: X
+Etapa: Épico | História | Tarefa
+Mensagem retornada pelo Jira: [detalhe do erro]
+
+Nenhum item filho deverá ser criado após a falha.

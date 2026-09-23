@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="830" viewBox="0 0 1920 830" font-family="Segoe UI, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker></defs>
+<rect width="1920" height="830" fill="#F8FAFC"/>
+<text x="60" y="58" font-size="30" font-weight="700" fill="#0F172A">Linha do tempo: gestão de sprints com IA e automação</text>
+<text x="60" y="88" font-size="16" fill="#475569">Do processo manual à integração entre Copilot, Jira Cloud e Atlassian Rovo</text>
+<text x="60" y="132" font-size="14" font-weight="700" fill="#B91C1C" letter-spacing="1">MOTIVAÇÕES</text>
+<rect x="60" y="146" width="587" height="52" rx="8" fill="#FEF2F2" stroke="#FCA5A5"/>
+<text x="353" y="178" font-size="16" fill="#7F1D1D" text-anchor="middle">Cerimônias isoladas, sem continuidade entre si</text>
+<rect x="667" y="146" width="587" height="52" rx="8" fill="#FEF2F2" stroke="#FCA5A5"/>
+<text x="960" y="178" font-size="16" fill="#7F1D1D" text-anchor="middle">~90 cards por sprint criados à mão (8 a 12 h de trabalho)</text>
+<rect x="1273" y="146" width="587" height="52" rx="8" fill="#FEF2F2" stroke="#FCA5A5"/>
+<text x="1567" y="178" font-size="16" fill="#7F1D1D" text-anchor="middle">Iniciativas desconectadas, sem sincronização entre sistemas</text>
+<line x1="50" y1="480" x2="1545" y2="480" stroke="#334155" stroke-width="4" marker-end="url(#arr)"/>
+<line x1="108" y1="396" x2="108" y2="480" stroke="#64748B" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="108" cy="480" r="9" fill="#fff" stroke="#64748B" stroke-width="4"/>
+<rect x="10" y="296" width="196" height="100" rx="8" fill="#fff" stroke="#64748B" stroke-width="1.5"/>
+<path d="M10,324 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#64748B"/>
+<text x="108" y="315" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">Início</text>
+<text x="108" y="353" font-size="14" fill="#1E293B" text-anchor="middle">Gestão das sprints</text>
+<text x="108" y="371" font-size="14" fill="#1E293B" text-anchor="middle">totalmente manual</text>
+<line x1="212" y1="480" x2="212" y2="564" stroke="#64748B" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="212" cy="480" r="9" fill="#fff" stroke="#64748B" stroke-width="4"/>
+<rect x="114" y="564" width="196" height="100" rx="8" fill="#fff" stroke="#64748B" stroke-width="1.5"/>
+<path d="M114,592 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#64748B"/>
+<text x="212" y="583" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">—</text>
+<text x="212" y="621" font-size="14" fill="#1E293B" text-anchor="middle">Planilha Excel das</text>
+<text x="212" y="639" font-size="14" fill="#1E293B" text-anchor="middle">cerimônias da sprint</text>
+<line x1="316" y1="396" x2="316" y2="480" stroke="#2563EB" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="316" cy="480" r="9" fill="#fff" stroke="#2563EB" stroke-width="4"/>
+<rect x="218" y="296" width="196" height="100" rx="8" fill="#fff" stroke="#2563EB" stroke-width="1.5"/>
+<path d="M218,324 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#2563EB"/>
+<text x="316" y="315" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">—</text>
+<text x="316" y="344" font-size="14" fill="#1E293B" text-anchor="middle">Prompt de resumo</text>
+<text x="316" y="362" font-size="14" fill="#1E293B" text-anchor="middle">das reuniões</text>
+<text x="316" y="380" font-size="14" fill="#1E293B" text-anchor="middle">(Copilot Free)</text>
+<line x1="420" y1="480" x2="420" y2="564" stroke="#2563EB" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="420" cy="480" r="9" fill="#fff" stroke="#2563EB" stroke-width="4"/>
+<rect x="322" y="564" width="196" height="100" rx="8" fill="#fff" stroke="#2563EB" stroke-width="1.5"/>
+<path d="M322,592 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#2563EB"/>
+<text x="420" y="583" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">08/2025</text>
+<text x="420" y="621" font-size="14" fill="#1E293B" text-anchor="middle">Licença M365 Copilot</text>
+<text x="420" y="639" font-size="14" fill="#1E293B" text-anchor="middle">(programa Champions)</text>
+<line x1="524" y1="396" x2="524" y2="480" stroke="#2563EB" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="524" cy="480" r="9" fill="#fff" stroke="#2563EB" stroke-width="4"/>
+<rect x="426" y="296" width="196" height="100" rx="8" fill="#fff" stroke="#2563EB" stroke-width="1.5"/>
+<path d="M426,324 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#2563EB"/>
+<text x="524" y="315" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">09/2025</text>
+<text x="524" y="353" font-size="14" fill="#1E293B" text-anchor="middle">Prompt de escrita e</text>
+<text x="524" y="371" font-size="14" fill="#1E293B" text-anchor="middle">padronização de US</text>
+<line x1="628" y1="480" x2="628" y2="564" stroke="#059669" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="628" cy="480" r="9" fill="#fff" stroke="#059669" stroke-width="4"/>
+<rect x="530" y="564" width="196" height="100" rx="8" fill="#fff" stroke="#059669" stroke-width="1.5"/>
+<path d="M530,592 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#059669"/>
+<text x="628" y="583" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">10/2025</text>
+<text x="628" y="621" font-size="14" fill="#1E293B" text-anchor="middle">Automação em Python:</text>
+<text x="628" y="639" font-size="14" fill="#1E293B" text-anchor="middle">planilha → cards Jira</text>
+<line x1="732" y1="396" x2="732" y2="480" stroke="#2563EB" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="732" cy="480" r="9" fill="#fff" stroke="#2563EB" stroke-width="4"/>
+<rect x="634" y="296" width="196" height="100" rx="8" fill="#fff" stroke="#2563EB" stroke-width="1.5"/>
+<path d="M634,324 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#2563EB"/>
+<text x="732" y="315" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">—</text>
+<text x="732" y="353" font-size="14" fill="#1E293B" text-anchor="middle">Agente Copilot para</text>
+<text x="732" y="371" font-size="14" fill="#1E293B" text-anchor="middle">consultas às planilhas</text>
+<line x1="836" y1="480" x2="836" y2="564" stroke="#2563EB" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="836" cy="480" r="9" fill="#fff" stroke="#2563EB" stroke-width="4"/>
+<rect x="738" y="564" width="196" height="100" rx="8" fill="#fff" stroke="#2563EB" stroke-width="1.5"/>
+<path d="M738,592 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#2563EB"/>
+<text x="836" y="583" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">03/2026</text>
+<text x="836" y="621" font-size="14" fill="#1E293B" text-anchor="middle">Aprimoramento do</text>
+<text x="836" y="639" font-size="14" fill="#1E293B" text-anchor="middle">prompt de US</text>
+<line x1="940" y1="396" x2="940" y2="480" stroke="#64748B" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="940" cy="480" r="9" fill="#fff" stroke="#64748B" stroke-width="4"/>
+<rect x="842" y="296" width="196" height="100" rx="8" fill="#fff" stroke="#64748B" stroke-width="1.5"/>
+<path d="M842,324 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#64748B"/>
+<text x="940" y="315" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">04/2026</text>
+<text x="940" y="353" font-size="14" fill="#1E293B" text-anchor="middle">Reunião de</text>
+<text x="940" y="371" font-size="14" fill="#1E293B" text-anchor="middle">sincronização entre POs</text>
+<line x1="1044" y1="480" x2="1044" y2="564" stroke="#059669" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="1044" cy="480" r="9" fill="#fff" stroke="#059669" stroke-width="4"/>
+<rect x="946" y="564" width="196" height="100" rx="8" fill="#fff" stroke="#059669" stroke-width="1.5"/>
+<path d="M946,592 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#059669"/>
+<text x="1044" y="583" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">04/2026</text>
+<text x="1044" y="621" font-size="14" fill="#1E293B" text-anchor="middle">Integração Jira Cloud</text>
+<text x="1044" y="639" font-size="14" fill="#1E293B" text-anchor="middle">+ Microsoft Teams</text>
+<line x1="1148" y1="396" x2="1148" y2="480" stroke="#059669" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="1148" cy="480" r="9" fill="#fff" stroke="#059669" stroke-width="4"/>
+<rect x="1050" y="296" width="196" height="100" rx="8" fill="#fff" stroke="#059669" stroke-width="1.5"/>
+<path d="M1050,324 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#059669"/>
+<text x="1148" y="315" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">05/2026</text>
+<text x="1148" y="344" font-size="14" fill="#1E293B" text-anchor="middle">Solução Python para</text>
+<text x="1148" y="362" font-size="14" fill="#1E293B" text-anchor="middle">outros times (barrada</text>
+<text x="1148" y="380" font-size="14" fill="#1E293B" text-anchor="middle">por governança)</text>
+<line x1="1252" y1="480" x2="1252" y2="564" stroke="#2563EB" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="1252" cy="480" r="9" fill="#fff" stroke="#2563EB" stroke-width="4"/>
+<rect x="1154" y="564" width="196" height="100" rx="8" fill="#fff" stroke="#2563EB" stroke-width="1.5"/>
+<path d="M1154,592 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#2563EB"/>
+<text x="1252" y="583" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">—</text>
+<text x="1252" y="612" font-size="14" fill="#1E293B" text-anchor="middle">Copilot ampliado na</text>
+<text x="1252" y="630" font-size="14" fill="#1E293B" text-anchor="middle">infraestrutura TKE</text>
+<text x="1252" y="648" font-size="14" fill="#1E293B" text-anchor="middle">(ainda com limitações)</text>
+<line x1="1356" y1="396" x2="1356" y2="480" stroke="#059669" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="1356" cy="480" r="9" fill="#fff" stroke="#059669" stroke-width="4"/>
+<rect x="1258" y="296" width="196" height="100" rx="8" fill="#fff" stroke="#059669" stroke-width="1.5"/>
+<path d="M1258,324 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#059669"/>
+<text x="1356" y="315" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">08/2026</text>
+<text x="1356" y="353" font-size="14" fill="#1E293B" text-anchor="middle">Jira Cloud evolui com</text>
+<text x="1356" y="371" font-size="14" fill="#1E293B" text-anchor="middle">Atlassian Rovo (IA)</text>
+<line x1="1460" y1="480" x2="1460" y2="564" stroke="#2563EB" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="1460" cy="480" r="9" fill="#fff" stroke="#2563EB" stroke-width="4"/>
+<rect x="1362" y="564" width="196" height="100" rx="8" fill="#fff" stroke="#2563EB" stroke-width="1.5"/>
+<path d="M1362,592 v-20 a8,8 0 0 1 8,-8 h180 a8,8 0 0 1 8,8 v20 z" fill="#2563EB"/>
+<text x="1460" y="583" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">08/2026</text>
+<text x="1460" y="612" font-size="14" fill="#1E293B" text-anchor="middle">Prompt substitui a</text>
+<text x="1460" y="630" font-size="14" fill="#1E293B" text-anchor="middle">solução Python</text>
+<text x="1460" y="648" font-size="14" fill="#1E293B" text-anchor="middle">no lançamento de cards</text>
+<rect x="1590" y="280" width="290" height="400" rx="12" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+<text x="1610" y="318" font-size="18" font-weight="700" fill="#92400E">Próximos passos</text>
+<circle cx="1618" cy="355" r="5" fill="#D97706"/>
+<text x="1634" y="360" font-size="15" fill="#78350F">Integrar outras soluções para</text>
+<text x="1634" y="380" font-size="15" fill="#78350F">gestão de ponta a ponta</text>
+<circle cx="1618" cy="421" r="5" fill="#D97706"/>
+<text x="1634" y="426" font-size="15" fill="#78350F">Documentação centralizada</text>
+<text x="1634" y="446" font-size="15" fill="#78350F">(SharePoint) para consultas IA</text>
+<circle cx="1618" cy="487" r="5" fill="#D97706"/>
+<text x="1634" y="492" font-size="15" fill="#78350F">Automatizar os testes</text>
+<circle cx="1618" cy="533" r="5" fill="#D97706"/>
+<text x="1634" y="538" font-size="15" fill="#78350F">Monitoramento de negócio</text>
+<circle cx="1618" cy="579" r="5" fill="#D97706"/>
+<text x="1634" y="584" font-size="15" fill="#78350F">Pipelines de CI/CD</text>
+<circle cx="1618" cy="625" r="5" fill="#D97706"/>
+<text x="1634" y="630" font-size="15" fill="#78350F">IA em todo o ciclo</text>
+<text x="1634" y="650" font-size="15" fill="#78350F">de desenvolvimento</text>
+<circle cx="68" cy="780" r="8" fill="#64748B"/>
+<text x="84" y="785" font-size="15" fill="#334155">Processo / cerimônias</text>
+<circle cx="308" cy="780" r="8" fill="#2563EB"/>
+<text x="324" y="785" font-size="15" fill="#334155">IA / Copilot</text>
+<circle cx="548" cy="780" r="8" fill="#059669"/>
+<text x="564" y="785" font-size="15" fill="#334155">Automação / Jira</text>
+<text x="800" y="785" font-size="13" fill="#64748B">— = etapa sem data definida</text>
+</svg>

@@ -1,0 +1,12 @@
+============================================================
+  Data/Hora: 02/06/2026 16:39:34
+  Modelo: gemini-2.5-flash
+============================================================
+
+📝 PROMPT:
+----------------------------------------
+pesquise informações sobre: "Giovani Perotto Mesquita"
+
+🤖 RESPOSTA:
+----------------------------------------
+❌ Erro ao obter resposta da API: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}

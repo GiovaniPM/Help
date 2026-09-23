@@ -1,0 +1,28 @@
+Motivações:
+- Cerimônias isoladas, sem continuidade entre si
+- Criação e gestão manual de cerca de 90 cards por sprint, consumindo de 8 a 12 horas de trabalho
+- Iniciativas desconectadas, sem sincronização entre os sistemas
+
+Linha do tempo:
+- Ponto de partida: gestão das sprints feita de forma totalmente manual
+- Criação de uma planilha Excel para acompanhar as cerimônias da sprint (retrospectiva, refinamento, planning e review)
+- Criação de prompt para automatizar o resumo das reuniões (Copilot Free)
+- 08/2025: liberação da licença do Microsoft 365 Copilot por meio do programa Champions
+- 09/2025: criação de prompt para escrita e padronização de User Stories (US)
+- 10/2025: início da automação, em Python, do lançamento de cards no Jira a partir da planilha de acompanhamento
+- Criação de agente Copilot para consultas às planilhas
+- 03/2026: aprimoramento do prompt de padronização de User Stories
+- 04/2026: criação da reunião de sincronização entre POs
+- 04/2026: disponibilização, pela Atlassian, da integração entre Jira Cloud e Microsoft Teams
+- 05/2026: tentativa de expandir a solução Python para outros times, barrada por questões de governança
+- Ampliação da cobertura do Copilot na infraestrutura da TKE, ainda com limitações
+- 08/2026: evolução do Jira Cloud com o Atlassian Rovo (IA), que aprimora a criação e a alteração de cards
+- 08/2026: criação de prompt que substitui a solução Python no lançamento de cards
+
+Próximos passos:
+- Integrar outras soluções para uma gestão das sprints de ponta a ponta
+- Centralizar a documentação em um ponto único (SharePoint) para facilitar as consultas via IA
+- Automatizar os testes
+- Implantar monitoramento de negócio
+- Implantar pipelines de CI/CD (integração e entrega contínuas)
+- Adotar IA em todo o ciclo de desenvolvimento
