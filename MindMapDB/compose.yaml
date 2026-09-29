@@ -1,0 +1,27 @@
+services:
+  thebrain:
+    image: lscr.io/linuxserver/webtop:ubuntu-xfce
+    container_name: thebrain
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo
+      - CUSTOM_USER=giovani
+      - PASSWORD=Pm11092j!
+    volumes:
+      - ./thebrain-config:/config
+    ports:
+      - "127.0.0.1:3001:3001"
+    shm_size: "1gb"
+    restart: unless-stopped
+
+  importador:
+    build: ./importador
+    profiles: ["ferramentas"]
+    environment:
+      - THEBRAIN_API_KEY
+      - THEBRAIN_BRAIN_ID
+      - THEBRAIN_API_URL=https://api.bra.in
+      - PECAS_CSV=/dados/pecas.csv
+    volumes:
+      - ./dados:/dados:ro
